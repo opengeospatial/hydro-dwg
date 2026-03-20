@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 24 -- Wed 12 Nov 2014 -- Report**
+# **[GW2IE](GW2IE.md) Meeting 24 -- Wed 12 Nov 2014 -- Report**
 
 # Start Time = 7:00 Ottawa (see connection instructions below)
 
@@ -18,7 +18,7 @@
 
 - Technical Issues
   - 'Nucleus' package name
-    - name change update (GWML2-Main): Francois DONE (FL)\<br /\>
+    - name change update (GWML2-Main): Francois DONE (FL)
       - Required changes (nucleous to main) applied to the UML model (including tagged values)
       - Required changes applied to the schemas files (xsd)
       - Schema validated using XMLSpy
@@ -36,7 +36,7 @@
     - Bruce: current model suffices if every value considered to occur in a different fluid body part
       - pros: low-effort, solved without model changes
       - cons: clunky, not typical usage, bundled (as UnitFluidProperty as a whole)
-      - Examples of possible encodings: <a href="GwmlDistributedValues" class="wikilink">GwmlDistributedValues</a> (added multiple observation - <a href="SF_SpatialSamplingFeature" class="wikilink">SF_SpatialSamplingFeature</a> pattern ) -- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 12 Nov 2014
+      - Examples of possible encodings: [GwmlDistributedValues](GwmlDistributedValues.md) (added multiple observation - [SF_SpatialSamplingFeature](SF_SpatialSamplingFeature.md) pattern ) -- Main.[EricBoisvert](EricBoisvert.md) - 12 Nov 2014
   - other:
     - change strategy
     - FluidBody = liquid and/or **gas**?
@@ -66,18 +66,18 @@
     - proposal to be completed for next meeting (**Eric**)
   - add well test:
     - option 1 selected:
-      - no model change--use link to HydroGeounit from well, add wellTest as subclass of <a href="OM_Process" class="wikilink">OM_Process</a>
+      - no model change--use link to HydroGeounit from well, add wellTest as subclass of [OM_Process](OM_Process.md)
       - post additional well test parameters to wiki page created by **Sylvain** (**Peter, Jessica**)
       - option 1 proposal enhanced for final consideration next meeting (**Sylvain, Eric**)
   - unit properties:
     - two proposals to be completed for evaluation next meeting (**Eric**)
-      - no model change, use <a href="Sampling_Site" class="wikilink">Sampling_Site</a> for location of property measurements
+      - no model change, use [Sampling_Site](Sampling_Site.md) for location of property measurements
       - use Coverage to model multiple unit properties
   - other:
     - Confirmed: FluidBody has Liquid or Gas as either major or minor constituent
     - Schedule:
       - Jan-Mar (2015)... implementation (testing)
-      - \<span style="background-color: transparent;"\>Mar- (2015).... revision of model and documentation\</span\>
+      - Mar- (2015).... revision of model and documentation
 
 ## **Connection Instructions**
 
@@ -93,13 +93,12 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 552 663 294
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m1a5649b3d95fd49e8ebcf1d6683b9c6c>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -108,7 +107,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -134,12 +133,6 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 17 Sep 2014
+-- BoyanBrodaric - 17 Sep 2014
 
--- Main.<a href="FrancoisLetourneau" class="wikilink">FrancoisLetourneau</a> - 12 Nov 2014
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" comment="reprev" date="1415820680" format="1.1" reprev="5" version="6"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- FrancoisLetourneau - 12 Nov 2014

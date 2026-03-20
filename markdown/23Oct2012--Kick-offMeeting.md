@@ -20,7 +20,7 @@ If you wish to **test** your connection (highly recommended) then try on **Mon 2
   - **Meeting Number**: 802 012 520
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click **Join Now**:
-    - \<a href="<https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=NMTdmYWMyZDI4&RT=NCMxMQ%3D%3D>" target="\_blank" title="blocked::https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=<a href="NMTdmYWMyZDI4" class="wikilink">NMTdmYWMyZDI4</a>&RT=<a href="NCMxMQ" class="wikilink">NCMxMQ</a>=="\><https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=NMTdmYWMyZDI4&RT=NCMxMQ%3D%3D>\</a\>
+    - \<a href="<https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=NMTdmYWMyZDI4&RT=NCMxMQ%3D%3D>" title="blocked::https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=[NMTdmYWMyZDI4](NMTdmYWMyZDI4.md)&RT=[NCMxMQ](NCMxMQ.md)=="\><https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=NMTdmYWMyZDI4&RT=NCMxMQ%3D%3D>
 - **Teleconference:**
   - **First plan:** dial your local number (see table below) and the use the passcode **616269**
   - **Backup plan:** Webex VOIP audio
@@ -39,7 +39,7 @@ If you wish to **test** your connection (highly recommended) then try on **Mon 2
   - **Meeting Number**: 805 563 782
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click **Join Now**:
-    - \<a href="<https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=NMTYyZWRhMzUy&RT=NCMxMQ%3D%3D>" target="\_blank" title="blocked::https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=<a href="NMTYyZWRhMzUy" class="wikilink">NMTYyZWRhMzUy</a>&RT=<a href="NCMxMQ" class="wikilink">NCMxMQ</a>=="\><https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=NMTYyZWRhMzUy&RT=NCMxMQ%3D%3D>\</a\>
+    - \<a href="<https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=NMTYyZWRhMzUy&RT=NCMxMQ%3D%3D>" title="blocked::https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=[NMTYyZWRhMzUy](NMTYyZWRhMzUy.md)&RT=[NCMxMQ](NCMxMQ.md)=="\><https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=NMTYyZWRhMzUy&RT=NCMxMQ%3D%3D>
 - **Teleconference:**
   - **First plan:** dial your local number (see table below) and the use the passcode **167731**
   - **Backup plan:** Webex VOIP audio
@@ -106,20 +106,14 @@ If you wish to **test** your connection (highly recommended) then try on **Mon 2
 
 ## **Meeting Notes**
 
-<span class="twiki-macro TABLE" tableborder="2" tablebordercolor="#D3D3D3" tableframe="below">cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" </span>
+cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline"
 
 | Use Cases | Description | Entities | Data | Web Services | Clients | Implementers |
 |:---|:---|:---|:---|:---|:---|:---|
-| \<p\> \_Use Case 1\_ \</p\> \<p\> \_\_Commercial\_\_ \</p\> \<p\> \_(gw supply)\_ \</p\> \<p\> \_Lead: B.<a href="Brodaric_" class="wikilink">Brodaric_</a> \</p\> | \<p\> \_Objective\_: use well data to inform drilling\</p\> \<p\> \_Actions\_: zoom to wells, browse well info, download 1-n well data\</p\> | Water wells: construction, logs, lithologies | -GIN (GSC) | \<p\>-WMS (locations)\</p\> \<p\>-WFS (entities)\</p\> | -GSC | \<p\>-GSC (data, WMS-WFS, client)\</p\> \<p\>-BRGM\</p\> |
-| \<p\> \_Use Case 2\_ \</p\> \<p\> \_\_Policy\_\_ \</p\> \<p\> \_(gw management)\_ \</p\> \<p\> \_Lead: R.<a href="Tomas_" class="wikilink">Tomas_</a> \</p\> | \<p\> \_Objective\_: deliver groundwater quantity data for reporting\</p\> \<p\> \_Actions\_: tbd\</p\> | tbd | -GIN (GSC) |  |  | PGI BGS GSC JRC |
-| \<p\> \_Use Case 3\_ \</p\> \<p\> \_\_Environmental\_\_ \</p\> \<p\> \_(gw quality and biology)\_ \</p\> \<p\> \_Lead: P.<a href="Dalhaus_" class="wikilink">Dalhaus_</a> \</p\> | \<p\> \_Objective\_:\</p\> \<p\> \_Actions\_:\</p\> | tbd |  | \<p\>-WMS\</p\> \<p\>-WFS\</p\> |  | U Ballarat |
-| \<p\> \_Use Case 4\_ \</p\> \<p\> \_\_Scientific\_\_ \</p\> \<p\> \_(flow models)\_ \</p\> \<p\> \_Lead: <a href="USGS_" class="wikilink">USGS_</a> \</p\> | \<p\> \_Objective\_: deliver gw data to flow model (e.g. MODFLOW)\</p\> \<p\> \_Actions\_: select an aquifer, browse data, and download\</p\> | Aquifers (lithologies, conductivity,...) | -GIN (GSC) | \<p\>-WMS\</p\> \<p\>-WFS\</p\> |  | GSC PASI BGS |
-| \<p\> \_Use Case 5\_ \</p\> \<p\> \_\_Technologic\_\_ \</p\> \<p\> \_(data interchange)\_ \</p\> \<p\> \_Lead: E.<a href="Boisvert_" class="wikilink">Boisvert_</a> \</p\> | \<p\> \_Objective\_: integrate heterogenous data\</p\> \<p\> \_Actions\_:\</p\> |  | -GIN (GSC) |  |  | GSC JRC BRGM |
+|  \_Use Case 1\_   \_\_Commercial\_\_   \_(gw supply)\_   \_Lead: B.[Brodaric\_](Brodaric_.md)  |  \_Objective\_: use well data to inform drilling  \_Actions\_: zoom to wells, browse well info, download 1-n well data | Water wells: construction, logs, lithologies | -GIN (GSC) | -WMS (locations) -WFS (entities) | -GSC | -GSC (data, WMS-WFS, client) -BRGM |
+|  \_Use Case 2\_   \_\_Policy\_\_   \_(gw management)\_   \_Lead: R.[Tomas\_](Tomas_.md)  |  \_Objective\_: deliver groundwater quantity data for reporting  \_Actions\_: tbd | tbd | -GIN (GSC) |  |  | PGI BGS GSC JRC |
+|  \_Use Case 3\_   \_\_Environmental\_\_   \_(gw quality and biology)\_   \_Lead: P.[Dalhaus\_](Dalhaus_.md)  |  \_Objective\_:  \_Actions\_: | tbd |  | -WMS -WFS |  | U Ballarat |
+|  \_Use Case 4\_   \_\_Scientific\_\_   \_(flow models)\_   \_Lead: [USGS\_](USGS_.md)  |  \_Objective\_: deliver gw data to flow model (e.g. MODFLOW)  \_Actions\_: select an aquifer, browse data, and download | Aquifers (lithologies, conductivity,...) | -GIN (GSC) | -WMS -WFS |  | GSC PASI BGS |
+|  \_Use Case 5\_   \_\_Technologic\_\_   \_(data interchange)\_   \_Lead: E.[Boisvert\_](Boisvert_.md)  |  \_Objective\_: integrate heterogenous data  \_Actions\_: |  | -GIN (GSC) |  |  | GSC JRC BRGM |
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 17 Oct 2012
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1351109450" format="1.1" reprev="7" version="7"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 17 Oct 2012

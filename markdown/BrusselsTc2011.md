@@ -1,8 +1,8 @@
 ## Meeting details
 
-## \<span style="color: \#000000; line-height: normal; font-size: small;"\>Time: November 29, 2011, 15:00-18:00. Room: Pollux\</span\>
+## Time: November 29, 2011, 15:00-18:00. Room: Pollux
 
-Time at other locations: [timeanddate.com](%20http://www.timeanddate.com/worldclock/fixedtime.html?msg=Hydroloy+DWG+Meeting+in+Brussels&iso=20111129T15&p1=48&ah=3%20)
+Time at other locations: [timeanddate.com](%20http://www.timeanddate.com/worldclock/fixedtime.html?msg=Hydroloy+DWG+Meeting+in+Brussels&iso=20111129T15&p1=48&ah=3 )
 
 **Venue:** OGC Technical Committee Meeting in Brussels. [TC Meeting Info](http://www.opengeospatial.org/event/1111tc) [TC Meeting Agenda](http://www.opengeospatial.org/event/1111tcagenda)
 
@@ -26,7 +26,7 @@ WebEx: see instructions at <https://portal.opengeospatial.org/?m=calendar&a=view
 8.  Proposal GEOWOW Hydrology/Sensor Web Testbed (Simon Jirka, 52North), 20 min
 9.  Status updates (Michael Natschke, Kisters; Uli Looser, GRDC; Sylvain Grellet, OIEAU), 40 min
     - Surface Water IE - demos
-    - <a href="WaterML2" class="wikilink">WaterML2</a>
+    - [WaterML2](WaterML2.md)
     - Hydro Feature Model
     - Forecasting IE
 10. Discussion and next steps
@@ -38,10 +38,4 @@ WebEx: see instructions at <https://portal.opengeospatial.org/?m=calendar&a=view
 - GeoSemantics DWG (Room: Pollux, Monday 14:00-17:00)
 - Workflow DWG (Room: Neptune, Tuesday 8:00-10:00)
 
--- Main.<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a> - 26 Oct 2011
-
-- TOPICINFO{author="<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a>" comment="reprev" date="1322488404" format="1.1" reprev="7" version="8"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WebHome" class="wikilink">WebHome</a>"}
+-- IlyaZaslavsky - 26 Oct 2011

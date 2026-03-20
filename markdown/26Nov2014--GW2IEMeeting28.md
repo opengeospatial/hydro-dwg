@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 24 -- Wed 26 Nov 2014 -- Report**
+# **[GW2IE](GW2IE.md) Meeting 24 -- Wed 26 Nov 2014 -- Report**
 
 ## **Agenda**
 
@@ -36,7 +36,7 @@
       - do not alter (override) cardinalities of imported schemas
       - change all cardinalities of GWML2 Logical Model to 0... (**Francois**) -- DONE (F.L. 27 nov. 2014)
       - generate new UML (Logical) 2.1.0 (**Francois**) -- DONE (F.L. 27 NOV. 2014) A 2.0.1 branch was created
-      - generate new XSD (Physical) 2.1 (**Francois**) -- DONE (F.L. 28 NOV. 2014)\<br /\>
+      - generate new XSD (Physical) 2.1 (**Francois**) -- DONE (F.L. 28 NOV. 2014)
         - namespace to remain as www.opengis...
         - change domain to gwml.org, groundwaterml.org
       - revise final report (**Francois**)
@@ -50,7 +50,7 @@
   - other:
     - identify remaining issues (from logical model issues page) (**Bruce**)
       - collarElevation to be re-considered; see requirements class 9.6 (**Eric**, **Bruce**)
-      - Updated [Logical Model Wiki](GWML2-UML-Model) to distinguish resolved and outstanding issues (**Bruce**) \[Done 27/11/14\]
+      - Updated [Logical Model Wiki](GWML2-UML-Model.md) to distinguish resolved and outstanding issues (**Bruce**) \[Done 27/11/14\]
 
 ## **Connection Instructions**
 
@@ -65,13 +65,12 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 551 047 979
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=mfa0a3ee92664cdb3bdbb9184f9d609fb>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -80,7 +79,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -106,10 +105,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 17 Sep 2014
-
-- TOPICINFO{author="<a href="FrancoisLetourneau" class="wikilink">FrancoisLetourneau</a>" comment="reprev" date="1417208580" format="1.1" reprev="6" version="10"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 17 Sep 2014

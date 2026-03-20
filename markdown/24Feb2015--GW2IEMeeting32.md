@@ -1,13 +1,13 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 32 -- Tues 24 Feb 2015**
+# **[GW2IE](GW2IE.md) Meeting 32 -- Tues 24 Feb 2015**
 
 ## **Agenda**
 
 - Technical
-  - \_Namespaces & <a href="URIs_" class="wikilink">URIs_</a>: servers ready
+  - \_Namespaces & [URIs\_](URIs_.md): servers ready
   - \_Pump & Well Test proposal\_: draft to be reviewed
-    - <a href="AquiferTestingDiscussion" class="wikilink">AquiferTestingDiscussion</a> see [instance example](https://xp-dev.com/svn/gwml2/Documents/instance/pumptest.xml)
+    - [AquiferTestingDiscussion](AquiferTestingDiscussion.md) see [instance example](https://xp-dev.com/svn/gwml2/Documents/instance/pumptest.xml)
   - \_Other issues\_:
-    - [Logical Model page](GWML2-UML-Model) review of remaining issues
+    - [Logical Model page](GWML2-UML-Model.md) review of remaining issues
 - Use-Case Implementation \*
   - Status update
   - Next steps
@@ -19,7 +19,7 @@
 ## **Results**
 
 - Technical
-  - \_Namespaces & <a href="URIs_" class="wikilink">URIs_</a>: servers ready
+  - \_Namespaces & [URIs\_](URIs_.md): servers ready
     - IP address to be connected to domain name (**Jessica, Bruce, Eric**)
   - \_Pump & Well Test proposal\_:
     - draft accepted with small changes: i.e. location of pumping rate parameter
@@ -28,7 +28,7 @@
   - \_Geology log\_:
     - encode multiple lithologies per interval: as one text string or multiple distinct fields
     - both approaches valid: will test both approaches in use-cases involving water wells
-  - \_Management <a href="Area_" class="wikilink">Area_</a>:
+  - \_Management [Area\_](Area_.md):
     - Modification proposal to be presented March 17 (**Sylvain, Bernhard**)
 - Use-Case Implementation
   - Use cases 1,3,4,5: in progress; different levels of progress among participants
@@ -48,13 +48,12 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 555 513 232
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m83da41611bf23507602ca5b0e4c64af4>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -63,7 +62,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -89,10 +88,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 19 Jan 2015
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1424818176" format="1.1" reprev="4" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 19 Jan 2015

@@ -1,4 +1,4 @@
-## The agenda is being maintained at : <a href="HDWGWorkshopAtHIC2014" class="wikilink">HDWGWorkshopAtHIC2014</a>
+## The agenda is being maintained at : [HDWGWorkshopAtHIC2014](HDWGWorkshopAtHIC2014.md)
 
 ## Attendance
 
@@ -7,13 +7,13 @@ Please indicate if you plan to attend the 5-day workshop, the HIC, and also if y
 | Attending HDWG workshop | Dates attending | Attending HIC | Presenting at the Aug 16th training | Attending 13 August City Hall visit? |
 |:---|:---|:---|:---|:---|
 | Paul Sheahan | 13 - 15 (possibly 12th) | Yes | Can do the user / requirements view of WML2 development. Part 1 harmonsiation activity, Part 2 requirements summary and Part 2 IE. - Maybe 30-60 minutes. | Yes |
-| David Arctur | 13 - 16 | Yes | could do segments on 1) GEOSS AIP progress, 2) <a href="EarthCube" class="wikilink">EarthCube</a> dev on <a href="WaterML" class="wikilink">WaterML</a> to/from netCDF | Yes |
+| David Arctur | 13 - 16 | Yes | could do segments on 1) GEOSS AIP progress, 2) [EarthCube](EarthCube.md) dev on [WaterML](WaterML.md) to/from netCDF | Yes |
 | Ilya Zaslavsky | 11 - 15 | No | ? may need to go to the airport before noon | Yes |
 | Matt Fry | 12 - 15 | Yes | No | Yes |
 | David Blodgett | 11 - 15 | Yes |  | No |
 | Stephen Jackson | 11 - 15 | Yes | No | No |
 | Brian Gouge | 11-15 | No |  | Yes |
-| Irina Dornblut | 11-16 | No | 30 min on <a href="HY_Features" class="wikilink">HY_Features</a> | Yes |
+| Irina Dornblut | 11-16 | No | 30 min on [HY_Features](HY_Features.md) | Yes |
 | Tony Boston | 11-16 | Part |  | Yes |
 | Michael Natschke | 12-15 | No |  | Yes |
 | Sylvain Grellet | 11-12-13 | No | No | Yes. Have my plane at JFK at 7:05 PM .. |
@@ -33,19 +33,19 @@ Please indicate if you plan to attend the 5-day workshop, the HIC, and also if y
 |  |  |  |  |  |
 |  |  |  |  |  |
 
-## 
+##
 
 ## Lodging
 
 Per Michael Piasecki, our host, The Towers option is not available, unfortunately (3/20/2014). Here are alternative suggestions from Michael:
 
-\<a href="<http://deals.whotels.com/W-New-York-Hotel-97502/special-offers?PS=PS_aa_NorthNY-Google_W%20Lexington%20Ave_Sitelinks_092810_NAD_FM>" target="\_blank"\>W Hotel New York\</a\> which is our hotel in which we reserved blocks of rooms.
+[W Hotel New York](http://deals.whotels.com/W-New-York-Hotel-97502/special-offers?PS=PS_aa_NorthNY-Google_W%20Lexington%20Ave_Sitelinks_092810_NAD_FM) which is our hotel in which we reserved blocks of rooms.
 
-There is also a Days Inn (this is \_not\_ in Harlem - it is on Broadway on the Upper West Side - subway Line 1) [\<br /\>215 West 94th Street, New York, NY](http://www.google.com/aclk?sa=l&ai=CbsfivR4rU5fnC-zC6gHE9IH4DJKYk78E0p_wzHTlgqcsCAAQASDJmKILUJOXlMv8_____wFgyYaAgMCk2A-gAa7-uPwDyAEBqgQmT9Ah7gFcwy3NETd8tqpkvP7FbIr_HQaXqVozGf27J-OG-D2tMQyABZBO0gYMEOrg5QQYyvD8LSgHgAe6gccDkAcC&sig=AOD64_3wgpNqrL6G25fpUPuWcs3xAbc8HQ&ctype=50&rct=j&q=days+inn+harlem&ved=0CDQQmxA&adurl=http://www.google.com/maps%3Fdaddr%3D215%2BWest%2B94th%2BStreet,%2BNew%2BYork,%2BNY%2B10025%26ll%3D40.793100,-73.971770%26f%3Dd%26saddr%3D%26iwstate1%3Ddir:to%26fb%3D1%26slad%3D0ALHuxZr0fCBAmmLp5YA7DZriOs8r9ue8FgChB3d3cuZGF5c2lubi5jb20vEp0BaHR0cDovL3d3dy5kYXlzaW5uLmNvbS8_Y2lkPXdoZ19kaV9nZ2xzZW1fYnImd2lkPXBzOmJyX3doZyZ0ZWw9MTgwMDY4MjEwODImMDAyPTIxODkxMjEmMDA0PTE3NzExMDI1ODYmMDA1PTkyOTE0MDIxJjAwNj0zMTMwMDg4OTA2NiYwMDc9U2VhcmNoJjAwOD0mMDI1PWMmMDI2PRofRGF5cyBJbm7CriBIb3RlbHMgLSBEYXlzSW5uLmNvbSIVUGxhbiBBaGVhZCAmIFNhdmUgMTUlKhxKdXN0IEJvb2sgNyBEYXlzIGluIEFkdmFuY2Uh%26geocode%3D1635445890094713855,40793100,-73971770) ‎
+There is also a Days Inn (this is \_not\_ in Harlem - it is on Broadway on the Upper West Side - subway Line 1) [215 West 94th Street, New York, NY](http://www.google.com/aclk?sa=l&ai=CbsfivR4rU5fnC-zC6gHE9IH4DJKYk78E0p_wzHTlgqcsCAAQASDJmKILUJOXlMv8_____wFgyYaAgMCk2A-gAa7-uPwDyAEBqgQmT9Ah7gFcwy3NETd8tqpkvP7FbIr_HQaXqVozGf27J-OG-D2tMQyABZBO0gYMEOrg5QQYyvD8LSgHgAe6gccDkAcC&sig=AOD64_3wgpNqrL6G25fpUPuWcs3xAbc8HQ&ctype=50&rct=j&q=days+inn+harlem&ved=0CDQQmxA&adurl=http://www.google.com/maps%3Fdaddr%3D215%2BWest%2B94th%2BStreet,%2BNew%2BYork,%2BNY%2B10025%26ll%3D40.793100,-73.971770%26f%3Dd%26saddr%3D%26iwstate1%3Ddir:to%26fb%3D1%26slad%3D0ALHuxZr0fCBAmmLp5YA7DZriOs8r9ue8FgChB3d3cuZGF5c2lubi5jb20vEp0BaHR0cDovL3d3dy5kYXlzaW5uLmNvbS8_Y2lkPXdoZ19kaV9nZ2xzZW1fYnImd2lkPXBzOmJyX3doZyZ0ZWw9MTgwMDY4MjEwODImMDAyPTIxODkxMjEmMDA0PTE3NzExMDI1ODYmMDA1PTkyOTE0MDIxJjAwNj0zMTMwMDg4OTA2NiYwMDc9U2VhcmNoJjAwOD0mMDI1PWMmMDI2PRofRGF5cyBJbm7CriBIb3RlbHMgLSBEYXlzSW5uLmNvbSIVUGxhbiBBaGVhZCAmIFNhdmUgMTUlKhxKdXN0IEJvb2sgNyBEYXlzIGluIEFkdmFuY2Uh%26geocode%3D1635445890094713855,40793100,-73971770) ‎
 
 <http://www.daysinn.com/hotels/new-york/new-york/days-inn-hotel-new-york-city-broadway/hotel-overview?partner_id=&hotel_id=15465&group_code=&campaign_code=&propId=DI15465&brand_id=DI&checkout_date=&modify=false&useWRPoints=false&children=0&corporate_id=&ratePlan=BAR&teens=0&affiliate_id=&altPropId=15465&brand_code=BH%2CDI%2CRA%2CBU%2CHJ%2CKG%2CMT%2CSE%2CTL%2CWG%2CWY%2CPX%2CWT%2CWP%2CPN&iata=&childAgeParam=&rate_code=&adults=1&discreteParam=1-0-0-1-0-0-1-0-0-1-0-0&checkin_date=&rooms=1>
 
-\<span style="background-color: transparent;"\>and then the Aloft Harlem (15-20 minutes’ walk)\</span\>
+and then the Aloft Harlem (15-20 minutes’ walk)
 
 <http://www.starwoodhotels.com/alofthotels/property/area/map.html?propertyID=3353&localeCode=en_US&language=en_US>
 
@@ -85,16 +85,6 @@ Calendar of events in NY: <http://www.events12.com/newyork/august/>. Also <http:
 
 ## End of HDWG workshop photo - 15 August 2014
 
-\<img src="%ATTACHURLPATH%/<a href="HydroDWGNewYorkAttendees" class="wikilink">HydroDWGNewYorkAttendees</a>-2014-08-15.png" alt="<a href="HydroDWGNewYorkAttendees" class="wikilink">HydroDWGNewYorkAttendees</a>-2014-08-15.png" width='640' height='480' /\>
+\<img src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGNewYorkAttendees/HydroDWGNewYorkAttendees-2014-08-15.png>" alt="[HydroDWGNewYorkAttendees](HydroDWGNewYorkAttendees.md)-2014-08-15.png" width='640' height='480' /\>
 
-Main.<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a> - 25 Oct 2013
-
-- TOPICINFO{author="<a href="KevinStegemoller" class="wikilink">KevinStegemoller</a>" comment="reprev" date="1746713140" format="1.1" reprev="80" version="80"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="NewYorkWorkshop2014" class="wikilink">NewYorkWorkshop2014</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="HydroDWGNewYorkAttendees" class="wikilink">HydroDWGNewYorkAttendees</a>-2014-08-15.png" attachment="<a href="HydroDWGNewYorkAttendees" class="wikilink">HydroDWGNewYorkAttendees</a>-2014-08-15.png" attr="" comment="<a href="HydroDWGNewYorkAttendees" class="wikilink">HydroDWGNewYorkAttendees</a>-2014-08-15" date="1746713085" path="<a href="HydroDWGNewYorkAttendees" class="wikilink">HydroDWGNewYorkAttendees</a>-2014-08-15.png" size="484745" user="<a href="KevinStegemoller" class="wikilink">KevinStegemoller</a>" version="1"}
+Main.[IlyaZaslavsky](IlyaZaslavsky.md) - 25 Oct 2013

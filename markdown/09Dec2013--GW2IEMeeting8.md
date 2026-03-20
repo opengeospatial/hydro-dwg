@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 8** **-- Mon 09 Dec 2013 -- Conceptual Model**
+# **[GW2IE](GW2IE.md) Meeting 8** **-- Mon 09 Dec 2013 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -22,10 +22,10 @@
 
 - Modified HydrogeologicalUnit diagram
   - revised: nesting relations between units, management area
-  - see updated pdf and EA model (CM 0.21) for HG Units at the [Conceptual Model page](GWML2-CM-Model)
+  - see updated pdf and EA model (CM 0.21) for HG Units at the [Conceptual Model page](GWML2-CM-Model.md)
 - [Next Meeting (18 Jan 2013)](18Dec2013--GW2IEMeeting9)
   - Groundwater Properties
-  - see updated pdf and EA model (CM 0.21) for GW Properties at the [Conceptual Model page](GWML2-CM-Model)
+  - see updated pdf and EA model (CM 0.21) for GW Properties at the [Conceptual Model page](GWML2-CM-Model.md)
 - Face-to-face meeting discussion:
   - Purpose: to kick-off Logical Model design
   - Venues: EGU Vienna, OGC TC Geneva, HDWG New York
@@ -40,7 +40,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 555 102 282
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -52,7 +52,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -77,9 +77,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1386614705" format="1.1" reprev="3" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

@@ -19,10 +19,4 @@ Time: Wednesday 20 January 2021, \[2 PM - 3:30 PM (US/Eastern)\] [(global time a
 
 Recording of the meeting is available here: <https://portal.ogc.org/files/?artifact_id=96314>
 
--- Main.<a href="DavidBlodgett" class="wikilink">DavidBlodgett</a> - 30 Dec 2020
-
-- TOPICINFO{author="<a href="TonyBoston" class="wikilink">TonyBoston</a>" comment="reprev" date="1611276233" format="1.1" reprev="1" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WebHome" class="wikilink">WebHome</a>"}
+-- DavidBlodgett - 30 Dec 2020

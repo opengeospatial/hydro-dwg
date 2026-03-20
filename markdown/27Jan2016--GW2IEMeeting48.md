@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 48 -- Wed 27 Jan 2016**
+# **[GW2IE](GW2IE.md) Meeting 48 -- Wed 27 Jan 2016**
 
 ## **Agenda**
 
@@ -11,7 +11,7 @@
   - timetable
   - participation
   - WaterML Suite
-    - [HDWG_SuiteWaterInformation_2016-01.pptx](%ATTACHURL%/HDWG_SuiteWaterInformation_2016-01.pptx): HDWG proposed suite of WaterML standards
+    - [HDWG_SuiteWaterInformation_2016-01.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/27Jan2016--GW2IEMeeting48/HDWG_SuiteWaterInformation_2016-01.pptx): HDWG proposed suite of WaterML standards
 - GWML2 specification: complete by mid-Feb
   - summary diagram additions
   - logical UML changes
@@ -52,9 +52,9 @@
   - GeoSciML4 borehole: deferred for next version--requires more evaluation
 - GWML2 specification: deadlines--
   - mid-Feb (10 Feb 2016 -- next telecon) (**Eric, Bruce, Francois**)
-    - logical UML: <a href="OM_Observation" class="wikilink">OM_Observation</a>, Screen Hole Size **(done)**
+    - logical UML: [OM_Observation](OM_Observation.md), Screen Hole Size **(done)**
     - schema: same as logical UML **(done) - schemas updated on svn and on our public server**
-    - report: narrative re: WaterMl2 Timeseries (to be made general), GeoSciML4 (if needed) **(done) new file for specifications is 16-xxx_Groundwater_Markup_Language_GWML2_specifications_00.docx on svn\<br /\>**
+    - report: narrative re: WaterMl2 Timeseries (to be made general), GeoSciML4 (if needed) **(done) new file for specifications is 16-xxx_Groundwater_Markup_Language_GWML2_specifications_00.docx on svn**
   - end-Feb: report (**Boyan**)
     - conceptual model overview: add flow diagram
     - conceptual model UML: revise, re-generate diagrams & classes
@@ -79,7 +79,6 @@
   - pass: ogc
   - url: <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m9c381bc72afe32e1d2af1db8eedef5e6>
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -97,13 +96,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BruceSimons" class="wikilink">BruceSimons</a>" comment="save topic" date="1454371743" format="1.1" reprev="13" version="13"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="HDWG_SuiteWaterInformation_2016" class="wikilink">HDWG_SuiteWaterInformation_2016</a>-01.pptx" attachment="<a href="HDWG_SuiteWaterInformation_2016" class="wikilink">HDWG_SuiteWaterInformation_2016</a>-01.pptx" attr="" comment="HDWG proposed suite of <a href="WaterMl" class="wikilink">WaterMl</a> standards" date="1452820041" path="<a href="HDWG_SuiteWaterInformation_2016" class="wikilink">HDWG_SuiteWaterInformation_2016</a>-01.pptx" size="77268" user="<a href="BruceSimons" class="wikilink">BruceSimons</a>" version="1"}

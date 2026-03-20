@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 53 / GW SWG Meeting \#4 -- Wed 11 May 2016**
+# **[GW2IE](GW2IE.md) Meeting 53 / GW SWG Meeting \#4 -- Wed 11 May 2016**
 
 ## **Agenda**
 
@@ -70,9 +70,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1463586176" format="1.1" reprev="7" version="9"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

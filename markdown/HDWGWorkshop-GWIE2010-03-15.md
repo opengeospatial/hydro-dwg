@@ -24,21 +24,18 @@
 
 ## Notes on the GE IE discussion
 
-- **<a href="WaterML" class="wikilink">WaterML</a> 2**
+- **[WaterML](WaterML.md) 2**
 
-<!-- -->
 
 - **Timelines**
   - June 14 deadline (OGC TC meeting) for WaterML2 beta
   - To be available to GW IE ~4 weeks before
 
-<!-- -->
 
 - **Timeseries**
   - Need instruction from P.Tayor on how to vary precision of date/time datatype in result (e.g. just day, month, other range, etc.)
   - Agreed to remove 'Anyscalar' datatype as result of timeseries observation, and create subclasses for different scalar types
 
-<!-- -->
 
 - **Sampling/sampled feature**
   - Issue: cannot uniquely link an observation to a particular sampled feature, because the intermediary sampling feature can be linked to multiple sampled features---tbd by the design group
@@ -48,40 +45,29 @@
   - Should depth features such as water well screens be samplingFeature?
   - We might need to add a singled value time series.
   - Need to add accuracy code to result data structure
-  - If we are to stand up a catalog, we need <a href="WaterML2" class="wikilink">WaterML2</a> to be able to express the kind of result types
+  - If we are to stand up a catalog, we need [WaterML2](WaterML2.md) to be able to express the kind of result types
 
-<!-- -->
 
 - **Other**
 - Services
   - What all needs to be in place?
 
-<!-- -->
 
 - getCapabilities?
   - Need to make a change request. Pete Taylor will look at and distribute.
 
-<!-- -->
 
 - describeSensor?
   - boyan and eric will draw up conceptual model of sensor, sampling feature, sampled feature, method (procedure)
 
-<!-- -->
 
 - specimen and filters
   - issues with sos re: specimen model of O&M
 
-<!-- -->
 
 - R&D: Look at describeObservation.
 
-<!-- -->
 
 - Clients
   - Focussed testing from June to December.
   - Need to come up with client test (edge) cases. (Nate)
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" date="1269463798" format="1.1" reprev="1.5" version="1.5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment" class="wikilink">GroundwaterInteroperabilityExperiment</a>"}

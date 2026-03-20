@@ -18,7 +18,12 @@ HTML_DIR="${HTML_DIR:-html}"
 
 # Pandoc behavior
 PANDOC_TIMEOUT="${PANDOC_TIMEOUT:-90s}"
-LUA_FILTER="${LUA_FILTER:-force-fences.lua}"
+
+# Companion repo for attachments
+ATTACH_BASE_URL="https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main"
+
+# System pages to skip (pure TWiki infrastructure with no real content)
+SKIP_PAGES="WebAtom WebRss WebSearch WebSearchAdvanced WebStatistics WebLeftBar WebNotify WebChanges WebIndex WebTopicList WebTopicCreator"
 
 cd "$PROJECT_ROOT"
 [[ -d "$SRC_DIR" ]] || { echo "Missing $SRC_DIR"; exit 1; }
@@ -70,20 +75,7 @@ run_with_timeout() {
   fi
 }
 
-# ---------- Transform steps ----------
-move_meta_to_eof() {
-  "$AWK" '
-    /^%META:/ { meta = meta $0 ORS; next }
-    { print }
-    END { printf "%s", meta }
-  ' | "$SED" -E 's/%META:(.*)%/   * \1\n/'
-}
-
-fix_numbered_list() {
-  # Fix TML reader issue were shorthand numbered list is put in paragraph
-  # TWiki "   1 item" -> "   1. item"
-  "$SED" -E 's/^([[:space:]]{3,})([0-9]+)[[:space:]]/\1\2. /'
-}
+# ---------- UTF-8 conversion ----------
 
 convert_to_utf8() {
   local input="$1"
@@ -91,6 +83,13 @@ convert_to_utf8() {
 
   [[ -n "${input:-}" && -n "${output:-}" ]] || die "convert_to_utf8: missing args"
   [[ -f "$input" ]] || die "convert_to_utf8: input not found: $input"
+
+  # If iconv is not available (e.g. Windows without GNU tools), just copy.
+  # Source files were already converted to UTF-8 in a prior step.
+  if ! command -v iconv >/dev/null 2>&1; then
+    cp -f "$input" "$output"
+    return 0
+  fi
 
   local -a fallbacks=(WINDOWS-1252 ISO-8859-1 MACROMAN ISO-8859-15)
 
@@ -142,27 +141,181 @@ convert_to_utf8() {
     fi
   done
 
-  die "❌ Failed to convert to UTF-8: $input (tried autodetect + ${fallbacks[*]})"
+  die "Failed to convert to UTF-8: $input (tried autodetect + ${fallbacks[*]})"
 }
+
+# ---------- Pre-processing steps (on TML before pandoc) ----------
+
+strip_meta() {
+  # Drop all %META: lines (TOPICINFO, TOPICPARENT, FILEATTACHMENT)
+  "$AWK" '/^%META:/ { next } { print }'
+}
+
+strip_color_macros() {
+  # Remove TWiki color macros that survive pandoc as literal text
+  "$SED" -E 's/%RED%|%GREEN%|%BLUE%|%BLACK%|%MAROON%|%YELLOW%|%ORANGE%|%ENDCOLOR%//g'
+}
+
+expand_attachurls() {
+  # Replace %ATTACHURL% and %ATTACHURLPATH% with companion repo URL
+  local topic="$1"
+  local base_url="${ATTACH_BASE_URL}/${topic}"
+  "$SED" -E \
+    -e "s|%ATTACHURLPATH%|${base_url}|g" \
+    -e "s|%ATTACHURL%|${base_url}|g"
+}
+
+strip_system_macros() {
+  # Replace or remove TWiki system variables
+  "$SED" -E \
+    -e 's|%WEB%|HydrologyDWG|g' \
+    -e 's|%HOMETOPIC%|WebHome|g' \
+    -e 's|%TWIKIWEB%|TWiki|g' \
+    -e 's|%MAINWEB%|Main|g' \
+    -e 's|%WIKITOOLNAME%|TWiki|g' \
+    -e 's|%WIKIUSERNAME%||g' \
+    -e 's|%WIKIPREFSTOPIC%|TWikiPreferences|g' \
+    -e 's|%LOCALSITEPREFS%|TWikiPreferences|g' \
+    -e 's|%SYSTEMWEB%|TWiki|g' \
+    -e 's|%TOC%||g' \
+    -e 's|%TOC\{[^}]*\}%||g' \
+    -e 's|%TOPIC%||g' \
+    -e 's|%SCRIPTURLPATH\{[^}]*\}%||g' \
+    -e 's|%SCRIPTURL\{[^}]*\}%||g' \
+    -e 's|%URLPARAM\{[^}]*\}%||g' \
+    -e 's|%INCLUDE\{[^}]*\}%||g' \
+    -e 's|%IF\{[^}]*\}%||g' \
+    -e 's|%WEBTOPICLIST%||g' \
+    -e 's|%SEARCH\{[^}]*\}%||g' \
+    -e 's|%WEBPREFSTOPIC%|WebPreferences|g' \
+    -e 's|<nop>||g'
+}
+
+strip_cosmetic_html() {
+  # Remove cosmetic/styling span tags that cause escaped-HTML noise
+  # Covers background-color, color, font-size style spans, WYSIWYG_COLOR class spans
+  # Also strip target='_blank'/'_self' from <a> tags so pandoc can parse them as links
+  "$SED" -E \
+    -e "s|<span style=['\"][^'\"]*['\"]>||g" \
+    -e 's|<span class="WYSIWYG_COLOR"[^>]*>||g' \
+    -e "s|</span>||g" \
+    -e "s| target=['\"]_blank['\"]||g" \
+    -e "s| target=['\"]_self['\"]||g" \
+    -e "s|<a href=['\"]([^'\"]+)['\"]>([^<]*)</a>|[[\1][\2]]|g"
+}
+
+ensure_table_blocks() {
+  # Insert blank lines around HTML tables so pandoc treats them as block-level
+  "$SED" -E \
+    -e 's|(<table[^>]*>)|\n\n\1|gi' \
+    -e 's|(</table>)|\1\n\n|gi'
+}
+
+fix_numbered_list() {
+  # Fix TML reader issue were shorthand numbered list is put in paragraph
+  # TWiki "   1 item" -> "   1. item"
+  "$SED" -E 's/^([[:space:]]{3,})([0-9]+)[[:space:]]/\1\2. /'
+}
+
+# ---------- Conversion pipeline ----------
 
 pandoc_tw_to_html_with_underscore_guard() {
   # https://github.com/jgm/pandoc/issues/6964
-  # pipeline to “neutralize” underscores (s1) before pandoc, then restored them after.
-
+  # Pipeline to "neutralize" underscores before pandoc, then restore after.
+  local topic="$1"
   local s1="iB2zC0y68yBU32B3Ox6xx6ko5CAop6rG5aU1pT6LG1Be10k65XEh6FVuD3dT3Gy2BJ6La"
 
-  fix_numbered_list \
+  strip_meta \
+    | strip_color_macros \
+    | expand_attachurls "$topic" \
+    | strip_system_macros \
+    | strip_cosmetic_html \
+    | ensure_table_blocks \
+    | fix_numbered_list \
     | "$SED" -E "s/_/${s1}/g" \
-    | move_meta_to_eof \
     | run_with_timeout "twiki->html" pandoc -f twiki -t html --wrap=none --tab-stop=2 --markdown-headings=atx \
     | run_with_timeout "restore underscores" "$SED" -E "s/${s1}/_/g"
+}
+
+# ---------- Post-processing (on final .md output) ----------
+
+post_process() {
+  # All cleanup passes on the GFM markdown output
+
+  # 0. Convert wikilinks with title="wikilink" that the Lua filter missed
+  #    [text](target "wikilink") -> [text](target.md)
+  "$SED" -E 's|\]\(([^)"]+) "wikilink"\)|\](\1.md)|g' \
+  | \
+  # 1. Convert residual wikilink anchors to markdown links
+  #    <a href="PageName" class="wikilink">Display</a> -> [Display](PageName.md)
+  "$SED" -E 's|<a href="([^"]+)" class="wikilink">([^<]*)</a>|[\2](\1.md)|g' \
+  | \
+  # 2. Flatten nested markdown links: [[text](url) more](outer) -> [text more](outer)
+  "$SED" -E 's|\[\[([^]]+)\]\([^)]+\)([^]]*)\]\(([^)]+)\)|[\1\2](\3)|g' \
+  | \
+  # 2b. Strip escaped <a> tags (preserves inner content including markdown links)
+  #    \<a href='...' target='...'\> -> (removed)
+  #    \</a\> -> (removed)
+  "$SED" -E -e 's|\\<a href=[^>]*\\>||g' -e 's|\\</a\\>||g' \
+  | \
+  # 3. Clean attribution lines: -- Main.[Author](Author.md) -> -- Author
+  "$SED" -E \
+    -e 's|^(-- )Main\.\[([^]]+)\]\([^)]+\)|\1\2|' \
+    -e 's|^(-- )Main\.([A-Z][a-zA-Z]+)|\1\2|' \
+  | \
+  # 4. Add .md suffix to internal wiki-style links that lack it
+  #    [text](PageName) where PageName has no extension, no protocol, no /
+  "$SED" -E 's|\]\(([A-Za-z][A-Za-z0-9_ -]*)\)|\](\1.md)|g' \
+  | \
+  # 5. Decode %20 in internal link targets (non-http)
+  "$SED" -E 's|\]\(([^)h][^)]*?)%20([^)]*)\)|\](\1 \2)|g' \
+  | \
+  # 6. Strip escaped numbered list periods: 1\. -> 1.
+  "$SED" -E 's/^([0-9]+)\\\.( )/\1.\2/g' \
+  | \
+  # 7. Strip GRmark span IDs
+  "$SED" -E 's|<span id="[^"]*GRmark[^"]*"[^>]*></span>||g' \
+  | \
+  # 8. Strip residual metadata lines and orphan <!-- --> markers
+  "$AWK" '
+    /^- TOPICINFO\{/ { next }
+    /^- TOPICPARENT\{/ { next }
+    /^- FILEATTACHMENT\{/ { next }
+    /^<!-- -->$/ { next }
+    { print }
+  ' \
+  | \
+  # 9. Strip escaped \<nop\> markers
+  "$SED" -E 's|\\<nop\\>||g' \
+  | \
+  # 10. Strip escaped <span> and </span> leftovers
+  "$SED" -E \
+    -e 's|\\<span[^>]*\\>||g' \
+    -e 's|\\</span\\>||g' \
+  | \
+  # 11. Clean up escaped <form> blocks (TWiki search forms)
+  "$SED" -E \
+    -e 's|\\<form[^>]*\\>||g' \
+    -e 's|\\</form\\>||g' \
+    -e 's|\\<input[^>]*\\>||g' \
+  | \
+  # 12. Clean up remaining escaped <p>, </p>, <br /> tags
+  "$SED" -E \
+    -e 's|\\<p\\>||g' \
+    -e 's|\\</p\\>||g' \
+    -e 's|\\<br */\\>||g' \
+  | \
+  # 13. Strip trailing whitespace and collapse excessive blank lines
+  "$SED" -E 's/[[:space:]]+$//' \
+  | "$AWK" '
+    /^$/ { blank++; if (blank <= 2) print; next }
+    { blank = 0; print }
+  '
 }
 
 # ---------- Main ----------
 main() {
   need_cmd git
-  need_cmd file
-  need_cmd iconv
   need_cmd pandoc
   need_cmd timeout
 
@@ -173,17 +326,24 @@ main() {
 
   # Convert every .txt under Source/, excluding RCS ,v files
   while IFS= read -r -d '' src; do
-    local base utf8 html outmd
+    local base topic utf8 html outmd
     base="$(basename "$src")"
+    topic="$(basename "$base" .txt)"
     utf8="$UTF8_DIR/$base"
     html="$HTML_DIR/${base}.html"
-    outmd="$OUT_DIR/$(basename "$base" .txt).md"
+    outmd="$OUT_DIR/${topic}.md"
+
+    # Skip system pages
+    if echo "$SKIP_PAGES" | grep -qw "$topic"; then
+      log "Skipping system page: $base"
+      continue
+    fi
 
     log "Doing $base"
 
     convert_to_utf8 "$src" "$utf8"
 
-    pandoc_tw_to_html_with_underscore_guard <"$utf8" >"$html"
+    pandoc_tw_to_html_with_underscore_guard "$topic" <"$utf8" >"$html"
 
     if [[ -s "$html" ]]; then
       run_with_timeout "$base (html->gfm)" pandoc \
@@ -192,7 +352,8 @@ main() {
         --lua-filter="$LUA_FILTER" \
         --tab-stop=2 \
         --markdown-headings=atx \
-        <"$html" >"$outmd"
+        <"$html" \
+      | post_process >"$outmd"
     else
       log "WARN: empty HTML produced for $base: $html"
     fi
@@ -202,4 +363,3 @@ main() {
 }
 
 main "$@"
-

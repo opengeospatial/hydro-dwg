@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 16** **-- Wed 16 Apr 2014 -- Conceptual Model**
+# **[GW2IE](GW2IE.md) Meeting 16** **-- Wed 16 Apr 2014 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -19,16 +19,16 @@
 ## **Results**
 
 - Fluid Body:
-  - added abstract <a href="GW_Constituent" class="wikilink">GW_Constituent</a>, with Material, Chemical, Biologic specializations
+  - added abstract [GW_Constituent](GW_Constituent.md), with Material, Chemical, Biologic specializations
   - moved gwMixture to association class, to denote how a constituent composes a fluid body (e.g. solution, suspension, emulsion, precipitate)
-  - added <a href="GW_ConstituentRelation" class="wikilink">GW_ConstituentRelation</a>, to denote relations between constituents, e.g. clay coating silt, clay composed of clay minerals, etc.
+  - added [GW_ConstituentRelation](GW_ConstituentRelation.md), to denote relations between constituents, e.g. clay coating silt, clay composed of clay minerals, etc.
     - has properties for relation type and mechanism causing the relation, e.g. adsorption, etc.
   - added gwState, to denote the physical state e.g. solid, liquid, gas
 - Flow
-  - moved <a href="GW_InFlow" class="wikilink">GW_InFlow</a> and <a href="GW_OutFlow" class="wikilink">GW_OutFlow</a> to specialize <a href="GW_InterFlow" class="wikilink">GW_InterFlow</a>
+  - moved [GW_InFlow](GW_InFlow.md) and [GW_OutFlow](GW_OutFlow.md) to specialize [GW_InterFlow](GW_InterFlow.md)
     - recognizes that one of the in/out containers is not mandatory, e.g. the destination (not source) container is needed for inflow
-  - relations to <a href="GW_Flow" class="wikilink">GW_Flow</a>
-    - remains as homework -- see <a href="CM_0" class="wikilink">CM_0</a>.29 meeting 16 revisions (page 3) for summary and comments/questions
+  - relations to [GW_Flow](GW_Flow.md)
+    - remains as homework -- see [CM_0](CM_0.md).29 meeting 16 revisions (page 3) for summary and comments/questions
 
 ## **Connection Instructions**
 
@@ -49,7 +49,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 555 739 812
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -61,7 +61,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -86,9 +86,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1397666252" format="1.1" reprev="1" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

@@ -8,27 +8,27 @@ Nathan pointed out that NRCan and USGS service are different because they use di
 
 Action is to check if the namespaces from NRCan and USGS are indeed the same (they must). **DONE** (see below)
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 04 Feb 2010
+-- EricBoisvert - 04 Feb 2010
 
 The XML Dom method to use is getElementsByTagNameNS("namespaceURI", "localName")
 
 Reading up, it appears that some common javascript libraries do not handle namespaces well (aka JQuery) One suggestion is sarissa <http://dev.abiss.gr/sarissa/>
 
--- Main.<a href="DavidValentine" class="wikilink">DavidValentine</a> - 05 Feb 2010
+-- DavidValentine - 05 Feb 2010
 
 I checked both services and they indeed have the same namespaces
 
 USGS has xmlns:wml2="<http://www.wron.net.au/waterml2>
 
 ```
-<om:ObservationCollection 
-  xmlns:gml="http://www.opengis.net/gml" 
-  xmlns:om="http://www.opengis.net/om/1.0" 
-  xmlns:sa="http://www.opengis.net/sampling/1.0" 
-  xmlns:swe="http://www.opengis.net/swe/1.0.1" 
-  xmlns:xlink="http://www.w3.org/1999/xlink" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xmlns:wml2="http://www.wron.net.au/waterml2" 
+<om:ObservationCollection
+  xmlns:gml="http://www.opengis.net/gml"
+  xmlns:om="http://www.opengis.net/om/1.0"
+  xmlns:sa="http://www.opengis.net/sampling/1.0"
+  xmlns:swe="http://www.opengis.net/swe/1.0.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:wml2="http://www.wron.net.au/waterml2"
   xsi:schemaLocation="http://www.opengis.net/om/1.0 http://schemas.opengis.net/om/1.0.0/om.xsd">
   <om:member>
     <wml2:WaterMonitoringObservation>
@@ -42,18 +42,18 @@ NRCan has xmlns:wml="<http://www.wron.net.au/waterml2>"
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<om:ObservationCollection 
-  xmlns:wml="http://www.wron.net.au/waterml2" 
-  xmlns:proc="urn:x-ngwd:lcnp" 
-  xmlns:xlink="http://www.w3.org/1999/xlink" 
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-  xmlns:gml="http://www.opengis.net/gml" 
-  xmlns:sa="http://www.opengis.net/sampling/1.0" 
-  xmlns:gwml="http://www.nrcan.gc.ca/xml/gwml/1" 
-  xmlns:sql="http://apache.org/cocoon/SQL/2.0" 
-  xmlns:om="http://www.opengis.net/om/1.0" 
-  xmlns:swe="http://www.opengis.net/swe/1.0.1" 
-  xmlns:fn="http://www.w3.org/2005/xpath-functions" 
+<om:ObservationCollection
+  xmlns:wml="http://www.wron.net.au/waterml2"
+  xmlns:proc="urn:x-ngwd:lcnp"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:gml="http://www.opengis.net/gml"
+  xmlns:sa="http://www.opengis.net/sampling/1.0"
+  xmlns:gwml="http://www.nrcan.gc.ca/xml/gwml/1"
+  xmlns:sql="http://apache.org/cocoon/SQL/2.0"
+  xmlns:om="http://www.opengis.net/om/1.0"
+  xmlns:swe="http://www.opengis.net/swe/1.0.1"
+  xmlns:fn="http://www.w3.org/2005/xpath-functions"
   xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0">
   <om:member>
     <wml:WaterMonitoringObservation gml:id="ont.ww..1">
@@ -67,6 +67,4 @@ The way namespaces association to prefix work is that a prefix is scoped by the 
 
 As David pointed out, the parser you are using is probably not namespace aware.
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 05 Feb 2010 verbatim
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" date="1265376994" format="1.1" reprev="1.3" version="1.3"}
+-- EricBoisvert - 05 Feb 2010 verbatim

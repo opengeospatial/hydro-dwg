@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 52 / GW SWG Meeting \#3 -- Tues 26 April 2016**
+# **[GW2IE](GW2IE.md) Meeting 52 / GW SWG Meeting \#3 -- Tues 26 April 2016**
 
 ## **Agenda**
 
@@ -47,7 +47,6 @@
   - pass: ogc
   - url: <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m625ce946cde0845d95d08f63233c3132>
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -65,9 +64,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1461778320" format="1.1" reprev="5" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundWaterSWG" class="wikilink">GroundWaterSWG</a>"}

@@ -22,7 +22,7 @@ What invalidates a rating model? Change in period/table etc. Could result in lar
 
 Start with WDTF, then extend as appropriate. Start with WDTF spreadsheet.
 
-4\) What are the rules for constructing the conversion/rating tables (eg., how many data points should be transmitted). For example, suppose we wanted to exchange a rating that is in the form of an equation, how many points should we use to represent that equation? The RGS item register states: \<span style="background-color: transparent;"\>"Ratings should always have a point table supplied that is expanded at a sufficient Y scale resolution to enable linear interpolation between the supplied points. The creator of the data file will choose the export resolution such that linear interpolation is appropriate."\</span\>
+4\) What are the rules for constructing the conversion/rating tables (eg., how many data points should be transmitted). For example, suppose we wanted to exchange a rating that is in the form of an equation, how many points should we use to represent that equation? The RGS item register states: "Ratings should always have a point table supplied that is expanded at a sufficient Y scale resolution to enable linear interpolation between the supplied points. The creator of the data file will choose the export resolution such that linear interpolation is appropriate."
 
 Could provide a parameter in API for stage spacing, with a default across the whole service. Can override with a call from requester. (1/100 ft default for USGS). 5-10mm. Corresponds to accuracy of a gauge reading.
 
@@ -30,7 +30,7 @@ Could provide a parameter in API for stage spacing, with a default across the wh
 
 Keyed on site-paramFrom-paramTo.
 
-6\) Should calls such as .../rgs-api/v1/conversion/ and .../rgs-api/v1/conversion/<a href="C_ID" class="wikilink">C_ID</a> (where <a href="C_ID" class="wikilink">C_ID</a> is the conversion ID) return all types of conversions, both ratings and \_\_shifts\_\_
+6\) Should calls such as .../rgs-api/v1/conversion/ and .../rgs-api/v1/conversion/[C_ID](C_ID.md) (where [C_ID](C_ID.md) is the conversion ID) return all types of conversions, both ratings and \_\_shifts\_\_
 
 Yes should contain ratings and shifts. Stage-stage conversion used for purposes other than shifts. Do we need to identify them as shifts? Aus create new tables that incorporate all the changes.
 
@@ -46,10 +46,4 @@ Plus others..
 
 Queries on monitoring points: need query by ID and Name at least.
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 30 Apr 2014
-
-- TOPICINFO{author="<a href="PeterTaylor" class="wikilink">PeterTaylor</a>" date="1398995056" format="1.1" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WaterML2Part2" class="wikilink">WaterML2Part2</a>"}
+-- PeterTaylor - 30 Apr 2014

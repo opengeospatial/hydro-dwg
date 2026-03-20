@@ -1,10 +1,10 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 30 -- Thurs 29 Jan 2015**
+# **[GW2IE](GW2IE.md) Meeting 30 -- Thurs 29 Jan 2015**
 
 ## **Agenda**
 
 - Face-to-face meeting
-  - OGC Boulder (June), \<a href="<a href="OrleansWorkshop2015" class="wikilink">OrleansWorkshop2015</a>" title="HDWG Orléans workshop"\>HDWG Orelans\</a\> (Sept), none?
-  - Any decision made on this during the meeting? -- Main.<a href="BruceSimons" class="wikilink">BruceSimons</a> - 01 Feb 2015
+  - OGC Boulder (June), HDWG Orelans (Sept), none?
+  - Any decision made on this during the meeting? -- Main.[BruceSimons](BruceSimons.md) - 01 Feb 2015
 - AGU 2015
   - report
 - Technical
@@ -20,7 +20,7 @@
   - BoreCollar:
     - add elevation type (Eric)
   - Other issues:
-    - tbd from [Logical Model page](GWML2-UML-Model)
+    - tbd from [Logical Model page](GWML2-UML-Model.md)
 
 ## **Participants**
 
@@ -31,10 +31,10 @@
 - AGU 2015
   - AGU link to be posted (**Jessica**)
 - Technical
-  - \_Data <a href="Record_" class="wikilink">Record_</a>: update to be confirmed (**Eric**)
-  - \_Namespaces & <a href="URIs_" class="wikilink">URIs_</a>: servers to be prepared by USGS (**Jessica**)
-  - \_Pump & Well Test proposal\_: draft to be ready for next meeting (**Eric, Sylvain**) <a href="AquiferTestingDiscussion" class="wikilink">AquiferTestingDiscussion</a>
-  - \_Other issues\_: [Logical Model page](GWML2-UML-Model) to be reviewed for remaining isues (**Bruce**)
+  - \_Data [Record\_](Record_.md): update to be confirmed (**Eric**)
+  - \_Namespaces & [URIs\_](URIs_.md): servers to be prepared by USGS (**Jessica**)
+  - \_Pump & Well Test proposal\_: draft to be ready for next meeting (**Eric, Sylvain**) [AquiferTestingDiscussion](AquiferTestingDiscussion.md)
+  - \_Other issues\_: [Logical Model page](GWML2-UML-Model.md) to be reviewed for remaining isues (**Bruce**)
 
 ## **Connection Instructions**
 
@@ -49,13 +49,12 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 555 537 334
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m59dc8b2e12ab2ee0f2552472dfedfec0>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -64,7 +63,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -90,10 +89,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 19 Jan 2015
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" comment="reprev" date="1423144003" format="1.1" reprev="3" version="6"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 19 Jan 2015

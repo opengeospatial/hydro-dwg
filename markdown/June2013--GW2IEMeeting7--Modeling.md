@@ -1,11 +1,11 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 7** **-- Tues 18 June 2013 -- Entity List and Modeling**
+# **[GW2IE](GW2IE.md) Meeting 7** **-- Tues 18 June 2013 -- Entity List and Modeling**
 
 ## **Agenda**
 
 - Welcome
 - OGC status update
 - Discussion
-  - Conclude the [Entity List](Gwml2ConsolFeatureList), focussing on unresolved items:
+  - Conclude the [Entity List](Gwml2ConsolFeatureList.md), focussing on unresolved items:
     - Geologic Unit
     - Groundwater Basin
     - Groundwater Dependent Ecosystem
@@ -37,14 +37,14 @@
 ## **Connection Instructions**
 
 - **Meeting Date**: Tues 18 June 2013
-- <span class="twiki-macro RED"></span> **Telecon Test Date**: Mon 17 June 2013 -- telecon only<span class="twiki-macro ENDCOLOR"></span>
+- **Telecon Test Date**: Mon 17 June 2013 -- telecon only
 - **Time**: 8:00 AM Eastern Daylight Time
 - **Screen sharing (Webex):**
   - **\***IMPORTANT-- APPLET MUST BE INSTALLED FIRST:\*****
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> June meeting
+  - **Meeting Topic:**[GW2IE](GW2IE.md) June meeting
   - **Meeting Number**: 803 616 360
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -56,7 +56,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -81,9 +81,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1371248188" format="1.1" reprev="4" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 24 -- Thurs 16 Oct 2014 -- Report**
+# **[GW2IE](GW2IE.md) Meeting 24 -- Thurs 16 Oct 2014 -- Report**
 
 ## **Agenda**
 
@@ -26,18 +26,18 @@
 
 ## **Results**
 
-- Add 'Presentations' section to main wiki page (**%GREEN%done%ENDCOLOR%**)
+- Add 'Presentations' section to main wiki page (**done**)
   - add link to AGU poster
 - Report
-  - confirm with OGC re: acceptance of report between TC meetings? (**%GREEN%done%ENDCOLOR%**)
+  - confirm with OGC re: acceptance of report between TC meetings? (**done**)
     - yes, its possible: post to pending, followed by 3 week review, and then Carl Reed will ask OGC TC and PC re: objections
-- 'Nucleus' package name: canvas for new names and vote with Doodle poll (**%GREEN%done%ENDCOLOR%**)
-  - new options include: GWML2-Central, GWML2-Main, GWML2-<a href="Level_0" class="wikilink">Level_0</a>
-- data record encoding: create Doodle poll with options (**%GREEN%done%ENDCOLOR%**)
-  - accept swe method (see <a href="GwmlSweDataRecord" class="wikilink">GwmlSweDataRecord</a>): pro = extendable, con = not in UML (harder to find/grasp)
+- 'Nucleus' package name: canvas for new names and vote with Doodle poll (**done**)
+  - new options include: GWML2-Central, GWML2-Main, GWML2-[Level_0](Level_0.md)
+- data record encoding: create Doodle poll with options (**done**)
+  - accept swe method (see [GwmlSweDataRecord](GwmlSweDataRecord.md)): pro = extendable, con = not in UML (harder to find/grasp)
   - accept swe method with some changes (to be specified)P
   - decline swe method and develop hard-typed approach (distinct classes for different value types): pro = in UML (easier to find/grasp), con = not extendable
-- Pump addition: create Doodle poll with 3 options (**%GREEN%done%ENDCOLOR%**)
+- Pump addition: create Doodle poll with 3 options (**done**)
   - use SensorML device only
   - use new Pump class only (in Construction package)
   - use both SensorML (for how a pump operates) and new Pump class (for who made it, etc.)
@@ -60,13 +60,12 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 552 382 954
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m097ec1652931561dab91bd790025bbc8>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -75,7 +74,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -101,10 +100,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 17 Sep 2014
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1414006835" format="1.1" reprev="4" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 17 Sep 2014

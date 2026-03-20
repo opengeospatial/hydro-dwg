@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 34 -- Tues 17 Mar 2015**
+# **[GW2IE](GW2IE.md) Meeting 34 -- Tues 17 Mar 2015**
 
 ## **Agenda**
 
@@ -6,7 +6,7 @@
   - [proposal](%PUBURL%/HydrologyDWG/GWML2-UML-Model/GWML2_ManagmentArea_proposal_draft1.docx)
 - Aquifer testing documentation (Eric, Sylvain)
   - [document](https://xp-dev.com/svn/gwml2/Documents/GWML2_aquifer_test_extension.docx)
-  - [disussion](AquiferTestingDiscussion)
+  - [disussion](AquiferTestingDiscussion.md)
   - question: should it be its own document (extension)? like [WCS](http://www.opengeospatial.org/standards/wcs)
 - Domain name update (Jessica)
 
@@ -29,8 +29,8 @@
     - change all cardinalities to optional: profiles to be used for application-specific deviations (e.g. INSPIRE)
     - remove lifespan properties: can be handed by general feature metadata
     - remove gwAreaMetadata: not required
-    - move <a href="GW_Licence" class="wikilink">GW_Licence</a> into Well package
-  - to do list for <a href="GW_ManagementArea" class="wikilink">GW_ManagementArea</a>:
+    - move [GW_Licence](GW_Licence.md) into Well package
+  - to do list for [GW_ManagementArea](GW_ManagementArea.md):
     - Update definition (**Bruce**)
     - Update UML-LM (**Sylvain**)
     - Update UML-CM(**Boyan**)
@@ -57,13 +57,12 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 554 664 367
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m0fbc2f5fc9f5fe714ecc289fe9896012>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -72,7 +71,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -98,10 +97,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 19 Jan 2015
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1428946678" format="1.1" reprev="6" version="7"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 19 Jan 2015

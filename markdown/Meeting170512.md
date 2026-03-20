@@ -24,11 +24,11 @@
     - Observations or results
     - Synchronisation / Change
   - Sections (surveys)
-    - Relates to <a href="HY_Features" class="wikilink">HY_Features</a> \* \*
+    - Relates to [HY_Features](HY_Features.md) \* \*
       - More about the connectedness of features
     - What is the scope of the features model?
     - Relationship to the gaugings and calculations methods
-    - Control cross sections (high flow, low flow controls) (anything in <a href="HY_Features" class="wikilink">HY_Features</a> also INSPIRE?)
+    - Control cross sections (high flow, low flow controls) (anything in [HY_Features](HY_Features.md) also INSPIRE?)
 - Methodology
   - Requirements
     - Lock down, when?
@@ -51,13 +51,13 @@ Paul Sheahan, Peter Taylor, Dave Blodgett, Dave Valentine
 
 ## Notes
 
-Paul and Pete T have a project proposal for July 2012-13 to develop parts of this work. Two core activities: ratings and gauings and model and developing methods to profile <a href="WaterML2" class="wikilink">WaterML2</a>. Timelines are written into the plan -- these will be presented at workshop.
+Paul and Pete T have a project proposal for July 2012-13 to develop parts of this work. Two core activities: ratings and gauings and model and developing methods to profile [WaterML2](WaterML2.md). Timelines are written into the plan -- these will be presented at workshop.
 
 ### Scope
 
 This is ancillary data that provides details of methods and conversions for producing data products. Mostly targetting knowledgable people want to this style of data and understand it. Flow as a data product - most people will be happy with it and don't require understanding of the conversion process.
 
-<a href="DaveV" class="wikilink">DaveV</a>: related generally to temporally bounded attributes and metadata.
+[DaveV](DaveV.md): related generally to temporally bounded attributes and metadata.
 
 Dave B: An example usage from forecasting IE. NWS forecasting service manage their own rating curves. Pull data from gauges themselves then use their own curves for trasnformation (rather than an agencies). Goal of forecasting IE was to be able to share the curves so NWS people would develop more trust in it (PT paraphrasing)
 
@@ -69,7 +69,7 @@ USGS has pretty standard methods for gaugings etc. and thus can expect common ty
 
 Dave V: some people got upset when USGS took rating curves offline (from CUAHSI and other areas). Could be a research use case as well.
 
-Dave B: <a href="DelfFEWs" class="wikilink">DelfFEWs</a> doco relating to variations on rating equations. <https://publicwiki.deltares.nl/display/HYMOS/01+Fitting+of+rating+curve>.
+Dave B: [DelfFEWs](DelfFEWs.md) doco relating to variations on rating equations. <https://publicwiki.deltares.nl/display/HYMOS/01+Fitting+of+rating+curve>.
 
 US uses rating shifts as part of their ratings implementation.
 
@@ -96,12 +96,6 @@ Then whiteboard and UML as a communication tool to capture core aspects of the m
 
 Discussion about tools, handling the documentation, UML and schema artefacts. Keeping doco in the model for first phases of development.
 
-**Objective:** strawman model by the end of the workshop. Develop a discussion paper for presentation at <a href="HydroDWG" class="wikilink">HydroDWG</a> TC (second half of year). Then review and process feedback. This is consistent with the Pete T and Paul's project proposal.
+**Objective:** strawman model by the end of the workshop. Develop a discussion paper for presentation at [HydroDWG](HydroDWG.md) TC (second half of year). Then review and process feedback. This is consistent with the Pete T and Paul's project proposal.
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 17 May 2012
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" comment="save topic" date="1337653284" format="1.1" reprev="3" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WaterML2Part2" class="wikilink">WaterML2Part2</a>"}
+-- PeterTaylor - 17 May 2012

@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 29 -- Wed 10 Dec 2014**
+# **[GW2IE](GW2IE.md) Meeting 29 -- Wed 10 Dec 2014**
 
 ## **Agenda**
 
@@ -26,7 +26,7 @@
     - Pump: (**Eric**)
     - Well test: (**Sylvain**, **Eric**)
     - Unit properties: (**Eric**)
-      - review proposals [here](GwmlDistributedValues)
+      - review proposals [here](GwmlDistributedValues.md)
       - vote on proposals [here](http://doodle.com/6hmsiyptdvxx2wea)
   - other:
     - identify remaining issues (from logical model issues page) (**Bruce**)
@@ -96,13 +96,12 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 551 597 090
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m3bef2703336aef16d6f4fcf2551a05d6>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -111,7 +110,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -137,10 +136,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 17 Sep 2014
-
-- TOPICINFO{author="<a href="FrancoisLetourneau" class="wikilink">FrancoisLetourneau</a>" comment="reprev" date="1418331171" format="1.1" reprev="8" version="9"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 17 Sep 2014

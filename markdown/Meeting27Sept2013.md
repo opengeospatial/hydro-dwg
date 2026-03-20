@@ -1,4 +1,4 @@
-\<h1 id="zen-page-title"\> [2013-09-27 - US & UK IE Meeting](https://wiki.csiro.au/pages/viewpage.action?pageId=612370399) \<a data-animation-speed="300" data-appearance-delay="500" href="https://wiki.csiro.au/pages/viewpage.action?pageId=612370399#" title="Edit the title of this page"\> \</a\>\</h1\>
+\<h1 id="zen-page-title"\> [2013-09-27 - US & UK IE Meeting](https://wiki.csiro.au/pages/viewpage.action?pageId=612370399) \<a data-animation-speed="300" data-appearance-delay="500" href="https://wiki.csiro.au/pages/viewpage.action?pageId=612370399#" title="Edit the title of this page"\> \</h1\>
 
 updated Sep 27, 2013 by [Taylor, Peter (CCI, Hobart)](https://wiki.csiro.au/display/~tay345) \<h2 id="id-2013-09-27-US&UKIEMeeting-Attendees"\>Attendees\</h2\>
 
@@ -27,10 +27,4 @@ updated Sep 27, 2013 by [Taylor, Peter (CCI, Hobart)](https://wiki.csiro.au/disp
 - US scenario: Army corp of engineers: get ratings, potentially gaugings (measurements, site visits), no sections (no formal place online for these). Both moving into Aquarius; all falling in line.
 - UK: publication for assessment of quality and metadata analysis. Ratings but no table, but range-values.
 
--- Main.<a href="PaulSheahan" class="wikilink">PaulSheahan</a> - 03 Oct 2013
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" date="1380843297" format="1.1" version="1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WaterML2Part2" class="wikilink">WaterML2Part2</a>"}
+-- PaulSheahan - 03 Oct 2013

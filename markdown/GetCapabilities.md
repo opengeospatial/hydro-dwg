@@ -12,7 +12,7 @@ Client can send either a GET request or a POST request
 http://www.someserver.com?
 ```
 
-Since there is no GET (<a href="HttpRest" class="wikilink">HttpRest</a>), there are no 'request' parameters to pass.
+Since there is no GET ([HttpRest](HttpRest.md)), there are no 'request' parameters to pass.
 
 Mock up system from GIN
 
@@ -25,14 +25,4 @@ annotated document is attached to this page.
 
 ## Issues and discussions
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 25 Nov 2009
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" date="1259172823" format="1.1" reprev="1.1" version="1.1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="ExperimentUseCaseDiscussion" class="wikilink">ExperimentUseCaseDiscussion</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="getcapabilities.xml" attachment="getcapabilities.xml" attr="" comment="" date="1259171345" path="getcapabilities.xml" size="5978" stream="getcapabilities.xml" tmpFilename="/tmp/6Gl2aKRZay" user="Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" version="1"}
+-- EricBoisvert - 25 Nov 2009

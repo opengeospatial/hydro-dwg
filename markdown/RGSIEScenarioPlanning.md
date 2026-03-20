@@ -2,14 +2,12 @@ This page sets out the scenarios for the RGS IE.
 
 ## Scenario Summary
 
-<span class="twiki-macro EDITTABLE"></span>
-
 | Scenario | Actor | Provider | Ratings | Gaugings | Sections | Range Values |
 |:---|:---|:---|:---|:---|:---|:---|
-| 1 | Bureau retrieving data from | DPIPWE \<br /\>New South Wales Office of Water | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> |  |  |
+| 1 | Bureau retrieving data from | DPIPWE New South Wales Office of Water | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> |  |  |
 | 2 | MDBA accessing the latest rating from | New South Wales Office of Water | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> |  |
-| 3 | Public web analysis tool accessing all ratings | DPIPWE \<br /\>\<span style="background-color: transparent; line-height: 22px;"\>New South Wales Office of Water\</span\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> |
-| 4 | USGS Exchange with | NWS \<br /\>Core of Engine | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> |  | possibly |
+| 3 | Public web analysis tool accessing all ratings | DPIPWE New South Wales Office of Water | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> |
+| 4 | USGS Exchange with | NWS Core of Engine | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> |  | possibly |
 | 5 | UK Publication - assessment of rating quality | CEH | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> |  | \<img alt="" height="35" src="<http://www.mozambique-gas-summit.com/wp-content/uploads/2012/12/big-tick-green.jpg>" width="36" /\> |
 | 6 |  |  |  |  |  |  |
 
@@ -17,9 +15,9 @@ This page sets out the scenarios for the RGS IE.
 
 There is an Australian based scenrio currently being planned. This involves exchange between four water agencies: the Bureau of Meteorology, NSW Office of Water, Tas DPIPWE and MDBA. The basic structure of data flow will be something like this:
 
-\<img alt="<a href="ScenarioDiagram" class="wikilink">ScenarioDiagram</a>.jpg" height="563" src="%PUBURL%/<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>/<a href="RGSInteropExperiment" class="wikilink">RGSInteropExperiment</a>/<a href="ScenarioDiagram" class="wikilink">ScenarioDiagram</a>.jpg" title="<a href="ScenarioDiagram" class="wikilink">ScenarioDiagram</a>.jpg" width="1000" /\>
+\<img alt="[ScenarioDiagram](ScenarioDiagram.md).jpg" height="563" src="%PUBURL%/[HydrologyDWG](HydrologyDWG.md)/[RGSInteropExperiment](RGSInteropExperiment.md)/[ScenarioDiagram](ScenarioDiagram.md).jpg" title="[ScenarioDiagram](ScenarioDiagram.md).jpg" width="1000" /\>
 
-The setup will require water agencies to expose services that encode the <a href="WaterML2" class="wikilink">WaterML2</a>.0 part 2 model. Given the software being used is common across a number of agencies, we should be able to leverage test implementations in different scenarios.
+The setup will require water agencies to expose services that encode the [WaterML2](WaterML2.md).0 part 2 model. Given the software being used is common across a number of agencies, we should be able to leverage test implementations in different scenarios.
 
 ## US Scenario
 
@@ -47,10 +45,4 @@ Examples of current static pages:
 
 <http://www.environment-agency.gov.uk/hiflows/apr.aspx?45001_amax>
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 23 Aug 2013
-
-- TOPICINFO{author="<a href="KevinStegemoller" class="wikilink">KevinStegemoller</a>" comment="reprev" date="1383753958" format="1.1" reprev="5" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="RGSInteropExperiment" class="wikilink">RGSInteropExperiment</a>"}
+-- PeterTaylor - 23 Aug 2013

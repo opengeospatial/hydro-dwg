@@ -6,7 +6,7 @@ This page is to explore various encoding of time series is SOS services and thei
 
 According to SOS 1.0 spec (OGC 06-009r6, section 6.6), OGC filter can be applied on standard properties of the Observation class. The SOS capabilities document reports the extent of the filter capabilities in terms of spatial, scalar and ID parameters. The underlined logic is that SOS is a large collection of atomic Observations or simple (scalar) results. The level of granularity expected for SOS is limited to the level of an Observation and filtering according to the result is beyond the scope of a core SOS service.
 
-For the GWIE, we wish to push for a use case where we could filter observations based on the result. For example, get all the observation where a water level is greater than 10 m. SOS 1.0 provide a mechanism to filter by result using ogc:Filter. The filter expression can target element of the result using XPath. In GWIE, the proposed encoding for the result is a complex Time Series where several data elements are encoded into a single Observation. Observation::result is an “open” parameter that laxes structure where the same information can be encoded using several schemas. For instance, <a href="WaterML" class="wikilink">WaterML</a> considers both strongly typed gml:coverage and/or SWE block encoding. They both represent the same information but with different structure.
+For the GWIE, we wish to push for a use case where we could filter observations based on the result. For example, get all the observation where a water level is greater than 10 m. SOS 1.0 provide a mechanism to filter by result using ogc:Filter. The filter expression can target element of the result using XPath. In GWIE, the proposed encoding for the result is a complex Time Series where several data elements are encoded into a single Observation. Observation::result is an “open” parameter that laxes structure where the same information can be encoded using several schemas. For instance, [WaterML](WaterML.md) considers both strongly typed gml:coverage and/or SWE block encoding. They both represent the same information but with different structure.
 
 The issue arises when a client needs to express a filter on the result. The formal way to express a filter (at least in WFS) is to use the domain schema to identify the candidate properties to constrain. For example, a client might want to get all Observation that has a value above a certain threshold (say, 10 m).
 
@@ -26,13 +26,13 @@ The SOS spec says that you should use a filter constrain on the result like this
 </sos:GetObservation>
 ```
 
-In the current <a href="WaterML" class="wikilink">WaterML</a> encoding, the XPath would look like this
+In the current [WaterML](WaterML.md) encoding, the XPath would look like this
 
 ```
 om:result/wml2:TimeSeries/wml2:element/wml2:TimeValuePair/wml2:value/swe:Quantity/swe:value
 ```
 
-(assuming that om:Observation is the context node). But how does the client “know” this ?. It needs to have access to the schema of the result. To get this information in SOS, you must perform a <a href="DescribeResultModel" class="wikilink">DescribeResultModel</a> (or <a href="DescribeObservationType" class="wikilink">DescribeObservationType</a> if the service uses a subtype of om:Observation, see sec. 10.6) that shall return the <a href="W3C" class="wikilink">W3C</a> XSD schema of the result (06-009r6 sec. 10.7). The schema of the result in this case is a wml2:<a href="TimeSeries" class="wikilink">TimeSeries</a> and the value (where the water level or any other value would be) is a SWE element in wml2:value (actually, the XSD declares it as xsd:anyType, result constrain is provided as schematron clauses, further complicating the issue).
+(assuming that om:Observation is the context node). But how does the client “know” this ?. It needs to have access to the schema of the result. To get this information in SOS, you must perform a [DescribeResultModel](DescribeResultModel.md) (or [DescribeObservationType](DescribeObservationType.md) if the service uses a subtype of om:Observation, see sec. 10.6) that shall return the [W3C](W3C.md) XSD schema of the result (06-009r6 sec. 10.7). The schema of the result in this case is a wml2:[TimeSeries](TimeSeries.md) and the value (where the water level or any other value would be) is a SWE element in wml2:value (actually, the XSD declares it as xsd:anyType, result constrain is provided as schematron clauses, further complicating the issue).
 
 Unfortunately, XSD schema is not very useful when it comes to SWE because it is essentially soft typing (not that it is much more useful in general for that sort of thing). The XSD won’t tell more because the time series is a discrete coverage and the value is “xsd:anyType”. Bottom line, the schemas of the result is not sufficient to scope a filter request. We could envision that the service could craft a custom XSD where ambiguities are removed, but you would still have to resolver the binding between the swe definition of the property and the encoding. This becomes critical when you have multiple parameters. If in a time series, we have two parameters + the time stamps, how do we bind parameters A to the swe:Quantity in the time series (ordering ?)
 
@@ -42,13 +42,13 @@ SWE Common (OGC 08-084) emphasises the robustness of the semantic of SWE encodin
 
 In the Capabilities of the SOS service, each offering provide a list of Offering, each providing one or more observedProperties. Observed properties are often just a reference to some externally declated phenomenon, but it can be made explicit. In this example from SOS 1.0 (OGC 06-009r6), we can see an explicit description of a composite phenomenon
 
-\<img src="%ATTACHURLPATH%/phenomenon_paring.png" alt="phenomenon_paring.png" width='576' height='290' /\>
+\<img src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GwIeSOSResultFilter/phenomenon_paring.png>" alt="phenomenon_paring.png" width='576' height='290' /\>
 
 Figure 1: Phenomenon and field pairing
 
-You can also see from the result of the <a href="GetObservations" class="wikilink">GetObservations</a> (when the result is encoded in SWE) how the phenomenon components are ties to the SWE description of the result. If we could get this SWE, a client could provide the user with the necessary information to build a result filter. The portion shown on the <a href="GetObservations" class="wikilink">GetObservations</a> response is just the SWE block header. This SWE definition is better than XSD because it provides the uom and a human readable name for the fields.
+You can also see from the result of the [GetObservations](GetObservations.md) (when the result is encoded in SWE) how the phenomenon components are ties to the SWE description of the result. If we could get this SWE, a client could provide the user with the necessary information to build a result filter. The portion shown on the [GetObservations](GetObservations.md) response is just the SWE block header. This SWE definition is better than XSD because it provides the uom and a human readable name for the fields.
 
-To achieve the same thing for our IE, here how we should advertise our <a href="WaterLevel" class="wikilink">WaterLevel</a> phenomenon:
+To achieve the same thing for our IE, here how we should advertise our [WaterLevel](WaterLevel.md) phenomenon:
 
 ```
 <sos:Contents xmlns:gml="http://www.opengis.net/gml" xmlns:sos="http://www.opengis.net/sos/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:swe="http://www.opengis.net/swe/1.0.1" xsi:schemaLocation="http://www.opengis.net/sos/1.0 http://schemas.opengis.net/sos/1.0.0/sosContents.xsd">
@@ -94,13 +94,13 @@ And a Depth
 </swe:Phenomenon>
 ```
 
-Now, how do we get from the phenomenon description to the SWE description of the data structure (which is required to build a query). SOS has a mechanism to explore the SWE field structure using <a href="GetResultTemplate" class="wikilink">GetResultTemplate</a> (SOS 1 uses <a href="GetResult" class="wikilink">GetResult</a> with responseMode="resultTemplate" to achieve the same thing), although the intent is to extract only a portion of the result (using filter).
+Now, how do we get from the phenomenon description to the SWE description of the data structure (which is required to build a query). SOS has a mechanism to explore the SWE field structure using [GetResultTemplate](GetResultTemplate.md) (SOS 1 uses [GetResult](GetResult.md) with responseMode="resultTemplate" to achieve the same thing), although the intent is to extract only a portion of the result (using filter).
 
-The other option is to extract this information directly from the Sensor description (through <a href="DescribeSensor" class="wikilink">DescribeSensor</a>). A sensor can report in the "outputs" section the structure of the output, but since the outputs can contains many outputs, there are no clear ways to link a particular output to a particular observedProperty (a given sensor can potentially have many dectectors, only some of them relevant to the advertised observedProperty). Furthermore, a single offering could report many sensors (although SOS 2.0 constrains an Offering to have only 1 sensor), further complicating the extraction of this piece of information (what is two sensors report the same observed property with slightly different data structure, etc.). And the final nail in the coffin is that you are not guaranteed to have <a href="SensorML" class="wikilink">SensorML</a>, it could be TML.
+The other option is to extract this information directly from the Sensor description (through [DescribeSensor](DescribeSensor.md)). A sensor can report in the "outputs" section the structure of the output, but since the outputs can contains many outputs, there are no clear ways to link a particular output to a particular observedProperty (a given sensor can potentially have many dectectors, only some of them relevant to the advertised observedProperty). Furthermore, a single offering could report many sensors (although SOS 2.0 constrains an Offering to have only 1 sensor), further complicating the extraction of this piece of information (what is two sensors report the same observed property with slightly different data structure, etc.). And the final nail in the coffin is that you are not guaranteed to have [SensorML](SensorML.md), it could be TML.
 
 We will then concentration of the first options.
 
-Here a SOS 2.0 <a href="GetResultTemplate" class="wikilink">GetResultTemplate</a>
+Here a SOS 2.0 [GetResultTemplate](GetResultTemplate.md)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -180,11 +180,11 @@ http://schemas.opengis.net/sos/2.0.0/sosGetResultTemplate.xsd">
   <resultEncoding>
       <!--results are encoded as text with token- and blockseperator as specified here-->
       <swe:TextEncoding tokenSeparator="," blockSeparator="@@"/>
-      
+
   </resultEncoding>
   <!--information about structure of observation results-->
   <resultStructure>
-  
+
     <!-- result is of type swe:DataArray with two elements (phenomenonTime and waterlevel; see SweCommon Data Encoding specification for more information-->
     <swe:DataArray>
       <swe:elementCount>
@@ -205,7 +205,7 @@ http://schemas.opengis.net/sos/2.0.0/sosGetResultTemplate.xsd">
         </swe:DataRecord>
       </swe:elementType>
     </swe:DataArray>
-  </resultStructure>  
+  </resultStructure>
 </sos:GetResultTemplateResponse>
 ```
 
@@ -214,13 +214,13 @@ The request they built as an example uses the field name instead of the phenomen
 ```
 <sos:GetResult xmlns="http://www.opengis.net/sos/2.0" service="SOS" version="2.0.0" xmlns:sos="http://www.opengis.net/sos/2.0" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:swes="http://www.opengis.net/swes/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sos/2.0
 http://schemas.opengis.net/sos/2.0.0/sos.xsd">
-  
+
   <!--identifier of an observed property-->
   <observedProperty>urn:ogc:def:phenomenon:OGC:water_level</observedProperty>
-  
+
   <!--identifier of an observed property-->
   <offering>http://www.my_namespace.org/water_gage_1_observations</offering>
-  
+
   <!--optional temporal filter restricting the results which shall be returned-->
   <temporalFilter>
     <fes:After>
@@ -246,7 +246,7 @@ Note that SOS 2.0 does not allow Filter directly on the om:result, but rather as
       <ogc:PropertyIsGreaterThan>
         <ogc:PropertyName>??</ogc:PropertyName>
         <ogc:Literal>5</ogc:Literal>
-      </ogc:PropertyIsGreaterThan>    
+      </ogc:PropertyIsGreaterThan>
     </resultFilter>
   </extension>
   ...
@@ -263,7 +263,7 @@ This pattern has several benefits.
 2.  Properties are advertised using a conformant OGC approach (no hack)
 3.  Properties are well described (SWE provide a certain level of metadata that XSD does not have)
 4.  Query structure is decouples from the result encoding, which is consistant with pattern of CSW and proposed "stored query" mechanism of WFS (ISO-19142). The client can rely on a consistent way to get the parameters, whatever the encoding.
-5.  This mechanism can be used by both SOS 1.0 and SOS 2.0 clients, just the access to the SWE encoding is different (catalog for 1.0, <a href="GetResultTemplate" class="wikilink">GetResultTemplate</a> for 2.0).
+5.  This mechanism can be used by both SOS 1.0 and SOS 2.0 clients, just the access to the SWE encoding is different (catalog for 1.0, [GetResultTemplate](GetResultTemplate.md) for 2.0).
 
 One of the major downside is that a property can possibly appear several time in a single composite phenomenon (eg, temperatures taken at two different depths in a single record – they both are temperatures). But it if we the field name instead, this problem goes away (assuming the field names are unique)
 
@@ -293,7 +293,7 @@ This section presents various encoding for time series and discuss the pro and c
 
 ## Current encoding in the Testbed
 
-This document is encoded using gml 3.1.x . It is an early encoding to meet the first deadline and implement some demo tools. It does not validate with <a href="WaterML2" class="wikilink">WaterML2</a>.0.
+This document is encoded using gml 3.1.x . It is an early encoding to meet the first deadline and implement some demo tools. It does not validate with [WaterML2](WaterML2.md).0.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -365,7 +365,7 @@ This document is encoded using gml 3.1.x . It is an early encoding to meet the f
 
 ## Validating encoding using coverage time series
 
-This encoding is GML 3.2 and does validate with the latest version of the <a href="WaterML" class="wikilink">WaterML</a> 2.0 schema.
+This encoding is GML 3.2 and does validate with the latest version of the [WaterML](WaterML.md) 2.0 schema.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -430,13 +430,13 @@ This encoding is GML 3.2 and does validate with the latest version of the <a hre
 </wml2:WaterMonitoringObservation>
 ```
 
-Note that the <a href="FeatureOfInterest" class="wikilink">FeatureOfInterest</a> is now by reference
+Note that the [FeatureOfInterest](FeatureOfInterest.md) is now by reference
 
 ```
 <om:featureOfInterest xlink:href="http://ngwd-bdnes.cits.nrcan.gc.ca/service/gin/wfs/gin?REQUEST=GetFeature&amp;INFO_FORMAT=text/html&amp;FID=ont.ww.5100001"/>
 ```
 
-Because GWML is still GML 3.1.x and wml2:Observation constrains the featureOfInterest to be a om2:<a href="SamplingFeature" class="wikilink">SamplingFeature</a> (gwml:<a href="WaterWell" class="wikilink">WaterWell</a> is a om1:<a href="SamplingFeature" class="wikilink">SamplingFeature</a>). Even if <a href="WaterML2" class="wikilink">WaterML2</a>.0 reverts to original constrains for FOI (any feature), the problem would remain, because anyFeature is GML 3.2.1 Feature (gwml is 3.1.1). This is actually an issue because in principle, this document is not schema valid if the client tries to resolve the xlink.
+Because GWML is still GML 3.1.x and wml2:Observation constrains the featureOfInterest to be a om2:[SamplingFeature](SamplingFeature.md) (gwml:[WaterWell](WaterWell.md) is a om1:[SamplingFeature](SamplingFeature.md)). Even if [WaterML2](WaterML2.md).0 reverts to original constrains for FOI (any feature), the problem would remain, because anyFeature is GML 3.2.1 Feature (gwml is 3.1.1). This is actually an issue because in principle, this document is not schema valid if the client tries to resolve the xlink.
 
 ## SWE encoding using XML encoding.
 
@@ -514,7 +514,7 @@ Because GWML is still GML 3.1.x and wml2:Observation constrains the featureOfInt
 </wml2:WaterMonitoringObservation>
 ```
 
-The result is made of a <a href="DataStream" class="wikilink">DataStream</a> containing 3 blocks. A date structure declaration, an encoding and finally the data. To avoid repetition, the declaration structure can be externalised
+The result is made of a [DataStream](DataStream.md) containing 3 blocks. A date structure declaration, an encoding and finally the data. To avoid repetition, the declaration structure can be externalised
 
 ```
   <om:result>
@@ -665,14 +665,4 @@ There are not significant difference except in the swe:values portion where the 
 </wml2:WaterMonitoringObservation>
 ```
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 06 Oct 2010
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" date="1290525950" format="1.1" version="1.3"}
-
-<!-- -->
-
-- TOPICPARENT{name="Call2010-10-05"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="phenomenon_paring.png" attachment="phenomenon_paring.png" attr="" comment="Phenomenon and field pairing" date="1286385171" path="phenomenon_paring.png" size="34388" stream="phenomenon_paring.png" tmpFilename="/tmp/jx42yfV203" user="Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" version="1"}
+-- EricBoisvert - 06 Oct 2010

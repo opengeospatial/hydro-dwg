@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 14** **-- Mon 17 Mar 2014 -- Conceptual Model**
+# **[GW2IE](GW2IE.md) Meeting 14** **-- Mon 17 Mar 2014 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -14,12 +14,12 @@
 ## **Results**
 
 - deferred discussion of changes proposed by Bruce S. until next meeting
-- for changes [see CM 0.27](GWML2-CM-Model)
+- for changes [see CM 0.27](GWML2-CM-Model.md)
 - natural 'background' context
   - clarified: refers to naturally ocurring concentration levels of constituents,i.e. natural background levels
-  - added <a href="GW_BackgroundConstituent" class="wikilink">GW_BackgroundConstituent</a> to represent the background state for a fluid body
+  - added [GW_BackgroundConstituent](GW_BackgroundConstituent.md) to represent the background state for a fluid body
     - replaces gwBodyNaturalContext and gwChangeBaseline
-- removed Age from <a href="GW_FluidBody" class="wikilink">GW_FluidBody</a>
+- removed Age from [GW_FluidBody](GW_FluidBody.md)
   - added Age to the list of general fluid body physical properties
 - confirmed all remaining parts of fluid body diagram, except constituents (next meeting)
 
@@ -42,7 +42,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 552 535 360
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -54,7 +54,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -79,9 +79,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1395067820" format="1.1" reprev="3" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

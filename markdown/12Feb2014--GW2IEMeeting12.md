@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 12** **-- Wed 12 Feb 2014 -- Conceptual Model**
+# **[GW2IE](GW2IE.md) Meeting 12** **-- Wed 12 Feb 2014 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -15,16 +15,16 @@
 ## **Results**
 
 - In-person meeting date and location confirmed: 05-08 May 2014, Vienna (Geological Survey of Austria)
-- Changes: [see CM 0.26](GWML2-CM-Model)
-  - Set value <a href="PorosityType" class="wikilink">PorosityType</a> as type for gwUnitMedia, gwPorosityType, gwVoidType
+- Changes: [see CM 0.26](GWML2-CM-Model.md)
+  - Set value [PorosityType](PorosityType.md) as type for gwUnitMedia, gwPorosityType, gwVoidType
     - recognizes that the same vocabulary is used for each property
     - context for each property differs:
       - for units refers to the overall unit,
       - for voids refers to the sub-region of voids (e.g. fractures),
       - for porosity refers to a specific measurement
-    - added gwBodyNaturalContext to <a href="GW_FluidBody" class="wikilink">GW_FluidBody</a>
+    - added gwBodyNaturalContext to [GW_FluidBody](GW_FluidBody.md)
       - to account for the environmental context of the groundwater body, often the cause for its constituents, quality, or susceptibility
-    - typed gwWellYield as <a href="GW_Yield" class="wikilink">GW_Yield</a>
+    - typed gwWellYield as [GW_Yield](GW_Yield.md)
 
 ## **Connection Instructions**
 
@@ -35,7 +35,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 554 395 312
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -47,7 +47,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -72,9 +72,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1395068027" format="1.1" reprev="2" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

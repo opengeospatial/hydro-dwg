@@ -12,7 +12,7 @@ So for example, when we request a Conversion object specifically we could do thi
 <b>GET&nbsp;http://waterml2.csiro.au:81/rgs-api/v1/conversion/548/</b>
 ```
 
-\<pre\>"id": 548, "paramFrom": { "id": "100.00", "description": "", "external_definition": "\<a href='<http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseLevel_m>' rel='nofollow'\><http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseLevel_m>\</a\>" }, "paramTo": "\<a href='<http://waterml2.csiro.au:81/rgs-api/v1/variable/141/>' rel='nofollow'\><http://waterml2.csiro.au:81/rgs-api/v1/variable/141/>\</a\>", "conversionperiod_set": \[ "\<a href='<http://waterml2.csiro.au:81/rgs-api/v1/conversion-period/434/>' rel='nofollow'\><http://waterml2.csiro.au:81/rgs-api/v1/conversion-period/434/>\</a\>" \], "monitoringPoint": "\<a href='<http://waterml2.csiro.au:81/rgs-api/v1/monitoring-point/419015/>' rel='nofollow'\><http://waterml2.csiro.au:81/rgs-api/v1/monitoring-point/419015/>\</a\>", "points": \[\</pre\>
+\<pre\>"id": 548, "paramFrom": { "id": "100.00", "description": "", "external_definition": "\<a href='<http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseLevel_m>' rel='nofollow'\><http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseLevel_m>" }, "paramTo": "\<a href='<http://waterml2.csiro.au:81/rgs-api/v1/variable/141/>' rel='nofollow'\><http://waterml2.csiro.au:81/rgs-api/v1/variable/141/>", "conversionperiod_set": \[ "\<a href='<http://waterml2.csiro.au:81/rgs-api/v1/conversion-period/434/>' rel='nofollow'\><http://waterml2.csiro.au:81/rgs-api/v1/conversion-period/434/>" \], "monitoringPoint": "\<a href='<http://waterml2.csiro.au:81/rgs-api/v1/monitoring-point/419015/>' rel='nofollow'\><http://waterml2.csiro.au:81/rgs-api/v1/monitoring-point/419015/>", "points": \[\</pre\>
 
 There are two options shown here:
 
@@ -24,7 +24,7 @@ There are two options shown here:
 <b>GET /rgs-api/v1/variable/141/</b>
 ```
 
-\<pre\>{ "id": "141", "description": "", "external_definition": "\<a href='<http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseDischarge_m3s>' rel='nofollow'\><http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseDischarge_m3s>\</a\>" }\</pre\>
+\<pre\>{ "id": "141", "description": "", "external_definition": "\<a href='<http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseDischarge_m3s>' rel='nofollow'\><http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseDischarge_m3s>" }\</pre\>
 
 This requires one more API call, but lowers the content of the conversion encoding.
 
@@ -38,13 +38,7 @@ GET http://waterml2.csiro.au:81/rgs-api/v1/conversion/?paramFrom=100.00&paramTo=
 
 ## Preferences
 
-- \<span style="background-color: transparent;"\>Paul choses option 1. (the blue door) \</span\>
-- \<span style="background-color: transparent;"\>Feel free to drop your choice here..\</span\>
+- Paul choses option 1. (the blue door)
+- Feel free to drop your choice here..
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 25 Mar 2014
-
-- TOPICINFO{author="<a href="PeterTaylor" class="wikilink">PeterTaylor</a>" date="1395720315" format="1.1" version="2"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="ApplicationProgrammingInterfaceDevelopment" class="wikilink">ApplicationProgrammingInterfaceDevelopment</a>"}
+-- PeterTaylor - 25 Mar 2014

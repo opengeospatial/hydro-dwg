@@ -1,7 +1,5 @@
 ## Open questions
 
-<span class="twiki-macro TOC"></span>
-
 ### **Get rating periods**
 
 Q: I guess we need to discuss how “rating/conversion groups” will be defined. For the IE are we only dealing with stage-discharge rating groups? I assume we want to return a collection of conversionPeriods?
@@ -15,12 +13,12 @@ Q: How will clients actually get rating IDs?
 \<u\>Discussion:\</u\> I've added the identifier (id) property to the JSON encoding. So you can now lookup the ID directly from rating objects. E.g.
 
 ```
- 
+
 ```
 
-\<pre\>**GET** /rgs-api/v1/conversion/548/\</pre\> \<pre\> "id": 548, "paramFrom": "100.00", "paramTo": "141", "conversionperiod_set": \[ "\<a href='<http://waterml2.csiro.au/rgs-api/v1/conversion-period/434/>' rel='nofollow'\><http://waterml2.csiro.au/rgs-api/v1/conversion-period/434/>\</a\>" \], "monitoringPoint": "\<a href='<http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419015/>' rel='nofollow'\><http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419015/>\</a\>", "points": \[ ... \]\</pre\>
+\<pre\>**GET** /rgs-api/v1/conversion/548/\</pre\> \<pre\> "id": 548, "paramFrom": "100.00", "paramTo": "141", "conversionperiod_set": \[ "\<a href='<http://waterml2.csiro.au/rgs-api/v1/conversion-period/434/>' rel='nofollow'\><http://waterml2.csiro.au/rgs-api/v1/conversion-period/434/>" \], "monitoringPoint": "\<a href='<http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419015/>' rel='nofollow'\><http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419015/>", "points": \[ ... \]\</pre\>
 
-\<span style="background-color: transparent;"\> I've also now added the query to retrieve via multiple identifiers. E.g.\</span\>
+I've also now added the query to retrieve via multiple identifiers. E.g.
 
 ```
 GET http://waterml2.csiro.au/rgs-api/v1/conversion/?id=549,548,547
@@ -48,13 +46,13 @@ Q: I think we’re missing rating IDs in parameters?
 
 (two from Paul's client implementation)
 
-\<span style="background-color: transparent;"\>Q: How to get a list of all the available parameter conversions for a site without requesting each table/conversion?\</span\>
+Q: How to get a list of all the available parameter conversions for a site without requesting each table/conversion?
 
 \<u\>Discussion:\</u\> There are a number of different ways this could be implemented. One option is to present the paramFrom/To codes in the applicable period to allow the code to come from the conversion-group request.
 
 e.g. <http://waterml2.csiro.au/rgs-api/v1/conversion-group/?monitoring-point=419009> returns all the conversion groups for a site, with expanded periods containing the parameter pairs. This approach can be tested, and other options expored.
 
-\<span style="background-color: transparent;"\>Q: Need to represent identifiers as well as links\</span\>
+Q: Need to represent identifiers as well as links
 
 \<u\>Discussion:\</u\> Have been added for conversions. Peter H raised the point that not al objects may have identifiers however (they may be just responses from queries/composition of multiple objects). Rating tables should contain ids, however, and these have been included.
 
@@ -67,15 +65,15 @@ This issue cuts across a number of questions. How to represent the parameter ide
 Currently the implementation for the prototype API. If we just use internal codes, there is no way of knowing what they mean (e.g. you just get back '140' as a paramFrom). e.g.
 
 ```
-"id": 8, 
-    "fullConversion": false, 
-    "monitoringPoint": "<a href='http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419009/' rel='nofollow'>http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419009/</a>", 
+"id": 8,
+    "fullConversion": false,
+    "monitoringPoint": "<a href='http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419009/' rel='nofollow'>http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419009/</a>",
     "conversionPeriods": [
         {
-            "paramFrom": "100.00", 
-            "paramTo": "141", 
-            "periodStart": "1998-07-27", 
-            "periodEnd": null, 
+            "paramFrom": "100.00",
+            "paramTo": "141",
+            "periodStart": "1998-07-27",
+            "periodEnd": null,
             "applicableConversion": "<a href='http://waterml2.csiro.au/rgs-api/v1/conversion/440/' rel='nofollow'>http://waterml2.csiro.au/rgs-api/v1/conversion/440/</a>"
 ```
 
@@ -86,13 +84,13 @@ We would have to provide a lookup for what these codes describe (option 3).
 Currently implemented in prototype for Conversions only. This provides a URL to an external vocabulary service. e.g.
 
 ```
-id": 548, 
-    "paramFrom": "<a href='http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseLevel_m' rel='nofollow'>http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseLevel_m</a>", 
-    "paramTo": "<a href='http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseDischarge_m3s' rel='nofollow'>http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseDischarge_m3s</a>", 
+id": 548,
+    "paramFrom": "<a href='http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseLevel_m' rel='nofollow'>http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseLevel_m</a>",
+    "paramTo": "<a href='http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseDischarge_m3s' rel='nofollow'>http://neiivocab.bom.gov.au/std/water/xml/wio0.2/property/wdtf-parameters/WaterCourseDischarge_m3s</a>",
     "conversionperiod_set": [
         "<a href='http://waterml2.csiro.au/rgs-api/v1/conversion-period/434/' rel='nofollow'>http://waterml2.csiro.au/rgs-api/v1/conversion-period/434/</a>"
-    ], 
-    "monitoringPoint": "<a href='http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419015/' rel='nofollow'>http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419015/</a>", 
+    ],
+    "monitoringPoint": "<a href='http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419015/' rel='nofollow'>http://waterml2.csiro.au/rgs-api/v1/monitoring-point/419015/</a>",
     "points": [
 ```
 
@@ -130,10 +128,4 @@ E.g.
 
 <http://waterml2.csiro.au:82/rgs-api/v1/conversion-group/?changesSince=2> \<- Get all groups that have changed in the last 2 hours.
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 19 Mar 2014
-
-- TOPICINFO{author="<a href="PeterTaylor" class="wikilink">PeterTaylor</a>" comment="reprev" date="1397699987" format="1.1" reprev="3" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="ApplicationProgrammingInterfaceDevelopment" class="wikilink">ApplicationProgrammingInterfaceDevelopment</a>"}
+-- PeterTaylor - 19 Mar 2014

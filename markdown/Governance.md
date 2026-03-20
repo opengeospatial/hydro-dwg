@@ -1,7 +1,5 @@
 # Governance
 
-<span class="twiki-macro TOC"></span>
-
 ## Communication
 
 ### Email.
@@ -13,7 +11,7 @@ A Separate email list has been up for RGS working group :
 
 This email group is the primary communication medium outside of meetings.
 
-To ensure the <a href="HydroDWG" class="wikilink">HydroDWG</a> is aware and informed on RGSWG activities we will try to complete a HYDWG update email monthly, communicated through the HDWG email list.
+To ensure the [HydroDWG](HydroDWG.md) is aware and informed on RGSWG activities we will try to complete a HYDWG update email monthly, communicated through the HDWG email list.
 
 ### Meetings
 
@@ -43,19 +41,13 @@ Roadmap of objectives, goals, times.
 
 Votes on scope decisions?
 
-Potential to move it into the <a href="HydroDWG" class="wikilink">HydroDWG</a> as as community standard.
+Potential to move it into the [HydroDWG](HydroDWG.md) as as community standard.
 
 - How to operate as a community standards
-- <a href="GitHub" class="wikilink">GitHub</a> or other alternatives for hosting code, schemas, wikis.
+- [GitHub](GitHub.md) or other alternatives for hosting code, schemas, wikis.
 
 Use the teleconference for raising issues that need to be voted on. Record minority opinion. Revisiting issues that were raised. 2 weeks available to raise objection to decision. Do we have the right group of people?
 
 The intention in discussion governance is not to be overly formal or prescriptive as this is a co-operative working group. The objective is to set some basic rules of operation to enable all members that have equal contribution.
 
--- Main.<a href="PaulSheahan" class="wikilink">PaulSheahan</a> - 06 Jul 2012
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" comment="reprev" date="1345198922" format="1.1" reprev="1" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WaterML2Part2" class="wikilink">WaterML2Part2</a>"}
+-- PaulSheahan - 06 Jul 2012

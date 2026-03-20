@@ -4,44 +4,44 @@ This document is to clarify an issue that we knew existed in the current SOS 1.0
 
 The philosophy of a SOS is to offer large datasets over a small collection of Sensors. This has ramification on how the services interacts with the user. In some situation, such as groundwater levels observed in water wells; We are in the inverse situation; We have a very large collection of "sensor" where very few measurements have been collected. This is at least an issue for the dataset we have in Canada (it will be different when we integrate more traditional sensor later in the project). Looking at the USGS WMS layers, I think they have a similar problem regarding the number of "Sensors", so this discussion would still hold.
 
-<span class="twiki-macro RED"></span> After further reading of SOS, O&M and <a href="SensorML" class="wikilink">SensorML</a>, there is an ambuiguity in what 'procedure' stands for. The UML model of 06-009r6 show that procedure property goes to Process. Although I did not find a place in O&M that says the Process is in fact a <a href="SensorML" class="wikilink">SensorML</a> process, the list of example seems to suggest it. <a href="SensorML" class="wikilink">SensorML</a> process can either be 'physical' or 'pure'. Physical process are sensors (a gizmo) while 'pure' are just methodology. The canadian dataset so far are made of 'pure' Process (ProcessModel in SensorML, see 8.9.1 of OGC 07-000 Sensor Model Language). One source of confusion when we tried to figure this out is that Deegree3 implementation assumes that all procedure are physical processes and insists that a list of those sensors be configured manually (including their location). Furthermore, Deegree 3 SOS implementation uses the sensor location to filter geographically (while it should be the feature of interest), further confusion the issue.
+After further reading of SOS, O&M and [SensorML](SensorML.md), there is an ambuiguity in what 'procedure' stands for. The UML model of 06-009r6 show that procedure property goes to Process. Although I did not find a place in O&M that says the Process is in fact a [SensorML](SensorML.md) process, the list of example seems to suggest it. [SensorML](SensorML.md) process can either be 'physical' or 'pure'. Physical process are sensors (a gizmo) while 'pure' are just methodology. The canadian dataset so far are made of 'pure' Process (ProcessModel in SensorML, see 8.9.1 of OGC 07-000 Sensor Model Language). One source of confusion when we tried to figure this out is that Deegree3 implementation assumes that all procedure are physical processes and insists that a list of those sensors be configured manually (including their location). Furthermore, Deegree 3 SOS implementation uses the sensor location to filter geographically (while it should be the feature of interest), further confusion the issue.
 
-- O&M extract diagram from SOS 1.0 spec: \<br /\> \<img src="%ATTACHURLPATH%/om.jpeg" alt="om.jpeg" width='953' height='738' /\>
+- O&M extract diagram from SOS 1.0 spec:  \<img src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/SOSLargeCollectionSensorDiscussion/om.jpeg>" alt="om.jpeg" width='953' height='738' /\>
 
-Addendum: -- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 27 Nov 2009 <span class="twiki-macro ENDCOLOR"></span>
+Addendum: -- Main.[EricBoisvert](EricBoisvert.md) - 27 Nov 2009
 
-%BLUE%From my understanding of O&M, procedure can be a <a href="SensorML" class="wikilink">SensorML</a> encoding or any 'Process' model you choose - actually similar to what we discussing the other day about use of features types. In a sense it is a union saying we have a sensor/process model if you like but you can specify your own and drop it inside a om:Process element.
+From my understanding of O&M, procedure can be a [SensorML](SensorML.md) encoding or any 'Process' model you choose - actually similar to what we discussing the other day about use of features types. In a sense it is a union saying we have a sensor/process model if you like but you can specify your own and drop it inside a om:Process element.
 
-So the Degree implementation uses the sensor location for spatial filtering of <a href="GetObservation" class="wikilink">GetObservation</a> calls? This seems strange as the spec is pretty clear that the filter is for the <a href="FoI" class="wikilink">FoI</a>; but its understandable if you are taking a sensor viewpoint which often is the battle within the SOS definitions.
+So the Degree implementation uses the sensor location for spatial filtering of [GetObservation](GetObservation.md) calls? This seems strange as the spec is pretty clear that the filter is for the [FoI](FoI.md); but its understandable if you are taking a sensor viewpoint which often is the battle within the SOS definitions.
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 29 Nov 2009 <span class="twiki-macro ENDCOLOR"></span>
+-- PeterTaylor - 29 Nov 2009
 
 This also offers an interesting challenge of merging very different dataset about the same "phenomenon" (groundwater level)
 
 ## SOS logic
 
-The first issue is the way that SOS presents the information to the client application. The first piece of information a client application gets from the service is the <a href="GetCapabilities" class="wikilink">GetCapabilities</a> document. This document describes a list of **offerings**, which are packages of data from a collection of sensors. The offerings describe what is being measured (observedProperty) about which feature (the featureOfInterest) and what procedures is used (a sensor). A procedure in this case is a sensor instance. The immediate problem here is that we have over half a millions "sensors" that would need to be reported in the <a href="GetCapabilities" class="wikilink">GetCapabilities</a> document. Size is one issue; the procedure reference is normally a URN that is a ID that can be used in the <a href="DescribeSensor" class="wikilink">DescribeSensor</a> , so we are looking into a 60-100 characters items including the tags, materializing in a 30-60 Mb file just for Ontario. More than just a document size issue, this kind of list is simply unmanageable in a user interface perspective.
+The first issue is the way that SOS presents the information to the client application. The first piece of information a client application gets from the service is the [GetCapabilities](GetCapabilities.md) document. This document describes a list of **offerings**, which are packages of data from a collection of sensors. The offerings describe what is being measured (observedProperty) about which feature (the featureOfInterest) and what procedures is used (a sensor). A procedure in this case is a sensor instance. The immediate problem here is that we have over half a millions "sensors" that would need to be reported in the [GetCapabilities](GetCapabilities.md) document. Size is one issue; the procedure reference is normally a URN that is a ID that can be used in the [DescribeSensor](DescribeSensor.md) , so we are looking into a 60-100 characters items including the tags, materializing in a 30-60 Mb file just for Ontario. More than just a document size issue, this kind of list is simply unmanageable in a user interface perspective.
 
 The other issue is that BBOX query is made against the featureOfInterest, not the Sensor. Therefore, what you are filtering is the thing you want observation about.
 
-There is a clear distinction between those featureOfInterest and Sensor, although in our case it might end up being the same 'location'. The Sensor is the gizmo that makes measurement and the featureOfInterest is the thing that we are making measurement about. For groundwater level measurements, we obviously make measurement of the water body that is located in the geologic unit (the aquifer), but many hydrogeologists would argue that the water level is the water level of the well, not the aquifer. There are artefacts related to the well that cannot be ignored when making such a measurement and it's not a direct measurement of the water level of the aquifer. Therefore, and its covered by the O&M spec, a sa:<a href="SamplingFeature" class="wikilink">SamplingFeature</a> can be the featureOfInterest of a measurement and the <a href="SamplingFeature" class="wikilink">SamplingFeature</a> is a proxy for the real thing it samples.
+There is a clear distinction between those featureOfInterest and Sensor, although in our case it might end up being the same 'location'. The Sensor is the gizmo that makes measurement and the featureOfInterest is the thing that we are making measurement about. For groundwater level measurements, we obviously make measurement of the water body that is located in the geologic unit (the aquifer), but many hydrogeologists would argue that the water level is the water level of the well, not the aquifer. There are artefacts related to the well that cannot be ignored when making such a measurement and it's not a direct measurement of the water level of the aquifer. Therefore, and its covered by the O&M spec, a sa:[SamplingFeature](SamplingFeature.md) can be the featureOfInterest of a measurement and the [SamplingFeature](SamplingFeature.md) is a proxy for the real thing it samples.
 
 ```
 Observation -> featureOfInterest -> SamplingFeature -> sampledFeature -> Aquifer
 ```
 
-Gwml:Water wells are <a href="SamplingFeatures" class="wikilink">SamplingFeatures</a> and we measure the water level using a very primitive sensor called a "measuring tape" or a high tech version that 'beeps' when it touches water.
+Gwml:Water wells are [SamplingFeatures](SamplingFeatures.md) and we measure the water level using a very primitive sensor called a "measuring tape" or a high tech version that 'beeps' when it touches water.
 
 So the complete picture for Canada
 
 - Sensor = Measuring tapes (that are not there anymore)
-- <a href="FeatureOfInterest" class="wikilink">FeatureOfInterest</a> = <a href="WaterWell" class="wikilink">WaterWell</a>
+- [FeatureOfInterest](FeatureOfInterest.md) = [WaterWell](WaterWell.md)
 
 USA has more sophisticated Sensors, but they still have heaps of them.
 
-Leaves the Observation. <a href="WaterML" class="wikilink">WaterML</a> 2.0 has a subtype of Observation called "<a href="WaterMonitoringObservation" class="wikilink">WaterMonitoringObservation</a>". It is hardly monitored in our case so we should either propose that a new Water observation sub-type created, such as "<a href="DiscreteWaterObservation" class="wikilink">DiscreteWaterObservation</a>" or just use the generic Observation.
+Leaves the Observation. [WaterML](WaterML.md) 2.0 has a subtype of Observation called "[WaterMonitoringObservation](WaterMonitoringObservation.md)". It is hardly monitored in our case so we should either propose that a new Water observation sub-type created, such as "[DiscreteWaterObservation](DiscreteWaterObservation.md)" or just use the generic Observation.
 
-%BLUE%Yes fair point, the naming needs work and I'll put this up for discussion. <span class="twiki-macro ENDCOLOR"></span>
+Yes fair point, the naming needs work and I'll put this up for discussion.
 
 ## Proposed solution
 
@@ -49,7 +49,7 @@ As far as SOS 1.0.0 is concerned, it simply does not fit our requirement (speaki
 
 By considering this :
 
-- "Sensor" (the procedure section of the <a href="GetCapabilities" class="wikilink">GetCapabilities</a>) could be used to designate the whole water well collection as a single Sensor
+- "Sensor" (the procedure section of the [GetCapabilities](GetCapabilities.md)) could be used to designate the whole water well collection as a single Sensor
 - featureOfInterest can be the whole basin or the whole hydrogeologic region.
 
 This is consistent with the BBOX query, because featureOfInterest are what is being filtered The spec says in Table 2.0 (p.24) about feature of interest.
@@ -71,28 +71,28 @@ GML boundedBy) to allow the location to be
 harvested by OGC service registries.
 ```
 
-### Issues for <a href="GetCapabilities" class="wikilink">GetCapabilities</a>
+### Issues for [GetCapabilities](GetCapabilities.md)
 
-The "bend" we make is to report in the <a href="GetCapabilities" class="wikilink">GetCapabilities</a> a whole collection and report a particular instance (a well) in the <a href="GetObservation" class="wikilink">GetObservation</a> document.
+The "bend" we make is to report in the [GetCapabilities](GetCapabilities.md) a whole collection and report a particular instance (a well) in the [GetObservation](GetObservation.md) document.
 
-For Sensor, we report a whole collection and the ID that is reported here cannot be used in a <a href="DescribeSensor" class="wikilink">DescribeSensor</a> to get a single well. But in our case, describe sensor can return a description of the whole collection in general terms (remember that a sensor can also be something like a satellite). So the whole well 'network' is presented as single entity that slowly (over a century and a half) took measurements only once at various locations.
+For Sensor, we report a whole collection and the ID that is reported here cannot be used in a [DescribeSensor](DescribeSensor.md) to get a single well. But in our case, describe sensor can return a description of the whole collection in general terms (remember that a sensor can also be something like a satellite). So the whole well 'network' is presented as single entity that slowly (over a century and a half) took measurements only once at various locations.
 
-### Issues for <a href="DescribeSensor" class="wikilink">DescribeSensor</a>
+### Issues for [DescribeSensor](DescribeSensor.md)
 
-As far as out dataset is concerned, we will return always the same <a href="SensorML" class="wikilink">SensorML</a> description of a network of "measuring tapes". The user won't have a list of ID of individual "Sensors", but the ID of the whole network, so it can only request for that ID anyway.
+As far as out dataset is concerned, we will return always the same [SensorML](SensorML.md) description of a network of "measuring tapes". The user won't have a list of ID of individual "Sensors", but the ID of the whole network, so it can only request for that ID anyway.
 
-### Issues for the <a href="GetObservation" class="wikilink">GetObservation</a> by BBOX
+### Issues for the [GetObservation](GetObservation.md) by BBOX
 
 A typical request for BBOX operation looks like this:
 
 ```
-<sos:GetObservation 
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-   xmlns:gml="http://www.opengis.net/gml" 
-   xmlns:ogc="http://www.opengis.net/ogc" 
-   xmlns:sos="http://www.opengis.net/sos/1.0" 
-   xmlns:om="http://www.opengis.net/om/1.0" 
-   xsi:schemaLocation="http://www.opengis.net/sos/1.0 http://schemas.opengis.net/sos/1.0.0/sosAll.xsd" 
+<sos:GetObservation
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:gml="http://www.opengis.net/gml"
+   xmlns:ogc="http://www.opengis.net/ogc"
+   xmlns:sos="http://www.opengis.net/sos/1.0"
+   xmlns:om="http://www.opengis.net/om/1.0"
+   xsi:schemaLocation="http://www.opengis.net/sos/1.0 http://schemas.opengis.net/sos/1.0.0/sosAll.xsd"
    service="SOS" version="1.0.0" srsName="EPSG:4326">
    <sos:offering>urn:GIN:offering:groundwaterLevel:1</sos:offering>
    <sos:observedProperty>urn:ogc:def:property:OGC:GroundWaterLevel</sos:observedProperty>
@@ -111,20 +111,20 @@ A typical request for BBOX operation looks like this:
 </sos:GetObservation>
 ```
 
-So far, this is consistent with our logic, except the use won't get featureOfInterest that we listed in the <a href="GetCapabilities" class="wikilink">GetCapabilities</a>. The only problem is the property used to filter the location. Actually, it's a problem unrelated to our concessions, but with SOS. The name of the geometry property (gml:location here) of the feature of interest must be known by the client. I don't know where the client is supposed to get this information (did not find a spot in the <a href="GetCapabilities" class="wikilink">GetCapabilities</a>). If we assume that all featureOfInterest are <a href="SamplingPoint" class="wikilink">SamplingPoint</a>, we can assume that the property will be sa:position.
+So far, this is consistent with our logic, except the use won't get featureOfInterest that we listed in the [GetCapabilities](GetCapabilities.md). The only problem is the property used to filter the location. Actually, it's a problem unrelated to our concessions, but with SOS. The name of the geometry property (gml:location here) of the feature of interest must be known by the client. I don't know where the client is supposed to get this information (did not find a spot in the [GetCapabilities](GetCapabilities.md)). If we assume that all featureOfInterest are [SamplingPoint](SamplingPoint.md), we can assume that the property will be sa:position.
 
-### Issues for the <a href="GetObservation" class="wikilink">GetObservation</a> by Id
+### Issues for the [GetObservation](GetObservation.md) by Id
 
-Request for by ID is actually a request targeting a specific sensor (procedure). This example is what a client looking into the <a href="GetCapabilies" class="wikilink">GetCapabilies</a> document would create (see sos:procedure)
+Request for by ID is actually a request targeting a specific sensor (procedure). This example is what a client looking into the [GetCapabilies](GetCapabilies.md) document would create (see sos:procedure)
 
 ```
-<sos:GetObservation 
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-   xmlns:gml="http://www.opengis.net/gml" 
-   xmlns:ogc="http://www.opengis.net/ogc" 
-   xmlns:sos="http://www.opengis.net/sos/1.0" 
-   xmlns:om="http://www.opengis.net/om/1.0" 
-   xsi:schemaLocation="http://www.opengis.net/sos/1.0 http://schemas.opengis.net/sos/1.0.0/sosAll.xsd" 
+<sos:GetObservation
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:gml="http://www.opengis.net/gml"
+   xmlns:ogc="http://www.opengis.net/ogc"
+   xmlns:sos="http://www.opengis.net/sos/1.0"
+   xmlns:om="http://www.opengis.net/om/1.0"
+   xsi:schemaLocation="http://www.opengis.net/sos/1.0 http://schemas.opengis.net/sos/1.0.0/sosAll.xsd"
    service="SOS" version="1.0.0" srsName="EPSG:4326">
    <sos:offering>urn:GIN:offering:groundwaterLevel:1</sos:offering>
 <sos:procedure xlink:href="urn:GIN:feature:MeasuringTape"/>
@@ -138,7 +138,7 @@ Request for by ID is actually a request targeting a specific sensor (procedure).
 
 Obviously, we need the ID of a specific sensor, but the user does not have the ID, unless it got a list from the BBOX request first. In our test demonstration, we always click on a location (because WMS only understand location) or we could click on a KML point that would have this ID. So I guess it a matter of having a user interface that performs a BBOX request before offering the client to pick one in particular.
 
-### Issues for the <a href="GetObservation" class="wikilink">GetObservation</a> by Time instant or Time Range
+### Issues for the [GetObservation](GetObservation.md) by Time instant or Time Range
 
 This one does not seem to cause any problem:
 
@@ -171,17 +171,17 @@ We are holding up for now on SOS 2.0 because we don't have easy accept to the sp
 
 If we stick to 1.0.0 (probably the best solution in this short time frame), those small concessions to the spec should get us going. It's an experiment after all. Actually, it would be a nice result for the short-term experiment (we can conclude in Dec. that SOS 1.0.0 does not cover our needs).
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 26 Nov 2009
+-- EricBoisvert - 26 Nov 2009
 
-%BLUE%Some of these issues are being addressed in SOS2.0 as you say, but I still think large sets of the sensors blowing out the caps documents will remain. In SOS2.0, the offering defintions will restrict an offering to contain one sensor or sensor system. This is to make the relationship between the Procedure-<a href="ObservedProperty" class="wikilink">ObservedProperty</a>-Feature explicit (it is possible in 1.0 that you can compose incorrect queries based on the capabilities metadata). The recommendation in 2.0 is to use sensor Systems for large groupings. The question then is: is it possible to query for individual sensor data using the IDs you parse from the sensorML document? If not, you always need to query across the whole system resulting in larger response documents. -- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 29 Nov 2009 <span class="twiki-macro ENDCOLOR"></span>
+Some of these issues are being addressed in SOS2.0 as you say, but I still think large sets of the sensors blowing out the caps documents will remain. In SOS2.0, the offering defintions will restrict an offering to contain one sensor or sensor system. This is to make the relationship between the Procedure-[ObservedProperty](ObservedProperty.md)-Feature explicit (it is possible in 1.0 that you can compose incorrect queries based on the capabilities metadata). The recommendation in 2.0 is to use sensor Systems for large groupings. The question then is: is it possible to query for individual sensor data using the IDs you parse from the sensorML document? If not, you always need to query across the whole system resulting in larger response documents. -- Main.[PeterTaylor](PeterTaylor.md) - 29 Nov 2009
 
-Is the proposed solution at least acceptable for the immediate future ?-- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 30 Nov 2009
+Is the proposed solution at least acceptable for the immediate future ?-- Main.[EricBoisvert](EricBoisvert.md) - 30 Nov 2009
 
 Should be fine. Let me make sure I have it right, the two issues (large number of sensors & large number of features) will be handled like this:
 
-Sensors: List just a sensor grouping that represents all sensors. Benefit: No blow out of the capabilities document. Drawback: can't query on individual sensors so <a href="GetObservation" class="wikilink">GetObservation</a> calls will return all sensor data that are restricted by other filters (spatial or phenomenon based).
+Sensors: List just a sensor grouping that represents all sensors. Benefit: No blow out of the capabilities document. Drawback: can't query on individual sensors so [GetObservation](GetObservation.md) calls will return all sensor data that are restricted by other filters (spatial or phenomenon based).
 
-Features. Same idea but still possible to filter using BBOX but not individual <a href="FeatureID" class="wikilink">FeatureID</a> as client does not know the IDs as not listed. My problem with this one is that in the response to <a href="GetObservation" class="wikilink">GetObservation</a> we will initially just return a URN to the individual feature IDs (that were not listed originally), so there isn't any spatial location available for the individual feature. I see that using the test SOS you return this:
+Features. Same idea but still possible to filter using BBOX but not individual [FeatureID](FeatureID.md) as client does not know the IDs as not listed. My problem with this one is that in the response to [GetObservation](GetObservation.md) we will initially just return a URN to the individual feature IDs (that were not listed originally), so there isn't any spatial location available for the individual feature. I see that using the test SOS you return this:
 
 ```
 <om:member>
@@ -226,7 +226,7 @@ Features. Same idea but still possible to filter using BBOX but not individual <
   </om:member>
 ```
 
-But the wml:<a href="WaterMonitoringObservation" class="wikilink">WaterMonitoringObservation</a> doesn't contain a gml:location property - which is by design through the O&M specification where spatial properties are pushed to the <a href="FoI" class="wikilink">FoI</a> (there is a bounding box inherited through <a href="AbstractFeature" class="wikilink">AbstractFeature</a> but I don't think that should be used here). O&M sect 6.4 - "...the generic Observation class does not have an inherent location property. Relevant location information should be provided by the feature of interest, or by the observation procedure, according to the specific scenario."
+But the wml:[WaterMonitoringObservation](WaterMonitoringObservation.md) doesn't contain a gml:location property - which is by design through the O&M specification where spatial properties are pushed to the [FoI](FoI.md) (there is a bounding box inherited through [AbstractFeature](AbstractFeature.md) but I don't think that should be used here). O&M sect 6.4 - "...the generic Observation class does not have an inherent location property. Relevant location information should be provided by the feature of interest, or by the observation procedure, according to the specific scenario."
 
 The way to serve the spatial properties would be to embed the sampling point description (which is perhaps what you plan to do once I remove the feature restriction) like this (a mocked up example based on your outputs):
 
@@ -254,31 +254,21 @@ The way to serve the spatial properties would be to embed the sampling point des
   <!-- Continues with results.. -->
 ```
 
-If we use a URN instead of an inline description then we would need to resolve the spatial properties through a <a href="GetFeatureOfInterest" class="wikilink">GetFeatureOfInterest</a> using the ID. You could still do this as you have an ID after the <a href="GetObservation" class="wikilink">GetObservation</a> but it makes a lot of calls and you get observations before you get spatial properties which is a bit back to front in some ways. As we are not validating the schema output at the moment then you could still do this with the restriction in, but if your client binds using any sort of automated XML beans with validation then we will hit issues.
+If we use a URN instead of an inline description then we would need to resolve the spatial properties through a [GetFeatureOfInterest](GetFeatureOfInterest.md) using the ID. You could still do this as you have an ID after the [GetObservation](GetObservation.md) but it makes a lot of calls and you get observations before you get spatial properties which is a bit back to front in some ways. As we are not validating the schema output at the moment then you could still do this with the restriction in, but if your client binds using any sort of automated XML beans with validation then we will hit issues.
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 01 Dec 2009
+-- PeterTaylor - 01 Dec 2009
 
-Good point. This is why I added the gml:location to the Observation hoping to dodge the problem. The other issue I had with the query is that the filter must explictly target the geometry property. This assumes that the <a href="FoI" class="wikilink">FoI</a> is
+Good point. This is why I added the gml:location to the Observation hoping to dodge the problem. The other issue I had with the query is that the filter must explictly target the geometry property. This assumes that the [FoI](FoI.md) is
 
 - schematically known prior to the query (the user knows which property has the geometry)
-- the <a href="FoI" class="wikilink">FoI</a> is always of the same type, or the user must list the alternatives with a big ogc:OR statement.
+- the [FoI](FoI.md) is always of the same type, or the user must list the alternatives with a big ogc:OR statement.
 
-Actually this is a good argument to the restriction you had on featureOfInterest, because it limited the types of <a href="FoI" class="wikilink">FoI</a>. In the mean time, since <a href="WaterWell" class="wikilink">WaterWell</a> is also a <a href="SamplingPoint" class="wikilink">SamplingPoint</a>, sa:position works for us. So maybe we could state the <a href="FoI" class="wikilink">FoI</a> must be a SamplingFeature (at large) ?
+Actually this is a good argument to the restriction you had on featureOfInterest, because it limited the types of [FoI](FoI.md). In the mean time, since [WaterWell](WaterWell.md) is also a [SamplingPoint](SamplingPoint.md), sa:position works for us. So maybe we could state the [FoI](FoI.md) must be a SamplingFeature (at large) ?
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 01 Dec 2009
+-- EricBoisvert - 01 Dec 2009
 
 Trying to make sense of the SOS 2.0 spec. Now it seems that each ObservationOffering in the GetCapabilities is a single Sensor or SensorSystem (there is no explicit Sensor reference).
 
-Section 7.2.3.3 says: "An <a href="ObservationOffering" class="wikilink">ObservationOffering</a> groups collection of sensor observations produced by exactly **one sensor system** ".
+Section 7.2.3.3 says: "An [ObservationOffering](ObservationOffering.md) groups collection of sensor observations produced by exactly **one sensor system** ".
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 25 Feb 2010
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" date="1267135551" format="1.1" reprev="1.8" version="1.8"}
-
-<!-- -->
-
-- TOPICPARENT{name="SOSServer"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="om.jpeg" attachment="om.jpeg" attr="" comment="O&M extract diagram from SOS 1.0 spec" date="1259352716" path="om.jpeg" size="208522" stream="om.jpeg" tmpFilename="/tmp/xvJKWKbcZQ" user="Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" version="1"}
+-- EricBoisvert - 25 Feb 2010

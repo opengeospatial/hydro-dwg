@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 38 -- Wed 20 May 2015**
+# **[GW2IE](GW2IE.md) Meeting 38 -- Wed 20 May 2015**
 
 ## **Agenda**
 
@@ -52,7 +52,7 @@
   - Use-case 4: on-track
   - Use-case 5: on-track
     - template for reporting to be determined (see above)
-    - mappings: INSPIRE, GWML1, <a href="HY_Features" class="wikilink">HY_Features</a>
+    - mappings: INSPIRE, GWML1, [HY_Features](HY_Features.md)
 
 ## **Connection Instructions**
 
@@ -64,7 +64,6 @@
   - pass: ogc
   - url: <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m33b8d4bd1c888e48d7e8ba7cf4f444a1>
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -82,9 +81,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1432130501" format="1.1" reprev="3" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

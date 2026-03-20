@@ -23,10 +23,4 @@ Core use cases:
 6.  **Research services**
     1.  Point a student towards a service with stage, rating, and associated gaugings.
 
--- Main.<a href="PaulSheahan" class="wikilink">PaulSheahan</a> - 06 Jul 2012
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" date="1341562854" format="1.1" version="1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="RGSWorkshopRatingsNotes" class="wikilink">RGSWorkshopRatingsNotes</a>"}
+-- PaulSheahan - 06 Jul 2012

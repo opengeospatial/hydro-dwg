@@ -1,8 +1,8 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 44 -- Wed 23 Sept 2015 -- Orleans in-person**
+# **[GW2IE](GW2IE.md) Meeting 44 -- Wed 23 Sept 2015 -- Orleans in-person**
 
 - Time: 10:00
 - Location: BRGM (J2 114 -- 1st floor)
-  - Logistics: see [HDWG directions](HydroDWGOrleansAttendees)
+  - Logistics: see [HDWG directions](HydroDWGOrleansAttendees.md)
   - Note: HDWG meeting starts 9:00 in the 8th floor boardroom
 
 ## **Agenda**
@@ -12,7 +12,7 @@
   - Discuss issues / changes
   - Develop Charter
   - Plan next Steps
-  - <a href="HY_features" class="wikilink">HY_features</a> mapping
+  - [HY_features](HY_features.md) mapping
 
 ## **Participants**
 
@@ -26,7 +26,6 @@
   - pass: ogc
   - url:
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -44,9 +43,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1442995907" format="1.1" reprev="3" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

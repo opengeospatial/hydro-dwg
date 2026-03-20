@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 47 -- Thurs 10 Dec 2015**
+# **[GW2IE](GW2IE.md) Meeting 47 -- Thurs 10 Dec 2015**
 
 ## **Agenda**
 
@@ -21,17 +21,17 @@
   - OGC PC: to approve results of electronic vote (2 weeks: to mid-Feb)
   - GW2IE can continue ad-hoc until SWG is final (i.e. upon OGC PC approval)
     - canvas for broader EU participation in SWG (during OGC public comment period) (**Boyan**)
-- <a href="HY_Features" class="wikilink">HY_Features</a> compatibility
+- [HY_Features](HY_Features.md) compatibility
   - resolved in Orleans: groundwater features removed
 - GWML2 specification: complete by mid-Feb
   - summary: add flow diagram (**Boyan**)
   - logical UML:
-    - change <a href="OM_Measurement" class="wikilink">OM_Measurement</a> to <a href="OM_Observation" class="wikilink">OM_Observation</a> globally (**Francois**)
+    - change [OM_Measurement](OM_Measurement.md) to [OM_Observation](OM_Observation.md) globally (**Francois**)
     - change screen size to width and length (**Francois**)
     - specific capacity for wells: result of aquifer test? (**Eric/Sylvain**)
       - confirmed: result of aquifer test, encoded in O&M, no change needed
     - replace logical diagrams (**Boyan**)
-  - schema: change <a href="OM_Measurement" class="wikilink">OM_Measurement</a> to <a href="OM_Observation" class="wikilink">OM_Observation</a> globally (**Francois**)
+  - schema: change [OM_Measurement](OM_Measurement.md) to [OM_Observation](OM_Observation.md) globally (**Francois**)
   - instance docs: change screen size (**all**)
   - Others: (implications: **Eric**)
     - TimeSeriesML?
@@ -54,7 +54,6 @@
   - pass: ogc
   - url: <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m30a72d0ba79b0a5fffc19af3946b91da>
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -72,9 +71,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1452297010" format="1.1" reprev="7" version="9"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

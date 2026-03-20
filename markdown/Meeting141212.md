@@ -20,7 +20,7 @@
 
 \- Capturing the description of parameters. Need to be consistent with part 1. May use the same local dictionary for params?
 
-\- Transition period. Put Paul's \<a href="<a href="RatingPhasedDuration" class="wikilink">RatingPhasedDuration</a>" target="\_blank"\>document \</a\>\<a href="<a href="RatingPhasedDuration" class="wikilink">RatingPhasedDuration</a>" target="\_blank"\>up on wiki\</a\>. Model the approach both ways. Email on preferences.
+\- Transition period. Put Paul's [document](RatingPhasedDuration.md) [up on wiki](RatingPhasedDuration.md). Model the approach both ways. Email on preferences.
 
 \- Range values: water quality thresholds, other approaches -- more complex thresholds. May have an algorithm for the values of the range type. Work on list of common types.
 
@@ -36,12 +36,6 @@
 
 ## Next steps
 
-\- Presenation to Redlands TC at the <a href="HydroDWG" class="wikilink">HydroDWG</a> session on the 16th Jan: <http://www.opengeospatial.org/event/1301tcagenda>. We will forward around the draft presentation.
+\- Presenation to Redlands TC at the [HydroDWG](HydroDWG.md) session on the 16th Jan: <http://www.opengeospatial.org/event/1301tcagenda>. We will forward around the draft presentation.
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 13 Dec 2012
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" comment="save topic" date="1360302274" format="1.1" reprev="2" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WaterML2Part2" class="wikilink">WaterML2Part2</a>"}
+-- PeterTaylor - 13 Dec 2012

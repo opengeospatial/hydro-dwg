@@ -1,28 +1,28 @@
 Is this still a private page?
 
--- Main.<a href="DavidValentine" class="wikilink">DavidValentine</a> - 10 Nov 2009
+-- DavidValentine - 10 Nov 2009
 
 ## Some questions of the schema:
 
-\- We have seen an example instance document - thank you Peter! - Will this specialized schema also support Capabilities and <a href="DescribeSensor" class="wikilink">DescribeSensor</a>, or just for Observations? - Some initial comments of the schema per our last call: -- Might we move phenomena up to a level above the time series (to avoid duplication); same for units?
+\- We have seen an example instance document - thank you Peter! - Will this specialized schema also support Capabilities and [DescribeSensor](DescribeSensor.md), or just for Observations? - Some initial comments of the schema per our last call: -- Might we move phenomena up to a level above the time series (to avoid duplication); same for units?
 
--- Main.<a href="NateBooth" class="wikilink">NateBooth</a> - 13 Nov 2009
+-- NateBooth - 13 Nov 2009
 
 regarding the schemas, as far as I can tell, Peter's schema is just for the GetObservations (and the like) operations. The other operations are describes in their respective specs.
 
 - The GetCapabilities schemas is provided by the SOS specificiation and is available here: <http://schemas.opengis.net/sos/1.0.0/sosGetCapabilities.xsd>
-- The DescribreSensor schemas is <a href="SensorML" class="wikilink">SensorML</a> or TML, provided here : <http://schemas.opengis.net/sensorML/> (I don't know if we shall use 1.0.0 or 1.0.1. I suspect 1.0.1 is a very minor fix of 1.0.0 and we should use the latter)
+- The DescribreSensor schemas is [SensorML](SensorML.md) or TML, provided here : <http://schemas.opengis.net/sensorML/> (I don't know if we shall use 1.0.0 or 1.0.1. I suspect 1.0.1 is a very minor fix of 1.0.0 and we should use the latter)
 
 I do have some questions for Peter as well
 
-- The model you provided constrains featureOfInterest to a series a Water sampling feature (and this constrain does not seems to be honoured by <a href="FullMoon" class="wikilink">FullMoon</a>). What is the rational to constrain featureOfInterest. ?
+- The model you provided constrains featureOfInterest to a series a Water sampling feature (and this constrain does not seems to be honoured by [FullMoon](FullMoon.md)). What is the rational to constrain featureOfInterest. ?
 - Is there a plan to define a whole suite of Water sampling subtypes ?
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 14 Nov 2009
+-- EricBoisvert - 14 Nov 2009
 
 Yes that is right Eric, there is a seperation between the schema and what is specific to the SOS. The schema is aimed at specializing the O&M model which is purely for the observation structure. That said, the definitions of procedures can be passed back via a describeSensor call. Within SOS this is done with SensorML, but we have not done any modeling on water-specific sensor types at this stage.
 
-- \_The model you provided constrains featureOfInterest to a series a Water sampling feature (and this constrain does not seems to be honoured by <a href="FullMoon" class="wikilink">FullMoon</a>). What is the rational to constrain featureOfInterest. ?\_
+- \_The model you provided constrains featureOfInterest to a series a Water sampling feature (and this constrain does not seems to be honoured by [FullMoon](FullMoon.md)). What is the rational to constrain featureOfInterest. ?\_
 
 The initial reason for this was that there was going to be a suite of water sampling sub-types defined (as this was going to be another group). At the moment we don't have such a definition so it should probably be removed to allow substitution of anyFeature. That raises the question of how you would like to link to the actual features. If you guys have WFS instances that serve the groundwater structures are we going to provide xlinks to the WFS feature? This would mean it shouldn't matter what types are allowed as you can always reference with xlink (I think...).
 
@@ -32,26 +32,26 @@ In terms of being honored by FullMoon - it is currently being restricted using s
 
 The observedProperty (phenomena) is currently defined per observation so shouldn't be duplicated, couldn't see where you mean? For unit of measure it would be possible to specify a default unit of measure at the top level (similar to the way defaultInterpolation type is specified) and the sweCommon Quantity doesn't require a unit of measure so we could do this. I'll have a look.
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 17 Nov 2009
+-- PeterTaylor - 17 Nov 2009
 
 Peter said : "If you guys have WFS instances that serve the groundwater structures are we going to provide xlinks to the WFS feature? This would mean it shouldn't matter what types are allowed as you can always reference with xlink (I think...). "
 
-Actually, we do, and this is what triggered the question about featureOfInterest restriction. We have a WFS that serves gwml:<a href="WaterWell" class="wikilink">WaterWell</a> and gwml:Aquifer. We expect the featureOfInterest to be either one.
+Actually, we do, and this is what triggered the question about featureOfInterest restriction. We have a WFS that serves gwml:[WaterWell](WaterWell.md) and gwml:Aquifer. We expect the featureOfInterest to be either one.
 
 " it is currently being restricted using schematron "
 
 Ah.. I totally missed that. Sorry
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 17 Nov 2009
+-- EricBoisvert - 17 Nov 2009
 
 After a bit of discussion with Boyan.
 
 - Would it be possible to relax the constrains in featureOfInterest and allow any types to be refered, I understand that if we use xlink, the validator can't tell until the content is resolved and it's therefore not an immediate issue.
 - Is the result structure cast in stone ?
-- GWML uses vanilla <a href="OandM" class="wikilink">OandM</a> schemas, therefore using a subtyped <a href="WaterML" class="wikilink">WaterML</a> <a href="OandM" class="wikilink">OandM</a> is not an issue (schema wise).
-- There was a discussion last week regarding registries (it drifted to a CSW catalog discussion). GeoSciML communities plans to use SKOS to document vocabulary items. I'm not quite sure how this fits into <a href="WaterWL" class="wikilink">WaterWL</a> requirements; formal metadata are much richer that SKOS entries but SKOS is an organised graph of terms. Since SOS makes uses of some of those terms (observedProperty for instance), do we want to store this reference in CSW or into a SKOS repository. Or do we have to care ?
+- GWML uses vanilla [OandM](OandM.md) schemas, therefore using a subtyped [WaterML](WaterML.md) [OandM](OandM.md) is not an issue (schema wise).
+- There was a discussion last week regarding registries (it drifted to a CSW catalog discussion). GeoSciML communities plans to use SKOS to document vocabulary items. I'm not quite sure how this fits into [WaterWL](WaterWL.md) requirements; formal metadata are much richer that SKOS entries but SKOS is an organised graph of terms. Since SOS makes uses of some of those terms (observedProperty for instance), do we want to store this reference in CSW or into a SKOS repository. Or do we have to care ?
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 18 Nov 2009
+-- EricBoisvert - 18 Nov 2009
 
 Action Item from our 12/18 call - USGS data qualifier codes.
 
@@ -73,7 +73,7 @@ P     Provisional data subject to revision.
       No remark (blank)
 ```
 
--- Main.<a href="NateBooth" class="wikilink">NateBooth</a> - 23 Nov 2009
+-- NateBooth - 23 Nov 2009
 
 An example of how you would use this qualification could be:
 
@@ -121,20 +121,10 @@ An example of how you would use this qualification could be:
           </value>
           <comment>A single observation of well level</comment>
         </TimeValuePair>
-      </element>           
+      </element>
     </TimeSeries>
   </om:result>
 </WaterMonitoringObservation>
 ```
 
 It's good if the codeSpace resolves to as close as possible to the definition - at least if we are linking to something descriptive.
-
-- TOPICINFO{author="<a href="PeterTaylor" class="wikilink">PeterTaylor</a>" date="1259647277" format="1.1" version="1.10"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundWaterIEPrivate" class="wikilink">GroundWaterIEPrivate</a>"}
-
-<!-- -->
-
-- PREFERENCE{name="ALLOWTOPICVIEW" title="ALLOWTOPICVIEW" type="Set" value="<a href="DavidValentine" class="wikilink">DavidValentine</a>,<a href="PeterTaylor" class="wikilink">PeterTaylor</a>,<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>,<a href="NateBooth" class="wikilink">NateBooth</a>,<a href="DavidLemon" class="wikilink">DavidLemon</a>,<a href="EricBoisvert" class="wikilink">EricBoisvert</a>,<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a>"}

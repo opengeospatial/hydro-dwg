@@ -2,11 +2,11 @@
 
 ## Participants
 
-- B.Brodaric (Lead), E.Boisvert (GSC), L. Chery (BRGM), S. Grellet (BRGM), S.Gabillard (BRGM), Tomasz Nalecz (PGI), Jessica Lucido (USGS), Bruce Simons (CSIRO-<a href="BoM" class="wikilink">BoM</a>), Peter Dahlhaus (FedUni), Alex Kmoch (GNS / <a href="Z_GIS" class="wikilink">Z_GIS</a>)
+- B.Brodaric (Lead), E.Boisvert (GSC), L. Chery (BRGM), S. Grellet (BRGM), S.Gabillard (BRGM), Tomasz Nalecz (PGI), Jessica Lucido (USGS), Bruce Simons (CSIRO-[BoM](BoM.md)), Peter Dahlhaus (FedUni), Alex Kmoch (GNS / [Z_GIS](Z_GIS.md))
 
 ## Discussion Page
 
-- For discussion about this use case please add comments to [this page](UseCase1Discussion).
+- For discussion about this use case please add comments to [this page](UseCase1Discussion.md).
 
 ## Abstract
 
@@ -14,17 +14,17 @@
 
 ## Objective
 
-- \<p\>Serving water well and aquifer data so it can be used for commerical purposes such as to inform drilling.\</p\>
+- Serving water well and aquifer data so it can be used for commerical purposes such as to inform drilling.
 
 ## Actors
 
-- \<p\>Public, Consultants, Drillers\</p\>
+- Public, Consultants, Drillers
 
 ## Actions
 
-- \<p\>A member of the public finds wells near their home.\</p\>
-- \<p\>A consutant examines the well-logs and aquifer info and determines there is groundwater potential.\</p\>
-- \<p\>A driller uses the well-logs and aquier info to estimate depth to water for price estimate.\</p\>
+- A member of the public finds wells near their home.
+- A consutant examines the well-logs and aquifer info and determines there is groundwater potential.
+- A driller uses the well-logs and aquier info to estimate depth to water for price estimate.
 
 ## Entities (Features, Observations, Properties)
 
@@ -42,7 +42,7 @@
 
 ## Implementation
 
-<span class="twiki-macro TABLE" tableborder="2" tablebordercolor="#D3D3D3" tableframe="below">cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" </span>
+cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline"
 
 | Web Service | Input Database | Output Schema | Implementer |
 |:---|:---|:---|:---|
@@ -60,15 +60,9 @@
 | Client | VVG (Ballarat) | GWML2 | FedUni |
 | Client | GIN (Canada) | N/A | GSC |
 | Client | PGI (Poland) | N/A | PGI |
-| WMS | NGMP/SOE (New Zealand) | N/A | GNS / <a href="Z_GIS" class="wikilink">Z_GIS</a> |
-| WFS | NGMP/SOE (New Zealand) | GWML2 | GNS / <a href="Z_GIS" class="wikilink">Z_GIS</a> |
+| WMS | NGMP/SOE (New Zealand) | N/A | GNS / [Z_GIS](Z_GIS.md) |
+| WFS | NGMP/SOE (New Zealand) | GWML2 | GNS / [Z_GIS](Z_GIS.md) |
 
--- Main.<a href="AlexKmoch" class="wikilink">AlexKmoch</a> - 02 Jul 2015
+-- AlexKmoch - 02 Jul 2015
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 24 Oct 2012
-
-- TOPICINFO{author="<a href="AlexKmoch" class="wikilink">AlexKmoch</a>" comment="reprev" date="1435813189" format="1.1" reprev="13" version="13"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 24 Oct 2012

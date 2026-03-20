@@ -30,15 +30,9 @@
 1.  Slide to be prepared for Leuven TC closing plenary (Boyan)
     - for vote to approve follow-up TC and PC votes
 2.  GW SWG members to update wiki with endpoints: (All)
-    - [web service endpoints delivering GWML2](GINsForWMOCHy)
-    - [vocabularies used by GWML2 endpoints](GWML2Vocabularies)
+    - [web service endpoints delivering GWML2](GINsForWMOCHy.md)
+    - [vocabularies used by GWML2 endpoints](GWML2Vocabularies.md)
 3.  Follow-up GW SWG telecon meeting to be held (Boyan)
     - re: JSON and RDF encoding activity
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 25 Jun 2019
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1561517668" format="1.1" reprev="1" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundWaterSWG" class="wikilink">GroundWaterSWG</a>"}
+-- BoyanBrodaric - 25 Jun 2019

@@ -4,19 +4,19 @@ Develop a clear understanding of each organisation's motivation for involvement,
 
 **Bureau of Meteorology & CSIRO**
 
-WIRADA. Last year of operation. Project proposal for \_June 2012-2013\_. Discussions for further work in this area for following years. \<br /\>National water information. Curator of data but not custodian. If changes are required. Managing corrections to data between agencies and a central repository. Not doing manual inspections, may be implementing auto QA down the track.\<br /\>Full system synching is out of scope. E.g. Hydstra to Hydstra.\<br /\>Committed to next year of work.
+WIRADA. Last year of operation. Project proposal for \_June 2012-2013\_. Discussions for further work in this area for following years. National water information. Curator of data but not custodian. If changes are required. Managing corrections to data between agencies and a central repository. Not doing manual inspections, may be implementing auto QA down the track.Full system synching is out of scope. E.g. Hydstra to Hydstra.Committed to next year of work.
 
-**KISTERS (MN)\<br /\>**Continuation of work in <a href="WaterML2" class="wikilink">WaterML2</a>.0 work. Impossible? From a users’ perspective may be useful. Ratings as part of a workflow -- large variances in actual usage. Harmonised development of rating curves within the UK (stage-discharge specific). What set of metadata is mandatory? \<br /\>Cross sections, gaugings, field work. Issues within the practice itself, not just in the interchange of change.Rating curve editors: 2 editors (SKED, exports, data exchange). Around 12 different workflows for creating a rating.What are the constraints/limitations in using a rating? Curves, tables. Is the table a representation of the combined methods. Do we just focus on tables?\<br /\>Representation of clients. More harmonisation is better for the customer.
+**KISTERS (MN)**Continuation of work in [WaterML2](WaterML2.md).0 work. Impossible? From a users’ perspective may be useful. Ratings as part of a workflow -- large variances in actual usage. Harmonised development of rating curves within the UK (stage-discharge specific). What set of metadata is mandatory? Cross sections, gaugings, field work. Issues within the practice itself, not just in the interchange of change.Rating curve editors: 2 editors (SKED, exports, data exchange). Around 12 different workflows for creating a rating.What are the constraints/limitations in using a rating? Curves, tables. Is the table a representation of the combined methods. Do we just focus on tables?Representation of clients. More harmonisation is better for the customer.
 
 **CEH (Matt)**
 
-Manage the national river flow archive. Fit for purpose of data. Daily flows, but moving onto other sets. Don’t currently take on the curve at the moment. Receive descriptions of rating changes, metadata. Flood estimates. National method for estimating (regional analysis) flows based on related sites and stats. Objective quantification of uncertainty. Ongoing involvement. An active member of the <a href="HydroDWG" class="wikilink">HydroDWG</a>. Involved where possible. Also deals with field metadata for downstream science - e.g. models.
+Manage the national river flow archive. Fit for purpose of data. Daily flows, but moving onto other sets. Don’t currently take on the curve at the moment. Receive descriptions of rating changes, metadata. Flood estimates. National method for estimating (regional analysis) flows based on related sites and stats. Objective quantification of uncertainty. Ongoing involvement. An active member of the [HydroDWG](HydroDWG.md). Involved where possible. Also deals with field metadata for downstream science - e.g. models.
 
 **Aquatic Informatics (Stuart)**
 
-Looking at OGC compliance. Data ingestion and publication. Representing the domain expert. North American Stream Hydrographers - best practices for hydrometrics. Working group on data sharing. Quantification of uncertainty. Discharge not a direct measure, so consuming requires some understanding of the process. Fitness of purpose for different uses. Ratings without gaugings are nearly useless. Looking at transitions between curves.\<br /\>Step towards quantifying uncertainty, this is a step in the right direction but the practice is a long way off.\<br /\>Touraj also available to assist on the technical side. Can provide an end users perspective, data supplier. Make it easy to be OGC compliant. Who are the end users? Taking user types to profile for specific uses.
+Looking at OGC compliance. Data ingestion and publication. Representing the domain expert. North American Stream Hydrographers - best practices for hydrometrics. Working group on data sharing. Quantification of uncertainty. Discharge not a direct measure, so consuming requires some understanding of the process. Fitness of purpose for different uses. Ratings without gaugings are nearly useless. Looking at transitions between curves.Step towards quantifying uncertainty, this is a step in the right direction but the practice is a long way off.Touraj also available to assist on the technical side. Can provide an end users perspective, data supplier. Make it easy to be OGC compliant. Who are the end users? Taking user types to profile for specific uses.
 
-**CUAHSI (DV)\<br /\>**Contributing the user side. User evaluation. Getting non timeseries data into ODM/HIS. Informing design of ODM2, analytical data. Stakeholder and feeding back into user community.
+**CUAHSI (DV)**Contributing the user side. User evaluation. Getting non timeseries data into ODM/HIS. Informing design of ODM2, analytical data. Stakeholder and feeding back into user community.
 
 **USGS** **(Dave Blodgett)**
 
@@ -24,14 +24,8 @@ Learn from DB2. Looking at a users perspective. Recent field work. National wate
 
 **USGS (** **Dave Briar)**
 
-Rating and gaugings schema for internal use. Geoff Chrisman developed the schema. Could provide a strawman, input into the process. Aquatic Informatics heavily involved in its use and deployment. Data provider. Consumers (e.g. NOAA) should access processed stream flow. NWIS produce their own ratings. Concept of uncertainty is a big driver for current tender for timeseries management software. Gaugings information not currently supplied but would be useful -- perhaps a higher priority for NWIS. No cross-sections currently delivered. Need to link to the end users are interested in the sub types of information. NOAA currently queries NWIS for a CSV style description of the shifted rating table.\<br /\>NWIS may look at refactoring the CIDA OGC services for use in a larger context. Pending work on replacing parts of NWIS.\<br /\>CIDA committed to the group. DB a conduit back into the CIDA group. 2-3 representatives to <a href="HydroDWG" class="wikilink">HydroDWG</a>. Architecture for climate science centres -- advisor to this group.
+Rating and gaugings schema for internal use. Geoff Chrisman developed the schema. Could provide a strawman, input into the process. Aquatic Informatics heavily involved in its use and deployment. Data provider. Consumers (e.g. NOAA) should access processed stream flow. NWIS produce their own ratings. Concept of uncertainty is a big driver for current tender for timeseries management software. Gaugings information not currently supplied but would be useful -- perhaps a higher priority for NWIS. No cross-sections currently delivered. Need to link to the end users are interested in the sub types of information. NOAA currently queries NWIS for a CSV style description of the shifted rating table.NWIS may look at refactoring the CIDA OGC services for use in a larger context. Pending work on replacing parts of NWIS.CIDA committed to the group. DB a conduit back into the CIDA group. 2-3 representatives to [HydroDWG](HydroDWG.md). Architecture for climate science centres -- advisor to this group.
 
 Dave Briar’s group has a mandate to provide high quality stream data.
 
--- Main.<a href="PaulSheahan" class="wikilink">PaulSheahan</a> - 06 Jul 2012
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" comment="save topic" date="1341560558" format="1.1" reprev="1" version="1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WaterML2Part2" class="wikilink">WaterML2Part2</a>"}
+-- PaulSheahan - 06 Jul 2012

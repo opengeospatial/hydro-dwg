@@ -6,24 +6,10 @@ This topic is Set to private and will require a login.
 
 Pages:
 
-- <a href="GwIeWaterML2" class="wikilink">GwIeWaterML2</a>
+- [GwIeWaterML2](GwIeWaterML2.md)
 
----- **To Set a Topic to private** \* clikcing "More topic actions", \* "Edit Settings" \* type \* Set ALLOWTOPICVIEW = <a href="DavidValentine" class="wikilink">DavidValentine</a>,<a href="PeterTaylor" class="wikilink">PeterTaylor</a>,<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>,<a href="NateBooth" class="wikilink">NateBooth</a>,<a href="DavidLemon" class="wikilink">DavidLemon</a>,<a href="EricBoisvert" class="wikilink">EricBoisvert</a>,<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a>
+---- **To Set a Topic to private** \* clikcing "More topic actions", \* "Edit Settings" \* type \* Set ALLOWTOPICVIEW = [DavidValentine](DavidValentine.md),[PeterTaylor](PeterTaylor.md),[BoyanBrodaric](BoyanBrodaric.md),[NateBooth](NateBooth.md),[DavidLemon](DavidLemon.md),[EricBoisvert](EricBoisvert.md),[IlyaZaslavsky](IlyaZaslavsky.md)
 
 \[multiple of 3 spaces\] \* \[space\] Set \[space\] VARIABLENAME \[space\] = \[value\]
 
--- Main.<a href="DavidValentine" class="wikilink">DavidValentine</a> - 10 Nov 2009
-
-- TOPICINFO{author="<a href="DavidValentine" class="wikilink">DavidValentine</a>" date="1265324831" format="1.1" version="1.3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment" class="wikilink">GroundwaterInteroperabilityExperiment</a>"}
-
-<!-- -->
-
-- TOPICMOVED{by="<a href="DavidValentine" class="wikilink">DavidValentine</a>" date="1257894426" from="<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>.Private" to="<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>.<a href="GroundWaterIEPrivate" class="wikilink">GroundWaterIEPrivate</a>"}
-
-<!-- -->
-
-- PREFERENCE{name="ALLOWTOPICVIEW" title="ALLOWTOPICVIEW" type="Set" value="<a href="DavidValentine" class="wikilink">DavidValentine</a>,<a href="PeterTaylor" class="wikilink">PeterTaylor</a>,<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>,<a href="NateBooth" class="wikilink">NateBooth</a>,<a href="DavidLemon" class="wikilink">DavidLemon</a>,<a href="EricBoisvert" class="wikilink">EricBoisvert</a>,<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a>"}
+-- DavidValentine - 10 Nov 2009

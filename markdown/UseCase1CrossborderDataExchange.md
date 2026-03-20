@@ -24,20 +24,20 @@ Mailing list: <https://lists.opengeospatial.org/mailman/listinfo/sw.ie.case1>
 
 ### Meetings
 
-- [Telco: April 12th, 2010](EuroIETelco20100412)
-- [Telco: June 30th, 2010](EuroIETelco20100630)
-- [Telco: August 5th, 2010](EuroIETelco20100805)
-- [Telco: August 19th, 2010](EuroIETelco20100819)
-- [Telco: September 2nd, 2010](EuroIETelco20100902)
+- [Telco: April 12th, 2010](EuroIETelco20100412.md)
+- [Telco: June 30th, 2010](EuroIETelco20100630.md)
+- [Telco: August 5th, 2010](EuroIETelco20100805.md)
+- [Telco: August 19th, 2010](EuroIETelco20100819.md)
+- [Telco: September 2nd, 2010](EuroIETelco20100902.md)
 - Telco: September 16th, 2010
 - Telco: September 30th, 2010
 - Telco: October 14th, 2010
 - Telco: November 10th, 2010
 - Telco: November 17th, 2010
-- [Telco: November 24th, 2010](EuroIETelco20101124)
-- [Telco: January 12th, 2011](EuroIETelco20110112)
-- [Telco: February 15th, 2011](EuroIETelco20110215)
-- Upcoming: [Telco: February 24th, 2011](EuroIETelco20110224)
+- [Telco: November 24th, 2010](EuroIETelco20101124.md)
+- [Telco: January 12th, 2011](EuroIETelco20110112.md)
+- [Telco: February 15th, 2011](EuroIETelco20110215.md)
+- Upcoming: [Telco: February 24th, 2011](EuroIETelco20110224.md)
 
 ### Data Sources
 
@@ -54,7 +54,7 @@ Mailing list: <https://lists.opengeospatial.org/mailman/listinfo/sw.ie.case1>
 | Germany | 52°north | SOS server based on 52°north software |
 | Germany | 52°north | web client for WaterML2.0 datasources |
 | Germany | KISTERS AG | SOS server and client software |
-| Germany | disy Informationssysteme <a href="GmbH" class="wikilink">GmbH</a> | CSW implementation |
+| Germany | disy Informationssysteme [GmbH](GmbH.md) | CSW implementation |
 
 ### SOS Instances
 
@@ -76,16 +76,6 @@ Mailing list: <https://lists.opengeospatial.org/mailman/listinfo/sw.ie.case1>
 
 ### Other Discussions
 
-[Usage of the INSPIRE Feature Model in Use Case 1](UseCase1SOSTermsAndFeatureModel)
+[Usage of the INSPIRE Feature Model in Use Case 1](UseCase1SOSTermsAndFeatureModel.md)
 
--- Main.<a href="CarstenHeidmann" class="wikilink">CarstenHeidmann</a> - 01 Apr 2010
-
-- TOPICINFO{author="<a href="CarstenHeidmann" class="wikilink">CarstenHeidmann</a>" comment="reprev" date="1304521732" format="1.1" reprev="21" version="22"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="SurfacewaterInteroperabilityExperiment" class="wikilink">SurfacewaterInteroperabilityExperiment</a>"}
-
-<!-- -->
-
-- TOPICMOVED{by="<a href="CarstenHeidmann" class="wikilink">CarstenHeidmann</a>" date="1277886014" from="<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>.<a href="EuropeanCrossborderExperiment" class="wikilink">EuropeanCrossborderExperiment</a>" to="<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>.<a href="UseCase1CrossborderDataExchange" class="wikilink">UseCase1CrossborderDataExchange</a>"}
+-- CarstenHeidmann - 01 Apr 2010

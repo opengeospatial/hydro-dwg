@@ -38,8 +38,3 @@
 - misc
   - Stefan is preparing a paper about SOS usage scenarios and problems arising from the current SWE/SOS architecture. A link to the paper will be circulated once the draft gets public (within Hydro DWG)
 - next phone conference is on Thursday, September 16th at 14:00 (CEST)
-- TOPICINFO{author="<a href="UlrichLooser" class="wikilink">UlrichLooser</a>" date="1284887187" format="1.1" version="1.2"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="UseCase1CrossborderDataExchange" class="wikilink">UseCase1CrossborderDataExchange</a>"}
