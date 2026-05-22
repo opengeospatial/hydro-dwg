@@ -1,9 +1,9 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 23** **-- Wed 30 July 2014 -- Report**
+# **[GW2IE](GW2IE.md) Meeting 23** **-- Wed 30 July 2014 -- Report**
 
 ## **Agenda**
 
 - Report writing
-- \<span style="background-color: transparent;"\>Logical Model issues\</span\>
+- Logical Model issues
 
 **Participants**
 
@@ -24,9 +24,9 @@
   - Jan - Mar - June:
     - submit document to HDWG / OGC for acceptance
     - upon acceptance, establish SWG and re-submit as standard spec
-- Logical model: remaining issues resolved [here](GWML2-UML-Model)
-  - use swe:<a href="DataRecord" class="wikilink">DataRecord</a> for GeologyLog values
-  - use <a href="SF_SamplingCurve" class="wikilink">SF_SamplingCurve</a> for Borehole
+- Logical model: remaining issues resolved [here](GWML2-UML-Model.md)
+  - use swe:[DataRecord](DataRecord.md) for GeologyLog values
+  - use [SF_SamplingCurve](SF_SamplingCurve.md) for Borehole
   - Eric to make changes to UML, XSD, and instances **\[DONE\]**
 - Use-case implementation
   - re-confirm participants, esp. JRC
@@ -46,7 +46,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 557 133 143
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -58,7 +58,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -84,10 +84,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 30 July 2014
-
-- TOPICINFO{author="<a href="JessicaLucido" class="wikilink">JessicaLucido</a>" comment="reprev" date="1406742638" format="1.1" reprev="2" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 30 July 2014

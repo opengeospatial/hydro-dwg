@@ -14,7 +14,7 @@ Agreeing on a workshop note taking method and output objectives.
 
 ## Governance
 
-Consider the activities objectives for the following year and defining logical phases of development with the objective of minimising rework though.\<br /\>Would include, locking down requirements and methods for changing requirements.
+Consider the activities objectives for the following year and defining logical phases of development with the objective of minimising rework though.Would include, locking down requirements and methods for changing requirements.
 
 ## Organisation Objectives
 
@@ -39,14 +39,4 @@ The objective for each topic is the have a level of defintion on the Scope and a
 - identify core components v componets for local extension
 - Straw man modelling with EA and white board
 
-\- Main.<a href="PaulSheahan" class="wikilink">PaulSheahan</a> - 06 Jun 2012
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" comment="reprev" date="1340167900" format="1.1" reprev="3" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WaterML2Part2" class="wikilink">WaterML2Part2</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="WiFi_Networking__ESSC" class="wikilink">WiFi_Networking__ESSC</a>.PDF" attachment="<a href="WiFi_Networking__ESSC" class="wikilink">WiFi_Networking__ESSC</a>.PDF" attr="" comment="RGS workshop WIFI details" date="1339020418" path="c:\temp\\<a href="WiFi" class="wikilink">WiFi</a> Networking @ ESSC.PDF" size="73468" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
+\- Main.[PaulSheahan](PaulSheahan.md) - 06 Jun 2012

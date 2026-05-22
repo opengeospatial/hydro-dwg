@@ -10,14 +10,4 @@ In order to achieve interoperability between the different implementations the p
 
 - TODO: Start this section ...
 
--- Main.<a href="CarstenHeidmann" class="wikilink">CarstenHeidmann</a> - 30 Jun 2010
-
-- TOPICINFO{author="<a href="CarstenHeidmann" class="wikilink">CarstenHeidmann</a>" date="1277898899" format="1.1" version="1.2"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="UseCase1CrossborderDataExchange" class="wikilink">UseCase1CrossborderDataExchange</a>"}
-
-<!-- -->
-
-- TOPICMOVED{by="<a href="CarstenHeidmann" class="wikilink">CarstenHeidmann</a>" date="1277893432" from="<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>.<a href="UseCase1INSPIREFeatureModel" class="wikilink">UseCase1INSPIREFeatureModel</a>" to="<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>.<a href="UseCase1SOSTermsAndFeatureModel" class="wikilink">UseCase1SOSTermsAndFeatureModel</a>"}
+-- CarstenHeidmann - 30 Jun 2010

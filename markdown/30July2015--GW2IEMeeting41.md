@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 41 -- Thurs 30 July 2015**
+# **[GW2IE](GW2IE.md) Meeting 41 -- Thurs 30 July 2015**
 
 ## **Agenda**
 
@@ -12,8 +12,8 @@
 - Schema update
   - Logical schema: missing defs
   - Model issue
-    - Chemical results are modelled as Observations with <a href="GW_Constituent" class="wikilink">GW_Constituent</a> as featureOfInterest. But constituent don't have navigable link back to <a href="GW_FluidBody" class="wikilink">GW_FluidBody</a>, therfore a chemical result cannot point back to <a href="FluidBody" class="wikilink">FluidBody</a> (unless it goes directly to <a href="FluidBody" class="wikilink">FluidBody</a>, missing the constituent). Looks like it's <a href="SamplingFeature" class="wikilink">SamplingFeature</a> all over again.
-    - <a href="GW_UnitFluidProperty" class="wikilink">GW_UnitFluidProperty</a> and <a href="GW_UnitVoidProperty" class="wikilink">GW_UnitVoidProperty</a> : force 1..1 because association with a missing end does not make sense or 0..1 to follow the blanket rule of all optional ?
+    - Chemical results are modelled as Observations with [GW_Constituent](GW_Constituent.md) as featureOfInterest. But constituent don't have navigable link back to [GW_FluidBody](GW_FluidBody.md), therfore a chemical result cannot point back to [FluidBody](FluidBody.md) (unless it goes directly to [FluidBody](FluidBody.md), missing the constituent). Looks like it's [SamplingFeature](SamplingFeature.md) all over again.
+    - [GW_UnitFluidProperty](GW_UnitFluidProperty.md) and [GW_UnitVoidProperty](GW_UnitVoidProperty.md) : force 1..1 because association with a missing end does not make sense or 0..1 to follow the blanket rule of all optional ?
 - Instances update (\*All)
   - namespaces: end char? (/ \#)
 - Report update:
@@ -22,7 +22,7 @@
   - Use-case template
 - Use-case roundtable
 - Timeline check
-- <a href="HY_Features" class="wikilink">HY_Features</a> groundwater
+- [HY_Features](HY_Features.md) groundwater
 
 ## **Participants**
 
@@ -40,7 +40,7 @@
 - Schema update
   - Logical schema: missing defs -- deferred until Sept.
   - Model issue
-    - Chemical result cannot point back to <a href="FluidBody" class="wikilink">FluidBody</a>: no schema change needed, will use O&M and document in report (**Eric**).
+    - Chemical result cannot point back to [FluidBody](FluidBody.md): no schema change needed, will use O&M and document in report (**Eric**).
     - Association classes: 1:1 cardinality at ends, but can refer to unknown entity
 - Instances update (\*All)
   - namespaces: end char? (/ \#): deferred to GW SWG.
@@ -61,7 +61,7 @@
     - final draft complete: section B, use-cases (Leads 1-5: **Eric**, **Sylvain**, **Peter**, **Jessica**, **Sylvain**)
   - Sept 1:
     - public release
-- <a href="HY_Features" class="wikilink">HY_Features</a> groundwater: to continue mapping for Sept
+- [HY_Features](HY_Features.md) groundwater: to continue mapping for Sept
 
 ## **Connection Instructions**
 
@@ -73,7 +73,6 @@
   - pass: ogc
   - url: <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=mc1f39aa86f9d0a69df80c65fe67e4842>
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -91,9 +90,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1438270613" format="1.1" reprev="3" version="6"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

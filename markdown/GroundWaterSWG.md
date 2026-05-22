@@ -13,7 +13,7 @@ The Groundwater (GW) SWG aims to:
 
 ## Documents
 
-- **Charter:** the GW SWG charter can be found... [here](%ATTACHURL%/Groundwater_SWG_Charter--GWML2.pdf)
+- **Charter:** the GW SWG charter can be found... [here](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GroundWaterSWG/Groundwater_SWG_Charter--GWML2.pdf)
 - **Specification:** the GWML2 standard specification can be found... [here](https://xp-dev.com/svn/gwml2/Documents/OGC-Specification/16-032r1_OGC_GroundwaterML_GWML2.pdf)
 - **Online documentation**: the GWML2 online documentation (Logical Model) can be found... [here](https://xp-dev.com/svn/gwml2/documentation/index.htm)
 
@@ -34,15 +34,3 @@ Initial meetings of the GW SWG overlap with the final meetings of the Groundwate
 \*\*\*\*\*\*\*\*\*\*\*\***\***
 
 - [04May2021 (Tues) GW SWG Meeting 8](04May2021GW_SWG)
-
-<!-- -->
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1620143538" format="1.1" reprev="8" version="8"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WebHome" class="wikilink">WebHome</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="Groundwater_SWG_Charter" class="wikilink">Groundwater_SWG_Charter</a>--GWML2.pdf" attachment="<a href="Groundwater_SWG_Charter" class="wikilink">Groundwater_SWG_Charter</a>--GWML2.pdf" attr="" comment="GW SWG Charter" date="1459279690" path="Groundwater SWG Charter--GWML2.pdf" size="33601" user="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" version="1"}

@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 5** **-- Tues 30 April 2013 -- Entity List**
+# **[GW2IE](GW2IE.md) Meeting 5** **-- Tues 30 April 2013 -- Entity List**
 
 ## **Agenda**
 
@@ -6,7 +6,7 @@
 - OGC status update
   - New members: Maciej Rossa, PASI
 - Discussion
-  - Update on the definitions for the [Entity List](Gwml2ConsolFeatureList)
+  - Update on the definitions for the [Entity List](Gwml2ConsolFeatureList.md)
 - Next meeting
   - Thurs 23 May 2013
 
@@ -23,7 +23,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> April meeting
+  - **Meeting Topic:**[GW2IE](GW2IE.md) April meeting
   - **Meeting Number**: 800 918 063
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -59,31 +59,21 @@
 
 ## **Action Plan**
 
-- \<p\>a poll will issued re: preferences for a face-to-face meeting. Some possibilities include:\</p\>
-  - \<p\>OGC Frascati (23-27 Sept 2013)\</p\>
-  - \<p\>GSA Denver (27-30 Oct 2013)\</p\>
-- \<p\>next steps: the focus of activity will be to reach agreement on the definitions for the May meeting\</p\>
-  - \<p\>the entity list will be partitioned thematicaly, and each partition will be led by an individual (tbd)\</p\>
-  - \<p\>results and as much discussion as possbile to be recorded on the wiki\</p\>
+- a poll will issued re: preferences for a face-to-face meeting. Some possibilities include:
+  - OGC Frascati (23-27 Sept 2013)
+  - GSA Denver (27-30 Oct 2013)
+- next steps: the focus of activity will be to reach agreement on the definitions for the May meeting
+  - the entity list will be partitioned thematicaly, and each partition will be led by an individual (tbd)
+  - results and as much discussion as possbile to be recorded on the wiki
 
 ## **Meeting Notes**
 
-- \<p\>see action plan above\</p\>
-- \<p\>the following entities are ruled out-of-scope, for this version:\</p\>
-  - \<p\>Well Construction Elements\</p\>
-  - \<p\>Pump\</p\>
-- \<p\>the following are ruled in scope, but might utilize other packages (e.g. GeoSciML) in modeling:\</p\>
-  - \<p\>Water Well\</p\>
-  - \<p\>Well Log\</p\>
+- see action plan above
+- the following entities are ruled out-of-scope, for this version:
+  - Well Construction Elements
+  - Pump
+- the following are ruled in scope, but might utilize other packages (e.g. GeoSciML) in modeling:
+  - Water Well
+  - Well Log
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 29 Apr 2013 \</div\>
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1367522223" format="1.1" reprev="5" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="GW2IE_Definitions_status_26Apr2013" class="wikilink">GW2IE_Definitions_status_26Apr2013</a>.pdf" attachment="<a href="GW2IE_Definitions_status_26Apr2013" class="wikilink">GW2IE_Definitions_status_26Apr2013</a>.pdf" attr="" comment="<a href="GW2IE" class="wikilink">GW2IE</a> Status 26Apr2013 -- definitions" date="1367322767" path="<a href="GW2IE_Definitions_status_26Apr2013" class="wikilink">GW2IE_Definitions_status_26Apr2013</a>.pdf" size="7914" user="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" version="1"}
+-- BoyanBrodaric - 29 Apr 2013 \</div\>

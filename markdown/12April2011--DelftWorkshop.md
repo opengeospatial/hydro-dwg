@@ -11,9 +11,9 @@
 
 #### Objective
 
-- \<p\>explore move to international groundwater data standard (infromation model, GML application\</p\>
-- \<p\>introduce existing approaches and their focus\</p\>
-- \<p\>define plan to move forward\</p\>
+- explore move to international groundwater data standard (infromation model, GML application
+- introduce existing approaches and their focus
+- define plan to move forward
 
 #### Expected Result
 
@@ -48,33 +48,21 @@ Develop GroundWater Interoperability Experiment 2:
 - **Presentations:** as above
 - **Discussion**
 
-1\. Three emphases in today's GW info model designs:
+1. Three emphases in today's GW info model designs:
 
 - observations (Gavin)
 - geology (Eric)
 - water body (Tomasz)
 
-2\. Is there an interest in harmonizing these to one international model? \* WMO wants an information model for groundwater (Uli / Irene) \* INSPIRE could benefit eventually during revisions (Tomasz): \* CGI expressed interest in hydrogeological domain model. \* International Hydrogeological Association also expressed interest \* \<p\>USGS, GSC, CSIRO all express interest\</p\> 3. who is the target audience? (Boyan)
+2. Is there an interest in harmonizing these to one international model? \* WMO wants an information model for groundwater (Uli / Irene) \* INSPIRE could benefit eventually during revisions (Tomasz): \* CGI expressed interest in hydrogeological domain model. \* International Hydrogeological Association also expressed interest \* USGS, GSC, CSIRO all express interest 3. who is the target audience? (Boyan)
 
 - decision maker: properties include aquifer storage, yield, and other water use
 - scientist: more regard to geologic properties
 - consultant: focus on observations
 - public: focus on wells
 
-4\. Options for having OGC solicit interest in developing a GW feature model (Arctur):
+4. Options for having OGC solicit interest in developing a GW feature model (Arctur):
 
 - Interoperability Experiment (self-funded)
 - RFI (costs \$\$)
-- Group picture from delft: \<br /\> \<img alt="<a href="HDWG_Delft_2011" class="wikilink">HDWG_Delft_2011</a>.jpg" height="2395" src="%ATTACHURLPATH%/<a href="HDWG_Delft_2011" class="wikilink">HDWG_Delft_2011</a>.jpg" width="2957" /\>
-
-<!-- -->
-
-- TOPICINFO{author="<a href="SimonCox" class="wikilink">SimonCox</a>" comment="reprev" date="1393802126" format="1.1" reprev="1" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="HDWG_Delft_2011" class="wikilink">HDWG_Delft_2011</a>.jpg" attachment="<a href="HDWG_Delft_2011" class="wikilink">HDWG_Delft_2011</a>.jpg" attr="" comment="Group picture from delft" date="1303142965" path="<a href="HDWG_Delft_2011" class="wikilink">HDWG_Delft_2011</a>.jpg" size="1013947" user="<a href="IlinKuo" class="wikilink">IlinKuo</a>" version="1"}
+- Group picture from delft:  \<img alt="[HDWG_Delft_2011](HDWG_Delft_2011.md).jpg" height="2395" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/12April2011--DelftWorkshop/HDWG_Delft_2011.jpg>" width="2957" /\>

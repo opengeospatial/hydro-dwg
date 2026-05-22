@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 6** **-- Thurs 23 May 2013 -- Entity List**
+# **[GW2IE](GW2IE.md) Meeting 6** **-- Thurs 23 May 2013 -- Entity List**
 
 ## **Agenda**
 
@@ -6,7 +6,7 @@
 - OGC status update
   - wiki problems?
 - Discussion
-  - Report from groups on the definitions for the [Entity List](Gwml2ConsolFeatureList)
+  - Report from groups on the definitions for the [Entity List](Gwml2ConsolFeatureList.md)
   - Plan to conclude defs and begin modeling
   - Face-to-face meeting?
 - Next meeting
@@ -25,7 +25,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> May meeting
+  - **Meeting Topic:**[GW2IE](GW2IE.md) May meeting
   - **Meeting Number**: 803 388 928
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -63,15 +63,9 @@
 
 \<div id="ctl00_ContentPlaceHolder1_Div2"\>
 
-- \<p\>revise entity list proposal, as per meeting discussions\</p\>
-- \<p\>notify GW2IE members of 1 week voting/comment period\</p\>
-- \<p\>resolve outstanding issues after open period\</p\>
-- \<p\>initiate modeling prior to next meeting\</p\>
+- revise entity list proposal, as per meeting discussions
+- notify GW2IE members of 1 week voting/comment period
+- resolve outstanding issues after open period
+- initiate modeling prior to next meeting
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 17 May 2013 \</div\>
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1369319884" format="1.1" reprev="5" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 17 May 2013 \</div\>

@@ -40,10 +40,4 @@
     - Next meetings in June and Sept, then ~monthly
       - June meeting at time of OGC TC, but not necessarily part of program
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 04 May 2021
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1620153879" format="1.1" reprev="1" version="2"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundWaterSWG" class="wikilink">GroundWaterSWG</a>"}
+-- BoyanBrodaric - 04 May 2021

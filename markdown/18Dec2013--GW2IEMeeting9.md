@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 9** **-- Wed 18 Dec 2013 -- Conceptual Model**
+# **[GW2IE](GW2IE.md) Meeting 9** **-- Wed 18 Dec 2013 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -19,7 +19,7 @@
 ## **Results**
 
 - Face-to-face venue and date to be determined during Jan 2014 meetings
-- See updated EA and pdf (CM 0.22) on the [Conceptual Model page](GWML2-CM-Model)
+- See updated EA and pdf (CM 0.22) on the [Conceptual Model page](GWML2-CM-Model.md)
 - Measurement type
   - discussion deferred re: datatype vs O&M class
 - GW Management properties
@@ -38,7 +38,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 552 776 525
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -50,7 +50,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -75,9 +75,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1387392944" format="1.1" reprev="4" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

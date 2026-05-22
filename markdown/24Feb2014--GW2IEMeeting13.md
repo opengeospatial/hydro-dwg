@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 13** **-- Mon 24 Feb 2014 -- Conceptual Model**
+# **[GW2IE](GW2IE.md) Meeting 13** **-- Mon 24 Feb 2014 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -13,17 +13,17 @@
 
 ## **Results**
 
-\* Changes: [see CM 0.26](GWML2-CM-Model)
+\* Changes: [see CM 0.26](GWML2-CM-Model.md)
 
-- Groundwater properties: added <a href="GW_Vulnerability" class="wikilink">GW_Vulnerability</a> class with attributes for:
+- Groundwater properties: added [GW_Vulnerability](GW_Vulnerability.md) class with attributes for:
   - general type of vulnerability (pollution, liquifaction, etc.),
   - estimated value of threat (under a specific model, e.g. DRASTIC)
-  - Unit: typed gwUnitVulnerability to <a href="GW_Vulnerability" class="wikilink">GW_Vulnerability</a>, and deleted gwUnitSusceptibility
-  - Fluid Body: renamed gwBodySusceptibility to gwBodyVulnerability and typed with <a href="GW_Vulnerability" class="wikilink">GW_Vulnerability</a>
+  - Unit: typed gwUnitVulnerability to [GW_Vulnerability](GW_Vulnerability.md), and deleted gwUnitSusceptibility
+  - Fluid Body: renamed gwBodySusceptibility to gwBodyVulnerability and typed with [GW_Vulnerability](GW_Vulnerability.md)
 - Fluid Body:
   - deleted BodyFluidType: redundant (same as MaterialConstituent)
   - require clarification from BRGM re: gwBodyNaturalContext
-  - added <a href="GW_FluidBodyChange" class="wikilink">GW_FluidBodyChange</a> to capture the conditions leading to the current state of the Fluid Body
+  - added [GW_FluidBodyChange](GW_FluidBodyChange.md) to capture the conditions leading to the current state of the Fluid Body
     - represents a description of the transition of the Fluid Body from a prior state to a new state
     - contains attributes for Agent of change, the degree of change (corresponding to INSPIRE Condition of GW), the time of change, and the prior state
     - need to evaluate whether gwBodyContextType is reusable to type the environmental conditions ('Baseline')
@@ -37,7 +37,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 558 700 720
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -49,7 +49,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -74,9 +74,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1393274675" format="1.1" reprev="2" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

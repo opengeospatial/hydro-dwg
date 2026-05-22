@@ -22,10 +22,10 @@
   - integration of Hibernate
   - it is possible to write own DAOs (data access objects) in order to use a custom database model or an existing service
 - SOS-Webclient implementation 52°north:
-  - depends on finalized <a href="WaterML2" class="wikilink">WaterML2</a>.0 schemas
+  - depends on finalized [WaterML2](WaterML2.md).0 schemas
 - SOS-Implementation in WISKI
   - done: mapping of SOS calls to WISKI API
-  - next step 1: exact mapping of <a href="WaterML2" class="wikilink">WaterML2</a>.0 model to WISKI
+  - next step 1: exact mapping of [WaterML2](WaterML2.md).0 model to WISKI
   - next step 2: evaluation of INSPIRE DS Hydrology Feature Model
 - disy
   - webserver for the deployment of applications is available
@@ -42,10 +42,4 @@
   - next phone conference is on Thursday, July 22nd at 14:00
 - Carsten will start a TWiki page for discussions around the use of the model concepts from SOS and the feature model for Use Case 1 (and 3?)
 
--- Main.<a href="CarstenHeidmann" class="wikilink">CarstenHeidmann</a> - 30 Jun 2010
-
-- TOPICINFO{author="<a href="CarstenHeidmann" class="wikilink">CarstenHeidmann</a>" date="1277893373" format="1.1" version="1.2"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="UseCase1CrossborderDataExchange" class="wikilink">UseCase1CrossborderDataExchange</a>"}
+-- CarstenHeidmann - 30 Jun 2010

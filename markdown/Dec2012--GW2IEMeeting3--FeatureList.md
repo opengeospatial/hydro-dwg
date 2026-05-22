@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 3** **-- Tues 18 Dec 2012 -- Feature List**
+# **[GW2IE](GW2IE.md) Meeting 3** **-- Tues 18 Dec 2012 -- Feature List**
 
 ## **Agenda**
 
@@ -9,7 +9,7 @@
 - Announcement
   - [IAH 2013 Perth, AU---Session 5.9 Integrative Data Sharing](http://iahcongress2013.org/program.php)
 - Use-cases update
-- Discuss the [Feature List](Gwml2EntityList)
+- Discuss the [Feature List](Gwml2EntityList.md)
 - Next meeting
 
 ## **Participants**
@@ -26,7 +26,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Dec 2012 meeting: Feature List
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Dec 2012 meeting: Feature List
   - **Meeting Number**: 808 411 619
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -54,13 +54,7 @@
 
 ## **Action Plan**
 
-- \<p\>Develop consolidated feature list\</p\>
-  - \<p\>to be led by F.Letourneau (GSC)\</p\>
+- Develop consolidated feature list
+  - to be led by F.Letourneau (GSC)
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 13 Dec 2012
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1357586968" format="1.1" reprev="2" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 13 Dec 2012

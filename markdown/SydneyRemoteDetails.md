@@ -28,14 +28,8 @@ You can contact me at: <gbuehler@opengeospatial.org> 1-812 334 0601
 
 To update this meeting to your calendar program (for example Microsoft Outlook), click this link: <https://opengeospatial.webex.com/opengeospatial/j.php?ED=148171932&UID=1142762517&ICS=MRS2&LD=1&RD=8&ST=1&SHA2=FeuVu6cCHtCOhm0CGeD-k8TwdHa-9goaZdNhcDLLWFo=&RT=OCM1NQ%3D%3D>
 
-<a href="WebEx" class="wikilink">WebEx</a> will automatically setup Meeting Manager for Windows the first time you join a meeting. To save time, you can setup prior to the meeting by clicking this link: <https://opengeospatial.webex.com/opengeospatial/meetingcenter/mcsetup.php>
+[WebEx](WebEx.md) will automatically setup Meeting Manager for Windows the first time you join a meeting. To save time, you can setup prior to the meeting by clicking this link: <https://opengeospatial.webex.com/opengeospatial/meetingcenter/mcsetup.php>
 
 The playback of UCF (Universal Communications Format) rich media files requires appropriate players. To view this type of rich media files in the meeting, please check whether you have the players installed on your computer by going to <https://opengeospatial.webex.com/opengeospatial/systemdiagnosis.php>
 
--- Main.<a href="DavidLemon" class="wikilink">DavidLemon</a> - 17 Nov 2010
-
-- TOPICINFO{author="<a href="DavidLemon" class="wikilink">DavidLemon</a>" date="1290980144" format="1.1" reprev="1.2" version="1.2"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="SydneyTc2010" class="wikilink">SydneyTc2010</a>"}
+-- DavidLemon - 17 Nov 2010

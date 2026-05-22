@@ -7,7 +7,7 @@ This document lists the requirement for data providers that wish to participate 
 - [GWIE Requirements](#GwieReq)
 - [GWIE Optional and Experiments](#OptExp)
 
-\#<a href="SosReq" class="wikilink">SosReq</a> ------------------------++SOS Requirements \#<a href="UseSos" class="wikilink">UseSos</a>
+\#[SosReq](SosReq.md) ------------------------++SOS Requirements \#[UseSos](UseSos.md)
 
 #### SOS1. GWIE-compliant SOS services SHALL use SOS 1.0 specification, even if the resulting Observation collection is GML 3.2.
 
@@ -41,7 +41,7 @@ must be used to request GML 3.1.1 (GML used for OM 1.0.0) while
 
 can be used to explicitly request GML 3.2 (OM 2.0 is based on GML 3.2), but this is also the default.
 
-\#<a href="UseWaterML2" class="wikilink">UseWaterML2</a>
+\#[UseWaterML2](UseWaterML2.md)
 
 #### SOS2. GWIE-compliant SOS service SHALL generate SOS response using valid WaterML2.0
 
@@ -52,9 +52,9 @@ The response must be
     1.  8.1.8.3 Sampled medium
     2.  others ?
 
-<a href="SamplingFeature" class="wikilink">SamplingFeature</a> requirement is relaxed as GWIE uses a different sampling feature.
+[SamplingFeature](SamplingFeature.md) requirement is relaxed as GWIE uses a different sampling feature.
 
-\#<a href="UseBothCoverageAndSweCommon" class="wikilink">UseBothCoverageAndSweCommon</a>
+\#[UseBothCoverageAndSweCommon](UseBothCoverageAndSweCommon.md)
 
 #### SOS3. GWIE-compliant SOS service SHALL provide both gml:Coverage and sweCommon encoding.
 
@@ -71,11 +71,11 @@ The responseFormat parameter shall be used to explicitly request encoding
 
 #### SOS4. GWIE-compliant SOS SHALL support resultType=inline by default
 
-\#<a href="UseFOIReference" class="wikilink">UseFOIReference</a>
+\#[UseFOIReference](UseFOIReference.md)
 
 #### SOS5. In a SOS response, feature of interest SHALL be by reference as specified in [GWIE1](#UseHttpURI)
 
-\#<a href="UseReturnFOINotCollection" class="wikilink">UseReturnFOINotCollection</a>
+\#[UseReturnFOINotCollection](UseReturnFOINotCollection.md)
 
 #### SOS6. A SOS GetFeatureOfInterest SHALL return the feature of interest and not the collection feature.
 
@@ -83,11 +83,11 @@ While a network (a large collection) might be advertised in the GetCapabilities,
 
 Note that because of SOS5, the reference to the feature of interest is already explicit, therefore a GWIE compliant client should instead use the explicit reference (SOS5) instead of using GetFeatureOfInterest. This remark also applies to GWIE2 for a FeatureCollection.
 
-\#<a href="UseEPSGPattern" class="wikilink">UseEPSGPattern</a>
+\#[UseEPSGPattern](UseEPSGPattern.md)
 
 #### SOS7. EPSG code shall follow the URN pattern `urn:ogc:def:crs:EPSG:` code
 
-\#<a href="UseEPSGAxisOrder" class="wikilink">UseEPSGAxisOrder</a>
+\#[UseEPSGAxisOrder](UseEPSGAxisOrder.md)
 
 #### SOS8. Axis order for EPSG 4326 SHALL be in x,y order when the response is serialized in GML 3.1 but in y,x order when serialized in a GML version above 3.1.x
 
@@ -103,15 +103,15 @@ The requirement has been suggested to
 
 EPSG:4326 is a two dimensional coordinate system, so does not specify how vertical coordinates should be measured. We set this for this profile by agreement, noting that EPSG:4326 is essentially WGS84. WGS84 is a Spherical Mercator projection in use by Google Maps, Microsoft Virtual Earth, and Yahoo Maps (see <http://docs.openlayers.org/library/spherical_mercator.html>). Since Google Maps uses meters when expressing altitude in its maps, we decided to go along with that.
 
-\#<a href="UseSpatialAndTemporalFilter" class="wikilink">UseSpatialAndTemporalFilter</a>
+\#[UseSpatialAndTemporalFilter](UseSpatialAndTemporalFilter.md)
 
 #### SOS9. GWIE-compliant SOS service SHALL support specified spatial filters and temporal filters.
 
 Supported temporal filters
 
-- <a href="TM_During" class="wikilink">TM_During</a>
-- <a href="TM_Before" class="wikilink">TM_Before</a>
-- <a href="TM_After" class="wikilink">TM_After</a>
+- [TM_During](TM_During.md)
+- [TM_Before](TM_Before.md)
+- [TM_After](TM_After.md)
 
 Supported spatial filters
 
@@ -119,11 +119,11 @@ Supported spatial filters
 
 \_TODO: Are any more needed? I-Lin doesn't think so\_
 
-#### SOS10. A GWIE-compliant SOS service SHALL interpret eventTime in a temporal request as wml2:<a href="TimeValuePair" class="wikilink">TimeValuePair</a>/wml2:time.
+#### SOS10. A GWIE-compliant SOS service SHALL interpret eventTime in a temporal request as wml2:[TimeValuePair](TimeValuePair.md)/wml2:time.
 
-The temporal filter is expressed within an eventTime element. However, which time this actually refers to in the data model is ambiguous -- resultTime, intendedSamplingInterval, phenomenonTime, wml2:domainExtent, or wml2:<a href="TimeValuePair" class="wikilink">TimeValuePair</a>/wml2:time
+The temporal filter is expressed within an eventTime element. However, which time this actually refers to in the data model is ambiguous -- resultTime, intendedSamplingInterval, phenomenonTime, wml2:domainExtent, or wml2:[TimeValuePair](TimeValuePair.md)/wml2:time
 
-\#<a href="UseIntelligentLocation" class="wikilink">UseIntelligentLocation</a>
+\#[UseIntelligentLocation](UseIntelligentLocation.md)
 
 #### SOS11. A GWIE-compliant SOS service SHALL ignore the property name in a spatial request and use whatever makes sense for location of the Observation.
 
@@ -177,29 +177,29 @@ A GWIE compliant client should use
 
 as a convenient and yet legal and consistent way to spatially filter observations.
 
-#### SOS12. \_Proposed\_ GetObservationResponse shall use gml:<a href="FeatureCollection" class="wikilink">FeatureCollection</a> as response container.
+#### SOS12. \_Proposed\_ GetObservationResponse shall use gml:[FeatureCollection](FeatureCollection.md) as response container.
 
-Since the response cannot be SOS 1.0 response because the response is GML 3.2 (SOS 1.0 expect om:<a href="ObservationCollection" class="wikilink">ObservationCollection</a>/om:member/om:Observation from GML 3.1) we must use a GML 3.2 compliant. Since we don't really use SOS 2.0 anywhere, it would be odd to use sos2:<a href="GetObservationResponse" class="wikilink">GetObservationResponse</a>, I suggest we wrap the response in a gml2:<a href="FeatureCollection" class="wikilink">FeatureCollection</a> (I did not find an equivalent to om1:<a href="ObservationCollection" class="wikilink">ObservationCollection</a>).
+Since the response cannot be SOS 1.0 response because the response is GML 3.2 (SOS 1.0 expect om:[ObservationCollection](ObservationCollection.md)/om:member/om:Observation from GML 3.1) we must use a GML 3.2 compliant. Since we don't really use SOS 2.0 anywhere, it would be odd to use sos2:[GetObservationResponse](GetObservationResponse.md), I suggest we wrap the response in a gml2:[FeatureCollection](FeatureCollection.md) (I did not find an equivalent to om1:[ObservationCollection](ObservationCollection.md)).
 
 The other option is to have a WaterML 2 collection.
 
 Suggestion ? \_TODO: Finish discussion. gml2:FeatureCollection seems better to I-Lin than WaterML\_
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 28 Oct 2010
+-- EricBoisvert - 28 Oct 2010
 
 #### \_Proposed\_ SOS13. GWIE compliant SOS service shall implement GetObservationById
 
-See section 10 of OGC 06-009r6. GetObservationById shall also report location following SOS15 \_TODO: Discuss and decide. Fine with I-<a href="Lin_" class="wikilink">Lin_</a>
+See section 10 of OGC 06-009r6. GetObservationById shall also report location following SOS15 \_TODO: Discuss and decide. Fine with I-[Lin\_](Lin_.md)
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 02 Nov 2010
+-- EricBoisvert - 02 Nov 2010
 
-#### SOS14. wml2:<a href="WaterMonitoringObservation" class="wikilink">WaterMonitoringObservation</a>/gml:identifier is mandatory
+#### SOS14. wml2:[WaterMonitoringObservation](WaterMonitoringObservation.md)/gml:identifier is mandatory
 
 While gml:identifier is not mandatory in GML, a GWIE compliant service MUST serialize a gml:identifier for each observation. This property must provide a unique identifier for this observation which can eventually be used to identify the observation in a subsequent GetObservationById.
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 11 Nov 2010
+-- EricBoisvert - 11 Nov 2010
 
-\#<a href="UseOMParameter" class="wikilink">UseOMParameter</a>
+\#[UseOMParameter](UseOMParameter.md)
 
 #### SOS15. GetObservation SHALL report spatial location using om:parameter.
 
@@ -228,9 +228,9 @@ The complete example can be found at: <https://svn.opengeospatial.org/ogc-projec
 
 (example from SOS 2.0 10-037 Broering et al., 2010)
 
-\#<a href="UseTimeSeries" class="wikilink">UseTimeSeries</a>
+\#[UseTimeSeries](UseTimeSeries.md)
 
-#### SOS16. GWIE-compliant SOS results SHALL be encoded as wml2:<a href="TimeSeries" class="wikilink">TimeSeries</a>.
+#### SOS16. GWIE-compliant SOS results SHALL be encoded as wml2:[TimeSeries](TimeSeries.md).
 
 Even when only a single value is returned, it shall be encoded as a time series with one record.
 
@@ -239,22 +239,22 @@ Even when only a single value is returned, it shall be encoded as a time series 
 Consequences for GetResult:
 
 - GetResult will return only the measurements that match the request criteria
-- the results will be returned inside a single wml2:<a href="TimeSeries" class="wikilink">TimeSeries</a>
-- if an identifier or id is returned for the <a href="TimeSeries" class="wikilink">TimeSeries</a> per schema requirements, it is an invalid id and should be ignored
+- the results will be returned inside a single wml2:[TimeSeries](TimeSeries.md)
+- if an identifier or id is returned for the [TimeSeries](TimeSeries.md) per schema requirements, it is an invalid id and should be ignored
 
 Consequences for GetObservation and GetObservationById:
 
-- GetObservation and <a href="GetObservationById" class="wikilink">GetObservationById</a> will return the entire time series if any one of the measurements of the time series match the request criteria.
+- GetObservation and [GetObservationById](GetObservationById.md) will return the entire time series if any one of the measurements of the time series match the request criteria.
 - if multiple time series are returned, then they should each be in their own TimeSeries element (not merged).
 - The identifier or id returned for each of the time series is valid.
 
-\#<a href="WfsReq" class="wikilink">WfsReq</a> --------------------++WFS Requirements
+\#[WfsReq](WfsReq.md) --------------------++WFS Requirements
 
 #### WFS1. GWIE WFS services shall use WFS 1.1
 
-#### WFS2. GWIE WFS services shall return GWML:<a href="WaterWell" class="wikilink">WaterWell</a>
+#### WFS2. GWIE WFS services shall return GWML:[WaterWell](WaterWell.md)
 
-\#<a href="GwieReq" class="wikilink">GwieReq</a> --------------------++Miscellaneous GWIE Requirements \#<a href="UseHttpURI" class="wikilink">UseHttpURI</a>
+\#[GwieReq](GwieReq.md) --------------------++Miscellaneous GWIE Requirements \#[UseHttpURI](UseHttpURI.md)
 
 #### GWIE1. External references SHALL be done use HTTP URI and be fully resolvable
 
@@ -281,13 +281,13 @@ Otherwise, regular WFS requests are also valid for external references to featur
      <om:featureOfInterest xlink:href="http://ngwd-bdnes.cits.nrcan.gc.ca/service/gin/wfs/gin?REQUEST=GetFeature&amp;INFO_FORMAT=text/html&amp;FID=ont.ww.1100001" xlink:title="Water well 1100001"/>
 ```
 
-\#<a href="UseSingleCollection" class="wikilink">UseSingleCollection</a>
+\#[UseSingleCollection](UseSingleCollection.md)
 
-#### GWIE2. Large collection of featureOfInterest in <a href="GetCapabilities" class="wikilink">GetCapabilities</a> Offering SHALL be advertised as a nested FeatureCollection.
+#### GWIE2. Large collection of featureOfInterest in [GetCapabilities](GetCapabilities.md) Offering SHALL be advertised as a nested FeatureCollection.
 
 \_TODO: Need link to statement of problem\_
 
-Instead of a long list of features of interest, the <a href="GetCapabilities" class="wikilink">GetCapabilities</a> offering section should report a reference to a nested <a href="FeatureCollection" class="wikilink">FeatureCollection</a>. The reference itself as well as references within the nested collection SHALL conform to GWIE1 and additionally indicate that it points to a `gml:FeatureCollection` by using xlink:role="<http://www.opengis.net/gml/FeatureCollection>"
+Instead of a long list of features of interest, the [GetCapabilities](GetCapabilities.md) offering section should report a reference to a nested [FeatureCollection](FeatureCollection.md). The reference itself as well as references within the nested collection SHALL conform to GWIE1 and additionally indicate that it points to a `gml:FeatureCollection` by using xlink:role="<http://www.opengis.net/gml/FeatureCollection>"
 
 ```
     <sos:featureOfInterest xlink:href="http://ngwd-bdnes.cits.nrcan.gc.ca:8080/Reference/uri-cgi/feature/Ontario/WaterWellNetwork" xlink:title="Ontario Water well network" xlink:role="http://www.opengis.net/gml/FeatureCollection"/>
@@ -325,7 +325,7 @@ xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.
 </gml:FeatureCollection>
 ```
 
-The `gml:FeatureCollection='s children =gml:featureMember` may themselves refer to FeatureCollection via `xlink:href`, or they may refer to a single feature via a resolvable http url. In either case, they are subject to GWIE1. Furthermore, they must indicate whether they point to a `!FeatureCollection` or a feature by the value of =xlink:role="<http://www.opengis.net/gml/FeatureCollection>" or =xlink:role="<http://www.opengis.net/gml/Feature>". Any referenced `!FeatureCollection` must obey the same conditions as those for the first referenced <a href="FeatureCollection" class="wikilink">FeatureCollection</a> document above.
+The `gml:FeatureCollection='s children =gml:featureMember` may themselves refer to FeatureCollection via `xlink:href`, or they may refer to a single feature via a resolvable http url. In either case, they are subject to GWIE1. Furthermore, they must indicate whether they point to a `!FeatureCollection` or a feature by the value of =xlink:role="<http://www.opengis.net/gml/FeatureCollection>" or =xlink:role="<http://www.opengis.net/gml/Feature>". Any referenced `!FeatureCollection` must obey the same conditions as those for the first referenced [FeatureCollection](FeatureCollection.md) document above.
 
 The required `gml:EnvelopeWithTimePeriod` element provides temporal bounds and approximate spatial bounds. If more precise spatial bounds are desired, they may be provided as follows
 
@@ -337,11 +337,11 @@ Note that a smaller set of feature of interest should remain directly in the Off
 
 #### GWIE3. All optional extensions (KVP, GetProfile, FilterCapabilities...) MUST be advertised in the GetCapabilities
 
-\#<a href="OptExp" class="wikilink">OptExp</a> --------------------++Optional and Experimental Profile Points
+\#[OptExp](OptExp.md) --------------------++Optional and Experimental Profile Points
 
-#### Opt1. It is strongly recommended that a GWIE-compliant WFS return gwml:logElement with well construction information within gwml:<a href="WaterWell" class="wikilink">WaterWell</a>
+#### Opt1. It is strongly recommended that a GWIE-compliant WFS return gwml:logElement with well construction information within gwml:[WaterWell](WaterWell.md)
 
-\#<a href="GetObsKVP" class="wikilink">GetObsKVP</a>
+\#[GetObsKVP](GetObsKVP.md)
 
 #### Opt2. It is strongly recommended that a GWIE-compliant SOS implement a KVP version of GetObservation with standard parameter names.
 
@@ -353,7 +353,7 @@ For SOS GetObservation, we recommend the following KVP parameters:
 - featureId (of the related sensor/site featureOfInterest)
 - beginPosition and endPosition time parameters (sensitive only up to date)
 
-When both populated, the beginPosition and endPosition are handled as they are within a <a href="TM_During" class="wikilink">TM_During</a> element. When either beginPosition or endPosition are omitted, the parameters are handled as if a <a href="TM_Before" class="wikilink">TM_Before</a> or <a href="TM_After" class="wikilink">TM_After</a> were submitted, respectively.
+When both populated, the beginPosition and endPosition are handled as they are within a [TM_During](TM_During.md) element. When either beginPosition or endPosition are omitted, the parameters are handled as if a [TM_Before](TM_Before.md) or [TM_After](TM_After.md) were submitted, respectively.
 
 ```
 <ows:Operation name="GetObservation">
@@ -370,7 +370,7 @@ When both populated, the beginPosition and endPosition are handled as they are w
 
 See [above](#GetObsKVP) for rationale.
 
-<span class="twiki-macro ICON">warning</span> Conformance class under discussion
+warning Conformance class under discussion
 
 The SOS 1.0 spec does not specify a KVP implementation for GetObservationById For SOS GetObservationById, we recommend the following KVP parameters:
 
@@ -397,21 +397,21 @@ Note that for those implementations which parse or create the request according 
 
 \_TODO: show example\_
 
-- <a href="PropertyIsEqualTo" class="wikilink">PropertyIsEqualTo</a>
-- <a href="PropertyIsLessThan" class="wikilink">PropertyIsLessThan</a>
-- <a href="PropertyIsNotEqualTo" class="wikilink">PropertyIsNotEqualTo</a>
-- <a href="PropertyIsGreaterThan" class="wikilink">PropertyIsGreaterThan</a>
-- <a href="PropertyIsLessThanOrEqualTo" class="wikilink">PropertyIsLessThanOrEqualTo</a>
-- <a href="PropertyIsGreaterThanOrEqualTo" class="wikilink">PropertyIsGreaterThanOrEqualTo</a>
-- <a href="PropertyIsBetween" class="wikilink">PropertyIsBetween</a>
+- [PropertyIsEqualTo](PropertyIsEqualTo.md)
+- [PropertyIsLessThan](PropertyIsLessThan.md)
+- [PropertyIsNotEqualTo](PropertyIsNotEqualTo.md)
+- [PropertyIsGreaterThan](PropertyIsGreaterThan.md)
+- [PropertyIsLessThanOrEqualTo](PropertyIsLessThanOrEqualTo.md)
+- [PropertyIsGreaterThanOrEqualTo](PropertyIsGreaterThanOrEqualTo.md)
+- [PropertyIsBetween](PropertyIsBetween.md)
 
 #### Opt9. It is strongly recommended a GWIE-compliant SOS extend the comparison operations to include a @units attribute
 
-Of all the OGC Filter Encodings, only the `<Distance>` element has a @units attribute. We believe this is an oversight, as physical quantities need units to be meaningful. In order to make <a href="FilterEncoding" class="wikilink">FilterEncoding</a> meaningful for physical quantities.
+Of all the OGC Filter Encodings, only the `<Distance>` element has a @units attribute. We believe this is an oversight, as physical quantities need units to be meaningful. In order to make [FilterEncoding](FilterEncoding.md) meaningful for physical quantities.
 
-- Each of the <a href="ComparisonOp" class="wikilink">ComparisonOp</a> elements should have its own @units attribute
-- <a href="GetCapabilities" class="wikilink">GetCapabilities</a> should advertise a list of units it accepts. It's undetermined whether this should be a single section, or specified by property.
-- The first of the <a href="GetCapabilities" class="wikilink">GetCapabilities</a> list of units should be the default unit when the <a href="FilterEncoding" class="wikilink">FilterEncoding</a> element does not specify a @unit value
+- Each of the [ComparisonOp](ComparisonOp.md) elements should have its own @units attribute
+- [GetCapabilities](GetCapabilities.md) should advertise a list of units it accepts. It's undetermined whether this should be a single section, or specified by property.
+- The first of the [GetCapabilities](GetCapabilities.md) list of units should be the default unit when the [FilterEncoding](FilterEncoding.md) element does not specify a @unit value
 
 #### Exp1. GetProfile service
 
@@ -424,10 +424,4 @@ We're experimenting with a GetProfile service that may prove to have interesting
 - Cox, S. 2010b, Observations and Measurements - XML Implementation,Open Geospatial Consortium, OGC 10-025, version 2.0, 77 pp.
 - Taylor, P. ed. 2010 , OGC® WaterML2.0: An O&M profile for water observations data, Open Geospatial Consortium, OGC 10-126, version 0.1.0, 83 pages.
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 19 Oct 2010
-
-- TOPICINFO{author="<a href="IlinKuo" class="wikilink">IlinKuo</a>" date="1290617180" format="1.1" version="1.26"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment" class="wikilink">GroundwaterInteroperabilityExperiment</a>"}
+-- EricBoisvert - 19 Oct 2010

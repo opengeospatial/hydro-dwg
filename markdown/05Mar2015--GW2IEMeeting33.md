@@ -1,16 +1,16 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 33 -- Thurs 05 Mar 2015**
+# **[GW2IE](GW2IE.md) Meeting 33 -- Thurs 05 Mar 2015**
 
 ## **Agenda**
 
 - Technical
-  - \_Namespaces & <a href="URIs_" class="wikilink">URIs_</a>:
+  - \_Namespaces & [URIs\_](URIs_.md):
     - update (**Jessica, Bruce, Eric**)
   - \_Pump & Well Test proposal\_:
     - finalize entity name: [poll for name of Test](http://doodle.com/yv6m9s2xfa3cnybt)
     - finalize insertion into model: who, when?
       - packaging?
     - update re: specification document: requirements and conformance classes (**Eric, Sylvain**)
-  - \_Management <a href="Area_" class="wikilink">Area_</a>:
+  - \_Management [Area\_](Area_.md):
     - Modification proposal to be presented March 17 (**Sylvain, Bernhard**)
 - Use-Case Implementation
   - Use cases update: roundtable
@@ -24,11 +24,11 @@
 Present: Bruce, Jessica, Alex and Eric
 
 - USGS to check how it can accomodate different domain names to access their server. (Jessica)
-- Pump and Test: <a href="GW_AquiferTest" class="wikilink">GW_AquiferTest</a> is most favoured name and changed has been made to UML
-- Since Modular spec demands that requirement class matches a package, the <a href="GW_AquiferTest" class="wikilink">GW_AquiferTest</a> will be moved to its own package (Eric, François)
+- Pump and Test: [GW_AquiferTest](GW_AquiferTest.md) is most favoured name and changed has been made to UML
+- Since Modular spec demands that requirement class matches a package, the [GW_AquiferTest](GW_AquiferTest.md) will be moved to its own package (Eric, François)
 - Eric to start writing requirement and conformant class for Pump and Test
 - Management area posponed to next meeting since Sylvain and Berhard were absent)
-- Use case: Bruce working on UC1. Accepted to share his <a href="GeoNetwork" class="wikilink">GeoNetwork</a> configuration files so we can benefit from his experience on how to use <a href="GeoServer" class="wikilink">GeoServer</a>.
+- Use case: Bruce working on UC1. Accepted to share his [GeoNetwork](GeoNetwork.md) configuration files so we can benefit from his experience on how to use [GeoServer](GeoServer.md).
 
 ## **Connection Instructions**
 
@@ -43,13 +43,12 @@ Present: Bruce, Jessica, Alex and Eric
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 553 280 272
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m26458f6252c394b4f4fb9ec2d256a8d0>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -58,7 +57,7 @@ Present: Bruce, Jessica, Alex and Eric
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -84,10 +83,4 @@ Present: Bruce, Jessica, Alex and Eric
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 19 Jan 2015
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" comment="reprev" date="1426617178" format="1.1" reprev="1" version="6"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 19 Jan 2015

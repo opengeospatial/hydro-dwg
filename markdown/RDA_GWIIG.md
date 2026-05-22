@@ -2,9 +2,9 @@
 
 The Research Data Alliance (RDA) Global Water Information Interest Group (GWIIG) will serve as a platform leading to formation of RDA working group; as a venue for communication among RDA WGs and IGs focused on both technical eInfrastructure aspects (e.g. brokering; metadata and catalogs, dynamic data citation) and on related research domains (e.g. geosciences, agriculture, biodiversity); and as a coordination mechanism across a wide group of water information stakeholders, in particular those not previously involved in the OGC/WMO water standardization work.
 
-This section of the <a href="HydroDWG" class="wikilink">HydroDWG</a> twiki is dedicated to GWIIG activities. To encourage collaboration between OGC <a href="HydroDWG" class="wikilink">HydroDWG</a> and RDA GWIIG and given the overlap in some topics, it was decided link website content as well.
+This section of the [HydroDWG](HydroDWG.md) twiki is dedicated to GWIIG activities. To encourage collaboration between OGC [HydroDWG](HydroDWG.md) and RDA GWIIG and given the overlap in some topics, it was decided link website content as well.
 
-As mentionned on the [homepage of the HydroDWG twiki](WebHome), the group is intended to be a public forum for communication, and both the \<a href="<https://lists.opengeospatial.org/mailman/listinfo/hydro.dwg>" rel="nofollow" target="\_top"\>email list\</a\> and this wiki are open to interested parties.
+As mentionned on the [homepage of the HydroDWG twiki](WebHome.md), the group is intended to be a public forum for communication, and both the \<a href="<https://lists.opengeospatial.org/mailman/listinfo/hydro.dwg>" rel="nofollow" target="\_top"\>email list and this wiki are open to interested parties.
 
 ## Resources
 
@@ -31,19 +31,7 @@ As mentionned on the [homepage of the HydroDWG twiki](WebHome), the group is int
 
 - 20180321 : Berlin P11 (joint with OGC TC in Orléans) : [GWIIG meeting agenda](https://www.rd-alliance.org/ig-global-water-information-rda-11th-plenary-meeting)
 - 20170919-21: Montréal P10: [GWIIG meeting agenda](https://www.rd-alliance.org/ig-global-water-information-rda-10th-plenary-meeting)
-- 20170612: [Gothenburg Chair's meeting](%ATTACHURL%/RDA_Global_Water_Information_IG_2017_June.pptx)
+- 20170612: [Gothenburg Chair's meeting](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RDA_GWIIG/RDA_Global_Water_Information_IG_2017_June.pptx)
 - 20160915-17: Denver P8
 - 20160301: Tokyo P7 inaugural meeting :
-- 20150914: Paris P6 <a href="BoF" class="wikilink">BoF</a>
-
-<!-- -->
-
-- TOPICINFO{author="<a href="SylvainGrellet" class="wikilink">SylvainGrellet</a>" comment="reprev" date="1520610737" format="1.1" reprev="4" version="6"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WebHome" class="wikilink">WebHome</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="RDA_Global_Water_Information_IG_2017_June" class="wikilink">RDA_Global_Water_Information_IG_2017_June</a>.pptx" attachment="<a href="RDA_Global_Water_Information_IG_2017_June" class="wikilink">RDA_Global_Water_Information_IG_2017_June</a>.pptx" attr="" comment="20170612_Gothenburg" date="1498203507" path="RDA Global Water Information <a href="IG_2017_June" class="wikilink">IG_2017_June</a>.pptx" size="1213836" user="<a href="SylvainGrellet" class="wikilink">SylvainGrellet</a>" version="1"}
+- 20150914: Paris P6 [BoF](BoF.md)

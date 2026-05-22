@@ -1,10 +1,8 @@
-# 
+#
 
 # Rating Shifts Implementation Options
 
-<span class="twiki-macro TOC"></span>
-
-\<br /\> Implementation of Stage and Time shifts in the RGS conversion model. Refer concepts investigation: [http://external.opengis.org/twiki_public/HydrologyDWG/RatingsShiftsQuebec](RatingsShiftsQuebec)
+ Implementation of Stage and Time shifts in the RGS conversion model. Refer concepts investigation: [http://external.opengis.org/twiki_public/HydrologyDWG/RatingsShiftsQuebec](RatingsShiftsQuebec.md)
 
 For the purpose of this document, a Rating Shift is a compounding of the concepts the WMO terms stage shift and time shift.
 
@@ -16,25 +14,25 @@ In implementation, a rating shift conversion is a conversion that is applied as 
 
 ## Calculation of flow using shifts in a chained conversion
 
-\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RatingShifts.chainedConversion.png>" target="\_blank"\>\<img alt="<a href="RatingShifts" class="wikilink">RatingShifts</a>.chainedConversion.png" height="520" src="%ATTACHURL%/<a href="RatingShifts" class="wikilink">RatingShifts</a>.chainedConversion.png" title="<a href="RatingShifts" class="wikilink">RatingShifts</a>.chainedConversion.png" width="535" /\>\</a\>
+\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RatingShifts.chainedConversion.png>"\>\<img alt="[RatingShifts](RatingShifts.md).chainedConversion.png" height="520" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/RatingShifts.chainedConversion.png>" title="[RatingShifts](RatingShifts.md).chainedConversion.png" width="535" /\>
 
 ## Discharge Rating : A RGS Conversion
 
-The conversion of flow to stage is the primary use case of RGS conversions. The diagram below shows the basic element of time based application of one or more conversion tables.\<br /\> In this diagram, three rating tables are defined and each table has a single application start time defined.
+The conversion of flow to stage is the primary use case of RGS conversions. The diagram below shows the basic element of time based application of one or more conversion tables. In this diagram, three rating tables are defined and each table has a single application start time defined.
 
 .
 
-\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RGS.Conversion.Rating.png>" target="\_blank"\>\<img alt="" height="340" src="%ATTACHURL%/RGS.Conversion.Rating.png" width="560" /\>\</a\>
+\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RGS.Conversion.Rating.png>"\>\<img alt="" height="340" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/RGS.Conversion.Rating.png>" width="560" /\>
 
 ## Rating Shift : A RGS Conversion
 
 In the period between rating changes there is often a need to 'tweak' the rating relationship by small amounts. There may be one or many tweaks of the relationship applied in the course of the ratings application period. There is a need to interpolate the tweaking between tweak definition points. Tweaking is equivalent to the release of a new rating table with very minor change and a phased change between the rating tables. A tweak definition may result from a single gauging observation that deviates from the existing rating more than the allowed amount.
 
-A rating shift is a conversion table that is used to determine the amount of stage correction that is applied to the 'computed gage height' to determine the 'effective gage height'. See also the investigation for details of interpolating between shifts <a href="RatingsShiftsQuebec" class="wikilink">RatingsShiftsQuebec</a>.
+A rating shift is a conversion table that is used to determine the amount of stage correction that is applied to the 'computed gage height' to determine the 'effective gage height'. See also the investigation for details of interpolating between shifts [RatingsShiftsQuebec](RatingsShiftsQuebec.md).
 
 There may be zero or many shifts defined for a rating period.
 
-\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RGS.Conversion.Shift.png>" target="\_blank"\>\<img alt="RGS.Conversion.Shift.png" height="351" src="%ATTACHURL%/RGS.Conversion.Shift.png" title="RGS.Conversion.Shift.png" width="535" /\>\</a\>
+\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RGS.Conversion.Shift.png>"\>\<img alt="RGS.Conversion.Shift.png" height="351" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/RGS.Conversion.Shift.png>" title="RGS.Conversion.Shift.png" width="535" /\>
 
 ### Relationship between Ratings and Shifts
 
@@ -44,7 +42,7 @@ In terms of the full definition and interpolation of shifts there is an implicit
 
 A family of shift tables relates to single period of application of a rating table. The diagram below shows how a number of shift tables may apply to two rating tables.
 
-\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingsShiftsQuebec/Ratings_and_Shifts_-_relationship.jpg>" target="\_blank"\>\<img alt="" height="375" src="%PUBURL%/<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>/<a href="RatingsShiftsQuebec" class="wikilink">RatingsShiftsQuebec</a>/<a href="Ratings_and_Shifts_" class="wikilink">Ratings_and_Shifts_</a>-\_relationship.jpg" width="532" /\>\</a\>
+\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingsShiftsQuebec/Ratings_and_Shifts_-_relationship.jpg>"\>\<img alt="" height="375" src="%PUBURL%/[HydrologyDWG](HydrologyDWG.md)/[RatingsShiftsQuebec](RatingsShiftsQuebec.md)/[Ratings_and_Shifts\_](Ratings_and_Shifts_.md)-\_relationship.jpg" width="532" /\>
 
 The definition of the shift tables includes the date and time they apply from and actual shift amounts. There are two assumptions made in applying the shifts across the full period of the rating:
 
@@ -58,9 +56,9 @@ These two assumptions mean that to fully apply shifts, definition of shift table
 
 The diagram below, effective shift definition, illustrates this. In this diagram there is an implied shift table of '0', that is applied at the start of the rating period. At the end of the rating period, shift table three is reapplied. This has the effect of causing table threes definition being applied without interpolation.
 
-.\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RGS.EffectiveShiftDefinition.png>" target="\_blank"\>\<img alt="" height="500" src="%ATTACHURL%/RGS.<a href="EffectiveShiftDefinition" class="wikilink">EffectiveShiftDefinition</a>.png" width="756" /\>\</a\>
+.\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RGS.EffectiveShiftDefinition.png>"\>\<img alt="" height="500" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/RGS.EffectiveShiftDefinition.png>" width="756" /\>
 
-# Modelling shifts in <a href="WaterML" class="wikilink">WaterML</a>.P2
+# Modelling shifts in [WaterML](WaterML.md).P2
 
 There are two paradigms for modelling shifts under consideration, each will enable the correct application of shifts in an information system and each has their complexities and upsides.
 
@@ -68,27 +66,27 @@ Modelling paradigms:
 
 1.  Model System implementation
 2.  Model as two separate conversions
-3.  Hybrid - Enable <a href="ConversionApplicationtime" class="wikilink">ConversionApplicationtime</a> to refer to conversion of different From and To parameters
+3.  Hybrid - Enable [ConversionApplicationtime](ConversionApplicationtime.md) to refer to conversion of different From and To parameters
 
 ## Model : system implementation
 
-This approach requires a link between a table and the shifts conversion defintion. There is a shift conversion definition for each rating table. THis may lead to bery bulking an complex <a href="WaterML" class="wikilink">WaterML</a>.P2 documents.
+This approach requires a link between a table and the shifts conversion defintion. There is a shift conversion definition for each rating table. THis may lead to bery bulking an complex [WaterML](WaterML.md).P2 documents.
 
 The approach enables some of the process / relationship the is implemented when shifts are used in a system to be represented in the model and data.
 
-\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/ImplementationSystem.png>" target="\_blank"\>\<img alt="" height="699" src="%ATTACHURL%/<a href="ImplementationSystem" class="wikilink">ImplementationSystem</a>.png" width="594" /\>\</a\>
+\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/ImplementationSystem.png>"\>\<img alt="" height="699" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/ImplementationSystem.png>" width="594" /\>
 
 ## Model : Two conversions
 
-###### \<span style="color: \#000000; font-size: small; line-height: 22px;"\>This approach is simplistix and treats both the rating and shift conversion as unretaled conversions. To some extent this approach is in line with rgs-24:\</span\>*"We supply conversion information that is able to be used in simple or complex conversion chains. Communication of information that defines the 'chain conversion process' or 'work flow' of simple or complex chain conversions in not in scope. ".*
+###### This approach is simplistix and treats both the rating and shift conversion as unretaled conversions. To some extent this approach is in line with rgs-24:*"We supply conversion information that is able to be used in simple or complex conversion chains. Communication of information that defines the 'chain conversion process' or 'work flow' of simple or complex chain conversions in not in scope. ".*
 
 Consideration should be given to the preservation of shift table identifies between sources system and WML2.P2 documents under this model.
 
-\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/ImplementationTwoConversions.png>" target="\_blank"\>\<img alt="" height="699" src="%ATTACHURL%/<a href="ImplementationTwoConversions" class="wikilink">ImplementationTwoConversions</a>.png" width="636" /\>\</a\>
+\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/ImplementationTwoConversions.png>"\>\<img alt="" height="699" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/ImplementationTwoConversions.png>" width="636" /\>
 
 ## Model : Hybrid - One period, two paramter groups
 
-\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/ImplmentationOnePeriodTwoConversion.png>" target="\_blank"\>\<img alt="" height="688" src="%ATTACHURL%/<a href="ImplmentationOnePeriodTwoConversion" class="wikilink">ImplmentationOnePeriodTwoConversion</a>.png" width="741" /\>\</a\>
+\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/ImplmentationOnePeriodTwoConversion.png>"\>\<img alt="" height="688" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/ImplmentationOnePeriodTwoConversion.png>" width="741" /\>
 
 **Hybrid model - Pros and Cons**
 
@@ -96,50 +94,4 @@ The primary con is that most existing information systems have a one to one rela
 
 There a significant advantages to transfer document simplicity by allowing a conversion period to refer to multiple parameter From.To combinations. There is also a significant advantage to the application of USGS shifts though the use of this model. The actual shift being applied relies on the flow rating start and end dates as well as the shift application dates. By compounding this information into a single period of application table, if it is possible to find all the information required in one place for computing effective shift. This is a significant advantage for using the information compared to the options that require a different conversion period definition for each conversion table.
 
--- Main.<a href="PaulSheahan" class="wikilink">PaulSheahan</a> - 20 Sep 2013
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" comment="reprev" date="1385074349" format="1.1" reprev="6" version="6"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="RatingShifts" class="wikilink">RatingShifts</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="RatingShifts" class="wikilink">RatingShifts</a>.chainedConversion.pptx" attachment="<a href="RatingShifts" class="wikilink">RatingShifts</a>.chainedConversion.pptx" attr="" comment="" date="1380843481" path="<a href="RatingShifts" class="wikilink">RatingShifts</a>.chainedConversion.pptx" size="147581" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="2"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="RatingShifts" class="wikilink">RatingShifts</a>.chainedConversion.png" attachment="<a href="RatingShifts" class="wikilink">RatingShifts</a>.chainedConversion.png" attr="" comment="" date="1379641393" path="<a href="RatingShifts" class="wikilink">RatingShifts</a>.chainedConversion.png" size="237236" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="RGS.Conversion.Rating.png" attachment="RGS.Conversion.Rating.png" attr="" comment="" date="1379642108" path="RGS.Conversion.Rating.png" size="60452" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="RGS.Conversion.Shift.png" attachment="RGS.Conversion.Shift.png" attr="" comment="" date="1379643034" path="RGS.Conversion.Shift.png" size="74190" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="RGS.Ratings.And.Shifts.png" attachment="RGS.Ratings.And.Shifts.png" attr="" comment="" date="1379643689" path="RGS.Ratings.And.Shifts.png" size="108903" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="RGS.<a href="EffectiveShiftDefinition" class="wikilink">EffectiveShiftDefinition</a>.png" attachment="RGS.<a href="EffectiveShiftDefinition" class="wikilink">EffectiveShiftDefinition</a>.png" attr="" comment="" date="1379645507" path="RGS.<a href="EffectiveShiftDefinition" class="wikilink">EffectiveShiftDefinition</a>.png" size="90225" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="ImplementationSystem" class="wikilink">ImplementationSystem</a>.png" attachment="<a href="ImplementationSystem" class="wikilink">ImplementationSystem</a>.png" attr="" comment="" date="1379647738" path="<a href="ImplementationSystem" class="wikilink">ImplementationSystem</a>.png" size="37114" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="ImplementationTwoConversions" class="wikilink">ImplementationTwoConversions</a>.png" attachment="<a href="ImplementationTwoConversions" class="wikilink">ImplementationTwoConversions</a>.png" attr="" comment="" date="1379647750" path="<a href="ImplementationTwoConversions" class="wikilink">ImplementationTwoConversions</a>.png" size="38295" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="ImplmentationOnePeriodTwoConversion" class="wikilink">ImplmentationOnePeriodTwoConversion</a>.png" attachment="<a href="ImplmentationOnePeriodTwoConversion" class="wikilink">ImplmentationOnePeriodTwoConversion</a>.png" attr="" comment="" date="1380243667" path="<a href="ImplmentationOnePeriodTwoConversion" class="wikilink">ImplmentationOnePeriodTwoConversion</a>.png" size="65649" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
-
-<!-- -->
-
-- TOPICMOVED{by="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" date="1385073586" from="<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>.<a href="RatingShiftsImplementation" class="wikilink">RatingShiftsImplementation</a>" to="<a href="HydrologyDWG" class="wikilink">HydrologyDWG</a>.<a href="RatingShiftsImplementationOptions" class="wikilink">RatingShiftsImplementationOptions</a>"}
+-- PaulSheahan - 20 Sep 2013

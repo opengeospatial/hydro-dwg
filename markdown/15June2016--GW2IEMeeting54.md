@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 54 / GW SWG Meeting \#5 -- Wed 15 June 2016**
+# **[GW2IE](GW2IE.md) Meeting 54 / GW SWG Meeting \#5 -- Wed 15 June 2016**
 
 ## **Agenda**
 
@@ -30,7 +30,6 @@
   - pass: ogc
   - url: <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m52a5c25ed3daa504d18c7d30bf6af588>
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -48,9 +47,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1464364929" format="1.1" reprev="1" version="1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundWaterSWG" class="wikilink">GroundWaterSWG</a>"}

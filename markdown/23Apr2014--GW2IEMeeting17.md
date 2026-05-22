@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 17** **-- Wed 23 Apr 2014 -- Conceptual Model**
+# **[GW2IE](GW2IE.md) Meeting 17** **-- Wed 23 Apr 2014 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -9,7 +9,7 @@
   - Review metadata & name changes
   - Flow
     - see meeting 16 revision notes (page 3) for issues
-    - <a href="GW_Flow" class="wikilink">GW_Flow</a> referencing and <a href="GW_WaterBudget" class="wikilink">GW_WaterBudget</a> data types ( [see comments here](GWML2_CM_0-2_Discussion))
+    - [GW_Flow](GW_Flow.md) referencing and [GW_WaterBudget](GW_WaterBudget.md) data types ( [see comments here](GWML2_CM_0-2_Discussion.md))
   - Flow system
 
 ## **Participants**
@@ -18,17 +18,17 @@
 
 ## **Results**
 
-- See meeting 17 (CM 0.30) revisions [here](GWML2-CM-Model)
+- See meeting 17 (CM 0.30) revisions [here](GWML2-CM-Model.md)
 - Hydrogeo unit
-  - removed unitRecharge/<a href="DischargeLocation" class="wikilink">DischargeLocation</a>: duplicates same available via unitRecharge/Discharge
+  - removed unitRecharge/[DischargeLocation](DischargeLocation.md): duplicates same available via unitRecharge/Discharge
 - Fluid Body
   - gwBackgroundConstituent: removed aggregate class and replaced with association
 - Recharge/Discharge Location: removed recharge/discharge unit
   - to preserve generality: source / destination can be non-units
   - unnecessary: duplicates reciprocal source/destination relation via inflow/outflow
-- <a href="GW_Flow" class="wikilink">GW_Flow</a>
-  - removed gwFlowBody from <a href="GW_flow" class="wikilink">GW_flow</a> and replaced with:
-    - Source/<a href="DestinationBody" class="wikilink">DestinationBody</a> to Inter/<a href="IntraFlow" class="wikilink">IntraFlow</a> to associate flow with a body
+- [GW_Flow](GW_Flow.md)
+  - removed gwFlowBody from [GW_flow](GW_flow.md) and replaced with:
+    - Source/[DestinationBody](DestinationBody.md) to Inter/[IntraFlow](IntraFlow.md) to associate flow with a body
 
 ## **Connection Instructions**
 
@@ -49,7 +49,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 559 426 555
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -61,7 +61,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -86,9 +86,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1398273121" format="1.1" reprev="6" version="6"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

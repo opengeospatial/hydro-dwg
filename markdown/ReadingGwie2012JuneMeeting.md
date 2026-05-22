@@ -4,10 +4,10 @@
 
 What are the interests of different parties
 
-- **%BLUE%Harmonize OGC/INT'L GW Model%ENDCOLOR%**
-  - <span class="twiki-macro BLUE"></span> **GW Use case** <span class="twiki-macro ENDCOLOR"></span>
-- **%BLUE%Link to surface water feature and Observation%ENDCOLOR%**
-  - **%BLUE%GW/SW use cases%ENDCOLOR%**
+- **Harmonize OGC/INT'L GW Model**
+  - **GW Use case**
+- **Link to surface water feature and Observation**
+  - **GW/SW use cases**
 
 RT: INSPIRE aims at being consistent with International standard.
 
@@ -49,9 +49,9 @@ Looking at BW ppt.
 
 TN: INSPIRE was connection between Geology and Hydrology. Suggests that we bring in more experts (IAH).
 
-BB,DB: Themes \* <span class="twiki-macro BLUE"></span> **Rock system** <span class="twiki-macro ENDCOLOR"></span> \* <span class="twiki-macro BLUE"></span> **Groundwater System (water dynamic, flows, etc.)** <span class="twiki-macro ENDCOLOR"></span> \* <span class="twiki-macro BLUE"></span> **Wells and abstraction artefacts** <span class="twiki-macro ENDCOLOR"></span> \* <span class="twiki-macro BLUE"></span> **Related Observations** <span class="twiki-macro ENDCOLOR"></span> \* <span class="twiki-macro BLUE"></span> **Water budget (Recharge and Discharge)Reservoirs** <span class="twiki-macro ENDCOLOR"></span>
+BB,DB: Themes \* **Rock system** \* **Groundwater System (water dynamic, flows, etc.)** \* **Wells and abstraction artefacts** \* **Related Observations** \* **Water budget (Recharge and Discharge)Reservoirs**
 
-- Total water budget and subsurface flows (inter aquifers) \* \* <span class="twiki-macro BLUE"></span> **Water Body (quality, volume of material). Piezometric surface is a property of Water Body** <span class="twiki-macro ENDCOLOR"></span> \* <span class="twiki-macro BLUE"></span> **Water management units** <span class="twiki-macro ENDCOLOR"></span>
+- Total water budget and subsurface flows (inter aquifers) \* \* **Water Body (quality, volume of material). Piezometric surface is a property of Water Body** \* **Water management units**
 
 BB: For strictly environmental reason, Water Budget, Economic reasons : Reservoir
 
@@ -71,7 +71,7 @@ BB: Do we model all of modularise. Figure out what are the main packaging.
 
 DB: Water budget not in a HG specific.
 
-RA : <a href="WaterML" class="wikilink">WaterML</a> profile ?
+RA : [WaterML](WaterML.md) profile ?
 
 BB: Priority on wich one are core. Discuss now or later.
 
@@ -85,23 +85,23 @@ BB: next step is to define use cases.
 
 ## Conceptual issues
 
-<span class="twiki-macro BLUE"></span> **Open issue about <a href="GeologicUnit" class="wikilink">GeologicUnit</a>** <span class="twiki-macro ENDCOLOR"></span>
+**Open issue about [GeologicUnit](GeologicUnit.md)**
 
-Different organisation for <a href="AquiferSystem" class="wikilink">AquiferSystem</a>, but semantically the same
+Different organisation for [AquiferSystem](AquiferSystem.md), but semantically the same
 
-Some conceptual differences for <a href="GroundwaterBody" class="wikilink">GroundwaterBody</a> between <a href="HY_Feature" class="wikilink">HY_Feature</a> and GWML
+Some conceptual differences for [GroundwaterBody](GroundwaterBody.md) between [HY_Feature](HY_Feature.md) and GWML
 
 Wells are O&M support of observation for GWML while INSPIRE have a link to INSPIRE monitoring model.
 
-<span class="twiki-macro BLUE"></span> **INSPIRE division along active and inactive make lots of sense because of the impact on gw flow.** <span class="twiki-macro ENDCOLOR"></span>
+**INSPIRE division along active and inactive make lots of sense because of the impact on gw flow.**
 
-Well in <a href="HY_Feature" class="wikilink">HY_Feature</a> is more closely related to INSPIRE concept of a well.
+Well in [HY_Feature](HY_Feature.md) is more closely related to INSPIRE concept of a well.
 
-JM: Lots of properties from <a href="GeologicUnit" class="wikilink">GeologicUnit</a> are not necessary for <a href="HydroGeologicUnit" class="wikilink">HydroGeologicUnit</a> and did not want to bring all this extra properties
+JM: Lots of properties from [GeologicUnit](GeologicUnit.md) are not necessary for [HydroGeologicUnit](HydroGeologicUnit.md) and did not want to bring all this extra properties
 
-BB: lots of <a href="GeologicUnit" class="wikilink">GeologicUnit</a> are not mandatory
+BB: lots of [GeologicUnit](GeologicUnit.md) are not mandatory
 
-JL: INSPIRE version of <a href="GeologicUnit" class="wikilink">GeologicUnit</a> is much simplified
+JL: INSPIRE version of [GeologicUnit](GeologicUnit.md) is much simplified
 
 BB: Need a deeper discussion of address this issue.
 
@@ -109,13 +109,13 @@ TN: Longer discussion needed but Skype is bad.
 
 DB: support for borehole is a big requirement. overlap between hydrogeology and geology is very close in borehole context.
 
-RT: different understanding of <a href="GeoSciML" class="wikilink">GeoSciML</a>.
+RT: different understanding of [GeoSciML](GeoSciML.md).
 
-SC: <a href="GeoSciML" class="wikilink">GeoSciML</a> requires a lot of rationalisation, even from geologists.
+SC: [GeoSciML](GeoSciML.md) requires a lot of rationalisation, even from geologists.
 
-RT: maybe clarify the definition of what is a <a href="GeologicUnit" class="wikilink">GeologicUnit</a>
+RT: maybe clarify the definition of what is a [GeologicUnit](GeologicUnit.md)
 
-JL: The issue of excessive properties in <a href="GeoSciML" class="wikilink">GeoSciML</a> is not as pressing in INSPIRE since the model is simplified.
+JL: The issue of excessive properties in [GeoSciML](GeoSciML.md) is not as pressing in INSPIRE since the model is simplified.
 
 ## Next steps
 
@@ -131,7 +131,7 @@ EB: obvious need for transborder
 
 PS: interested as an observer.
 
-SC: supportive. Since <a href="GeoSciML" class="wikilink">GeoSciML</a> and this initiative will be under OGC. Will look at package
+SC: supportive. Since [GeoSciML](GeoSciML.md) and this initiative will be under OGC. Will look at package
 
 DB: on board. need as common as possible with Canada, and within states. Mission critical for full monitoring network
 
@@ -153,26 +153,20 @@ SC: OGC membership is 500\$. Local government 200\$
 
 TN: speak with IAH to seek interest.
 
-**%BLUE%Draft GWIE 2 document%ENDCOLOR%**
+**Draft GWIE 2 document**
 
-**%BLUE%Need dates and clarification. When clarification,%ENDCOLOR%**
+**Need dates and clarification. When clarification,**
 
-**%BLUE%Process is IE -\> Eng. report -\> RFC -\> SWIG (not if no comment)%ENDCOLOR%**
+**Process is IE -\> Eng. report -\> RFC -\> SWIG (not if no comment)**
 
-**%BLUE%target 1yr, so end at September 1st. 2013 (to be confirmed)%ENDCOLOR%**
+**target 1yr, so end at September 1st. 2013 (to be confirmed)**
 
-**%BLUE%Finalise document by August 1st%ENDCOLOR%**
+**Finalise document by August 1st**
 
-**%BLUE%Start activities in September 2012%ENDCOLOR%**
+**Start activities in September 2012**
 
-**%BLUE%(some face to face and regular remote meetings)%ENDCOLOR%**
+**(some face to face and regular remote meetings)**
 
-**%BLUE%more participant can join (contact Boyan Brodaric)%ENDCOLOR%**
+**more participant can join (contact Boyan Brodaric)**
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 28 Jun 2012
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" comment="reprev" date="1340893633" format="1.1" reprev="2" version="2"}
-
-<!-- -->
-
-- TOPICPARENT{name="28June2012--<a href="ReadingWorkshop" class="wikilink">ReadingWorkshop</a>"}
+-- EricBoisvert - 28 Jun 2012

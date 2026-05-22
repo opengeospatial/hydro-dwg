@@ -1,14 +1,14 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 31 -- Thurs 05 Feb 2015**
+# **[GW2IE](GW2IE.md) Meeting 31 -- Thurs 05 Feb 2015**
 
 ## **Agenda**
 
 - AGU 2015
   - AGU link to be posted (**Jessica**) - DONE. Posted on main site. (<https://agu.confex.com/data/handout/agu/fm14/Paper_30183_handout_1556_0.pdf>)
 - Technical
-  - \_Data <a href="Record_" class="wikilink">Record_</a>: update to be confirmed (**Eric**)
-  - \_Namespaces & <a href="URIs_" class="wikilink">URIs_</a>: servers to be prepared by USGS (**Jessica**)
-  - \_Pump & Well Test proposal\_: draft to be reviewed (**Eric, Sylvain**) <a href="AquiferTestingDiscussion" class="wikilink">AquiferTestingDiscussion</a> see: <https://xp-dev.com/svn/gwml2/Documents/instance/pumptest.xml>
-  - \_Other issues\_: [Logical Model page](GWML2-UML-Model) review of remaining issues (**Bruce**)
+  - \_Data [Record\_](Record_.md): update to be confirmed (**Eric**)
+  - \_Namespaces & [URIs\_](URIs_.md): servers to be prepared by USGS (**Jessica**)
+  - \_Pump & Well Test proposal\_: draft to be reviewed (**Eric, Sylvain**) [AquiferTestingDiscussion](AquiferTestingDiscussion.md) see: <https://xp-dev.com/svn/gwml2/Documents/instance/pumptest.xml>
+  - \_Other issues\_: [Logical Model page](GWML2-UML-Model.md) review of remaining issues (**Bruce**)
 
 ## **Participants**
 
@@ -29,13 +29,12 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 556 993 536
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m2d6512c71651e6e84b585664f32da4b8>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -44,7 +43,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -70,10 +69,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 19 Jan 2015
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" comment="save topic" date="1424788640" format="1.1" reprev="1" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 19 Jan 2015

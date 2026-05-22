@@ -10,10 +10,4 @@
 | 52 North | <jirka@52north.org> | Simon Jirka |
 |  | <broering@52north.org> | Arne Broering |
 
--- Main.<a href="PeterFitch" class="wikilink">PeterFitch</a> - 18 Jun 2010
-
-- TOPICINFO{author="<a href="PeterFitch" class="wikilink">PeterFitch</a>" date="1276872462" format="1.1" reprev="1.1" version="1.1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="SurfacewaterInteroperabilityExperiment" class="wikilink">SurfacewaterInteroperabilityExperiment</a>"}
+-- PeterFitch - 18 Jun 2010

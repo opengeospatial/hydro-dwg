@@ -16,11 +16,11 @@ The focus of the group is analyzing and understanding requirements and use cases
 - Interoperability Experiments (IEs) focused on selected sub-domains of water data (e.g. surface water, groundwater, water quality, water use, hydrologic forecasts, realtime data), where teams of DWG members will pilot emerging water data standards and services, specifically addressing the three components above.
 - Participation in GEO Architecture Implementation Pilots (AIPs), focused on broader scenarios within the entire domain and across domains
 - Submission of discussion papers and best practice papers (the latter following IE and AIP experiences)
-- Collaboration with other DWGs, in particular ESS (on modelling), <a href="MetOcean" class="wikilink">MetOcean</a> (on handling gridded data), SWE (on real time data management)
+- Collaboration with other DWGs, in particular ESS (on modelling), [MetOcean](MetOcean.md) (on handling gridded data), SWE (on real time data management)
 
 #### Sub-groups:
 
-- Design group: primarily responsible for driving <a href="WaterML" class="wikilink">WaterML</a> 2.0
+- Design group: primarily responsible for driving [WaterML](WaterML.md) 2.0
 - Use case and testbed groups: IEs
 - Ontology/vocabulary task force
 
@@ -30,7 +30,7 @@ We expect (in the timeline below, in particular) that each IE will be about a ye
 
 Another organizational option is to have a single large IE, covering all the sub-domains. We shall discuss the pros and cons at the meeting. The timeline below tentatively includes several IEs.
 
-Each IE is expected to address feature model in its sub-domain (sampling features, features of interest, cluster/aggregate features), the observation model (frequencies, sampling patterns, etc.), vocabularies, and services. IEs focus on informing standards development, while AIPs focus on broader interoperability scenarios in the domain. Therefore, IEs are tightly connected with <a href="WaterML" class="wikilink">WaterML</a> 2 development. A draft <a href="WaterML" class="wikilink">WaterML</a> 2.0 specification, currently being developed in conjunction with the groundwater IE, will be posted on the DWG pages shortly.
+Each IE is expected to address feature model in its sub-domain (sampling features, features of interest, cluster/aggregate features), the observation model (frequencies, sampling patterns, etc.), vocabularies, and services. IEs focus on informing standards development, while AIPs focus on broader interoperability scenarios in the domain. Therefore, IEs are tightly connected with [WaterML](WaterML.md) 2 development. A draft [WaterML](WaterML.md) 2.0 specification, currently being developed in conjunction with the groundwater IE, will be posted on the DWG pages shortly.
 
 #### Timeline
 
@@ -42,13 +42,13 @@ Each IE is expected to address feature model in its sub-domain (sampling feature
 **December 2009**
 
 - Update on the harmonization report
-- Proposed <a href="WaterML" class="wikilink">WaterML</a> 2.0 schema announced
+- Proposed [WaterML](WaterML.md) 2.0 schema announced
 - IE1 officially launched, IEs 2-3 announced and IE teams formed
 - Work plan and first steps discussed
 
 **March 2010**
 
-- <a href="WaterML" class="wikilink">WaterML</a> 2.0 documentation posted for wider discussion
+- [WaterML](WaterML.md) 2.0 documentation posted for wider discussion
 - Version 2 of the harmonization Discussion Paper
 - IE2 launched (to be reported 3/11); AIP team formed
 - Ontology task force started (with GRDC, CSIRO, CUAHSI, others)
@@ -84,10 +84,4 @@ Each IE is expected to address feature model in its sub-domain (sampling feature
 
 **December 2012**
 
--- Main.<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a> - 11 Nov 2009
-
-- TOPICINFO{author="<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a>" date="1261429577" format="1.1" reprev="1.7" version="1.7"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WebHome" class="wikilink">WebHome</a>"}
+-- IlyaZaslavsky - 11 Nov 2009

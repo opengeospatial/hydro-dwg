@@ -1,4 +1,4 @@
-# **CANCELLED** --<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 38 -- Tues 26 May 2015-- **CANCELLED**
+# **CANCELLED** --[GW2IE](GW2IE.md) Meeting 38 -- Tues 26 May 2015-- **CANCELLED**
 
 ## **Agenda**
 
@@ -18,7 +18,6 @@
   - pass: ogc
   - url:
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -36,9 +35,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1432129248" format="1.1" reprev="4" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

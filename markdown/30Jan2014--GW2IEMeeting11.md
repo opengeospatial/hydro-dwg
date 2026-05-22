@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 11** **-- Thurs 30 Jan 2014 -- Conceptual Model**
+# **[GW2IE](GW2IE.md) Meeting 11** **-- Thurs 30 Jan 2014 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -28,11 +28,11 @@
 - **Conceptual Model**
   - Confirmed: proposed changes from last meeting (CM 0.23)
   - Confirmed: existing unit properties confirmed, except those related to flows (deferred)
-  - New Changes: [see CM 0.24](GWML2-CM-Model)
+  - New Changes: [see CM 0.24](GWML2-CM-Model.md)
     - Added gwBodyFluidType... as a placeholder, might be unnecessary
     - Keep gwUnitVulnerability as per INSPIRE
     - Add general vulnerability property for unit and body \[0..\*\], with vocabulary of general threats
-  - To do next meeting (Feb 12): <a href="GW_FluidBody" class="wikilink">GW_FluidBody</a> properties
+  - To do next meeting (Feb 12): [GW_FluidBody](GW_FluidBody.md) properties
 
 ## **Connection Instructions**
 
@@ -43,7 +43,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 551 752 477
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -55,7 +55,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -80,9 +80,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1393245914" format="1.1" reprev="7" version="7"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

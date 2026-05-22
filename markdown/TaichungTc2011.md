@@ -12,10 +12,4 @@
 
 Peter Fitch (CSIRO) has kindly offered to chair the session.
 
--- Main.<a href="DavidLemon" class="wikilink">DavidLemon</a> - 16 Aug 2011
-
-- TOPICINFO{author="<a href="DavidLemon" class="wikilink">DavidLemon</a>" comment="reprev" date="1313459567" format="1.1" reprev="1" version="1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WebHome" class="wikilink">WebHome</a>"}
+-- DavidLemon - 16 Aug 2011

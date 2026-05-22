@@ -45,16 +45,6 @@ Lunch 12-1pm
 
 Containing folder for all presentations linked above is here: [Meeting Reports Folder for Boulder TC](https://portal.opengeospatial.org/index.php?m=projects&a=view&project_id=82&tab=2&artifact_id=45861)
 
--- Main.<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a> - 15 Sep 2011
+-- IlyaZaslavsky - 15 Sep 2011
 
--- Main.<a href="DavidArctur" class="wikilink">DavidArctur</a> - 28 Sep 2011
-
-- TOPICINFO{author="<a href="DavidArctur" class="wikilink">DavidArctur</a>" comment="reprev" date="1317252549" format="1.1" reprev="9" version="9"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WebHome" class="wikilink">WebHome</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="<a href="Agenda_watercycle_summit_TC_Boudler" class="wikilink">Agenda_watercycle_summit_TC_Boudler</a>.ppt" attachment="<a href="Agenda_watercycle_summit_TC_Boudler" class="wikilink">Agenda_watercycle_summit_TC_Boudler</a>.ppt" attr="" comment="Agenda for the Oceans/Meteo/Hydro Water Cycle Summit, Sept 21, 2011" date="1316559640" path="<a href="Agenda_watercycle_summit_TC_Boudler" class="wikilink">Agenda_watercycle_summit_TC_Boudler</a>.ppt" size="384000" user="<a href="IlyaZaslavsky" class="wikilink">IlyaZaslavsky</a>" version="3"}
+-- DavidArctur - 28 Sep 2011

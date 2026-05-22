@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 24 -- Wed 01 Oct 2014 -- Report**
+# **[GW2IE](GW2IE.md) Meeting 24 -- Wed 01 Oct 2014 -- Report**
 
 ## **Agenda**
 
@@ -8,14 +8,14 @@
 
 ### Issues discussed at informal Sep 18 Meeting
 
-- \<span style="background-color: transparent;"\>Dominic Lowe pointed out some issues regarding schema imports (superfluous import statements). **Action**: Main.<a href="FrancoisLetourneau" class="wikilink">FrancoisLetourneau</a> will check XSD and fix issues (**%GREEN%Done%ENDCOLOR%**)\</span\>
-- \<span style="background-color: transparent;"\>Dominic Lowe also raised concern about nucleus package importing other packages and confusion around naming. **Action**: To be discussed\</span\>
-- \<span style="background-color: transparent;"\>'nil' values can be represented different ways, using xsi:nil or using xlink:href (as proposed by OGC 12-110 - spec not adopted): **Decision** : use the xlink:href approach\</span\>
-- \<span style="background-color: transparent;"\>Schematron file contains all the expressable rules in a single file for each package. It has been discussed if it was necessary to list rules one by one in the conformance class section instead of just saying "must validate with schematron file" only once (pretty much what we do with XSD). **Decision**: Have a single statement about schematron validation for all tests and add an explanation in the core conformance class.\</span\>
-- \<span style="background-color: transparent;"\>Data Record encoding as proposed in the GWML2 spec might be too restrictive for log, some logs can be made of free text instead of Category. We also don't address numerical logs (geophysic). **Action**: Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> will propose more flexible Data Record encoding as example for the group to discuss. (see <a href="GwmlSweDataRecord" class="wikilink">GwmlSweDataRecord</a>) (**%GREEN%Done%ENDCOLOR%**)\</span\>
-- \<span style="background-color: transparent;"\>Pump (installed pump) is missing from construction: **Action**: Discuss with group.\</span\>
+- Dominic Lowe pointed out some issues regarding schema imports (superfluous import statements). **Action**: Main.[FrancoisLetourneau](FrancoisLetourneau.md) will check XSD and fix issues (**Done**)
+- Dominic Lowe also raised concern about nucleus package importing other packages and confusion around naming. **Action**: To be discussed
+- 'nil' values can be represented different ways, using xsi:nil or using xlink:href (as proposed by OGC 12-110 - spec not adopted): **Decision** : use the xlink:href approach
+- Schematron file contains all the expressable rules in a single file for each package. It has been discussed if it was necessary to list rules one by one in the conformance class section instead of just saying "must validate with schematron file" only once (pretty much what we do with XSD). **Decision**: Have a single statement about schematron validation for all tests and add an explanation in the core conformance class.
+- Data Record encoding as proposed in the GWML2 spec might be too restrictive for log, some logs can be made of free text instead of Category. We also don't address numerical logs (geophysic). **Action**: Main.[EricBoisvert](EricBoisvert.md) will propose more flexible Data Record encoding as example for the group to discuss. (see [GwmlSweDataRecord](GwmlSweDataRecord.md)) (**Done**)
+- Pump (installed pump) is missing from construction: **Action**: Discuss with group.
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 18 Sep 2014
+-- EricBoisvert - 18 Sep 2014
 
 ## **Participants**
 
@@ -37,7 +37,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 551 852 914
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -49,7 +49,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -75,10 +75,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 17 Sep 2014
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" comment="reprev" date="1412169563" format="1.1" reprev="1" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 17 Sep 2014

@@ -12,18 +12,8 @@ Code for US and Global datasets:
 
 <https://code.usgs.gov/wma/nhgf/mainstems/>
 
-Slides: [mainstems_seminar_slides.pptx](%ATTACHURL%/mainstems_seminar_slides.pptx)
+Slides: [mainstems_seminar_slides.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGSeminarAugust2021/mainstems_seminar_slides.pptx)
 
-See recording here: \<a href='<https://portal.ogc.org/files/?artifact_id=98610>' target='\_blank'\><https://portal.ogc.org/files/?artifact_id=98610>\</a\>
+See recording here: <https://portal.ogc.org/files/?artifact_id=98610>
 
--- Main.<a href="DavidBlodgett" class="wikilink">DavidBlodgett</a> - 25 Aug 2021
-
-- TOPICINFO{author="<a href="DavidBlodgett" class="wikilink">DavidBlodgett</a>" comment="reprev" date="1629920915" format="1.1" reprev="1" version="1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WebHome" class="wikilink">WebHome</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="mainstems_seminar_slides.pptx" attachment="mainstems_seminar_slides.pptx" attr="" comment="Slides from seminar" date="1629919919" path="mainstems_seminar_slides.pptx" size="7448120" user="<a href="DavidBlodgett" class="wikilink">DavidBlodgett</a>" version="1"}
+-- DavidBlodgett - 25 Aug 2021

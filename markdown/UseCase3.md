@@ -2,7 +2,7 @@
 
 ## Participants
 
-- \<p\> [P.Dahlhaus](Main.PeterDahlhaus) (Lead), A.Macleod, Main.<a href="BruceSimons" class="wikilink">BruceSimons</a> (CSIRO), Alex Kmoch (GNS / <a href="Z_GIS" class="wikilink">Z_GIS</a>)\</p\>
+-  [P.Dahlhaus](Main.PeterDahlhaus) (Lead), A.Macleod, Main.[BruceSimons](BruceSimons.md) (CSIRO), Alex Kmoch (GNS / [Z_GIS](Z_GIS.md))
 
 ## Abstract
 
@@ -35,38 +35,32 @@ Water authorities, government departments, research organisations.
 
 ## Entities (Features, Observations, Properties)
 
-- \<p\> \_Groundwater discharge feature:\_ point discharge (springs), line discharge (stream baseflow), areal discharge (seep, wetland, diffuse, biological)\</p\>
-  - \<p\> \_general:\_ id, type, name, location, length, area\</p\>
-  - \<p\> \_environmental value:\_ status\</p\>
-- \<p\>Groundwater levels (phreatic and potentiometric)\</p\>
-- \<p\>Groundwater chemistry: sample ID, date, method, field analyses (pH, EC, DO, etc.), laboratory analyses (major ions, minor ions, elements, etc.), isotopes, tracers.\</p\>
-- \<p\>Groundwater biology: microbiology, stygofauna\</p\>
+-  \_Groundwater discharge feature:\_ point discharge (springs), line discharge (stream baseflow), areal discharge (seep, wetland, diffuse, biological)
+  -  \_general:\_ id, type, name, location, length, area
+  -  \_environmental value:\_ status
+- Groundwater levels (phreatic and potentiometric)
+- Groundwater chemistry: sample ID, date, method, field analyses (pH, EC, DO, etc.), laboratory analyses (major ions, minor ions, elements, etc.), isotopes, tracers.
+- Groundwater biology: microbiology, stygofauna
 
 ## Web Clients
 
-- \<p\>UB Client: for displaying GDE, water well and aquifer surfaces on a map and displaying GDE, water well and aquifer information.\</p\>
+- UB Client: for displaying GDE, water well and aquifer surfaces on a map and displaying GDE, water well and aquifer information.
 
-<span class="twiki-macro TABLE" tableborder="2" tablebordercolor="#D3D3D3" tableframe="below">cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" </span>\<br /\>
+cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline"
 
 | Web Service | Input Database | Output Schema | Implementer |
 |:---|:---|:---|:---|
-| WMS | <a href="BoM" class="wikilink">BoM</a> /DSE | N/A | FedUni |
-| WFS | <a href="BoM" class="wikilink">BoM</a> /DSE/DPI | GWML2 - with discharge feature | FedUni |
-| SOS | DSE/DPI/UB | <a href="WaterML2" class="wikilink">WaterML2</a> | FedUni |
+| WMS | [BoM](BoM.md) /DSE | N/A | FedUni |
+| WFS | [BoM](BoM.md) /DSE/DPI | GWML2 - with discharge feature | FedUni |
+| SOS | DSE/DPI/UB | [WaterML2](WaterML2.md) | FedUni |
 | WFS (SOS?) | DSE/UB/DPI | hydrochemistry - O&M? GWML2? | FedUni |
 | WFS (SOS?) | DSE? | groundwater biology - O&M? GWML2? | FedUni |
-| SOS | from \<a href="<http://ggw.gns.cri.nz/ggwdata/>" title="NGMP"\>NGMP\</a\> database (New Zealand) | hydrochemistry | <a href="WaterML2" class="wikilink">WaterML2</a>.0 / OM2.0 |
+| SOS | from \<a href="<http://ggw.gns.cri.nz/ggwdata/>" title="NGMP"\>NGMP database (New Zealand) | hydrochemistry | [WaterML2](WaterML2.md).0 / OM2.0 |
 
--- Main.<a href="AlexKmoch" class="wikilink">AlexKmoch</a> - 25 Aug 2015
+-- AlexKmoch - 25 Aug 2015
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 24 Oct 2012
+-- BoyanBrodaric - 24 Oct 2012
 
 <http://external.opengis.org/twiki_public/HydrologyDWG/GwIe2UseCase3Discussion>
 
--- Main.<a href="BruceSimons" class="wikilink">BruceSimons</a> - 31 Oct 2012
-
-- TOPICINFO{author="<a href="AlexKmoch" class="wikilink">AlexKmoch</a>" comment="reprev" date="1440487571" format="1.1" reprev="8" version="9"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BruceSimons - 31 Oct 2012

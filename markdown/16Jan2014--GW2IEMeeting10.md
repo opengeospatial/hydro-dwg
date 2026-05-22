@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 10** **-- Thurs 16 Jan 2014 -- Conceptual Model**
+# **[GW2IE](GW2IE.md) Meeting 10** **-- Thurs 16 Jan 2014 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -23,9 +23,9 @@
 - GW Management Area
   - Added relation to generic features in addition to hg units (e.g. to gw bodies, wells, etc.)
 - GW Properties
-  - revised <a href="Gw_Yield" class="wikilink">Gw_Yield</a> relations to Unit, Void, and Body
+  - revised [Gw_Yield](Gw_Yield.md) relations to Unit, Void, and Body
   - decided hydrogeoproperties (except Porosity) are related to Unit, Void, and Body
-  - see proposed revisions [on the CM page](GWML2-CM-Model) and summarized in the [CM discussions on 20 Jan 2014](GWML2_CM_0-2_Discussion)
+  - see proposed revisions [on the CM page](GWML2-CM-Model.md) and summarized in the [CM discussions on 20 Jan 2014](GWML2_CM_0-2_Discussion.md)
 
 ## **Next Steps**
 
@@ -42,7 +42,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 555 250 881
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -54,7 +54,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -79,9 +79,3 @@
 ****\***** NOTE CANADA: This is a U.S. dial in number.
 
 \*\*\*\*This dial-in number is located in Bahrain.
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1390252117" format="1.1" reprev="4" version="4"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

@@ -23,10 +23,10 @@
     2.  Tidal influence
     3.  Difficult and not useful?
     4.  Technology (i.e. index velocity) has overtaken the issue..
-    5.  \<a href="â—‹ <https://publicwiki.deltares.nl/display/HYMOS/01+Fitting+of+rating+curve>" target="\_blank"\>Fitting of ratings curves - reference\</a\>
+    5.  [Fitting of ratings curves - reference](â—‹%20%20 https://publicwiki.deltares.nl/display/HYMOS/01+Fitting+of+rating+curve)
     6.  rgs-8
 6.  **Equations**
-    1.  free form - <a href="MathML" class="wikilink">MathML</a>
+    1.  free form - [MathML](MathML.md)
     2.  predetermined form
     3.  Inverse equations
     4.  Provide a high resolution, linear table form of the equation
@@ -43,7 +43,7 @@
     1.  Archive / Operational
     2.  Supported through collections
 8.  **What is the primary key?**
-    1.  Site / Point / <a href="ParameterFrom" class="wikilink">ParameterFrom</a> / <a href="ParameterTo" class="wikilink">ParameterTo</a>
+    1.  Site / Point / [ParameterFrom](ParameterFrom.md) / [ParameterTo](ParameterTo.md)
     2.  rgs-10
 9.  **Datum**
     1.  Time series in different datum to rating?
@@ -84,7 +84,7 @@
     3.  Significant levels (e.g. flood warning levels) zero flow, bank full,
         1.  rgs-5
         2.  rgs-21
-    4.  <a href="ArcHydro" class="wikilink">ArcHydro</a> has a model that may be useful
+    4.  [ArcHydro](ArcHydro.md) has a model that may be useful
 17. **Responsible parties**
 18. **Approval level**
     1.  Lifecycle of development
@@ -111,7 +111,7 @@
 21. **Uncertainty**
     1.  Can an input range be used to communicate various aspects of uncertainty information?
     2.  Providing robust link to the used gaugings with associated metadata *should*be enough
-    3.  Allow extension points, potential to use <a href="UncertML" class="wikilink">UncertML</a> and determine if would suit
+    3.  Allow extension points, potential to use [UncertML](UncertML.md) and determine if would suit
     4.  Confidence levels for points in rating?
     5.  Gauging deviations
         1.  Kisters has some examples
@@ -122,10 +122,4 @@
         1.  ISO19115 conformance tests
     3.  Hooks to allow sufficient provenance to be inserted. Probably (ideally) by reference.
 
--- Main.<a href="PaulSheahan" class="wikilink">PaulSheahan</a> - 06 Jul 2012
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" comment="reprev" date="1341563956" format="1.1" reprev="1" version="1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="RatingsUseCases" class="wikilink">RatingsUseCases</a>"}
+-- PaulSheahan - 06 Jul 2012

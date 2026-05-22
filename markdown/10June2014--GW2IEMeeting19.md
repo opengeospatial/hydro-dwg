@@ -1,9 +1,9 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 19** **-- Tues 10 June 2014 -- Logical Model**
+# **[GW2IE](GW2IE.md) Meeting 19** **-- Tues 10 June 2014 -- Logical Model**
 
 ## **Agenda**
 
 - Logical Model
-  - [model issues](GWML2-UML-Model)
+  - [model issues](GWML2-UML-Model.md)
   - subversion repository
 - Report writing
 
@@ -21,11 +21,11 @@
   - work schedule will be adjusted as circumstance dictate
   - goal is still to make as much progress as possible by early Aug for review by HDWG
 - Logical Model
-  - see [Logical Model](GWML2-UML-Model) page for documentation re: issues and resolutions
+  - see [Logical Model](GWML2-UML-Model.md) page for documentation re: issues and resolutions
 - Conceptual Model
   - HydrogeoUnit: made abstract
   - springGeology: changed data type to GeologicUnit \[0...\*\]
-  - see [Conceptual Model](GWML2-CM-Model) page for these changes in EAP and pdf
+  - see [Conceptual Model](GWML2-CM-Model.md) page for these changes in EAP and pdf
 
 ## **Connection Instructions**
 
@@ -41,7 +41,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 554 103 401
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -53,7 +53,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -79,10 +79,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 10 June 2014
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1402414804" format="1.1" reprev="3" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 10 June 2014

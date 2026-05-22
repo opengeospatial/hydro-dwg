@@ -10,11 +10,11 @@ Please feel free to send through questions or issues.
 
 ### API examples -
 
-\<span style="background-color: transparent; line-height: 1.1em;"\>(Pete's work posted by Paul)\</span\>
+(Pete's work posted by Paul)
 
-\<span style="background-color: transparent;"\>I've put a up a development version of the API that now supports XML/GML encodings as well as JSON. So you can see some examples of the current schema here too. It's a bit in flux, and the collection types are not yet supported, but the main resources are available. You can select the output type from the GET drop down in the HTML views, which link to the URLs using ?format=xml\|json in the URL. This allows easier use in the browser (content types in http headers is the most appropriate way but less convenient for testing). \</span\>
+I've put a up a development version of the API that now supports XML/GML encodings as well as JSON. So you can see some examples of the current schema here too. It's a bit in flux, and the collection types are not yet supported, but the main resources are available. You can select the output type from the GET drop down in the HTML views, which link to the URLs using ?format=xml\|json in the URL. This allows easier use in the browser (content types in http headers is the most appropriate way but less convenient for testing).
 
-\<span style="background-color: transparent;"\>The xlinks in the XML are resolvable back into API resources for the main resources. I've incorporated some WDTF vocabs as well for the observed properties (see gaugings example). \</span\>
+The xlinks in the XML are resolvable back into API resources for the main resources. I've incorporated some WDTF vocabs as well for the observed properties (see gaugings example).
 
 **Monitoring point collection**
 
@@ -56,7 +56,7 @@ Please feel free to send through questions or issues.
 - • HTML: <http://waterml2.csiro.au/rgs-api/v1/gauging/?monitoring-point=419075>
 - • XML: <http://waterml2.csiro.au/rgs-api/v1/gauging/?monitoring-point=419075&format=xml>
 
-The process has raised some questions about how best to encode collections and how to support discovery, but these are more related to fitting the information model to the API rather than the actual content. There is the start of collections of conversion groups available in XML: <http://waterml2.csiro.au/rgs-api/v1/conversion-group/?format=xml>, but I'm still working through it. The collections will support filters that relate directly to the specific queries we agree on in the RGS group ( [http://external.opengis.org/twiki_public/HydrologyDWG/RgsApiDesign](RgsApiDesign)).
+The process has raised some questions about how best to encode collections and how to support discovery, but these are more related to fitting the information model to the API rather than the actual content. There is the start of collections of conversion groups available in XML: <http://waterml2.csiro.au/rgs-api/v1/conversion-group/?format=xml>, but I'm still working through it. The collections will support filters that relate directly to the specific queries we agree on in the RGS group ( [http://external.opengis.org/twiki_public/HydrologyDWG/RgsApiDesign](RgsApiDesign.md)).
 
 **Query-based requests**
 
@@ -75,10 +75,4 @@ These URLs show how specific queries may be made through the API. These address 
 - How to get a list of all the available parameter conversions for a site without requesting each table/conversion?
 - Need to represent identifiers as well as links
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 10 Dec 2013
-
-- TOPICINFO{author="<a href="PeterTaylor" class="wikilink">PeterTaylor</a>" comment="save topic" date="1394595975" format="1.1" reprev="5" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="ApplicationProgrammingInterfaceDevelopment" class="wikilink">ApplicationProgrammingInterfaceDevelopment</a>"}
+-- PeterTaylor - 10 Dec 2013

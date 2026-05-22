@@ -1,10 +1,10 @@
-# SOS Services that serve <a href="WaterML2" class="wikilink">WaterML2</a>.0
+# SOS Services that serve [WaterML2](WaterML2.md).0
 
 ## Current status
 
-CSIRO and 52North are working on adapting current SOS implementations to serve <a href="WaterML2" class="wikilink">WaterML2</a>.0.
+CSIRO and 52North are working on adapting current SOS implementations to serve [WaterML2](WaterML2.md).0.
 
-KISTERS implemented SOS with O&M1 and WML2 in their [http://kiwis.kisters.de Web Interoperability Solution (KIWIS)](http://kiwis.kisters.de%20Web%20Interoperability%20Solution%20(KIWIS)) , as well as <a href="WaterOneFlow" class="wikilink">WaterOneFlow</a> with <a href="WaterML1" class="wikilink">WaterML1</a> , and other http based query services
+KISTERS implemented SOS with O&M1 and WML2 in their [http://kiwis.kisters.de Web Interoperability Solution (KIWIS)](http://kiwis.kisters.de%20Web%20Interoperability%20Solution%20(KIWIS)) , as well as [WaterOneFlow](WaterOneFlow.md) with [WaterML1](WaterML1.md) , and other http based query services
 
 ## Support for different RDBMS/storage layers
 
@@ -12,7 +12,7 @@ KISTERS implemented SOS with O&M1 and WML2 in their [http://kiwis.kisters.de Web
 
 **Open question 2:** Architecture. The services will provide a subset of data from organisations. It would be best to use a staging server to hold the data relevant to the IE. It may be possible to do a translation in this case (e.g. WISKI to a 52North extended schema).
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 16 Jun 2010
+-- PeterTaylor - 16 Jun 2010
 
 ------------------------------------------------------------------------
 
@@ -34,12 +34,6 @@ It's our current choice at the SANDRE since we wanted to fit our OM-ised DB with
 
 This solution requires mapping between own database and WML2 schema It requires more development from the 52N/CSIRO, but may be more relevant if every part agree on using this schema. We can consider this as the long-term solution.
 
-- **Peter Taylor wrote something about adapting <a href="WaterML2" class="wikilink">WaterML2</a> to Object DB?**
+- **Peter Taylor wrote something about adapting [WaterML2](WaterML2.md) to Object DB?**
 
--- Main.<a href="MathieuKazmierski" class="wikilink">MathieuKazmierski</a> (IOW -SANDRE) - 08 Jul 2010
-
-- TOPICINFO{author="<a href="StefanFuest" class="wikilink">StefanFuest</a>" date="1290695370" format="1.1" reprev="1.3" version="1.3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="SurfacewaterInteroperabilityExperiment" class="wikilink">SurfacewaterInteroperabilityExperiment</a>"}
+-- MathieuKazmierski (IOW -SANDRE) - 08 Jul 2010

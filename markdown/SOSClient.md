@@ -6,10 +6,4 @@
 
 The thin client just supports plotting functions (no maps). Thick client should be able to connect to WMS as well, but don't think it supports WFS.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 03 Nov 2009
-
-- TOPICINFO{author="<a href="BradLee" class="wikilink">BradLee</a>" date="1271999012" format="1.1" version="1.3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment" class="wikilink">GroundwaterInteroperabilityExperiment</a>"}
+-- BoyanBrodaric - 03 Nov 2009

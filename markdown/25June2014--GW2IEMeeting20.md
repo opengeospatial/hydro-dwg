@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 20** **-- Wed 25 June 2014 -- Logical Model**
+# **[GW2IE](GW2IE.md) Meeting 20** **-- Wed 25 June 2014 -- Logical Model**
 
 ## **Agenda**
 
@@ -15,24 +15,24 @@
 
 - SVN (report from Francois)
   - SVN repository established [here](https://xp-dev.com/svn/gwml2)
-  - SVN use instructions [here](uml_for_gwml2)
+  - SVN use instructions [here](uml_for_gwml2.md)
 - GWML2 report
-  - Will use <a href="WaterML2" class="wikilink">WaterML2</a> outline (as submitted by Bruce)
+  - Will use [WaterML2](WaterML2.md) outline (as submitted by Bruce)
     - one document to contain all specs: conceptual model, logical model, requirements classes, conformance classes
-    - adapt <a href="WaterML2" class="wikilink">WaterML2</a> outline for GWML2:
+    - adapt [WaterML2](WaterML2.md) outline for GWML2:
       - merge sections 6 & 7 into Background
       - replace 7 with Conceptual Model
       - rename 8 as Logical Model
-    - instance examples: please sign up [here](GWML2-XML-Schema) in the Development table
+    - instance examples: please sign up [here](GWML2-XML-Schema.md) in the Development table
   - Workplan:
     - document: SVN, Google docs, Wiki: Boyan
     - conceptual model, logical model: Boyan
     - requirements classes, conformance classes: Bruce, Eric, Sylvain
     - instance examples: TBD via sign-up on wiki
 - Logical Model
-  - well:<a href="LogValue" class="wikilink">LogValue</a>: to be manually added to XSD (to replace <a href="CV_ElementValuePair" class="wikilink">CV_ElementValuePair</a>)
+  - well:[LogValue](LogValue.md): to be manually added to XSD (to replace [CV_ElementValuePair](CV_ElementValuePair.md))
   - Regulation package: drafted by Francois & Bruce, to be reviewed by all for next meeting
-  - [Remaining issues (see **TO DO**)](GWML2-UML-Model) to be discussed [next meeting](07July2014--GW2IEMeeting21)
+  - [Remaining issues (see **TO DO**)](GWML2-UML-Model.md) to be discussed [next meeting](07July2014--GW2IEMeeting21)
 
 ## **Connection Instructions**
 
@@ -48,7 +48,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 555 837 550
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -60,7 +60,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -86,10 +86,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain
 
-. -- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 25 June 2014
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1403722024" format="1.1" reprev="3" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+. -- Main.[BoyanBrodaric](BoyanBrodaric.md) - 25 June 2014

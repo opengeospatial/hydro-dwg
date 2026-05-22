@@ -6,7 +6,7 @@ Time at other locations: [http://www.timeanddate.com/worldclock/meetingtime.html
 
 **Venue:** OGC Technical Committee Meeting hosted by CSIRO, Sydney, Australia [http://www.opengeospatial.org/event/1011tc TC Meeting Info](http://www.opengeospatial.org/event/1011tc%20TC%20Meeting%20Info), [http://www.opengeospatial.org/event/1011tcagenda TC Meeting Agenda](http://www.opengeospatial.org/event/1011tcagenda%20TC%20Meeting%20Agenda)
 
-**Remote Participants:** [Details here](SydneyRemoteDetails)
+**Remote Participants:** [Details here](SydneyRemoteDetails.md)
 
 ## Agenda
 
@@ -14,7 +14,6 @@ Time at other locations: [http://www.timeanddate.com/worldclock/meetingtime.html
 
 - Welcome and Introduction (David Lemon)
 
-<!-- -->
 
 - Update on Surface Water IE (Peter Fitch)
 
@@ -22,7 +21,6 @@ Time at other locations: [http://www.timeanddate.com/worldclock/meetingtime.html
 
 - WaterML2.0 presentation and status (Peter Taylor)
 
-<!-- -->
 
 - Presentation on findings of Groundwater IE (Boyan Brodaric, Nate Booth) - 90min
 
@@ -32,24 +30,15 @@ Time at other locations: [http://www.timeanddate.com/worldclock/meetingtime.html
 
 - Mei-Hsin Chen (Ivy) (Feng-Chia University) "Hydrological information integration and management for Reservoir Watershed Area "
 
-<!-- -->
 
 - David Maidment (UTexas) "Some aspects of implementing WaterML2 in terms of cataloging and searching for time series"
 
-<!-- -->
 
 - Elizabeth McDonald (BOM) "Australian Hydrological Geospatial Fabric"
 
-<!-- -->
 
 - Rob Atkinson (CSIRO) "Progress towards a common hydrology conceptual model"
 
 **4. Wrapup, discussion and motions**
 
--- Main.<a href="DavidLemon" class="wikilink">DavidLemon</a> - 21 Oct 2010
-
-- TOPICINFO{author="<a href="DavidLemon" class="wikilink">DavidLemon</a>" date="1290550939" format="1.1" reprev="1.6" version="1.6"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WorkingGroupMeetings" class="wikilink">WorkingGroupMeetings</a>"}
+-- DavidLemon - 21 Oct 2010

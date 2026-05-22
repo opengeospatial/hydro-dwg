@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 21** **-- Mon 07 July 2014 -- Report**
+# **[GW2IE](GW2IE.md) Meeting 21** **-- Mon 07 July 2014 -- Report**
 
 ## **Agenda**
 
@@ -9,9 +9,9 @@
   - update: sections 1-6, 7 (conceptual model), 8 (logical model) \[Boyan\]
   - update: sections 9 (requirements classes), 10 (encoding principles), Annex A (conformance classes) \[Eric, Bruce, Sylvain\]
   - update: Annex B (instance examples) \[ALL\]
-    - review progress re: sign-up and development [here](GWML2-XML-Schema)
+    - review progress re: sign-up and development [here](GWML2-XML-Schema.md)
 - Logical Model
-  - remaining issues: see **"TO DO"** items [here](GWML2-UML-Model)
+  - remaining issues: see **"TO DO"** items [here](GWML2-UML-Model.md)
 
 ## **Participants**
 
@@ -26,8 +26,8 @@
   - sections 1-8: for next meeting
   - section 9, 10 and remainder: progress on requirements classes and instances
 - Logical Model
-  - several issues resolved; for an update see highlighted items [here](GWML2-UML-Model)
-  - several issues pending; see "\*TO DO\*" items [here](GWML2-UML-Model)
+  - several issues resolved; for an update see highlighted items [here](GWML2-UML-Model.md)
+  - several issues pending; see "\*TO DO\*" items [here](GWML2-UML-Model.md)
 
 ## **Connection Instructions**
 
@@ -43,7 +43,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 558 628 683
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -55,7 +55,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -81,10 +81,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 07 July 2014
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1404746866" format="1.1" reprev="3" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 07 July 2014

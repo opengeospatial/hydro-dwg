@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 4** **-- Tues 15 Jan 2013 -- Entity List (consolidated)**
+# **[GW2IE](GW2IE.md) Meeting 4** **-- Tues 15 Jan 2013 -- Entity List (consolidated)**
 
 ## **Agenda**
 
@@ -7,12 +7,12 @@
   - New members: Sylvain Grellet / Dimitri Meunier (OIEau, FR)
   - Observer / Participant Agreement
     - to be completed by non-OGC members
-    - use form attached to [GW2IE page](GroundwaterInteroperabilityExperiment2)
+    - use form attached to [GW2IE page](GroundwaterInteroperabilityExperiment2.md)
 - Announcement
   - [IAH 2013 Perth, AU---Session 5.9 Integrative Data Sharing](http://iahcongress2013.org/program.php)
 - Discussion
   - Entities vs Features
-  - consolidated ["Entity"List](Gwml2ConsolFeatureList)
+  - consolidated ["Entity"List](Gwml2ConsolFeatureList.md)
     - review: by the team
     - scoping: any obvious exclusions / omissions?
     - plan: for developing unified definitions
@@ -31,7 +31,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Jan 2013 meeting: Model comparison (content)
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Jan 2013 meeting: Model comparison (content)
   - **Meeting Number**: 808 411 619
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -61,10 +61,4 @@
 
 ## **Meeting Notes**
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 13 Dec 2012
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="save topic" date="1358281467" format="1.1" reprev="7" version="7"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 13 Dec 2012

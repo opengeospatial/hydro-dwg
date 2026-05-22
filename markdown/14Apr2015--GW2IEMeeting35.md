@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 35 -- Tues 14 Apr 2015**
+# **[GW2IE](GW2IE.md) Meeting 35 -- Tues 14 Apr 2015**
 
 ## **Agenda**
 
@@ -6,7 +6,7 @@
   - Times (see below)
   - June OGC TC (Boulder)
   - Sept OGC TC (Nottingham) / HDWG (Orleans):... [see poll](http://doodle.com/4iynug2va8c4tu42)
-- <a href="GW_ManagementArea" class="wikilink">GW_ManagementArea</a> update
+- [GW_ManagementArea](GW_ManagementArea.md) update
   - definition (**Bruce**)
   - UML-LM (**Sylvain**)
   - UML-CM(**Boyan**)
@@ -37,7 +37,7 @@
   - HDWG (Orleans)
     - Request time slot: detailed GW2IE presentation to HDWG
     - Request breakout meeting: GW2IE /GWML2
-- <a href="GW_ManagementArea" class="wikilink">GW_ManagementArea</a> update
+- [GW_ManagementArea](GW_ManagementArea.md) update
   - work (above) to be advanced by next meeting
 - AquiferTest
   - Accepted: [documentation](https://xp-dev.com/svn/gwml2/Documents/GWML2_aquifer_test_extension.docx) to be merged into report (**Eric**) after review (**Sylvain**,**Alex**)
@@ -72,7 +72,6 @@ Alternative times for future meetings:
   - pass: ogc
   - url: <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=mc15edc6648d176f8f833c9a3e191e2a9>
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -90,9 +89,3 @@ Alternative times for future meetings:
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1429109410" format="1.1" reprev="6" version="6"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

@@ -39,20 +39,10 @@ PT: move actions/decisions from meeting notes into register.
 
 ## Scenarios
 
-PS: examples of existing formats to work through. E.g. some XML instance examples from <a href="HydroML" class="wikilink">HydroML</a>.
+PS: examples of existing formats to work through. E.g. some XML instance examples from [HydroML](HydroML.md).
 
 Could everyone provide some XML examples of actual curves using formats form their local systems?
 
 Next meeting needs to consider upcoming DST changes.
 
--- Main.<a href="PeterTaylor" class="wikilink">PeterTaylor</a> - 16 Sep 2012
-
-- TOPICINFO{author="<a href="PeterTaylor" class="wikilink">PeterTaylor</a>" comment="save topic" date="1348011978" format="1.1" reprev="3" version="3"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="WaterML2Part2" class="wikilink">WaterML2Part2</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="classification_ranges.pdf" attachment="classification_ranges.pdf" attr="" comment="Range values" date="1348005401" path="D:\Paul\Projects\OGC\\<a href="WaterML2" class="wikilink">WaterML2</a>\Ratings and Gaugings\2012\08\31\classification ranges.pdf" size="306765" user="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" version="1"}
+-- PeterTaylor - 16 Sep 2012

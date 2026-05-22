@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 51 / GW SWG Meeting \#2 -- Wed 30 March 2016**
+# **[GW2IE](GW2IE.md) Meeting 51 / GW SWG Meeting \#2 -- Wed 30 March 2016**
 
 ## **Agenda**
 
@@ -12,7 +12,7 @@
 ## **Notes**
 
 - OGC GW SWG
-  - wiki page initiated... [here](GroundWaterSWG)
+  - wiki page initiated... [here](GroundWaterSWG.md)
   - OGC page initiated... [here](http://www.opengeospatial.org/projects/groups/groundwaterswg)
 - GWML2 Submission
   - re-formatting to new template required -- initiated by S.Simmons
@@ -57,7 +57,6 @@
   - pass: ogc
   - url: <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m7ec30e2f00389e2cd2b533893069adc1>
 
-<!-- -->
 
 - Teleconference:
   - Dial local number (see below) and passcode = **616269**
@@ -75,9 +74,3 @@
 | Poland         | +48 22 116 80 20      |
 | United Kingdom | +44 (0) 330 606 0182  |
 | United States  | +1 760-569-7100       |
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1459369265" format="1.1" reprev="9" version="9"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}

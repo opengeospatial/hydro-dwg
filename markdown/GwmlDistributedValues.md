@@ -46,15 +46,15 @@ example of one of the observation
 </om:OM_Observation>
 ```
 
-The other way is to use gml:Coverage and use a single observation that reports all the values into a single result (this is essentially what <a href="WaterML" class="wikilink">WaterML</a> does, but values are distributed temporally instead of spatially). This example reports 3 values (you would need to replicate the observation example above 3 times to reproduce this example below). This example uses a subtype of Coverage called **<a href="MultiPointCoverage" class="wikilink">MultiPointCoverage</a>**.
+The other way is to use gml:Coverage and use a single observation that reports all the values into a single result (this is essentially what [WaterML](WaterML.md) does, but values are distributed temporally instead of spatially). This example reports 3 values (you would need to replicate the observation example above 3 times to reproduce this example below). This example uses a subtype of Coverage called **[MultiPointCoverage](MultiPointCoverage.md)**.
 
-I think the om:parameter value is unnecessary (mistakenly left after a copy and paste perhaps?) as the geometry is provided by om:result. The <a href="WaterML" class="wikilink">WaterML</a> example (<http://www.waterml2.org/>) doesn't use om:parameter.Note also that rather than structuring the result as \<domainSet\> and \<rangeSet\>, these can be delivered as location:value pairs.
+I think the om:parameter value is unnecessary (mistakenly left after a copy and paste perhaps?) as the geometry is provided by om:result. The [WaterML](WaterML.md) example (<http://www.waterml2.org/>) doesn't use om:parameter.Note also that rather than structuring the result as \<domainSet\> and \<rangeSet\>, these can be delivered as location:value pairs.
 
--- Main.<a href="BruceSimons" class="wikilink">BruceSimons</a> - 08 Dec 2014
+-- BruceSimons - 08 Dec 2014
 
 Yes - it was a copy-paste mistake. fixed
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 08 Dec 2014
+-- EricBoisvert - 08 Dec 2014
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -124,7 +124,7 @@ Yes - it was a copy-paste mistake. fixed
           <gml:identifier codeSpace="http://www.example.com/">values</gml:identifier>
           <gml:name>values</gml:name>
           <gml:valueComponent>
-            <!-- at this point, values can be many things, including a reference 
+            <!-- at this point, values can be many things, including a reference
               to a external file or a free text datablock -->
             <gml:Quantity uom="m/s">0.0021</gml:Quantity>
             <gml:Quantity uom="m/s">0.0109</gml:Quantity>
@@ -132,7 +132,7 @@ Yes - it was a copy-paste mistake. fixed
           </gml:valueComponents>
         </gml:ValueArray>
       </gml:rangeSet>
-      <!-- no coverage function, therefore assume that there is a 1:1 between 
+      <!-- no coverage function, therefore assume that there is a 1:1 between
         domain elements and range elements -->
     </gml:MultiPointCoverage>
   </om:result>
@@ -141,20 +141,20 @@ Yes - it was a copy-paste mistake. fixed
 
 To add more values, just add elements , just add geometryMembers and gml:Quantity.
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 28 Oct 2014
+-- EricBoisvert - 28 Oct 2014
 
 Note: There are many variations and encoding for Coverage. For instance, we can also use the "interleave pattern", that encodes the coverage as a collection of geometry-values pairs instead of grouping all the geometries in a single block and then all the results into another block.
 
 ##### Standard Coverage
 
-- \<span style="background-color: transparent;"\>Coverage\</span\>
-  - \<span style="background-color: transparent;"\>All geometries\</span\>
-  - \<span style="background-color: transparent;"\>All values\</span\>
-  - \<span style="background-color: transparent;"\>mapping (when there is a 1:1 mapping between geometries and values, it is not required)\</span\>
+- Coverage
+  - All geometries
+  - All values
+  - mapping (when there is a 1:1 mapping between geometries and values, it is not required)
 
-##### [Interleaved Coverage](IntgerleavedCoverage)
+##### [Interleaved Coverage](IntgerleavedCoverage.md)
 
-- <a href="DiscreetCoverage" class="wikilink">DiscreetCoverage</a> \<br /\>
+- [DiscreetCoverage](DiscreetCoverage.md)
   - member
     - geometry
     - value
@@ -181,13 +181,13 @@ xsi:schemaLocation="http://www.opengis.net/cv/0.0 ../cv.xsd">
  </cv:element>
 ```
 
--- Main.<a href="EricBoisvert" class="wikilink">EricBoisvert</a> - 08 Dec 2014
+-- EricBoisvert - 08 Dec 2014
 
-An alternate option is to use a <a href="SamplingFeature" class="wikilink">SamplingFeature</a> to hold the locations, each value is serialized in their own Observation.
+An alternate option is to use a [SamplingFeature](SamplingFeature.md) to hold the locations, each value is serialized in their own Observation.
 
-\<img alt="many_obs.png" height="130" src="%ATTACHURLPATH%/many_obs.png" width="371" /\>
+\<img alt="many_obs.png" height="130" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GwmlDistributedValues/many_obs.png>" width="371" /\>
 
-The following example is a stripped down version, just showing how Observation, <a href="SF_SpatialSamplingFeature" class="wikilink">SF_SpatialSamplingFeature</a> and a <a href="GW_AquiferSystem" class="wikilink">GW_AquiferSystem</a> are articulated.
+The following example is a stripped down version, just showing how Observation, [SF_SpatialSamplingFeature](SF_SpatialSamplingFeature.md) and a [GW_AquiferSystem](GW_AquiferSystem.md) are articulated.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -256,13 +256,3 @@ The following example is a stripped down version, just showing how Observation, 
   </gml:member>
 </gml:Bag>
 ```
-
-- TOPICINFO{author="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" comment="reprev" date="1418060064" format="1.1" reprev="5" version="5"}
-
-<!-- -->
-
-- TOPICPARENT{name="29Oct2014--<a href="GW2IEMeeting26" class="wikilink">GW2IEMeeting26</a>"}
-
-<!-- -->
-
-- FILEATTACHMENT{name="many_obs.png" attachment="many_obs.png" attr="" comment="linking many spatially distributed observations" date="1415817798" path="many_obs.png" size="15257" user="<a href="EricBoisvert" class="wikilink">EricBoisvert</a>" version="2"}

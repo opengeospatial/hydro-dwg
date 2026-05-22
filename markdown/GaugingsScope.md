@@ -1,10 +1,10 @@
 # Gaugings scope
 
 1.  **Gaugings by themselves or in relation to ratings?**
-    1.  A block of all <a href="RatingObservations" class="wikilink">RatingObservations</a> with reference to rating
-    2.  A rating contains relevant <a href="RatingObservations" class="wikilink">RatingObservations</a>
+    1.  A block of all [RatingObservations](RatingObservations.md) with reference to rating
+    2.  A rating contains relevant [RatingObservations](RatingObservations.md)
     3.  Inline or external block
-2.  **<a href="RatingObservations" class="wikilink">RatingObservations</a> status**
+2.  **[RatingObservations](RatingObservations.md) status**
     1.  Included in rating deveopment
     2.  Excluded from rating development
     3.  rgs-27
@@ -15,8 +15,8 @@
         1.  rgs-31
 4.  **Use of instance for identifying specific sensors/devices from a measuring point/location**
 5.  **Definition of rating observations that are relevant to a rating**
-    1.  <a href="RatingObservations" class="wikilink">RatingObservations</a> that occur in the rating period of application?
-    2.  Out of period <a href="RatingObservations" class="wikilink">RatingObservations</a> that are used?
+    1.  [RatingObservations](RatingObservations.md) that occur in the rating period of application?
+    2.  Out of period [RatingObservations](RatingObservations.md) that are used?
     3.  rgs-27
 6.  **Generically an x-y result?**
     1.  rgs-33
@@ -32,12 +32,12 @@
     2.  Gauging application time
     3.  rgs-29
 11. **Name**
-    1.  \<span class="<a href="WYSIWYG_COLOR" class="wikilink">WYSIWYG_COLOR</a>" style="color: slategray;"\><a href="RatingPairs" class="wikilink">RatingPairs</a>\</span\>
+    1.  [RatingPairs](RatingPairs.md)
     2.  \_\_RatingObservations\_\_
-    3.  \<span class="<a href="WYSIWYG_COLOR" class="wikilink">WYSIWYG_COLOR</a>" style="color: slategray;"\><a href="GaugeObservations" class="wikilink">GaugeObservations</a>\</span\>
-    4.  \<span class="<a href="WYSIWYG_COLOR" class="wikilink">WYSIWYG_COLOR</a>" style="color: slategray;"\><a href="ControlObservation" class="wikilink">ControlObservation</a>\</span\>
-    5.  \<span class="<a href="WYSIWYG_COLOR" class="wikilink">WYSIWYG_COLOR</a>" style="color: slategray;"\>Gauging\</span\>
-12. **Observers assessment of <a href="RatingObservation" class="wikilink">RatingObservation</a> quality or usability - text description.**
+    3.  [GaugeObservations](GaugeObservations.md)
+    4.  [ControlObservation](ControlObservation.md)
+    5.  Gauging
+12. **Observers assessment of [RatingObservation](RatingObservation.md) quality or usability - text description.**
 13. **Quality**
     1.  Very subjective -- egos get in the way! (Staff completing gaugings assessing their work as good)
     2.  Adherence to organisational standards
@@ -62,10 +62,4 @@
         5.  Beer bottle
     9.  How to ensure we know what gaugings are being ????
 
--- Main.<a href="PaulSheahan" class="wikilink">PaulSheahan</a> - 06 Jul 2012
-
-- TOPICINFO{author="<a href="PaulSheahan" class="wikilink">PaulSheahan</a>" comment="save topic" date="1341564723" format="1.1" reprev="1" version="1"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="RGSWorkshopRatingsNotes" class="wikilink">RGSWorkshopRatingsNotes</a>"}
+-- PaulSheahan - 06 Jul 2012

@@ -1,4 +1,4 @@
-# **<a href="GW2IE" class="wikilink">GW2IE</a> Meeting 24 -- Wed 29 Oct 2014 -- Report**
+# **[GW2IE](GW2IE.md) Meeting 24 -- Wed 29 Oct 2014 -- Report**
 
 ## **Agenda**
 
@@ -11,12 +11,12 @@
     - can be approved anytime following post to pending docs, 3 week review, and poll of OGC TC and PC by Carl Reed
 - Technical Issues
   - 'Nucleaus' package name: [vote here](http://doodle.com/y5278vv4bdce64t7)
-  - 'Data Record' [proposed](GwmlSweDataRecord) encoding: [vote here](http://doodle.com/ihzp7q4793rhuitu)
+  - 'Data Record' [proposed](GwmlSweDataRecord.md) encoding: [vote here](http://doodle.com/ihzp7q4793rhuitu)
   - add Pump entity: [vote here](http://doodle.com/kw7ct42yiv6b428a)
   - mandatory properties: eliminate ?
     - effect: data providers can serialize only those properties that contain data
   - unit properties: change to \[0...\*\] ?
-    - to allow for non-synoptic properties i.e distributed spatially throughout the unit (permeability, transmissivity, etc.) (see proposal <a href="GwmlDistributedValues" class="wikilink">GwmlDistributedValues</a>)
+    - to allow for non-synoptic properties i.e distributed spatially throughout the unit (permeability, transmissivity, etc.) (see proposal [GwmlDistributedValues](GwmlDistributedValues.md))
     - synoptic (summary) properties identified by lack of location in the observation / measurement
 - Report Update
 - Use-case Update
@@ -36,7 +36,7 @@
     - Francois to propagate changes to logical model, XML schema; instances to be adjusted by creators
     - Unchanged: package namespace (gwml2)
   - 'Data Record'
-    - Accepted [proposed encoding](GwmlSweDataRecord)
+    - Accepted [proposed encoding](GwmlSweDataRecord.md)
     - Francois to propose solution to put online Data Record definitions
   - add Pump entity:
     - To be added: pump device to construction class
@@ -45,7 +45,7 @@
     - To be added: well test class (procedure/process for conducting a pumping test)
       - Proposal to be drafted for next meeting: ideas/examples to be sent to Sylvain (lead)
       - Contains: inputs, results, methods, times
-      - Potentially model as subclass of <a href="OM_Observation" class="wikilink">OM_Observation</a> or <a href="OM_Process" class="wikilink">OM_Process</a>; results as <a href="GW_FluidProperties" class="wikilink">GW_FluidProperties</a>.
+      - Potentially model as subclass of [OM_Observation](OM_Observation.md) or [OM_Process](OM_Process.md); results as [GW_FluidProperties](GW_FluidProperties.md).
       - Add as attribute to Well (to directly link a well test to a well... as a convenient short-cut)
   - mandatory properties: eliminate ?
     - new poll to be created
@@ -76,13 +76,12 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**<a href="GW2IE" class="wikilink">GW2IE</a> Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
   - **Meeting Number**: 559 973 940
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
     - <https://pwgsc-nh.webex.com/pwgsc-nh/j.php?MTID=m26a075754e96e6e2355a0d444c56838b>
 
-<!-- -->
 
 - **Teleconference:**
   - Dial your local number (see table below) and the use the passcode **167731**
@@ -91,7 +90,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **<a href="FreeConferenceCall" class="wikilink">FreeConferenceCall</a>.com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
@@ -117,10 +116,4 @@
 
 \*\*\*\*This dial-in number is located in Bahrain.
 
--- Main.<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a> - 17 Sep 2014
-
-- TOPICINFO{author="<a href="BoyanBrodaric" class="wikilink">BoyanBrodaric</a>" comment="reprev" date="1414597941" format="1.1" reprev="8" version="8"}
-
-<!-- -->
-
-- TOPICPARENT{name="<a href="GroundwaterInteroperabilityExperiment2" class="wikilink">GroundwaterInteroperabilityExperiment2</a>"}
+-- BoyanBrodaric - 17 Sep 2014
