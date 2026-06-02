@@ -1,6 +1,6 @@
 # **Note: incomplete, under construction**
 
-These features are now consolidated in a more [compact list](gwml2ConsolFeatureList.md).
+These features are now consolidated in a more [compact list](gwml2ConsolFeatureList).
 
 ## Feature List
 
@@ -12,13 +12,13 @@ These features are now consolidated in a more [compact list](gwml2ConsolFeatureL
 
 [Packer Testing](#packerTesting) [Pump Testing](#packerTesting) [Slug Testing](#packerTesting) [Tracer Testing](#tracerTest) [Hydrogeologic Unit Categorisation](#hydrogeologicUnitCat) [Groundwater Body](#groundwaterBody1) (partially overlaps the use cases) [Aquifer System](#aquiferSystem) [Aquiclude](#aquiclude) [Aquitard](#aquitard) [Hydrogeologic unit](#hydrogeologicUnit) [Atmospheric Water Body](#atmosphericWaterBody) [WaterQualityMeasurement](#waterQualityMeasurement) (partially overlaps the use cases) [Water Budget](#waterBudget) [Water Flow](#WaterFlow) [Water Flow Direction](#WaterFlowDirection) [Reservoir](#Reservoir) [Filtration](#Filtration) [Filtration Component](#filtrationComponent) [Pump](#pump) [Well Pump Installation](#wellPumpInstallation) [Cone of Depression](#coneOfDepression) [Zone of Contribution](#zoneOfContribution) [Zone of Influence](#zoneOfInfluence) [Drawdown](#drawdown) [Monitoring site](#monitoringSite) [Well Field](#wellField) [Well Borehole Details](#wellBoreholeDetails) [Groundwater divide](#groundwaterDivide) [Hydraulic Boundary](#hydraulicBoundary) [Hydrogeological Context](#hydrogeologicalContext) [Hydrogeological Framework](#hydrogeologicalFramework) [Piezometric Surface](#piezometricSurface) [Recharge Area](#rechargeArea)
 
-**Features from INSPIRE [HydrogeologyCore](HydrogeologyCore.md) model, draft version 2.9.9**(With small corrections):
+**Features from INSPIRE [HydrogeologyCore](HydrogeologyCore) model, draft version 2.9.9**(With small corrections):
 
 [ActiveWell](#I_ActiveWell) [Aquiclude](#I_Aquiclude) [Aquifer](#I_Aquifer) [AquiferSystem](#I_AquiferSystem) [Aquitard](#I_Aquitard) [GroundwaterBody](#I_GroundwaterBody) [HydrogeologicalObject](#I_HydrogeologicalObject) [HydrogeologicalObjectManMade](#I_HydrogeologicalObjectManMade) [HydrogeologicalObjectNatural](#I_HydrogeologicalObjectNatural)  [HydrogeologicalUnit](#I_HydrogeologicalUnit) [ObservationWell](#I_ObservationWell) [Well](#I_Well)
 
-**Selected features from INSPIRE [HydrogeologyExtension](HydrogeologyExtension.md) model, draft version 2.9.9**(With small corrections):
+**Selected features from INSPIRE [HydrogeologyExtension](HydrogeologyExtension) model, draft version 2.9.9**(With small corrections):
 
-[FracturedAquifer](FracturedAquifer.md) [KarsticAqiufer](KarsticAqiufer.md)[HG_FeatureOccurrence](HG_FeatureOccurrence.md)[HG_WellLog](HG_WellLog.md)[HG_LogInterval](HG_LogInterval.md)[HG_ConeOfDepression](HG_ConeOfDepression.md)[HG_InfluenceZone](HG_InfluenceZone.md)[HG_ProtectionZone](HG_ProtectionZone.md)[HydrogeologicalZone](HydrogeologicalZone.md)[MineralGroundWaterBody](MineralGroundWaterBody.md)[MineralSpring](MineralSpring.md)[MineralWaterAbstractionWell](MineralWaterAbstractionWell.md)[ThermalGroundWaterBody](ThermalGroundWaterBody.md)[ThermalSpring](ThermalSpring.md)[ThermalWaterAbstractionWell](ThermalWaterAbstractionWell.md)[HG_WellTimeSeriesObservation](HG_WellTimeSeriesObservation.md)
+[FracturedAquifer](FracturedAquifer) [KarsticAqiufer](KarsticAqiufer)[HG_FeatureOccurrence](HG_FeatureOccurrence)[HG_WellLog](HG_WellLog)[HG_LogInterval](HG_LogInterval)[HG_ConeOfDepression](HG_ConeOfDepression)[HG_InfluenceZone](HG_InfluenceZone)[HG_ProtectionZone](HG_ProtectionZone)[HydrogeologicalZone](HydrogeologicalZone)[MineralGroundWaterBody](MineralGroundWaterBody)[MineralSpring](MineralSpring)[MineralWaterAbstractionWell](MineralWaterAbstractionWell)[ThermalGroundWaterBody](ThermalGroundWaterBody)[ThermalSpring](ThermalSpring)[ThermalWaterAbstractionWell](ThermalWaterAbstractionWell)[HG_WellTimeSeriesObservation](HG_WellTimeSeriesObservation)
 
 -- [Main.JanuszMichalak](Main.JanuszMichalak) - 16 Dec 2012
 
@@ -175,7 +175,7 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" \* Note for
 |  | ... |  |  |
 | \<a name="groundwaterBody1"\>**Groundwater Body** (partially detailed in the use cases) | N/A | N/A | A distinct volume of groundwater within an aquifer or aquifers (Vogt, 2002). The equivalent in the European Water Framework Directive (2000/60/CE, 2000) is "Body of groundwater" defined exactly in the same way. |
 |  | Volume | numeric | Volume of water present in a water body. |
-|  | Water Property Description (1) | text | Water Property description are the properties of the [HydrogeologicUnit](HydrogeologicUnit.md) regarding its water content. Two aspects are considered, First the quantity (the amount of water that is present, as opposed to the amount of water that can potentially be there) and second, the quality of that water. |
+|  | Water Property Description (1) | text | Water Property description are the properties of the [HydrogeologicUnit](HydrogeologicUnit) regarding its water content. Two aspects are considered, First the quantity (the amount of water that is present, as opposed to the amount of water that can potentially be there) and second, the quality of that water. |
 |  | Metadata | text | Metadata used to describe the water properties. |
 |  | Validity Time | time | Time instant or period at which this value has any validity. |
 |  | Water Quality Description (1.1) | text | A list of common properties related to water quality assessment. Head of a substitution list that include Qualitative and Quantitative water quality properties. |
@@ -207,7 +207,7 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" \* Note for
 |  | Water Age Description (1.3) | text | The age of the water is generally (always?) the age of infiltration. The infiltration can be in an aquifer different from the aquifer it actually resides in (for example, water infiltrated in a surface aquifer and migrated slowly in a deeper - rock perhaps - aquifer). |
 |  | Period of Residence | time | The time period in which a unit of water resides in an aquifer. |
 |  | Geologic Event | text | The age of the water, expressed as a geologicEvent. Refer to <http://www.geosciml.org/documentation/geosciml/2.0_rc3/GeoSciML/GeologicAge/GeologicEvent.html> for a complete description of a geologicEvent. |
-| \<a name="aquiferSystem"\>**Aquifer System** | N/A | N/A | Collection of hydrogeological units composing a system of interacting components. By virtue of being a [GeologicUnit](GeologicUnit.md), it derives from it the 'part' property. |
+| \<a name="aquiferSystem"\>**Aquifer System** | N/A | N/A | Collection of hydrogeological units composing a system of interacting components. By virtue of being a [GeologicUnit](GeologicUnit), it derives from it the 'part' property. |
 |  | name | text | Name of an aquifer system |
 |  | ... |  |  |
 | \<a name="aquiclude"\>**Aquiclude** | N/A | N/A | Impermeable beds of geologic material that hinder or prevent groundwater movement. |
@@ -231,7 +231,7 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" \* Note for
 |  | Calculation | text | Water Quality procedure (from Environment Canada) |
 |  | Guideline | text | Prescribed methodology |
 |  | Water Quality Index | text | Classification of water quality through an index. This class is a subclass a measurement class. |
-|  | Water Specimen | text | This class is a sub-class of a specimen class, which is defined as follows "A Specimen is some physical material sampled from a specified location, typically associated with a Site, such as a Station, a location or interval within a Section, or a location or extent from a [DescriptionExtent](DescriptionExtent.md) ". |
+|  | Water Specimen | text | This class is a sub-class of a specimen class, which is defined as follows "A Specimen is some physical material sampled from a specified location, typically associated with a Site, such as a Station, a location or interval within a Section, or a location or extent from a [DescriptionExtent](DescriptionExtent) ". |
 |  | ... |  |  |
 | \<a name="waterBudget"\>**Water Budget** | N/A | N/A | An accounting of the inflow, outflow, and storage changes of water in a hydrologic unit. |
 |  | Metadata | text | Metadata associated to a water budget. |
@@ -242,7 +242,7 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" \* Note for
 |  | Quantity | numeric | Quantity of water transferred during a particular water flow process. |
 |  | ... |  |  |
 | \<a name="waterFlowDirection"\>**Water Flow Direction** | N/A | N/A | Measurement of the direction of the water flow, at a specific location. |
-|  | Result | numeric | A direction of the water flow, expressed as a [CGI_Vector](CGI_Vector.md) with a direction and a magnitude. |
+|  | Result | numeric | A direction of the water flow, expressed as a [CGI_Vector](CGI_Vector) with a direction and a magnitude. |
 |  | ... |  |  |
 | \<a name="reservoir"\>**Reservoir** | N/A | N/A | A reservoir is, most broadly, a place or hollow vessel where fluid is kept in reserve, for later use. Includes atmospheric reservoir, biologic reservoir, geologic reservoir, surface reservoir, transit reservoir and utility reservoir. |
 |  | Capacity | numeric | Capacity of a reservoir to contain water, expressed as a numeric value and the unit of measurment. |
@@ -252,7 +252,7 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" \* Note for
 |  | Filtration Medium | text | Type of filtration mechanism used in the filtration device. Terms can be Natural, Filter pack or Formation stabilizer. |
 |  | ... |  |  |
 | \<a name="filtrationComponent"\>**Filtration Component** | N/A | N/A | Type of material used to filter the water. |
-|  | Position | geometry | This attribute is used to reference the shape of the samplingCurve from which the [WaterWell](WaterWell.md) derives. |
+|  | Position | geometry | This attribute is used to reference the shape of the samplingCurve from which the [WaterWell](WaterWell) derives. |
 |  | Grain Size | numeric | Size of the particles of the filtration material. |
 |  | Material | text | Identification of the material used in the filtration device. Gravel, pit run, silica sand, washed sand, crushed rock, artificial (unspecified) unknown, other |
 |  | ... |  |  |
@@ -312,7 +312,7 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" \* Note for
 
 -- [Main.FrancoisLetourneau](Main.FrancoisLetourneau) - 14 dec 2012
 
-**Features from INSPIRE [HydrogeologyCore](HydrogeologyCore.md) model, draft version 2.9.9**(With small corrections):
+**Features from INSPIRE [HydrogeologyCore](HydrogeologyCore) model, draft version 2.9.9**(With small corrections):
 
 \<table align="left" border="0" cellpadding="0" cellspacing="1"\> \<tbody\> \<tr\> \<td\>
 
@@ -332,23 +332,23 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline" \* Note for
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-\<a name="[I_ActiveWell](I_ActiveWell.md)"\>**[ActiveWell](ActiveWell.md)﻿**(subtype of [Well](#I_Well))\</td\> \<td width="56"\>
+\<a name="[I_ActiveWell](I_ActiveWell)"\>**[ActiveWell](ActiveWell)﻿**(subtype of [Well](#I_Well))\</td\> \<td width="56"\>
 
 N/A\</td\> \<td width="188"\>
 
 N/A\</td\> \<td width="518"\>
 
-A well influencing the groundwater resources (or state)of the groundwater body within the aquifer.Description: The most common examples of Active Well are: extracting, artificial recharging, or dewatering wells.﻿Note: [ActiveWell](ActiveWell.md) by extracting, recharging or dewatering influences and changes the state of groundwater body.﻿\</td\> \</tr\> \<tr\> \<td\>
+A well influencing the groundwater resources (or state)of the groundwater body within the aquifer.Description: The most common examples of Active Well are: extracting, artificial recharging, or dewatering wells.﻿Note: [ActiveWell](ActiveWell) by extracting, recharging or dewatering influences and changes the state of groundwater body.﻿\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 activityType\</td\> \<td width="188"\>
 
-[WellActivityType](WellActivityType.md) ([CodeList](CodeList.md))﻿\</td\> \<td width="518"\>
+[WellActivityType](WellActivityType) ([CodeList](CodeList))﻿\</td\> \<td width="518"\>
 
 The type of activity carried out by the well.Description: Indicates if the well is used for extracting, recharging, dewatering etc of the groundwater resources.﻿\</td\> \</tr\> \<tr\> \<td\>
 
-**\<a name="[I_Aquiclude](I_Aquiclude.md)"\>Aquiclude**(subtype of [HydrogeologicalUnit](#I_HydrogeologicalUnit))﻿﻿ ﻿\</td\> \<td width="56"\>
+**\<a name="[I_Aquiclude](I_Aquiclude)"\>Aquiclude**(subtype of [HydrogeologicalUnit](#I_HydrogeologicalUnit))﻿﻿ ﻿\</td\> \<td width="56"\>
 
 N/A\</td\> \<td width="188"\>
 
@@ -356,7 +356,7 @@ N/A\</td\> \<td width="518"\>
 
 An impermeable body of rock or stratum of sediment that acts as a barrier to the flow of groundwater.Description: A formation which, although porous and capable of absorbing water slowly, will not transmit water fast enough to furnish an appreciable supply for a well or spring. ﻿Aquicludes are characterized by very low values of "leakage" (the ratio of vertical \_Hydraulic\_ *Conductivity*to thickness), so that they transmit only minor inter-aquifer flow and also have very low rates of yield from compressible storage. Therefore, they constitute boundaries of aquifer flow systems.\</td\> \</tr\> \<tr\> \<td\>
 
-\<a name="[I_Aquifer](I_Aquifer.md)"\>**Aquifer﻿**(subtype of [HydrogeologicalUnit](#I_HydrogeologicalUnit))\</td\> \<td width="56"\>
+\<a name="[I_Aquifer](I_Aquifer)"\>**Aquifer﻿**(subtype of [HydrogeologicalUnit](#I_HydrogeologicalUnit))\</td\> \<td width="56"\>
 
 N/A\</td\> \<td width="188"\>
 
@@ -368,7 +368,7 @@ A wet underground layer of water-bearing permeable rock or unconsolidated materi
 
 \*aquiferType\*\</td\> \<td width="188"\>
 
-[AquiferType](AquiferType.md) (enumeration)﻿\</td\> \<td width="518"\>
+[AquiferType](AquiferType) (enumeration)﻿\</td\> \<td width="518"\>
 
 The type of aquifer.Description: Water in an Aquifer is, or is not, under pressure. Based on that unconfined, confined, artesian, or subartesian types are distinguished.﻿\</td\> \</tr\> \<tr\> \<td\>
 
@@ -376,7 +376,7 @@ The type of aquifer.Description: Water in an Aquifer is, or is not, under pressu
 
 \*mediaType\*\</td\> \<td width="188"\>
 
-[AquiferMediaType](AquiferMediaType.md) (enumeration)﻿\</td\> \<td width="518"\>
+[AquiferMediaType](AquiferMediaType) (enumeration)﻿\</td\> \<td width="518"\>
 
 The classification of the medium in which the groundwater flow occurs.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -398,7 +398,7 @@ Indicates if aquifer is the main useful aquifer in the aquifer system\</td\> \</
 
 \*vulnerabilityToPollution\*\</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable)﻿\</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable)﻿\</td\> \<td width="518"\>
 
 DRASTIC index value or interval of values determining the potential degree of aquifer risk arising from the geological structure, hydrogeological conditions and the existence of real or potential source of contamination.Description: A single value should be used if it is determined directly from the DRASTIC method. If attribute data comes from another data source which is expressed by categorized items, for example: low, moderate or high, interval should be used expressed by lowest and highest value of category. EXAMPLE: ‘Moderate’﻿ means interval from 101 to 140.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -406,7 +406,7 @@ DRASTIC index value or interval of values determining the potential degree of aq
 
 \*permeabilityCoefficient\*\</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable)﻿\</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable)﻿\</td\> \<td width="518"\>
 
 The volume of an incompressible fluid that will flow in unit time through a unit cube of a porous substance across which a unit pressure difference is maintained.Description: The parameter represents the hydraulic conductivity of a rock container. Describes the ease with which water can move through pore spaces or fractures. It depends on the intrinsic permeability of the material and on the degree of saturation.﻿Note: Because of their high porosity and permeability, sand and gravel have higher hydraulic conductivity than clay or unfractured granite aquifers.﻿\</td\> \</tr\> \<tr\> \<td\>
 
@@ -414,7 +414,7 @@ The volume of an incompressible fluid that will flow in unit time through a unit
 
 \*storativityCoefficient\*\</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable)﻿\</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable)﻿\</td\> \<td width="518"\>
 
 The ability of an aquifer to store water.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -422,11 +422,11 @@ The ability of an aquifer to store water.\</td\> \</tr\> \<tr\> \<td\>
 
 \*hydroGeochemicalRockType\*\</td\> \<td width="188"\>
 
-[HydroGeochemicalRockTerm](HydroGeochemicalRockTerm.md) ([CodeList](CodeList.md), voidable)﻿\</td\> \<td width="518"\>
+[HydroGeochemicalRockTerm](HydroGeochemicalRockTerm) ([CodeList](CodeList), voidable)﻿\</td\> \<td width="518"\>
 
 The rock type with respect to the soluble rock components and their hydrogeochemical influence of groundwater.Description: Defines the prevailing geochemical character of natural groundwater within the Aquifer.﻿\</td\> \</tr\> \<tr\> \<td\>
 
-\<a name="[I_AquiferSystem](I_AquiferSystem.md)"\>**[AquiferSystem](AquiferSystem.md)**(﻿subtype of [HydrogeologicalUnit](#I_HydrogeologicalUnit))\</td\> \<td width="56"\>
+\<a name="[I_AquiferSystem](I_AquiferSystem)"\>**[AquiferSystem](AquiferSystem)**(﻿subtype of [HydrogeologicalUnit](#I_HydrogeologicalUnit))\</td\> \<td width="56"\>
 
 N/A\</td\> \<td width="188"\>
 
@@ -440,9 +440,9 @@ A collection of aquifers and aquitards, which together constitute the environmen
 
 Boolean(voidable)﻿\</td\> \<td width="518"\>
 
-Indicates if the [AquiferSystem](AquiferSystem.md) consists of more than one layer.\</td\> \</tr\> \<tr\> \<td\>
+Indicates if the [AquiferSystem](AquiferSystem) consists of more than one layer.\</td\> \</tr\> \<tr\> \<td\>
 
-**\<a name="[I_Aquitard](I_Aquitard.md)"\>Aquitard﻿**(subtype of [HydrogeologicalUnit](#I_HydrogeologicalUnit))\</td\> \<td width="56"\>
+**\<a name="[I_Aquitard](I_Aquitard)"\>Aquitard﻿**(subtype of [HydrogeologicalUnit](#I_HydrogeologicalUnit))\</td\> \<td width="56"\>
 
 N/A\</td\> \<td width="188"\>
 
@@ -454,7 +454,7 @@ A saturated, but poorly permeable bed that impedes ground-water movement.Descrip
 
 \*approximatePermeabilityCoefficient\*\</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable)﻿\</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable)﻿\</td\> \<td width="518"\>
 
 The parameter represents the hydraulic conductivity of a poorly permeable rock or other formation. In that case, a value of permeability is most often approximate.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -462,11 +462,11 @@ The parameter represents the hydraulic conductivity of a poorly permeable rock o
 
 \*approximateStorativityCoefficient\*\</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable)﻿\</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable)﻿\</td\> \<td width="518"\>
 
 The ability of an aquitard to store water.\</td\> \</tr\> \<tr\> \<td\>
 
-**\<a name="[I_GroundwaterBody](I_GroundwaterBody.md)"\>[GroundwaterBody](GroundwaterBody.md)** \</td\> \<td width="56"\>
+**\<a name="[I_GroundwaterBody](I_GroundwaterBody)"\>[GroundwaterBody](GroundwaterBody)** \</td\> \<td width="56"\>
 
 N/A\</td\> \<td width="188"\>
 
@@ -484,15 +484,15 @@ External object identifier of the spatial feature.Note: An external object ident
 
 \*approximateHorizontalExtend\*\</td\> \<td width="188"\>
 
-[GM_Surface](GM_Surface.md)(voidable)﻿\</td\> \<td width="518"\>
+[GM_Surface](GM_Surface)(voidable)﻿\</td\> \<td width="518"\>
 
-The geometry defining the approximate boundary of the [GroundWaterBody](GroundWaterBody.md).\</td\> \</tr\> \<tr\> \<td\>
+The geometry defining the approximate boundary of the [GroundWaterBody](GroundWaterBody).\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*conditionOfGroundWaterBody\*\</td\> \<td width="188"\>
 
-[ConditionOfGroundwater](ConditionOfGroundwater.md) (enumeration)﻿\</td\> \<td width="518"\>
+[ConditionOfGroundwater](ConditionOfGroundwater) (enumeration)﻿\</td\> \<td width="518"\>
 
 The approximate degree of change to groundwater as a result of human activity.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -500,7 +500,7 @@ The approximate degree of change to groundwater as a result of human activity.\<
 
 \*mineralization\*\</td\> \<td width="188"\>
 
-[WaterTypeValue](WaterTypeValue.md) (voidable)﻿\</td\> \<td width="518"\>
+[WaterTypeValue](WaterTypeValue) (voidable)﻿\</td\> \<td width="518"\>
 
 One of the main chemical characteristics of water. A value is a sum of all water chemical concentration components.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -508,15 +508,15 @@ One of the main chemical characteristics of water. A value is a sum of all water
 
 \*piezometricState\*\</td\> \<td width="188"\>
 
-[PiezometricState](PiezometricState.md) (voidable, dataType)﻿\</td\> \<td width="518"\>
+[PiezometricState](PiezometricState) (voidable, dataType)﻿\</td\> \<td width="518"\>
 
-Specifies the piezometric state of the [GroundwaterBody](GroundwaterBody.md).\</td\> \</tr\> \<tr\> \<td\>
+Specifies the piezometric state of the [GroundwaterBody](GroundwaterBody).\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*beginLifespanVersion\*\</td\> \<td width="188"\>
 
-[DateTime](DateTime.md) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
+[DateTime](DateTime) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
 
 Date and time at which this version of the spatial object was inserted or changed in the spatial data set.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -524,11 +524,11 @@ Date and time at which this version of the spatial object was inserted or change
 
 \*endLifespanVersion\*\</td\> \<td width="188"\>
 
-[DateTime](DateTime.md) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
+[DateTime](DateTime) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
 
 Date and time at which this version of the spatial object was superseded or retired in the spatial data set.\</td\> \</tr\> \<tr\> \<td\>
 
-\<a name="[I_HydrogeologicalObject](I_HydrogeologicalObject.md)"\>**[HydrogeologicalObject](HydrogeologicalObject.md)﻿**(Abstract)
+\<a name="[I_HydrogeologicalObject](I_HydrogeologicalObject)"\>**[HydrogeologicalObject](HydrogeologicalObject)﻿**(Abstract)
 
 \</td\> \<td width="56"\>
 
@@ -550,31 +550,31 @@ External object identifier of the spatial feature.Note: An external object ident
 
 \*geometry\*\</td\> \<td width="188"\>
 
-[GM_Primitive](GM_Primitive.md)\</td\> \<td width="518"\>
+[GM_Primitive](GM_Primitive)\</td\> \<td width="518"\>
 
-The geometry defining the spatial location of the [HydrogeologicalObject](HydrogeologicalObject.md).\</td\> \</tr\> \<tr\> \<td\>
+The geometry defining the spatial location of the [HydrogeologicalObject](HydrogeologicalObject).\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*name\*\</td\> \<td width="188"\>
 
-[PT_FreeText](PT_FreeText.md)(voidable)﻿\</td\> \<td width="518"\>
+[PT_FreeText](PT_FreeText)(voidable)﻿\</td\> \<td width="518"\>
 
-The name or code of the [HydrogeologicalObject](HydrogeologicalObject.md).\</td\> \</tr\> \<tr\> \<td\>
+The name or code of the [HydrogeologicalObject](HydrogeologicalObject).\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*description\*\</td\> \<td width="188"\>
 
-[PT_FreeText](PT_FreeText.md)(voidable)﻿\</td\> \<td width="518"\>
+[PT_FreeText](PT_FreeText)(voidable)﻿\</td\> \<td width="518"\>
 
-The description of the [HydrogeologicalObject](HydrogeologicalObject.md).\</td\> \</tr\> \<tr\> \<td\>
+The description of the [HydrogeologicalObject](HydrogeologicalObject).\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*beginLifespanVersion\*\</td\> \<td width="188"\>
 
-[DateTime](DateTime.md) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
+[DateTime](DateTime) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
 
 Date and time at which this version of the spatial object was inserted or changed in the spatial data set.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -582,11 +582,11 @@ Date and time at which this version of the spatial object was inserted or change
 
 \*endLifespanVersion\*\</td\> \<td width="188"\>
 
-[DateTime](DateTime.md) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
+[DateTime](DateTime) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
 
 Date and time at which this version of the spatial object was superseded or retired in the spatial data set.\</td\> \</tr\> \<tr\> \<td\>
 
-**\<a name="[I_HydrogeologicalObjectManMade](I_HydrogeologicalObjectManMade.md)"\>[HydrogeologicalObjectManMade](HydrogeologicalObjectManMade.md)**(﻿abstract, subtype of [HydrogeologicalObject](#I_HydrogeologicalObject))
+**\<a name="[I_HydrogeologicalObjectManMade](I_HydrogeologicalObjectManMade)"\>[HydrogeologicalObjectManMade](HydrogeologicalObjectManMade)**(﻿abstract, subtype of [HydrogeologicalObject](#I_HydrogeologicalObject))
 
 \</td\> \<td width="56"\>
 
@@ -600,7 +600,7 @@ A man-made hydrogeological object.Description: Examples of manmade hydrogeologic
 
 \*validFrom\*\</td\> \<td width="188"\>
 
-[DateTime](DateTime.md) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
+[DateTime](DateTime) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
 
 Official date and time the hydrogeological object was/will be legally established.Note: This is the date and time the register reference can be used in legal acts.﻿\</td\> \</tr\> \<tr\> \<td\>
 
@@ -608,29 +608,29 @@ Official date and time the hydrogeological object was/will be legally establishe
 
 \*validTo\*\</td\> \<td width="188"\>
 
-[DateTime](DateTime.md) (lifeCycleInfo, voidable)\</td\> \<td width="518"\>
+[DateTime](DateTime) (lifeCycleInfo, voidable)\</td\> \<td width="518"\>
 
 Date and time at which the hydrogeological object legally ceased/will cease to be used.Note: This is the date and time the register reference can no longer be used in legal acts.﻿\</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\>
 
 \*statusCode\*\</td\> \<td width="188"\>
 
-[StatusCodeType](StatusCodeType.md) (codeList, voidable)﻿\</td\> \<td width="518"\>
+[StatusCodeType](StatusCodeType) (codeList, voidable)﻿\</td\> \<td width="518"\>
 
-A code defining the formal status of a [HydrogeologicalObjectManMade](HydrogeologicalObjectManMade.md).\</td\> \</tr\> \<tr\> \<td\>
+A code defining the formal status of a [HydrogeologicalObjectManMade](HydrogeologicalObjectManMade).\</td\> \</tr\> \<tr\> \<td\>
 
-**\<a name="[I_HydrogeologicalObjectNatural](I_HydrogeologicalObjectNatural.md)"\>[HydrogeologicalObjectNatural](HydrogeologicalObjectNatural.md)**(subtype of [HydrogeologicalObject](#I_HydrogeologicalObject))﻿ ﻿\</td\> \<td width="56"\>
+**\<a name="[I_HydrogeologicalObjectNatural](I_HydrogeologicalObjectNatural)"\>[HydrogeologicalObjectNatural](HydrogeologicalObjectNatural)**(subtype of [HydrogeologicalObject](#I_HydrogeologicalObject))﻿ ﻿\</td\> \<td width="56"\>
 
 N/A\</td\> \<td width="188"\>
 
 N/A\</td\> \<td width="518"\>
 
-[HydrogeologicalObject](HydrogeologicalObject.md) which was created by natural processes.Description: Examples of natural hydrogeological objects are: a source, vanishing point and geyser.﻿\</td\> \</tr\> \<tr\> \<td\>
+[HydrogeologicalObject](HydrogeologicalObject) which was created by natural processes.Description: Examples of natural hydrogeological objects are: a source, vanishing point and geyser.﻿\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*naturalObjectType\*\</td\> \<td width="188"\>
 
-[NaturalObjectType](NaturalObjectType.md) (codeList)﻿\</td\> \<td width="518"\>
+[NaturalObjectType](NaturalObjectType) (codeList)﻿\</td\> \<td width="518"\>
 
 The type of natural hydrogeological object.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -638,7 +638,7 @@ The type of natural hydrogeological object.\</td\> \</tr\> \<tr\> \<td\>
 
 \*waterPersistence\*\</td\> \<td width="188"\>
 
-[WaterPersistenceValue](WaterPersistenceValue.md) (codeList, voidable)﻿\</td\> \<td width="518"\>
+[WaterPersistenceValue](WaterPersistenceValue) (codeList, voidable)﻿\</td\> \<td width="518"\>
 
 The degree of persistence of water flow.\</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\>
 
@@ -648,7 +648,7 @@ Quantity Value(voidable)﻿\</td\> \<td width="518"\>
 
 An approximate value defining the water yield in a natural object.Description: The discharge of water flow for a certain cross-section per time unit.﻿\</td\> \</tr\> \<tr\> \<td\>
 
-**\<a name="[I_HydrogeologicalUnit](I_HydrogeologicalUnit.md)"\>[HydrogeologicalUnit](HydrogeologicalUnit.md) ﻿**(abstract)
+**\<a name="[I_HydrogeologicalUnit](I_HydrogeologicalUnit)"\>[HydrogeologicalUnit](HydrogeologicalUnit) ﻿**(abstract)
 
 \</td\> \<td width="56"\>
 
@@ -670,45 +670,45 @@ External object identifier of the spatial feature.Note: An external object ident
 
 \*approximateHorizontalExtend\*\</td\> \<td width="188"\>
 
-[GM_Surface](GM_Surface.md)\</td\> \<td width="518"\>
+[GM_Surface](GM_Surface)\</td\> \<td width="518"\>
 
-The geometry defining the boundary of the [HydrogeologicalUnit](HydrogeologicalUnit.md).\</td\> \</tr\> \<tr\> \<td\>
+The geometry defining the boundary of the [HydrogeologicalUnit](HydrogeologicalUnit).\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*name\*\</td\> \<td valign="top" width="188"\>
 
-[PT_FreeText](PT_FreeText.md)(voidable)﻿\</td\> \<td width="518"\>
+[PT_FreeText](PT_FreeText)(voidable)﻿\</td\> \<td width="518"\>
 
-The name or code of the [HydrogeologicalUnit](HydrogeologicalUnit.md).\</td\> \</tr\> \<tr\> \<td\>
+The name or code of the [HydrogeologicalUnit](HydrogeologicalUnit).\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*description\*\</td\> \<td valign="top" width="188"\>
 
-[PT_FreeText](PT_FreeText.md)(voidable)﻿\</td\> \<td width="518"\>
+[PT_FreeText](PT_FreeText)(voidable)﻿\</td\> \<td width="518"\>
 
-The description of the [HydrogeologicalUnit](HydrogeologicalUnit.md) \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\>
+The description of the [HydrogeologicalUnit](HydrogeologicalUnit) \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\>
 
 \*approximateDepth\*\</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) ﻿(voidable)\</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) ﻿(voidable)\</td\> \<td width="518"\>
 
-The approximate depth of the [HydrogeologicalUnit](HydrogeologicalUnit.md) occurrence.\</td\> \</tr\> \<tr\> \<td\>
+The approximate depth of the [HydrogeologicalUnit](HydrogeologicalUnit) occurrence.\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*approximateThickness\*\</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable)﻿\</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable)﻿\</td\> \<td width="518"\>
 
-The approximate thickness of the [HydrogeologicalUnit](HydrogeologicalUnit.md).\</td\> \</tr\> \<tr\> \<td\>
+The approximate thickness of the [HydrogeologicalUnit](HydrogeologicalUnit).\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*beginLifespanVersion\*\</td\> \<td width="188"\>
 
-[DateTime](DateTime.md) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
+[DateTime](DateTime) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
 
 Date and time at which this version of the spatial object was inserted or changed in the spatial data set.\</td\> \</tr\> \<tr\> \<td\>
 
@@ -716,11 +716,11 @@ Date and time at which this version of the spatial object was inserted or change
 
 \*endLifespanVersion\*\</td\> \<td width="188"\>
 
-[DateTime](DateTime.md) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
+[DateTime](DateTime) (lifeCycleInfo, voidable)﻿\</td\> \<td width="518"\>
 
 Date and time at which this version of the spatial object was superseded or retired in the spatial data set.\</td\> \</tr\> \<tr\> \<td\>
 
-**\<a name="[I_ObservationWell](I_ObservationWell.md)"\>[ObservationWell](ObservationWell.md) **(subtypeof [Well](#I_Well))﻿
+**\<a name="[I_ObservationWell](I_ObservationWell)"\>[ObservationWell](ObservationWell) **(subtypeof [Well](#I_Well))﻿
 
 \</td\> \<td width="56"\>
 
@@ -728,17 +728,17 @@ N/A\</td\> \<td width="188"\>
 
 N/A\</td\> \<td width="518"\>
 
-A well drilled in a selected location for the purpose of observing parameters such as water hydraulic state or water chemistry changes.Description: Class [ObservationWell](ObservationWell.md) realizes class [ObservationWell](ObservationWell.md) from ISO 19156 standard in hydrogeology domain.﻿\</td\> \</tr\> \<tr\> \<td\>
+A well drilled in a selected location for the purpose of observing parameters such as water hydraulic state or water chemistry changes.Description: Class [ObservationWell](ObservationWell) realizes class [ObservationWell](ObservationWell) from ISO 19156 standard in hydrogeology domain.﻿\</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 \*observationType\*\</td\> \<td width="188"\>
 
-[WellObservationType](WellObservationType.md) (enumeration)﻿\</td\> \<td width="518"\>
+[WellObservationType](WellObservationType) (enumeration)﻿\</td\> \<td width="518"\>
 
-[ObservationWell](ObservationWell.md) can be a well or piezometer which allow to carry out monitoring and measurement of groundwater (quantitative or chemical) state.Description: The station measurements are used (or not) for EU Water Framework Directive purposes.﻿\</td\> \</tr\> \<tr\> \<td\>
+[ObservationWell](ObservationWell) can be a well or piezometer which allow to carry out monitoring and measurement of groundwater (quantitative or chemical) state.Description: The station measurements are used (or not) for EU Water Framework Directive purposes.﻿\</td\> \</tr\> \<tr\> \<td\>
 
-\<a name="[I_Well](I_Well.md)"\>**Well﻿**(abstract, subtype of [HydrogeologicalObjectManMade](#I_HydrogeologicalObjectManMade))
+\<a name="[I_Well](I_Well)"\>**Well﻿**(abstract, subtype of [HydrogeologicalObjectManMade](#I_HydrogeologicalObjectManMade))
 
 \</td\> \<td width="56"\>
 
@@ -749,7 +749,7 @@ N/A\</td\> \<td width="518"\>
 An excavation where the intended use is for location, acquisition, development, or artificial recharge of groundwater.Source: GWML1﻿\</td\> \</tr\> \</tbody\> \</table\>
 
 
-**Selected features from INSPIRE [HydrogeologyExtension](HydrogeologyExtension.md) model, draft version 2.9.9**(With small corrections):
+**Selected features from INSPIRE [HydrogeologyExtension](HydrogeologyExtension) model, draft version 2.9.9**(With small corrections):
 
 \<table align="left" border="0" cellpadding="0" cellspacing="1"\> \<tbody\> \<tr\> \<td\>
 
@@ -769,7 +769,7 @@ An excavation where the intended use is for location, acquisition, development, 
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-**[FracturedAquifer](FracturedAquifer.md)**(subtype of Aquifer)\</td\> \<td width="56"\>
+**[FracturedAquifer](FracturedAquifer)**(subtype of Aquifer)\</td\> \<td width="56"\>
 
 N/A
 
@@ -785,13 +785,13 @@ N/A
 
 \</td\> \<td width="188"\>
 
-[OriginOfFractures](OriginOfFractures.md) (codeList)
+[OriginOfFractures](OriginOfFractures) (codeList)
 
 \</td\> \<td width="518"\>
 
--- Definition --Genesis of cracks forming [FracturedSystem](FracturedSystem.md), for example:- related to the fault zone,- caused by weathering processes,- other processes.
+-- Definition --Genesis of cracks forming [FracturedSystem](FracturedSystem), for example:- related to the fault zone,- caused by weathering processes,- other processes.
 
-\</td\> \</tr\> \<tr\> \<td\>**[KarsticAqiufer](KarsticAqiufer.md)**(subtype of Aquifer)\</td\> \<td width="56"\>
+\</td\> \</tr\> \<tr\> \<td\>**[KarsticAqiufer](KarsticAqiufer)**(subtype of Aquifer)\</td\> \<td width="56"\>
 
 N/A\</td\> \<td width="188"\>
 
@@ -801,23 +801,23 @@ N/A\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
 
 **soluteRockType**\</td\> \<td width="188"\>
 
-[SoluteRockType](SoluteRockType.md) (codeList)\</td\> \<td width="518"\>
+[SoluteRockType](SoluteRockType) (codeList)\</td\> \<td width="518"\>
 
 -- Definition --Determination of the chemical composition of rocks creating karst processes and, consequently, the nature of the voids that collect water and allow it to flow.\</td\> \</tr\> \<tr\> \<td\>
 
-**[HG_FeatureOccurrence](HG_FeatureOccurrence.md)** \</td\> \<td width="56"\>
+**[HG_FeatureOccurrence](HG_FeatureOccurrence)** \</td\> \<td width="56"\>
 
 N/A \</td\> \<td width="188"\>
 
 N/A \</td\> \<td width="518"\>
 
--- Definition --[HydrogeologicalFeatureAppearence](HydrogeologicalFeatureAppearence.md) class is a geometric representation of [HydrogeologicalFeature](HydrogeologicalFeature.md) calaas. [HydrogeologicalFeature](HydrogeologicalFeature.md) instance (object) could be represented by many various instances of [HydrogeologicalFeatureAppearence](HydrogeologicalFeatureAppearence.md) class.-- Note --Class equivalent to [HydrogeologicMappedFeature](HydrogeologicMappedFeature.md) in GWML model and [GeologicMappedFeature](GeologicMappedFeature.md) in [GeoSciML](GeoSciML.md):"Mapped feature more oriented on spatial temporal (although geometries could handle this).A physical hydrogeologic feature represented on a map."Here, meaning of this class is wider then in GWML and similar to [MappedFeature](MappedFeature.md) class in [GeoSciML](GeoSciML.md):A [MappedFeature](MappedFeature.md) is part of a geological interpretation.It provides a link between a notional feature (description package) and one spatial representation of it, or part of it. (Exposures, Surface Traces and Intercepts, etc) \* the specific bounded occurrence, such as an outcrop or map polygon \* the Mapped Feature carries a geometry or shape o the association with a Geologic Feature (legend item) provides specification of all the other descriptors o the association with a Sampling Feature provides the context and dimensionality A Mapped Feature is always associated with some sampling feature - e.g. a mapping surface, a section, a Borehole (see [BoreHolesAndObservation](BoreHolesAndObservation.md)) etc. As noted on the diagram, if the associated sampling feature is a Borehole, then the shape associated with the [MappedFeature](MappedFeature.md) will usually be either a point or an interval. This reconciles the 2-D ("map", section) and 1-D (borehole, traverse) viewpoints in a common abstraction." \</td\> \</tr\> \<tr\> \<td\>
+-- Definition --[HydrogeologicalFeatureAppearence](HydrogeologicalFeatureAppearence) class is a geometric representation of [HydrogeologicalFeature](HydrogeologicalFeature) calaas. [HydrogeologicalFeature](HydrogeologicalFeature) instance (object) could be represented by many various instances of [HydrogeologicalFeatureAppearence](HydrogeologicalFeatureAppearence) class.-- Note --Class equivalent to [HydrogeologicMappedFeature](HydrogeologicMappedFeature) in GWML model and [GeologicMappedFeature](GeologicMappedFeature) in [GeoSciML](GeoSciML):"Mapped feature more oriented on spatial temporal (although geometries could handle this).A physical hydrogeologic feature represented on a map."Here, meaning of this class is wider then in GWML and similar to [MappedFeature](MappedFeature) class in [GeoSciML](GeoSciML):A [MappedFeature](MappedFeature) is part of a geological interpretation.It provides a link between a notional feature (description package) and one spatial representation of it, or part of it. (Exposures, Surface Traces and Intercepts, etc) \* the specific bounded occurrence, such as an outcrop or map polygon \* the Mapped Feature carries a geometry or shape o the association with a Geologic Feature (legend item) provides specification of all the other descriptors o the association with a Sampling Feature provides the context and dimensionality A Mapped Feature is always associated with some sampling feature - e.g. a mapping surface, a section, a Borehole (see [BoreHolesAndObservation](BoreHolesAndObservation)) etc. As noted on the diagram, if the associated sampling feature is a Borehole, then the shape associated with the [MappedFeature](MappedFeature) will usually be either a point or an interval. This reconciles the 2-D ("map", section) and 1-D (borehole, traverse) viewpoints in a common abstraction." \</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 **geometry** \</td\> \<td width="188"\>
 
-[HG_Geometry](HG_Geometry.md)(union) \</td\> \<td width="518"\>
+[HG_Geometry](HG_Geometry)(union) \</td\> \<td width="518"\>
 
 -- Definition –Common data union for geometry of feature.-- Note --In GML application it is realised by choice element.XML Schema choice element allows only one of the elements contained in the \<choice\> declaration to be present within the containing element. \</td\> \</tr\> \<tr\> \<td\>
 
@@ -825,7 +825,7 @@ N/A \</td\> \<td width="518"\>
 
 **sourceOfGeome** \</td\> \<td width="188"\>
 
-[HG_SourceOfGeometry](HG_SourceOfGeometry.md)(codeList) \</td\> \<td width="518"\>
+[HG_SourceOfGeometry](HG_SourceOfGeometry)(codeList) \</td\> \<td width="518"\>
 
 -- Definition --Determination of the feature geometry information source or the way of geometry mark. \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\>
 
@@ -839,17 +839,17 @@ XXX \</td\> \</tr\> \<tr\> \<td\>
 
 **description** \</td\> \<td width="188"\>
 
-[PT_FreeText](PT_FreeText.md) \</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
+[PT_FreeText](PT_FreeText) \</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 **categoryOfGeometry** \</td\> \<td width="188"\>
 
-[HG_CategoryOfGeometry](HG_CategoryOfGeometry.md)(codeList) \</td\> \<td width="518"\>
+[HG_CategoryOfGeometry](HG_CategoryOfGeometry)(codeList) \</td\> \<td width="518"\>
 
 ﻿\</td\> \</tr\> \<tr\> \<td\>
 
-**[HG_WellLog](HG_WellLog.md)** \</td\> \<td width="56"\>
+**[HG_WellLog](HG_WellLog)** \</td\> \<td width="56"\>
 
 N/A \</td\> \<td width="188"\>
 
@@ -861,11 +861,11 @@ N/A \</td\> \<td width="518"\>
 
 **interval** \</td\> \<td width="188"\>
 
-[HG_LogInterval](HG_LogInterval.md)(class) \</td\> \<td width="518"\>
+[HG_LogInterval](HG_LogInterval)(class) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-**[HG_LogInterval](HG_LogInterval.md)** \</td\> \<td width="56"\>
+**[HG_LogInterval](HG_LogInterval)** \</td\> \<td width="56"\>
 
 N/A \</td\> \<td width="188"\>
 
@@ -873,15 +873,15 @@ N/A \</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
-**[PermeabilityCoefficient](PermeabilityCoefficient.md)** \</td\> \<td width="188"\>
+**[PermeabilityCoefficient](PermeabilityCoefficient)** \</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable) \</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
+[QuantityValue](QuantityValue) (voidable) \</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
 **torativityCoefficient** \</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable) \</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
@@ -889,7 +889,7 @@ N/A \</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
 
 **mediaType** \</td\> \<td width="188"\>
 
-[AquiferMediaType](AquiferMediaType.md) (codeList, voidable) \</td\> \<td width="518"\>
+[AquiferMediaType](AquiferMediaType) (codeList, voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
@@ -897,7 +897,7 @@ N/A \</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
 
 **vulnerabilityToPollution** \</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable) \</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
@@ -905,17 +905,17 @@ N/A \</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
 
 **piezometricHead** \</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable) \</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable) \</td\> \<td width="518"\>
 
 ﻿\</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\>
 
 **hydroGeochemicalRockType** \</td\> \<td width="188"\>
 
-[HydroGeochemicalRockTerm](HydroGeochemicalRockTerm.md) (codeList, voidable) \</td\> \<td width="518"\>
+[HydroGeochemicalRockTerm](HydroGeochemicalRockTerm) (codeList, voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-\</td\> \<td width="56"\> **litology** \</td\> \<td width="188"\> [LithologyTerm](LithologyTerm.md) \_Core(codeList, voidable)\</td\> \<td width="518"\>
+\</td\> \<td width="56"\> **litology** \</td\> \<td width="188"\> [LithologyTerm](LithologyTerm) \_Core(codeList, voidable)\</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
@@ -923,11 +923,11 @@ N/A \</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>
 
 **numericAgeDate** \</td\> \<td width="188"\>
 
-[NumericAgeRange](NumericAgeRange.md) \_Core(class, voidable) \</td\> \<td width="518"\>
+[NumericAgeRange](NumericAgeRange) \_Core(class, voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-**[HG_ConeOfDepression](HG_ConeOfDepression.md)**(subtype of [HydrogeologicalZone](HydrogeologicalZone.md)) \</td\> \<td width="56"\> N/A\</td\> \<td width="188"\>
+**[HG_ConeOfDepression](HG_ConeOfDepression)**(subtype of [HydrogeologicalZone](HydrogeologicalZone)) \</td\> \<td width="56"\> N/A\</td\> \<td width="188"\>
 
 N/A \</td\> \<td width="518"\>
 
@@ -935,7 +935,7 @@ N/A \</td\> \<td width="518"\>
 
 \</td\> \<td width="56"\> **centeredAt** \</td\> \<td width="188"\>
 
-[GM_Point](GM_Point.md) \</td\> \<td width="518"\>
+[GM_Point](GM_Point) \</td\> \<td width="518"\>
 
 The planimetric localization of the center of the cone of depression.The planimetric shape of a cone of depression os not necessarily circular. This discussion details size and shape characteristic of a cone of depression.The size and shape (slope) of the cone of depression depends on many factors. The pumping rate in the well will affect the size of the cone. Also, the type of aquifer material, such as whether the aquifer is gravel, sand, silt, fractured rocks, karst, etc., also will affect how far the cone extends. The amount of water in storage and the thickness of the aquifer also will determine the size and shape of the cone of depression. As a well is pumped, the cone of depression will extend out and will continue to expand in a radial fashion until a point of equilibrium occurs. This usually is when the amount of water released from storage equals the rate of pumping. This also can occur when recharge to the aquifer equals the amount of water being pumped. We typically think of a cone of depression as being a circular feature surrounding the pumped well. However, aquifer characteristics can affect the shape of the cone of depression. For example, if there is a steep ground-water gradient in the area of pumpage, the cone will tend to be shorter in the upgradient direction and elongated in the downgradient direction. This is because the water is already flowing towards the well from the upgradient direction, so the cone of depression doesn't need to extend as far out to obtain water, whereas the water is flowing away from the well in the downgradient direction, so the cone of depression needs to reach further to obtain water.<http://en.wikipedia.org/wiki/Cone_of_depression> \</td\> \</tr\> \<tr\> \<td\>
 
@@ -943,11 +943,11 @@ The planimetric localization of the center of the cone of depression.The planime
 
 **depth** \</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) \</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) \</td\> \<td width="518"\>
 
 The depth of a cone of depression in an aquifer. \</td\> \</tr\> \<tr\> \<td\>
 
-**[HG_InfluenceZone](HG_InfluenceZone.md)**(subtype of [HydrogeologicalZone](HydrogeologicalZone.md)) \</td\> \<td width="56"\>
+**[HG_InfluenceZone](HG_InfluenceZone)**(subtype of [HydrogeologicalZone](HydrogeologicalZone)) \</td\> \<td width="56"\>
 
 N/A \</td\> \<td width="188"\>
 
@@ -959,9 +959,9 @@ N/A \</td\> \<td width="518"\>
 
 **typeOfInfluence** \</td\> \<td width="188"\>
 
-[TypeOfInfluence](TypeOfInfluence.md) (codeList) \</td\> \<td width="518"\>-- Definition --(from GWML1)An area that defines a protection zone around a well.\</td\> \</tr\> \<tr\> \<td\>
+[TypeOfInfluence](TypeOfInfluence) (codeList) \</td\> \<td width="518"\>-- Definition --(from GWML1)An area that defines a protection zone around a well.\</td\> \</tr\> \<tr\> \<td\>
 
-**[HG_ProtectionZone](HG_ProtectionZone.md)**(subtype of [HydrogeologicalZone](HydrogeologicalZone.md)) \</td\> \<td width="56"\>
+**[HG_ProtectionZone](HG_ProtectionZone)**(subtype of [HydrogeologicalZone](HydrogeologicalZone)) \</td\> \<td width="56"\>
 
 N/A \</td\> \<td width="188"\>
 
@@ -973,17 +973,17 @@ N/A \</td\> \<td width="518"\>
 
 **typeOfProtection** \</td\> \<td width="188"\>
 
-[HG_TypeOfProtection](HG_TypeOfProtection.md)(codeList) \</td\> \<td width="518"\>
+[HG_TypeOfProtection](HG_TypeOfProtection)(codeList) \</td\> \<td width="518"\>
 
--- Definition --Types of protected areas around the groundwater intake ([WFD_register](WFD_register.md), [MS_direct](MS_direct.md),[MS\_](MS_.md) indirect). \</td\> \</tr\> \<tr\> \<td\>
+-- Definition --Types of protected areas around the groundwater intake ([WFD_register](WFD_register), [MS_direct](MS_direct),[MS\_](MS_) indirect). \</td\> \</tr\> \<tr\> \<td\>
 
-**[HydrogeologicalZone](HydrogeologicalZone.md)**(abstract) \</td\> \<td width="56"\>
+**[HydrogeologicalZone](HydrogeologicalZone)**(abstract) \</td\> \<td width="56"\>
 
 N/A \</td\> \<td width="188"\>
 
 N/A \</td\> \<td width="518"\>
 
--- Definition --Abstraction of Aquifer, Aquitard, Aquiclude and [AquiferSystem](AquiferSystem.md).-- Description --All common attributes in those classes are specified here \</td\> \</tr\> \<tr\> \<td\>
+-- Definition --Abstraction of Aquifer, Aquitard, Aquiclude and [AquiferSystem](AquiferSystem).-- Description --All common attributes in those classes are specified here \</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
@@ -1031,7 +1031,7 @@ XXX \</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\> **endLifespanVersion** \</td\> \<td width="188"\>XXX\</td\> \<td width="518"\>
 
-XXX \</td\> \</tr\> \<tr\> \<td\>**[MineralGroundWaterBody](MineralGroundWaterBody.md)**(subtype of [GroundWaterBody](GroundWaterBody.md))\</td\> \<td width="56"\>N/A\</td\> \<td width="188"\>
+XXX \</td\> \</tr\> \<tr\> \<td\>**[MineralGroundWaterBody](MineralGroundWaterBody)**(subtype of [GroundWaterBody](GroundWaterBody))\</td\> \<td width="56"\>N/A\</td\> \<td width="188"\>
 
 N/A \</td\> \<td width="518"\>
 
@@ -1041,11 +1041,11 @@ N/A \</td\> \<td width="518"\>
 
 **mineralWaterDescription** \</td\> \<td width="188"\>
 
-[MineralWaterDescription](MineralWaterDescription.md) (codeList) \</td\> \<td width="518"\>
+[MineralWaterDescription](MineralWaterDescription) (codeList) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-**[MineralSpring](MineralSpring.md)**(subtype of [HydrogeologicalObjectNatural](HydrogeologicalObjectNatural.md)) \</td\> \<td width="56"\>
+**[MineralSpring](MineralSpring)**(subtype of [HydrogeologicalObjectNatural](HydrogeologicalObjectNatural)) \</td\> \<td width="56"\>
 
 N/A \</td\> \<td width="188"\>N/A\</td\> \<td width="518"\>
 
@@ -1055,7 +1055,7 @@ N/A \</td\> \<td width="188"\>N/A\</td\> \<td width="518"\>
 
 **quantityOfMeanDischarge** \</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable) \</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\>
 
@@ -1063,7 +1063,7 @@ N/A \</td\> \<td width="188"\>N/A\</td\> \<td width="518"\>
 
 \</td\> \<td width="188"\>
 
-[SpringUsageCode](SpringUsageCode.md) (codeList, voidable) \</td\> \<td width="518"\>
+[SpringUsageCode](SpringUsageCode) (codeList, voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
@@ -1071,21 +1071,21 @@ N/A \</td\> \<td width="188"\>N/A\</td\> \<td width="518"\>
 
 **mineralWaterDescription** \</td\> \<td width="188"\>
 
-[MineralWaterDescription](MineralWaterDescription.md) (dataType, voidable) \</td\> \<td width="518"\>
+[MineralWaterDescription](MineralWaterDescription) (dataType, voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-**[MineralWaterAbstractionWell](MineralWaterAbstractionWell.md)**(subtype of [ActiveWell](ActiveWell.md)) \</td\> \<td width="56"\>
+**[MineralWaterAbstractionWell](MineralWaterAbstractionWell)**(subtype of [ActiveWell](ActiveWell)) \</td\> \<td width="56"\>
 
 N/A \</td\> \<td width="188"\>
 
 N/A \</td\> \<td width="518"\>
 
-A [WaterWell](WaterWell.md) used for the of abstraction of mineral water from a mineral groundwater body \</td\> \</tr\> \<tr\> \<td\>
+A [WaterWell](WaterWell) used for the of abstraction of mineral water from a mineral groundwater body \</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\> \*quantityOfMeanDischarge\*\</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable) \</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
@@ -1093,11 +1093,11 @@ A [WaterWell](WaterWell.md) used for the of abstraction of mineral water from a 
 
 **mineralWaterDescription** \</td\> \<td valign="top" width="188"\>
 
-[MineralWaterDescription](MineralWaterDescription.md) (dataType, voidable) \</td\> \<td width="518"\>
+[MineralWaterDescription](MineralWaterDescription) (dataType, voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-**[ThermalGroundWaterBody](ThermalGroundWaterBody.md)**(subtype of [GroundwaterBody](GroundwaterBody.md)) \</td\> \<td width="56"\> N/A\</td\> \<td valign="top" width="188"\>
+**[ThermalGroundWaterBody](ThermalGroundWaterBody)**(subtype of [GroundwaterBody](GroundwaterBody)) \</td\> \<td width="56"\> N/A\</td\> \<td valign="top" width="188"\>
 
 N/A \</td\> \<td width="518"\>
 
@@ -1105,11 +1105,11 @@ N/A \</td\> \<td width="518"\>
 
 **temperature** \</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable) \</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-**[ThermalSpring](ThermalSpring.md)**(subtype of [HydrogeologicalObjectNatural](HydrogeologicalObjectNatural.md)) \</td\> \<td width="56"\> N/A\</td\> \<td width="188"\>
+**[ThermalSpring](ThermalSpring)**(subtype of [HydrogeologicalObjectNatural](HydrogeologicalObjectNatural)) \</td\> \<td width="56"\> N/A\</td\> \<td width="188"\>
 
 N/A \</td\> \<td width="518"\>
 
@@ -1119,7 +1119,7 @@ N/A \</td\> \<td width="518"\>
 
 **quantityOfMeanDischarge** \</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable) \</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
@@ -1127,25 +1127,25 @@ N/A \</td\> \<td width="518"\>
 
 **temperature** \</td\> \<td width="188"\>
 
-[QuantityValue](QuantityValue.md) (voidable) \</td\> \<td width="518"\>
+[QuantityValue](QuantityValue) (voidable) \</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
-**springUsage** \</td\> \<td width="188"\>[SpringUsageCode](SpringUsageCode.md)(codeList, voidable)\</td\> \<td width="518"\>
+**springUsage** \</td\> \<td width="188"\>[SpringUsageCode](SpringUsageCode)(codeList, voidable)\</td\> \<td width="518"\>
 
 \</td\> \</tr\> \<tr\> \<td\>
 
-**[ThermalWaterAbstractionWell](ThermalWaterAbstractionWell.md)**(subtype of [ActiveWell](ActiveWell.md)) \</td\> \<td width="56"\>
+**[ThermalWaterAbstractionWell](ThermalWaterAbstractionWell)**(subtype of [ActiveWell](ActiveWell)) \</td\> \<td width="56"\>
 
 N/A \</td\> \<td width="188"\>N/A\</td\> \<td width="518"\>
 
--- Definition --A [WaterWell](WaterWell.md) used for the of abstraction of mineral water from a mineral groundwater body \</td\> \</tr\> \<tr\> \<td\>
+-- Definition --A [WaterWell](WaterWell) used for the of abstraction of mineral water from a mineral groundwater body \</td\> \</tr\> \<tr\> \<td\>
 
 \</td\> \<td width="56"\>
 
-**quantityOfMeanDischarge** \</td\> \<td width="188"\> [QuantityValue](QuantityValue.md) (voidable)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> \*temperature\*\</td\> \<td width="188"\>[QuantityValue](QuantityValue.md)(voidable)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> **thermalWaterPurpose**\</td\> \<td width="188"\>[ThermalWaterPurpose](ThermalWaterPurpose.md)(codeList)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>**[HG_WellTimeSeriesObservation](HG_WellTimeSeriesObservation.md)**(subtype of [PointTimeSeriesObservation](PointTimeSeriesObservation.md))\</td\> \<td width="56"\> N/A\</td\> \<td width="188"\>N/A\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> **observationProperty** \</td\> \<td width="188"\>[HG_ObservableProperty](HG_ObservableProperty.md)(codeList)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> **result** \</td\> \<td width="188"\>[QuantityValue](QuantityValue.md)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> **phenomenonTypeValue** \</td\> \<td width="188"\>[PhenomenonTypeValue](PhenomenonTypeValue.md)(codeList)\</td\> \<td width="518"\> \</td\> \</tr\> \</tbody\> \</table\>
+**quantityOfMeanDischarge** \</td\> \<td width="188"\> [QuantityValue](QuantityValue) (voidable)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> \*temperature\*\</td\> \<td width="188"\>[QuantityValue](QuantityValue)(voidable)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> **thermalWaterPurpose**\</td\> \<td width="188"\>[ThermalWaterPurpose](ThermalWaterPurpose)(codeList)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\>**[HG_WellTimeSeriesObservation](HG_WellTimeSeriesObservation)**(subtype of [PointTimeSeriesObservation](PointTimeSeriesObservation))\</td\> \<td width="56"\> N/A\</td\> \<td width="188"\>N/A\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> **observationProperty** \</td\> \<td width="188"\>[HG_ObservableProperty](HG_ObservableProperty)(codeList)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> **result** \</td\> \<td width="188"\>[QuantityValue](QuantityValue)\</td\> \<td width="518"\> \</td\> \</tr\> \<tr\> \<td\> \</td\> \<td width="56"\> **phenomenonTypeValue** \</td\> \<td width="188"\>[PhenomenonTypeValue](PhenomenonTypeValue)(codeList)\</td\> \<td width="518"\> \</td\> \</tr\> \</tbody\> \</table\>
 
 xxx
 

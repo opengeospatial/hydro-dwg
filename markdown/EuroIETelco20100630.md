@@ -22,10 +22,10 @@
   - integration of Hibernate
   - it is possible to write own DAOs (data access objects) in order to use a custom database model or an existing service
 - SOS-Webclient implementation 52°north:
-  - depends on finalized [WaterML2](WaterML2.md).0 schemas
+  - depends on finalized [WaterML2](WaterML2).0 schemas
 - SOS-Implementation in WISKI
   - done: mapping of SOS calls to WISKI API
-  - next step 1: exact mapping of [WaterML2](WaterML2.md).0 model to WISKI
+  - next step 1: exact mapping of [WaterML2](WaterML2).0 model to WISKI
   - next step 2: evaluation of INSPIRE DS Hydrology Feature Model
 - disy
   - webserver for the deployment of applications is available

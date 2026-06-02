@@ -71,7 +71,7 @@ BB: Do we model all of modularise. Figure out what are the main packaging.
 
 DB: Water budget not in a HG specific.
 
-RA : [WaterML](WaterML.md) profile ?
+RA : [WaterML](WaterML) profile ?
 
 BB: Priority on wich one are core. Discuss now or later.
 
@@ -85,23 +85,23 @@ BB: next step is to define use cases.
 
 ## Conceptual issues
 
-**Open issue about [GeologicUnit](GeologicUnit.md)**
+**Open issue about [GeologicUnit](GeologicUnit)**
 
-Different organisation for [AquiferSystem](AquiferSystem.md), but semantically the same
+Different organisation for [AquiferSystem](AquiferSystem), but semantically the same
 
-Some conceptual differences for [GroundwaterBody](GroundwaterBody.md) between [HY_Feature](HY_Feature.md) and GWML
+Some conceptual differences for [GroundwaterBody](GroundwaterBody) between [HY_Feature](HY_Feature) and GWML
 
 Wells are O&M support of observation for GWML while INSPIRE have a link to INSPIRE monitoring model.
 
 **INSPIRE division along active and inactive make lots of sense because of the impact on gw flow.**
 
-Well in [HY_Feature](HY_Feature.md) is more closely related to INSPIRE concept of a well.
+Well in [HY_Feature](HY_Feature) is more closely related to INSPIRE concept of a well.
 
-JM: Lots of properties from [GeologicUnit](GeologicUnit.md) are not necessary for [HydroGeologicUnit](HydroGeologicUnit.md) and did not want to bring all this extra properties
+JM: Lots of properties from [GeologicUnit](GeologicUnit) are not necessary for [HydroGeologicUnit](HydroGeologicUnit) and did not want to bring all this extra properties
 
-BB: lots of [GeologicUnit](GeologicUnit.md) are not mandatory
+BB: lots of [GeologicUnit](GeologicUnit) are not mandatory
 
-JL: INSPIRE version of [GeologicUnit](GeologicUnit.md) is much simplified
+JL: INSPIRE version of [GeologicUnit](GeologicUnit) is much simplified
 
 BB: Need a deeper discussion of address this issue.
 
@@ -109,13 +109,13 @@ TN: Longer discussion needed but Skype is bad.
 
 DB: support for borehole is a big requirement. overlap between hydrogeology and geology is very close in borehole context.
 
-RT: different understanding of [GeoSciML](GeoSciML.md).
+RT: different understanding of [GeoSciML](GeoSciML).
 
-SC: [GeoSciML](GeoSciML.md) requires a lot of rationalisation, even from geologists.
+SC: [GeoSciML](GeoSciML) requires a lot of rationalisation, even from geologists.
 
-RT: maybe clarify the definition of what is a [GeologicUnit](GeologicUnit.md)
+RT: maybe clarify the definition of what is a [GeologicUnit](GeologicUnit)
 
-JL: The issue of excessive properties in [GeoSciML](GeoSciML.md) is not as pressing in INSPIRE since the model is simplified.
+JL: The issue of excessive properties in [GeoSciML](GeoSciML) is not as pressing in INSPIRE since the model is simplified.
 
 ## Next steps
 
@@ -131,7 +131,7 @@ EB: obvious need for transborder
 
 PS: interested as an observer.
 
-SC: supportive. Since [GeoSciML](GeoSciML.md) and this initiative will be under OGC. Will look at package
+SC: supportive. Since [GeoSciML](GeoSciML) and this initiative will be under OGC. Will look at package
 
 DB: on board. need as common as possible with Canada, and within states. Mission critical for full monitoring network
 

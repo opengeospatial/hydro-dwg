@@ -10,10 +10,10 @@ Day 1:
 
 \- Water Quality IE Update (Sylvain Grellet) : 30 minutes including discussion -\> [presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HdwgSpring2023/2023_05_30_WaterQualityIE_Grellet.pptx)
 
-\- Introducing 2 research projets targeting to contribute to [HydroDWG](HydroDWG.md) related standards and best practices (Sylvain Grellet) : 30 minutes including discussion -\> [presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HdwgSpring2023/2023_05_30_FR_And_EU_FAIR_water_Data_Platform_projets_Grellet.pptx)
+\- Introducing 2 research projets targeting to contribute to [HydroDWG](HydroDWG) related standards and best practices (Sylvain Grellet) : 30 minutes including discussion -\> [presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HdwgSpring2023/2023_05_30_FR_And_EU_FAIR_water_Data_Platform_projets_Grellet.pptx)
 
-- EU [Water4All](Water4All.md) : <https://www.water4all-partnership.eu/>
-- France [OneWater](OneWater.md) : <https://www.onewater.fr/>
+- EU [Water4All](Water4All) : <https://www.water4all-partnership.eu/>
+- France [OneWater](OneWater) : <https://www.onewater.fr/>
 
 \- OMS Update (Kathi Schleidt) : 30 minutes including discussion -\> [presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HdwgSpring2023/OM%20V3%20to%20STA.pptx)
 
@@ -28,8 +28,8 @@ Day 1:
 
 Day 2:
 
-\- [HydrologyDWG](HydrologyDWG.md) charter and workplan review: 30 minutes including discussion.
+\- [HydrologyDWG](HydrologyDWG) charter and workplan review: 30 minutes including discussion.
 
-\- Review business case outcomes from day 1 and plan objectives for [HydrologyDWG](HydrologyDWG.md) in coming years: 30 minutes
+\- Review business case outcomes from day 1 and plan objectives for [HydrologyDWG](HydrologyDWG) in coming years: 30 minutes
 
 -- DavidBlodgett - 28 Apr 2023

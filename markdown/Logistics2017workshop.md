@@ -10,7 +10,7 @@ You should plan to fly into [Birmingham and rent a car or share a ride to Tuscal
 
 Flying into [Atlanta and driving to Tuscaloosa](https://www.google.com/maps/dir/atlanta+airport/Tuscaloosa/@33.0842016,-88.2192776,7z/am=t/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88f4fd2fe1035901:0x4117a3ef1892b048!2m2!1d-84.4277001!2d33.6407282!1m5!1m1!1s0x8888af2e91c24067:0xacabfbfd16892b58!2m2!1d-87.5691735!2d33.2098407) is also an option (3 hr drive) that could avoid domestic flight complications since Atlanta is a major international hub.
 
-Please use [this page](Attendees2017workshop.md) to record your travel plans and coordinate rides.
+Please use [this page](Attendees2017workshop) to record your travel plans and coordinate rides.
 
 #### Accommodation
 
@@ -24,7 +24,7 @@ To wet your appetite for the locale, we will be able to visit [301 Bistro](https
 
 A workshop dinner will be held on Wednesday 21 June. Drinks at the Levee Bar and Grill at 6 pm followed by dinner at Dreamland BBQ at 7 pm. [Map](https://www.google.com/maps/place/The+Levee+Bar+%26+Grill/@33.2159083,-87.5744533,17z/data=!4m5!3m4!1s0x0:0xd816cd52cf553690!8m2!3d33.2158273!4d-87.57315)
 
-\<img alt="" src="%PUBURL%/[HydrologyDWG](HydrologyDWG.md)/[WorkshopTuscaloosa2017](WorkshopTuscaloosa2017.md)/[WorkshopDinnerPhoto](WorkshopDinnerPhoto.md).jpg" /\>
+\<img alt="" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/WorkshopTuscaloosa2017/WorkshopDinnerPhoto.jpg>" /\>
 
 \<img alt="" height="571" src="<http://water.noaa.gov/images/a0f23df.jpg>" width="1000" /\>
 

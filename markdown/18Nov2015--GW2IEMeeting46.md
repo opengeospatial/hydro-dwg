@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 46 -- Wed 18 Nov 2015**
+# **[GW2IE](GW2IE) Meeting 46 -- Wed 18 Nov 2015**
 
 ## **Agenda**
 

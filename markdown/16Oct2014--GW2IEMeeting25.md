@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 24 -- Thurs 16 Oct 2014 -- Report**
+# **[GW2IE](GW2IE) Meeting 24 -- Thurs 16 Oct 2014 -- Report**
 
 ## **Agenda**
 
@@ -32,9 +32,9 @@
   - confirm with OGC re: acceptance of report between TC meetings? (**done**)
     - yes, its possible: post to pending, followed by 3 week review, and then Carl Reed will ask OGC TC and PC re: objections
 - 'Nucleus' package name: canvas for new names and vote with Doodle poll (**done**)
-  - new options include: GWML2-Central, GWML2-Main, GWML2-[Level_0](Level_0.md)
+  - new options include: GWML2-Central, GWML2-Main, GWML2-[Level_0](Level_0)
 - data record encoding: create Doodle poll with options (**done**)
-  - accept swe method (see [GwmlSweDataRecord](GwmlSweDataRecord.md)): pro = extendable, con = not in UML (harder to find/grasp)
+  - accept swe method (see [GwmlSweDataRecord](GwmlSweDataRecord)): pro = extendable, con = not in UML (harder to find/grasp)
   - accept swe method with some changes (to be specified)P
   - decline swe method and develop hard-typed approach (distinct classes for different value types): pro = in UML (easier to find/grasp), con = not extendable
 - Pump addition: create Doodle poll with 3 options (**done**)
@@ -60,7 +60,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 552 382 954
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -74,7 +74,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

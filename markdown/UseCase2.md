@@ -2,7 +2,7 @@
 
 ## Participants
 
-- R.Tomas (Lead), Chris Schubert, Andrej Abramic (all EC-JRC), Tomasz Nalecz (Polish Geological Institute), Alexander Kmoch (GNS / [Z_GIS](Z_GIS.md)), Sylvain Grellet (BRGM),
+- R.Tomas (Lead), Chris Schubert, Andrej Abramic (all EC-JRC), Tomasz Nalecz (Polish Geological Institute), Alexander Kmoch (GNS / [Z_GIS](Z_GIS)), Sylvain Grellet (BRGM),
 
 ## Abstract
 
@@ -16,7 +16,7 @@ In order to better demonstrate interoperability the use case description covers 
 
 ## Discussion Page
 
-- For discussion about this use case please add comments to [this page](UseCase2Discussion.md).
+- For discussion about this use case please add comments to [this page](UseCase2Discussion).
 
 ## Objective
 
@@ -39,12 +39,12 @@ The provision of WFD required data and information on the trans-boundary groundw
 
 The overview of the main entities necessary for this Use case. For the detailed description of the required WFD-Groundwater bodies properties see the following document\<u\>.\</u\>
 
-- [GW_ManagementArea](GW_ManagementArea.md), e.g. in NZ used as groundwater management zones
-- [WFD_Management](WFD_Management.md) Area
+- [GW_ManagementArea](GW_ManagementArea), e.g. in NZ used as groundwater management zones
+- [WFD_Management](WFD_Management) Area
   - general characteristics
 - WFD River Basin District:
   - general: id, national code, parent river basin districts, name and area measurement
-- [WFD_Ground](WFD_Ground.md) Water Body (GWB)
+- [WFD_Ground](WFD_Ground) Water Body (GWB)
   - general: id (RBC-code), national code, name, location, protected area association
   - pressures: pressure types
   - impacts: impact types
@@ -66,7 +66,7 @@ The overview of the main entities necessary for this Use case. For the detailed 
 | WMS | gw managaement area | GWML2 | BRGM |
 | Older ideas |  |  |  |
 | WMS | geological unit characteristics | N/A |  |
-| WFS | geological unit characteristics | [GeoSciML](GeoSciML.md) ? GWML2 (WFD) |  |
+| WFS | geological unit characteristics | [GeoSciML](GeoSciML) ? GWML2 (WFD) |  |
 | WMS | hydrogeological characteristics | N/A |  |
 | WFS | hydrogeological characteristics | GWML2 (WFD) |  |
 | CSW | Metadata | Metdadata schema (WFD) |  |
@@ -79,4 +79,4 @@ The overview of the main entities necessary for this Use case. For the detailed 
 
 -- BoyanBrodaric - 24 Oct 2012
 
-- [GW2IE](GW2IE.md) \_WFD_Policy_INSPIRE_Extract Summary:  \<img alt="[GW2IE_WFD_Policy_INSPIRE_Extract_Summary](GW2IE_WFD_Policy_INSPIRE_Extract_Summary.md).png" height="2310" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/UseCase2/GW2IE_WFD_Policy_INSPIRE_Extract_Summary.png>" width="1255" /\>
+- [GW2IE](GW2IE) \_WFD_Policy_INSPIRE_Extract Summary:  \<img alt="[GW2IE_WFD_Policy_INSPIRE_Extract_Summary](GW2IE_WFD_Policy_INSPIRE_Extract_Summary).png" height="2310" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/UseCase2/GW2IE_WFD_Policy_INSPIRE_Extract_Summary.png>" width="1255" /\>

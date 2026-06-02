@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 24 -- Wed 26 Nov 2014 -- Report**
+# **[GW2IE](GW2IE) Meeting 24 -- Wed 26 Nov 2014 -- Report**
 
 ## **Agenda**
 
@@ -50,7 +50,7 @@
   - other:
     - identify remaining issues (from logical model issues page) (**Bruce**)
       - collarElevation to be re-considered; see requirements class 9.6 (**Eric**, **Bruce**)
-      - Updated [Logical Model Wiki](GWML2-UML-Model.md) to distinguish resolved and outstanding issues (**Bruce**) \[Done 27/11/14\]
+      - Updated [Logical Model Wiki](GWML2-UML-Model) to distinguish resolved and outstanding issues (**Bruce**) \[Done 27/11/14\]
 
 ## **Connection Instructions**
 
@@ -65,7 +65,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 551 047 979
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -79,7 +79,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

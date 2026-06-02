@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 54 / GW SWG Meeting \#5 -- Wed 15 June 2016**
+# **[GW2IE](GW2IE) Meeting 54 / GW SWG Meeting \#5 -- Wed 15 June 2016**
 
 ## **Agenda**
 

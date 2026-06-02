@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 39 -- Tues 09 June 2015**
+# **[GW2IE](GW2IE) Meeting 39 -- Tues 09 June 2015**
 
 ## **Agenda**
 

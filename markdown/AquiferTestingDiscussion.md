@@ -5,29 +5,29 @@ We tried to see if we could implement the aquifer test (or pump test) in a pure 
 - Test can involve more than one Well/Bore
 - Test generate intermediate data (drawdown curves) from which other parameters are derived
 - Some data are related to the process itself (discharge of the pump, interval of the test)
-- The parameters that are infered from the test must be somehow related to [GW_UnitFluidProperty](GW_UnitFluidProperty.md), which is itself an association between a unit and the fluid body
+- The parameters that are infered from the test must be somehow related to [GW_UnitFluidProperty](GW_UnitFluidProperty), which is itself an association between a unit and the fluid body
 
 Our first iteration gave this - it's **not** a model, it's a O&M pattern for aquifer testing.
 
 - aquifertesting.png:  \<img alt="aquifertesting.png" height="1038" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/AquiferTestingDiscussion/aquifertesting.png>" width="1238" /\>
 
-The aquifer test is modelled around a series of interelated Observations ([OM_Observation](OM_Observation.md) can be connected to each others using relatedObservation with roles. By defining a vocabulary of roles we can connect drawdown curves and their interpreted values (and vice-versa). Wells can also be organised in a network (if required) using [SamplingComplex](SamplingComplex.md) that can link wells together. Processes provide the data about the test itself, the Process onj the observation well would document how the water elevation were measures, while the Pumping well could document other variables (such as pump discharge).
+The aquifer test is modelled around a series of interelated Observations ([OM_Observation](OM_Observation) can be connected to each others using relatedObservation with roles. By defining a vocabulary of roles we can connect drawdown curves and their interpreted values (and vice-versa). Wells can also be organised in a network (if required) using [SamplingComplex](SamplingComplex) that can link wells together. Processes provide the data about the test itself, the Process onj the observation well would document how the water elevation were measures, while the Pumping well could document other variables (such as pump discharge).
 
-As discussed, the process should document the properties of the pump (or pumping) that is relevant to the test (and not the pump itself), unless it's a proxy for a pumping parameters. We still have to deal with "well known procedure" which is just a name and detailed procedure where parameters of the procedure are important. The process variable could be described using [SensorML](SensorML.md) or \*FL, or Metadata, or, alternatively directly in Observation's [NamedValues](NamedValues.md)
+As discussed, the process should document the properties of the pump (or pumping) that is relevant to the test (and not the pump itself), unless it's a proxy for a pumping parameters. We still have to deal with "well known procedure" which is just a name and detailed procedure where parameters of the procedure are important. The process variable could be described using [SensorML](SensorML) or \*FL, or Metadata, or, alternatively directly in Observation's [NamedValues](NamedValues)
 
 |  |  |  |
 |----|----|----|
 | Model | Pro | Con |
-| [SensorML](SensorML.md) | formal, no need to develop something | complex |
+| [SensorML](SensorML) | formal, no need to develop something | complex |
 | \*FL | eleguant approach (ex-factory + dynamic) | not standard, about Sensor (bit streched) - see below |
-| [NamedValue](NamedValue.md) | Simple | ad hoc overload of Observation parameters |
+| [NamedValue](NamedValue) | Simple | ad hoc overload of Observation parameters |
 | Custom (develop our own) | No ambiguity, more constrained semantic | world of its own that it might be futile to attemp to define every possible cases |
 
-[NamedValue](NamedValue.md), although we tend to think is a way to attach a single value to an observation, it not limited (which is good or bad -because we can come up with our own unsuspected pattern that only make sense for GWML). But [NamedValue](NamedValue.md) CAN contain a full [DataRecord](DataRecord.md), or any other SWE data structure we can think of.
+[NamedValue](NamedValue), although we tend to think is a way to attach a single value to an observation, it not limited (which is good or bad -because we can come up with our own unsuspected pattern that only make sense for GWML). But [NamedValue](NamedValue) CAN contain a full [DataRecord](DataRecord), or any other SWE data structure we can think of.
 
-In this pattern, we don't have a class that bundles the "aquifer test", it's a group of interconnected feature. One way to bundle a complete test is to use a single [SamplingFeature](SamplingFeature.md) (or a subtype) to represent the whole aquifer test (to be discussed)
+In this pattern, we don't have a class that bundles the "aquifer test", it's a group of interconnected feature. One way to bundle a complete test is to use a single [SamplingFeature](SamplingFeature) (or a subtype) to represent the whole aquifer test (to be discussed)
 
-- Aquifer Test:  \<img alt="[TestEvent](TestEvent.md).png" height="663" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/AquiferTestingDiscussion/TestEvent.png>" width="762" /\>
+- Aquifer Test:  \<img alt="[TestEvent](TestEvent).png" height="663" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/AquiferTestingDiscussion/TestEvent.png>" width="762" /\>
 
 encoded instance base on Peters's example
 
@@ -50,8 +50,8 @@ Although "Pump" is an important part of the aquifer test, the real piece of info
 
 It's a bit far fetched, but a Installed Pump could be modelled as \*FL Sensor
 
-Alternatively, we could duplicate the Observation (and [SamplingFeature](SamplingFeature.md)) soft property mechanism:
+Alternatively, we could duplicate the Observation (and [SamplingFeature](SamplingFeature)) soft property mechanism:
 
 - Equipment.png:  \<img alt="Equipment.png" height="275" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/AquiferTestingDiscussion/Equipment.png>" width="782" /\>
 
-Note : [SF_SamplingFeature](SF_SamplingFeature.md) has a hostedProcedure property ("*A common role for a spatial sampling feature is to host instruments or procedures deployed repetitively or permanently. If present, the association Platform shall link the [SF_SpatialSamplingFeature](SF_SpatialSamplingFeature.md) to an [OM_Process](OM_Process.md) deployed at it. The [OM_Process](OM_Process.md) has the role hostedProcedure with* \_respect to the sampling feature\_.") - I was not aware of this.
+Note : [SF_SamplingFeature](SF_SamplingFeature) has a hostedProcedure property ("*A common role for a spatial sampling feature is to host instruments or procedures deployed repetitively or permanently. If present, the association Platform shall link the [SF_SpatialSamplingFeature](SF_SpatialSamplingFeature) to an [OM_Process](OM_Process) deployed at it. The [OM_Process](OM_Process) has the role hostedProcedure with* \_respect to the sampling feature\_.") - I was not aware of this.

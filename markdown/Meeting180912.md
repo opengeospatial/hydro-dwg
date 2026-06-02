@@ -39,7 +39,7 @@ PT: move actions/decisions from meeting notes into register.
 
 ## Scenarios
 
-PS: examples of existing formats to work through. E.g. some XML instance examples from [HydroML](HydroML.md).
+PS: examples of existing formats to work through. E.g. some XML instance examples from [HydroML](HydroML).
 
 Could everyone provide some XML examples of actual curves using formats form their local systems?
 

@@ -9,12 +9,12 @@ The purpose of this interoperability experiment (IE) is to develop an internatio
 - [12April2011--DelftWorkshop](12April2011--DelftWorkshop)
 - [28June2012--ReadingWorkshop](28June2012--ReadingWorkshop)
 - [23Oct2012 GW2IE Meeting 1 (Kick-off)](23Oct2012--Kick-offMeeting)
-- [Nov2012 GW2IE Meeting 2 (Use-cases)](Nov2012--GWIEMeeting2--UseCases.md)
-- [Dec2012 GW2IE Meeting 3 (Feature List)](Dec2012--GW2IEMeeting3--FeatureList.md)
-- [Jan2013 GW2IE Meeting 4 (Feature/Entity List)](Jan2013--GW2IEMeeting4--ModelComparison.md)
-- [Apr2013 GW2IE Meeting 5 (Entity List)](Apr2013--GW2IEMeeting5--Definitions.md)
-- [May2013 GW2IE Meeting 6 (Entity List)](May2013--GW2IEMeeting6--Definitions.md)
-- [June2013 GW2IE Meeting 7 (Entity List)](June2013--GW2IEMeeting7--Modeling.md)
+- [Nov2012 GW2IE Meeting 2 (Use-cases)](Nov2012--GWIEMeeting2--UseCases)
+- [Dec2012 GW2IE Meeting 3 (Feature List)](Dec2012--GW2IEMeeting3--FeatureList)
+- [Jan2013 GW2IE Meeting 4 (Feature/Entity List)](Jan2013--GW2IEMeeting4--ModelComparison)
+- [Apr2013 GW2IE Meeting 5 (Entity List)](Apr2013--GW2IEMeeting5--Definitions)
+- [May2013 GW2IE Meeting 6 (Entity List)](May2013--GW2IEMeeting6--Definitions)
+- [June2013 GW2IE Meeting 7 (Entity List)](June2013--GW2IEMeeting7--Modeling)
 - [09Dec2013 GW2IE Meeting 8 (Conceptual Model)](09Dec2013--GW2IEMeeting8)
 - [18Dec2013 GW2IE Meeting 9 (Conceptual Model)](18Dec2013--GW2IEMeeting9)
 - [16Jan2014 GW2IE Meeting 10 (Conceptual Model)](16Jan2014--GW2IEMeeting10)
@@ -61,7 +61,7 @@ The purpose of this interoperability experiment (IE) is to develop an internatio
 - [02Mar2016 (Wed) GW2IE Meeting 50](02Mar2016--GW2IEMeeting50)
 - [30Mar2016 (Wed) GW2IE Meeting 51](30Mar2016--GW2IEMeeting51)
 - [13April2016 (Wed) GW2IE Meeting 52](13April2016--GW2IEMeeting52) -- **CANCELLED**
-- [see GW SWG for next meetings](GroundWaterSWG.md)
+- [see GW SWG for next meetings](GroundWaterSWG)
 
 ## **Presentations**
 
@@ -86,49 +86,49 @@ The purpose of this interoperability experiment (IE) is to develop an internatio
 - [GWML2 Specification v0.3.1 (docx)](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GroundwaterInteroperabilityExperiment2/GroundWaterML2_v0.3.1_DRAFT.pdf)
 - Related documents can be found... [here](https://xp-dev.com/svn/gwml2/Documents/)
   - including the latest version of the final GW2IE report
-- Known Issues (at conclusion of GW2IE) [...here](GW2IE_KnownIssues.md)
+- Known Issues (at conclusion of GW2IE) [...here](GW2IE_KnownIssues)
 
 ### Use-cases
 
-- [Use Case 1: Commercial](UseCase1.md)
-- [Use Case 2: Policy](UseCase2.md)
-- [Use Case 3: Environmental](UseCase3.md)
-- [Use Case 4: Scientific](UseCase4.md)
-- [Use Case 5: Technologic](UseCase5.md)
-- [Discussion: cross-cutting issues](CrossCuttingUseCaseIssues.md)
+- [Use Case 1: Commercial](UseCase1)
+- [Use Case 2: Policy](UseCase2)
+- [Use Case 3: Environmental](UseCase3)
+- [Use Case 4: Scientific](UseCase4)
+- [Use Case 5: Technologic](UseCase5)
+- [Discussion: cross-cutting issues](CrossCuttingUseCaseIssues)
 
 
-- [Use Case web services](UseCaseWebServices.md)
+- [Use Case web services](UseCaseWebServices)
 
 ### Required Entities and Definitions
 
-- [Final Entity List](gwml2FinalFeaturesList.md)
+- [Final Entity List](gwml2FinalFeaturesList)
 
 ### Model Comparison
 
-- [Model Comparison](GWIE2-Model-Comparison.md)
+- [Model Comparison](GWIE2-Model-Comparison)
 
 ### GWML2 Conceptual Model
 
-- [Conceptual Model](GWML2-CM-Model.md)
+- [Conceptual Model](GWML2-CM-Model)
 
 ### GWML2 Logical (GML) Model
 
-- [Logical Model Issues](GWML2-UML-Model.md)
-- [LogicalModelRequirements](LogicalModelRequirements.md)
-- [Setting UML tool for GWML2](uml_for_gwml2.md)
+- [Logical Model Issues](GWML2-UML-Model)
+- [LogicalModelRequirements](LogicalModelRequirements)
+- [Setting UML tool for GWML2](uml_for_gwml2)
 
 ### GWML2 XML Schema and Example Documents
 
-- [XML Schema and Example documents](GWML2-XML-Schema.md)
+- [XML Schema and Example documents](GWML2-XML-Schema)
 
 ### Implementation
 
-- [Use Case 1 Implementation](UseCase1Implementation.md)
-- [Use Case 2 Implementation](UseCase2Implementation.md)
-- [Use Case 3 Implementation](UseCase3Implementation.md)
-- [Use Case 4 Implementation](UseCase4Implementation.md)
-- [Use Case 5 Implementation](UseCase5Implementation.md)
+- [Use Case 1 Implementation](UseCase1Implementation)
+- [Use Case 2 Implementation](UseCase2Implementation)
+- [Use Case 3 Implementation](UseCase3Implementation)
+- [Use Case 4 Implementation](UseCase4Implementation)
+- [Use Case 5 Implementation](UseCase5Implementation)
 
 
-- [Use Case web services](UseCaseWebServices.md)
+- [Use Case web services](UseCaseWebServices)

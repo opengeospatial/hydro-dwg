@@ -2,13 +2,13 @@
 
 ## Description
 
-This interoperability experiment will further advance the development of [WaterML](WaterML.md) 2.0 and test its use in a forecasting context with various OGC service standards (i.e. SOS, SES, WFS, WMS).
+This interoperability experiment will further advance the development of [WaterML](WaterML) 2.0 and test its use in a forecasting context with various OGC service standards (i.e. SOS, SES, WFS, WMS).
 
-The use of O&M compliant [WaterML](WaterML.md) 2.0 and OGC web services for data exchange is foreseen to improve real time operations between mutually dependent organizations by allowing easier access of frequently changing time series data. It is expected that the IE will result in further development of [WaterML](WaterML.md) 2.0 and profiling of SOS to accommodate various time dimensions of a forecast as well as ensemble capabiilities.
+The use of O&M compliant [WaterML](WaterML) 2.0 and OGC web services for data exchange is foreseen to improve real time operations between mutually dependent organizations by allowing easier access of frequently changing time series data. It is expected that the IE will result in further development of [WaterML](WaterML) 2.0 and profiling of SOS to accommodate various time dimensions of a forecast as well as ensemble capabiilities.
 
 The hydrologic forecasting IE will build on the work conducted in the Surface Water IE by adding the real time forecasting context.
 
-Contacts: [JohnHalquist](JohnHalquist.md) and [PeterGijsbers](PeterGijsbers.md)
+Contacts: [JohnHalquist](JohnHalquist) and [PeterGijsbers](PeterGijsbers)
 
 ## Meetings
 
@@ -43,7 +43,7 @@ Contacts: [JohnHalquist](JohnHalquist.md) and [PeterGijsbers](PeterGijsbers.md)
 - [11-105_Hydrologic_Forecasting_Interoperability_Experiment_1.doc](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydrologicForecastingInteroperabilityExperiment/11-105_Hydrologic_Forecasting_Interoperability_Experiment_1.doc): Hydrologic Forecasting IE Plan
 
 
-- [Minutes_2011-11-17.docx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydrologicForecastingInteroperabilityExperiment/Minutes_2011-11-17.docx): [Minutes_2011](Minutes_2011.md)-11-17.docx
+- [Minutes_2011-11-17.docx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydrologicForecastingInteroperabilityExperiment/Minutes_2011-11-17.docx): [Minutes_2011](Minutes_2011)-11-17.docx
 
 
 - [Minutes_scoping_meeting_2011-11-02.docx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydrologicForecastingInteroperabilityExperiment/Minutes_scoping_meeting_2011-11-02.docx): Minutes of scoping meeting for what will be the Souris River Project
@@ -52,7 +52,7 @@ Contacts: [JohnHalquist](JohnHalquist.md) and [PeterGijsbers](PeterGijsbers.md)
 - [Draft_Souris_River_Project_Plan.doc](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydrologicForecastingInteroperabilityExperiment/Draft_Souris_River_Project_Plan.doc): Draft of Souris River project plan
 
 
-- [Draft_Souris_River_Project_Plan_4.doc](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydrologicForecastingInteroperabilityExperiment/Draft_Souris_River_Project_Plan_4.doc): [Draft_Souris_River_Project_Plan_4](Draft_Souris_River_Project_Plan_4.md).doc
+- [Draft_Souris_River_Project_Plan_4.doc](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydrologicForecastingInteroperabilityExperiment/Draft_Souris_River_Project_Plan_4.doc): [Draft_Souris_River_Project_Plan_4](Draft_Souris_River_Project_Plan_4).doc
 
 
 - [Minutes_2011-11-30.doc](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydrologicForecastingInteroperabilityExperiment/Minutes_2011-11-30.doc): minutes of November 30 teleconference

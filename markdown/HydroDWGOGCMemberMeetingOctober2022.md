@@ -1,4 +1,4 @@
-\<h2 id='[Meeting_details_at_Charlotte_TC_44_10_45_14_December_44_2018](Meeting_details_at_Charlotte_TC_44_10_45_14_December_44_2018.md)'\>Hydrology Domain Working Group\</h2\>
+\<h2 id='[Meeting_details_at_Charlotte_TC_44_10_45_14_December_44_2018](Meeting_details_at_Charlotte_TC_44_10_45_14_December_44_2018)'\>Hydrology Domain Working Group\</h2\>
 
 ## Singapore OGC Member Meeting, 3-7 October, 2022
 
@@ -6,11 +6,11 @@ Venue: virtual -- no on-site meeting
 
 Time: 2022-10-05 : 08:00 - 10:00 AM \[EDT - US/Eastern\]
 
-[GoToMeeting](GoToMeeting.md) details on OGC portal [here](https://portal.ogc.org/index.php?m=calendar&a=view&event_id=78403). Register your attendance [here](https://portal.ogc.org/index.php?m=projects&a=view&project_id=301&tab=6).
+[GoToMeeting](GoToMeeting) details on OGC portal [here](https://portal.ogc.org/index.php?m=calendar&a=view&event_id=78403). Register your attendance [here](https://portal.ogc.org/index.php?m=projects&a=view&project_id=301&tab=6).
 
 ### **Draft meeting agenda**
 
-45 minutes: Modeling framework and river corridors application with [HY_Features](HY_Features.md) Engineering Report Presentation
+45 minutes: Modeling framework and river corridors application with [HY_Features](HY_Features) Engineering Report Presentation
 
 30 minutes: Surface water - Groundwater Feature Relation Discussion
 

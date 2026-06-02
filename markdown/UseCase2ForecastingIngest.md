@@ -1,4 +1,4 @@
--- PeterGijsbers - 01 Jul 2010 Objective Evaluate the [WaterML2](WaterML2.md) encoded SOS as a data provision service for hydrological forecasting applicatiosn. Evaluation focusses on ability to efficiently facilitate frequent incremental data updates.
+-- PeterGijsbers - 01 Jul 2010 Objective Evaluate the [WaterML2](WaterML2) encoded SOS as a data provision service for hydrological forecasting applicatiosn. Evaluation focusses on ability to efficiently facilitate frequent incremental data updates.
 
 Participants
 
@@ -6,13 +6,13 @@ Participants
 - Deltares (Peter Gijsbers)
 - USGS (Nate Booth)
 - CSIRO (Peter Fitch)
-- [BoM](BoM.md)
+- [BoM](BoM)
 - ASA (Eoin Howlett)
 - Unidata (Ben Domenico)
 
 Telecons
 
-- [August 9 2010](August%209 2010)
+- [August 9 2010](August92010)
 
 Draft workplan
 

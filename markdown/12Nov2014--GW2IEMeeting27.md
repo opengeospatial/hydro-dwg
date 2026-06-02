@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 24 -- Wed 12 Nov 2014 -- Report**
+# **[GW2IE](GW2IE) Meeting 24 -- Wed 12 Nov 2014 -- Report**
 
 # Start Time = 7:00 Ottawa (see connection instructions below)
 
@@ -36,7 +36,7 @@
     - Bruce: current model suffices if every value considered to occur in a different fluid body part
       - pros: low-effort, solved without model changes
       - cons: clunky, not typical usage, bundled (as UnitFluidProperty as a whole)
-      - Examples of possible encodings: [GwmlDistributedValues](GwmlDistributedValues.md) (added multiple observation - [SF_SpatialSamplingFeature](SF_SpatialSamplingFeature.md) pattern ) -- Main.[EricBoisvert](EricBoisvert.md) - 12 Nov 2014
+      - Examples of possible encodings: [GwmlDistributedValues](GwmlDistributedValues) (added multiple observation - [SF_SpatialSamplingFeature](SF_SpatialSamplingFeature) pattern ) -- [EricBoisvert](EricBoisvert) - 12 Nov 2014
   - other:
     - change strategy
     - FluidBody = liquid and/or **gas**?
@@ -66,12 +66,12 @@
     - proposal to be completed for next meeting (**Eric**)
   - add well test:
     - option 1 selected:
-      - no model change--use link to HydroGeounit from well, add wellTest as subclass of [OM_Process](OM_Process.md)
+      - no model change--use link to HydroGeounit from well, add wellTest as subclass of [OM_Process](OM_Process)
       - post additional well test parameters to wiki page created by **Sylvain** (**Peter, Jessica**)
       - option 1 proposal enhanced for final consideration next meeting (**Sylvain, Eric**)
   - unit properties:
     - two proposals to be completed for evaluation next meeting (**Eric**)
-      - no model change, use [Sampling_Site](Sampling_Site.md) for location of property measurements
+      - no model change, use [Sampling_Site](Sampling_Site) for location of property measurements
       - use Coverage to model multiple unit properties
   - other:
     - Confirmed: FluidBody has Liquid or Gas as either major or minor constituent
@@ -93,7 +93,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 552 663 294
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -107,7 +107,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

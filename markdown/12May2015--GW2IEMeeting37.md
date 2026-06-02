@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 37 -- Tues 12 May 2015**
+# **[GW2IE](GW2IE) Meeting 37 -- Tues 12 May 2015**
 
 ## **Agenda**
 
@@ -32,18 +32,18 @@
 - Instance examples:
   - updates underway (**all**)
   - list of examples to be compiled (**Boyan**)
-  - working web service urls: **please post [here](UseCaseWebServices.md) (all)**
+  - working web service urls: **please post [here](UseCaseWebServices) (all)**
 - Report
   - conceptual model diagrams to be updated (**Boyan**)
   - current edits to be accepted (**Eric**)
 - Implementations
   - Use-case 1
-    - completed: CSIRO-[BoM](BoM.md), Fed-Uni, GNSS
+    - completed: CSIRO-[BoM](BoM), Fed-Uni, GNSS
     - in progress: GSC, BRGM, USGS (added)
   - Use-case 2
     - in progress: BRGM, GSG, INSPIRE, GNSS (added)
   - Use-case 3
-    - in-progress: CSIRO-[BoM](BoM.md), Fed-Uni, GNSS
+    - in-progress: CSIRO-[BoM](BoM), Fed-Uni, GNSS
     - early result: def of groundwater too vague (always just subsurface water?)
     - early result: gw monitoring site change/usage
   - Use-case 4

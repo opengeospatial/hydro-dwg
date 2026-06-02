@@ -1,6 +1,6 @@
 ## Technical Discussion on Vocabularies
 
-This page is for technical discussions on Vocabularies for use as part of the [SurfaceWater](SurfaceWater.md) IE.
+This page is for technical discussions on Vocabularies for use as part of the [SurfaceWater](SurfaceWater) IE.
 
 ### Possible Vocabularies
 

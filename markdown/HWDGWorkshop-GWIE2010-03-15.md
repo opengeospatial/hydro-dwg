@@ -8,7 +8,7 @@
 
 ## Agenda
 
-- Mar 15, AM-PM: [WaterML](WaterML.md) 2 design group meeting?
+- Mar 15, AM-PM: [WaterML](WaterML) 2 design group meeting?
 - Mar 15, 3-6 PM: Groundwater IE meeting
 - Mar 16-17 AM-PM: [HWDG Workshop](http://external.opengis.org/twiki_public/bin/view/HydrologyDWG/JRCWkShop2010)
 

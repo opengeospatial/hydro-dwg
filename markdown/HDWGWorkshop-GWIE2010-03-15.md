@@ -24,7 +24,7 @@
 
 ## Notes on the GE IE discussion
 
-- **[WaterML](WaterML.md) 2**
+- **[WaterML](WaterML) 2**
 
 
 - **Timelines**
@@ -45,7 +45,7 @@
   - Should depth features such as water well screens be samplingFeature?
   - We might need to add a singled value time series.
   - Need to add accuracy code to result data structure
-  - If we are to stand up a catalog, we need [WaterML2](WaterML2.md) to be able to express the kind of result types
+  - If we are to stand up a catalog, we need [WaterML2](WaterML2) to be able to express the kind of result types
 
 
 - **Other**

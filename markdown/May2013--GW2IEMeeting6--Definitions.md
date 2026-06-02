@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 6** **-- Thurs 23 May 2013 -- Entity List**
+# **[GW2IE](GW2IE) Meeting 6** **-- Thurs 23 May 2013 -- Entity List**
 
 ## **Agenda**
 
@@ -6,7 +6,7 @@
 - OGC status update
   - wiki problems?
 - Discussion
-  - Report from groups on the definitions for the [Entity List](Gwml2ConsolFeatureList.md)
+  - Report from groups on the definitions for the [Entity List](Gwml2ConsolFeatureList)
   - Plan to conclude defs and begin modeling
   - Face-to-face meeting?
 - Next meeting
@@ -25,7 +25,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) May meeting
+  - **Meeting Topic:**[GW2IE](GW2IE) May meeting
   - **Meeting Number**: 803 388 928
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:

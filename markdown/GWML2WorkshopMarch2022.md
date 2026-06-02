@@ -1,4 +1,4 @@
-\<h2 id='[Hydrology_Domain_Working_Group](Hydrology_Domain_Working_Group.md)'\>Hydrology Domain Working Group\</h2\> \<h2 id='[Meeting_details](Meeting_details.md):'\>Workshop topic: Implementing GWML2\</h2\>
+\<h2 id='[Hydrology_Domain_Working_Group](Hydrology_Domain_Working_Group)'\>Hydrology Domain Working Group\</h2\> \<h2 id='[Meeting_details](Meeting_details):'\>Workshop topic: Implementing GWML2\</h2\>
 
 Venue: Online TBA Time: March 2022, 19:00 – 21:30 (UTC)
 
@@ -11,7 +11,7 @@ This workshop covered:
 - Panel discussion on the benefits of GWML2 implementation
 - Moderated discussion on further GWML2 implementation
 
-\<h3 id='[A_42Meeting_Agenda_and_Outcomes_42](A_42Meeting_Agenda_and_Outcomes_42.md)'\>Meeting Agenda\</h3\>
+\<h3 id='[A_42Meeting_Agenda_and_Outcomes_42](A_42Meeting_Agenda_and_Outcomes_42)'\>Meeting Agenda\</h3\>
 
 See: <https://hydrohub.wmo.int/en/news-events/wmo-ogc-workshop-groundwaterml2-standard> for more.
 
@@ -21,7 +21,7 @@ For more information, read the [Workshop Report](https://raw.githubusercontent.c
 
 Workshop Recording
 
-The "[GroundWaterML2](GroundWaterML2.md) standard" Workshop recording is available [here](https://vimeo.com/689665066).
+The "[GroundWaterML2](GroundWaterML2) standard" Workshop recording is available [here](https://vimeo.com/689665066).
 
 #### Presentations
 
@@ -35,7 +35,7 @@ David Blodgett, Ben Sperl & Candice Hopkins (United States Geological Survey) - 
 
 Grellet Sylvain (Bureau de recherches géologiques et minières, France) - [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2WorkshopMarch2022/grellet_sylvain_some_gwml2_implementations_in_europe_s_grellet_final_0.pdf)
 
-Andrew [MacLeod](MacLeod.md), Bruce Simons & Peter Dahlhaus (Federation University Australia) - [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2WorkshopMarch2022/alexander_kmoch_wmo-ogc_gwml2_workshop_kmoch_nz_0.pdf)
+Andrew [MacLeod](MacLeod), Bruce Simons & Peter Dahlhaus (Federation University Australia) - [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2WorkshopMarch2022/alexander_kmoch_wmo-ogc_gwml2_workshop_kmoch_nz_0.pdf)
 
 Alexander Kmoch (University of Tartu, Estonia) - [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2WorkshopMarch2022/alexander_kmoch_wmo-ogc_gwml2_workshop_kmoch_nz_0.pdf)
 

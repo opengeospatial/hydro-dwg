@@ -5,7 +5,7 @@
     2.  Addressing objects directly by ID
         1.  Remove the need to address individual objects by identifer. E.g. conversion periods, shifts (bundle together), gaugings.
         2.  Agency to agency exchange
-    3.  [ConversionGroup](ConversionGroup.md): how to identify (MP/from/to).
+    3.  [ConversionGroup](ConversionGroup): how to identify (MP/from/to).
         1.  Do we get back a rating + shift?
         2.  Do we need a conversion type? Datums, Time, Stage. Requires method/algorithm - the indepth details of conversion process.
     4.  Support for extensible metadata
@@ -48,7 +48,7 @@ Hosting of validatioin and visualisation service?
 
 ## Timeline
 
-- July - August 2014 - Reform [WaterML2](WaterML2.md).0 Standards Working Group (SWG)
+- July - August 2014 - Reform [WaterML2](WaterML2).0 Standards Working Group (SWG)
 - August 2014 - Final IE engineering report, for publishing via OGC
 - November 2014 - Discussion paper detailing the RESTful RGS API
 - January 2015 - Draft standard document

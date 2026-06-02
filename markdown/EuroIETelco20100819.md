@@ -27,7 +27,7 @@
   - Content: How to get data into the SOS (encoding of procedure, observed property and FOI; problem of too big Capabilities documents)?
   - Agreed on: \* Simon will distribute examples from the PEGELONLINE SOS (capa-bilities document and an O&M document providing waterlevel); they should be further discussed; Simon will contact Arne for further technical detail \* Simon, Stefan and Michael (Sylvain? and Christian might join in) agreed on a telcon to that issue on the coming Tuesday; goal is to find a common approach how to get surface water into the SOS
 - Planning the Toulouse TC (Ulrich gave an update on the time line):
-  - 21\. September: Workshop on [WaterML2](WaterML2.md).0 and IE (in depth discussion on surface water feature model, depending on interest ½ or full day, organized by Peter Fitch)
+  - 21\. September: Workshop on [WaterML2](WaterML2).0 and IE (in depth discussion on surface water feature model, depending on interest ½ or full day, organized by Peter Fitch)
   - 22\. September: HDWG Meeting (presentation of results IEs, presenta-tions from 52°North and Kisters are planned, Christian and Carsten will give or prepare a used case 1 overview of results, Sylvain will re-port on SANDRE)
   - Participants from used case 1 in Toulouse; 52°North (Simon), Kisters (Stefan or Michael), SANDRE (Sylvain), Christian and Carsten will join over telcon
 - next phone conference is on Thursday, September 2nd at 12:00 (CEST), agenda: planning Toulouse

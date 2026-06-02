@@ -4,7 +4,7 @@
 
 Agenda
 
-1.  How to progress [WaterML2](WaterML2.md).0
+1.  How to progress [WaterML2](WaterML2).0
 2.  Discussions on program for Sydney TC
 
 #### Attendees
@@ -15,7 +15,7 @@ Uli Looser David Valentine, Peter Fitch, Stefan Fuest, Michael Utech, Nate Booth
 
 ### Update from Kisters - Stefan
 
-Kisters have focussed on implementing prototype services with which deliver [WaterML2](WaterML2.md).0. Not much else to add.
+Kisters have focussed on implementing prototype services with which deliver [WaterML2](WaterML2).0. Not much else to add.
 
 ### Sydney TC program
 

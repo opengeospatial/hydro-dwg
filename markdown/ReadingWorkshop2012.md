@@ -28,14 +28,14 @@ Tentative agenda for the main meeting:
 | **June 25** | **Monday: Intro, WaterML2, WaterML2 extensions** |  |  |
 | 9:30 | Introduction to the workshop and agenda, logistics, expectations, update from Exeter TC | Co-chairs | 20 min |
 | 9:50 | Welcome from the hosts | Robert Gurney | 30 min |
-| 10:20 | [WaterML](WaterML.md) 2 updates and path forward | Pete, DaveV | 30 min |
-| 10:50 | [WaterML](WaterML.md) 2 ratings update from the Intensive | Paul Sheahan | 20 min |
+| 10:20 | [WaterML](WaterML) 2 updates and path forward | Pete, DaveV | 30 min |
+| 10:50 | [WaterML](WaterML) 2 ratings update from the Intensive | Paul Sheahan | 20 min |
 | **11:10** | **Break** |  |  |
-| 11:40 | Moving the [HY_Features](HY_Features.md) model towards adoption as a standard (Discussion leads: Irina, Rob) | Irina, Rob | 30 min |
-| 12:10 | Observed observable properties - from [HY_Features](HY_Features.md) perspective | Irina | 20 min |
+| 11:40 | Moving the [HY_Features](HY_Features) model towards adoption as a standard (Discussion leads: Irina, Rob) | Irina, Rob | 30 min |
+| 12:10 | Observed observable properties - from [HY_Features](HY_Features) perspective | Irina | 20 min |
 | **12:30** | **Lunch** |  |  |
-| 13:30 | Profiling mechanisms for Observations and Measurements to support [WaterML2](WaterML2.md) applications - i.e. how to describe WDTF, WMO profiles of core WMO model   | Jeremy Tandy, RobA, Andrew Woolf | 1 hr |
-| 14:30 | [WaterML](WaterML.md) 2 Part III - WaterQuality. WaterQuality IE? | Nate, DaveB, DaveV, Peter F | 1hr |
+| 13:30 | Profiling mechanisms for Observations and Measurements to support [WaterML2](WaterML2) applications - i.e. how to describe WDTF, WMO profiles of core WMO model   | Jeremy Tandy, RobA, Andrew Woolf | 1 hr |
+| 14:30 | [WaterML](WaterML) 2 Part III - WaterQuality. WaterQuality IE? | Nate, DaveB, DaveV, Peter F | 1hr |
 | **15:30** | **Break** |  |  |
 | 16:30 | Discussion – General Hydro Domain Working Group planning |  |  |
 | 18:00 | Close |  |  |
@@ -45,13 +45,13 @@ Tentative agenda for the main meeting:
 | 9:30 | Inspire specs update, wrt - Environmental Monitoring Facilities, and O&M Guidelines | Sylvain | 20 min |
 | 9:50 | Operational and Vocabulary issues - Standardisation of vocab interfaces, including governance and provisioning - Versioning: feature, datasets (set of features), data models - Expose XML structured info with performance/stability  | Rob and Sylvain | 70 min |
 | **11:00** | **Break** |  |  |
-| 11:30 | Operational and Vocablulary issues - continued  Observed Observable properties - from [HY_Features](HY_Features.md) perspective | Rob and Sylvain  Irina | 60 min |
+| 11:30 | Operational and Vocablulary issues - continued  Observed Observable properties - from [HY_Features](HY_Features) perspective | Rob and Sylvain  Irina | 60 min |
 | **12:30** | **Lunch** |  |  |
 | 13:30 | Integration of hydrologic, terrestrial, and marine data systems: Outcomes and lessons learned from the Environmental Data Discovery and Transformation tool | Nate, Dave B | 20 min |
 | 13:50 | Multi-agency systems of systems: GW Data Portal and Water Quality Data Portal | Nate | 20 min |
 | 14:10 | Forecasting IE | John, Peter | 110 min |
 | **16:00** | **Break** |  |  |
-| 16:30 | [WaterML2](WaterML2.md) Best Practices Documentation and implementations. With examples from: USGS, CUAHSI, KISTERS, SWIE Additional Services: Profiles for vocabulary exchange; Methods | [DaveV](DaveV.md) | 90 min |
+| 16:30 | [WaterML2](WaterML2) Best Practices Documentation and implementations. With examples from: USGS, CUAHSI, KISTERS, SWIE Additional Services: Profiles for vocabulary exchange; Methods | [DaveV](DaveV) | 90 min |
 | 18:00 | Close |  |  |
 |  |  |  |  |
 | **June 27** | **Wednesday: archives and catalogs, excursion** |  |  |
@@ -69,8 +69,8 @@ Tentative agenda for the main meeting:
 | 10:00 |     Hydrologic observations catalogs | Dave V | 30 min |
 | **10:30** |  **Break** |  |  |
 | 11:00 | Progress on SOS / WaterML2 server using the THREDDS data server and NetCDF via ncSOS | Tom | 30 min |
-| 11:30 | CUAHSI migration to OGC and operations | [DaveV](DaveV.md) | 30 min |
-| 12:00 | Status of GEOWOW task to create a hydrology profile for SOS1/2 with [WaterML2](WaterML2.md) | Michael Utech, Stefan Fuest | 30 min |
+| 11:30 | CUAHSI migration to OGC and operations | [DaveV](DaveV) | 30 min |
+| 12:00 | Status of GEOWOW task to create a hydrology profile for SOS1/2 with [WaterML2](WaterML2) | Michael Utech, Stefan Fuest | 30 min |
 | **12:30** | **Lunch** |  |  |
 | 13:30 | Extra time to catch up on outstanding issues | all | 90 min |
 | 15:00 | GW-IE2 Breakout Session Feedback | Boyan, Eric | 30 min |
@@ -113,7 +113,7 @@ A link to Trip Advisor on things to see in & around Reading, where to eat, etc: 
 
 -- IlyaZaslavsky - 09 Apr 2012
 
-- [WML2-Performance.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/ReadingWorkshop2012/WML2-Performance.ppt): KISTERS-NRCAN [WaterML2](WaterML2.md) performance testing
+- [WML2-Performance.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/ReadingWorkshop2012/WML2-Performance.ppt): KISTERS-NRCAN [WaterML2](WaterML2) performance testing
 
 
 - [KISTERS-NRCAN-WML2-Performance-Testing.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/ReadingWorkshop2012/KISTERS-NRCAN-WML2-Performance-Testing.ppt): KISTERS-NRCAN-WML2-Performance-Testing.ppt

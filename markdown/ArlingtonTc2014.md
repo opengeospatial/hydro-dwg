@@ -17,7 +17,7 @@ WebEx: <https://www4.gotomeeting.com/join/132362391> (preliminary, to be updated
 1.  SOS 2.0 Profile for Hydrology - GEOWOW project, with motion for this document to be released as OGC Discussion Paper (52N/Kisters, Michael Utech, remotely) - 20 mins
 2.  USGS’s progress on WaterML2 /SOS services (David Blodgett, USGS) – 15 mins
 3.  OWS-10 Hydro Model Semantic Interoperability - First Steps. CHISP-2 ideas (Lew Leinenweber, OGC; Chen Yu Hao, GIS.FCU Taiwan) – 15 mins
-4.  Discussion of “[WaterML](WaterML.md)-WQ - an O&M and WaterML 2.0 profile for water quality data”. A vote for this document to be released as OGC Best Practice is requested by Simon Cox. See <https://portal.opengeospatial.org/files/?artifact_id=57014&version=1> , and an earlier briefing at <https://portal.opengeospatial.org/files/?artifact_id=55445>. - 10 mins
+4.  Discussion of “[WaterML](WaterML)-WQ - an O&M and WaterML 2.0 profile for water quality data”. A vote for this document to be released as OGC Best Practice is requested by Simon Cox. See <https://portal.opengeospatial.org/files/?artifact_id=57014&version=1> , and an earlier briefing at <https://portal.opengeospatial.org/files/?artifact_id=55445>. - 10 mins
 5.  GEOSS AIP-6 Water Services project (David Arctur, UT-Austin) - 20 mins
 6.  Restarting the Forecasting IE (David Maidment, UT-Austin) – 15 mins
 7.  RiverML update (David Arctur, Stephen Jackson) – 20 min
@@ -28,4 +28,4 @@ WebEx: <https://www4.gotomeeting.com/join/132362391> (preliminary, to be updated
 
 Note: all presentations not attached below can be found in the OGC TC meeting folder: <http://bit.ly/OWbwew> (OGC portal login required)
 
--- IlyaZaslavsky - 14 Jan 2014-- Main.[DavidArctur](DavidArctur.md) - 27 Mar 2014
+-- IlyaZaslavsky - 14 Jan 2014-- [DavidArctur](DavidArctur) - 27 Mar 2014

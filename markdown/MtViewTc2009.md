@@ -43,10 +43,10 @@ Time at other locations: [time and date.com](http://www.timeanddate.com/worldclo
 - David Valentine (SDSC/CUAHSI) - Existing time series delivery formats and Water Data Services requirements; workplan for OGC-compliant Water Data Services (20 min)
 
 
-- Daniel Ames, Jiri Kadlec, Teva Velupillai, Jeff Horsburgh (CUAHSI) - [HydroDesktop](HydroDesktop.md), an open source platform for accessing water data services (presented by Ilya Zaslavsky) (20 min)
+- Daniel Ames, Jiri Kadlec, Teva Velupillai, Jeff Horsburgh (CUAHSI) - [HydroDesktop](HydroDesktop), an open source platform for accessing water data services (presented by Ilya Zaslavsky) (20 min)
 
 
-- Peter Taylor (CSIRO), David Valentine (CUAHSI) - Updates on [WaterML](WaterML.md) 2.0 development and the standards harmonization discussion paper (15 min)
+- Peter Taylor (CSIRO), David Valentine (CUAHSI) - Updates on [WaterML](WaterML) 2.0 development and the standards harmonization discussion paper (15 min)
 
 4. Discussion of a DWG workplan
 

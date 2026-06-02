@@ -1,11 +1,11 @@
 Ratings notes - Workshop
 
-The workshop notes original can be found in google docs : https://docs.google.com/document/d/1woYVOHNAEAZGgZ525h6y5hXVz1ivtJ9W-[RdIMqNyD5A](RdIMqNyD5A.md)/edit#
+The workshop notes original can be found in google docs : https://docs.google.com/document/d/1woYVOHNAEAZGgZ525h6y5hXVz1ivtJ9W-[RdIMqNyD5A](RdIMqNyD5A)/edit#
 
 The 'use case' and 'scope' section have been estrated into different Wiki page documents:
 
-- [Use Cases](RatingsUseCases.md)
-- [Scope](RatingsScope.md)
+- [Use Cases](RatingsUseCases)
+- [Scope](RatingsScope)
 
 # Ratings
 
@@ -16,13 +16,13 @@ The 'use case' and 'scope' section have been estrated into different Wiki page d
 - identify core components v components for local extension
 - Straw man modelling with EA and white board
 
-# USGS - [HydroML](HydroML.md)
+# USGS - [HydroML](HydroML)
 
 Conference call with Geoff ???
 
 ## Ratings
 
-[HydroML](HydroML.md) started for the purpose of site visit information. Ratings was inserted for the [GeoSat](GeoSat.md) contract and was added along with elements for service based delivery
+[HydroML](HydroML) started for the purpose of site visit information. Ratings was inserted for the [GeoSat](GeoSat) contract and was added along with elements for service based delivery
 
 3 rating types
 
@@ -34,9 +34,9 @@ Shift Curves are a part of each rating and are used a lot.
 
 Have a separate structure for when ratings are in effect. A set of ratings are applied by using periods.
 
-[HydroML](HydroML.md) is used to communicate ratings. GRSat has a middleware application where the requester nominates the ratings and shifts that the user wants to used. AI is used for ratings manipulation. Rating data is then supplied back to the system using [HydroML](HydroML.md).
+[HydroML](HydroML) is used to communicate ratings. GRSat has a middleware application where the requester nominates the ratings and shifts that the user wants to used. AI is used for ratings manipulation. Rating data is then supplied back to the system using [HydroML](HydroML).
 
-**Q:**DB1: How much of the [HydroML](HydroML.md) schema is designed around the NWIS table structure? (Level of abstraction from the NWIS table structure).
+**Q:**DB1: How much of the [HydroML](HydroML) schema is designed around the NWIS table structure? (Level of abstraction from the NWIS table structure).
 
 G? - Pretty generic, not tied with table structures.
 
@@ -48,11 +48,11 @@ Rating lockdown:
 
 Long term stations have many ratings. Ratings and periods can be changed retrospectively but is not common place.
 
-[HydroML](HydroML.md) : [RatingDate](RatingDate.md) - a list of dates when a rating is in effect
+[HydroML](HydroML) : [RatingDate](RatingDate) - a list of dates when a rating is in effect
 
 Uses a list of start dates and the tables that apply.
 
-[HydroML](HydroML.md) exports are considered to be stateless. If GRSat data is returned with a change then the data is written back to NWIS. Does not implement a ‘check out’ system for rating editing.
+[HydroML](HydroML) exports are considered to be stateless. If GRSat data is returned with a change then the data is written back to NWIS. Does not implement a ‘check out’ system for rating editing.
 
 Shift Curves:
 
@@ -60,7 +60,7 @@ How is the knowledge / reasoning around implementing a shift being communicated 
 
 ## Site Visit
 
-Field computers / tablets record information and export the data using [HydroML](HydroML.md). This data is then uploaded into NWIS.
+Field computers / tablets record information and export the data using [HydroML](HydroML). This data is then uploaded into NWIS.
 
 ## History Elements
 
@@ -70,7 +70,7 @@ All data carries indication of who modified or created the data and when.
 
 Conference call with Geoff ???
 
-Version 2.0 will import [WaterML2](WaterML2.md).0.
+Version 2.0 will import [WaterML2](WaterML2).0.
 
 Difference between shifts and WDTF approach: use a new version.
 
@@ -85,7 +85,7 @@ Three core concepts: define parameters, tables and periods.
     1.  Start dates defined
     2.  Phased transitions
 
-Cell bounds within [NetCDF](NetCDF.md) might be applicable.
+Cell bounds within [NetCDF](NetCDF) might be applicable.
 
 **Revision history of individual curves**. Rating curve provenance as a use case. How do the rating curves get managed. Scope question. Overlapping and revisions to start dates.
 

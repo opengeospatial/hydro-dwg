@@ -10,7 +10,7 @@
 ## Agenda
 
 - updates from the participants
-- status of [WaterML2](WaterML2.md).0
+- status of [WaterML2](WaterML2).0
 - status of SOS 2.0
 - Roadmap to Bonn TC
 - Next meetings
@@ -26,7 +26,7 @@
   - period for public comment ended in december
   - Bonn TC will be used for final discussions
   - for the publication as standard, two implementations are needed, 52north will provide one but Simon J. expects no problems
-- status of [WaterML2](WaterML2.md).0 (Simon J.)
+- status of [WaterML2](WaterML2).0 (Simon J.)
   - next steps as decided in the last (December) telco:
     - until May time for work on the specs
     - in May vote on the decision if the spec shall be published for comments
@@ -34,7 +34,7 @@
     - in Speptember finalization
 - roadmap to Bonn
   - at the moment no new servers available
-  - server implementations will probably not upgraded to SOS 2.0 **and** [WaterML2](WaterML2.md).0
+  - server implementations will probably not upgraded to SOS 2.0 **and** [WaterML2](WaterML2).0
   - improvements in client can be presented
   - Carsten will evaluate the possibility to include more dutch datasets
 - Next meetings

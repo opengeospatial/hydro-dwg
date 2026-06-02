@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 35 -- Tues 14 Apr 2015**
+# **[GW2IE](GW2IE) Meeting 35 -- Tues 14 Apr 2015**
 
 ## **Agenda**
 
@@ -6,7 +6,7 @@
   - Times (see below)
   - June OGC TC (Boulder)
   - Sept OGC TC (Nottingham) / HDWG (Orleans):... [see poll](http://doodle.com/4iynug2va8c4tu42)
-- [GW_ManagementArea](GW_ManagementArea.md) update
+- [GW_ManagementArea](GW_ManagementArea) update
   - definition (**Bruce**)
   - UML-LM (**Sylvain**)
   - UML-CM(**Boyan**)
@@ -37,7 +37,7 @@
   - HDWG (Orleans)
     - Request time slot: detailed GW2IE presentation to HDWG
     - Request breakout meeting: GW2IE /GWML2
-- [GW_ManagementArea](GW_ManagementArea.md) update
+- [GW_ManagementArea](GW_ManagementArea) update
   - work (above) to be advanced by next meeting
 - AquiferTest
   - Accepted: [documentation](https://xp-dev.com/svn/gwml2/Documents/GWML2_aquifer_test_extension.docx) to be merged into report (**Eric**) after review (**Sylvain**,**Alex**)

@@ -1,10 +1,10 @@
 # **Use Case 5 -- Technologic**
 
-Discussion page : see [GwIe2UseCase5Discussion](GwIe2UseCase5Discussion.md)
+Discussion page : see [GwIe2UseCase5Discussion](GwIe2UseCase5Discussion)
 
 ## Participants
 
-- E.Boisvert (GSC Lead), François Létourneau (GSC), B.Brodaric (GSC), M.Lutz (JRC), B.Wagner (GSG), Main.[BruceSimons](BruceSimons.md) (CSIRO), Main.[SylvainGrellet](SylvainGrellet.md) (BRGM),Main.[DimitriMeunier](DimitriMeunier.md) (OIEAU)
+- E.Boisvert (GSC Lead), François Létourneau (GSC), B.Brodaric (GSC), M.Lutz (JRC), B.Wagner (GSG), [BruceSimons](BruceSimons) (CSIRO), [SylvainGrellet](SylvainGrellet) (BRGM),[DimitriMeunier](DimitriMeunier) (OIEAU)
 
 ## Abstract
 
@@ -12,14 +12,14 @@ Discussion page : see [GwIe2UseCase5Discussion](GwIe2UseCase5Discussion.md)
 
 ## Objective
 
-- The objective of this UC is to document mappings between existing model : INSPIRE, GWML and [HY_FEATURE](HY_FEATURE.md) and the international model. The objective of the UC is not to implement any working system but to identify and document in the most formally possible way how each feature and properties used by UC1 to UC4 can map to the international model. No formalism has been chosen at this point, but it is expected that part of the objective is to also evaluate the mapping methology itself. The deliverable of this UC is a documentation, either as a human readable or machine readable format, that could potentially be used in the further implementation project. The mapping will be evaluation with regard to completeness, complexity , etc.. (parameters to be discussed)
+- The objective of this UC is to document mappings between existing model : INSPIRE, GWML and [HY_FEATURE](HY_FEATURE) and the international model. The objective of the UC is not to implement any working system but to identify and document in the most formally possible way how each feature and properties used by UC1 to UC4 can map to the international model. No formalism has been chosen at this point, but it is expected that part of the objective is to also evaluate the mapping methology itself. The deliverable of this UC is a documentation, either as a human readable or machine readable format, that could potentially be used in the further implementation project. The mapping will be evaluation with regard to completeness, complexity , etc.. (parameters to be discussed)
 
 ## Actors
 
 - Data providers
   - INSPIRE GW model (EU)
   - GWML (Groundwater Information Network)
-  - [HY_Feature](HY_Feature.md) (WMO)
+  - [HY_Feature](HY_Feature) (WMO)
 
 ## Actions
 

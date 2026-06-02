@@ -6,9 +6,9 @@ This topic is Set to private and will require a login.
 
 Pages:
 
-- [GwIeWaterML2](GwIeWaterML2.md)
+- [GwIeWaterML2](GwIeWaterML2)
 
----- **To Set a Topic to private** \* clikcing "More topic actions", \* "Edit Settings" \* type \* Set ALLOWTOPICVIEW = [DavidValentine](DavidValentine.md),[PeterTaylor](PeterTaylor.md),[BoyanBrodaric](BoyanBrodaric.md),[NateBooth](NateBooth.md),[DavidLemon](DavidLemon.md),[EricBoisvert](EricBoisvert.md),[IlyaZaslavsky](IlyaZaslavsky.md)
+---- **To Set a Topic to private** \* clikcing "More topic actions", \* "Edit Settings" \* type \* Set ALLOWTOPICVIEW = [DavidValentine](DavidValentine),[PeterTaylor](PeterTaylor),[BoyanBrodaric](BoyanBrodaric),[NateBooth](NateBooth),[DavidLemon](DavidLemon),[EricBoisvert](EricBoisvert),[IlyaZaslavsky](IlyaZaslavsky)
 
 \[multiple of 3 spaces\] \* \[space\] Set \[space\] VARIABLENAME \[space\] = \[value\]
 

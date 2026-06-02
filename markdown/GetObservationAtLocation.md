@@ -30,9 +30,9 @@ This use case is to get an observation at a specific location. There is a nice B
 </sos:GetObservation>
 ```
 
-This asks for all Observation of offering "<urn:GIN:offering:groundwaterLevel:1>" where the Observed property is <urn:ogc:def:property:OGC:GroundWaterLevel> where the location of the wml:[WaterMonitoringObservation](WaterMonitoringObservation.md) is within -90,45,-89,46.
+This asks for all Observation of offering "<urn:GIN:offering:groundwaterLevel:1>" where the Observed property is <urn:ogc:def:property:OGC:GroundWaterLevel> where the location of the wml:[WaterMonitoringObservation](WaterMonitoringObservation) is within -90,45,-89,46.
 
-Interesting note, the srsName is not on the property, but on the root tag ([GetObservation](GetObservation.md))
+Interesting note, the srsName is not on the property, but on the root tag ([GetObservation](GetObservation))
 
 ## Result
 
@@ -44,15 +44,15 @@ From the mock up service I implemented on GIN
 
 - The BBOX request uses the featureOfInterest to constrains the location, which means that the client must have a prior knowledge of what feature is of interest and what is the schema of that feature. Which is a problem. Right now, I'm ignoring the property.
 
-## Implementation in a WMS:[GetFeatureInfo](GetFeatureInfo.md) context
+## Implementation in a WMS:[GetFeatureInfo](GetFeatureInfo) context
 
 To query data in a GetFeatureInfo context, we must convert the pixel based request into a real world coordinate.
 
 The simplest way is to create a proxy service that get the GetFeatureInfo, rewrite it in terms of SOS BBOX above and route it to the SOS service.
 
-A [GetFeatureInfo](GetFeatureInfo.md) query looks like
+A [GetFeatureInfo](GetFeatureInfo) query looks like
 
-<http://ngwd-bdnes.cits.rncan.gc.ca/service/gin/wms/mediator/px>? VERSION=1.1.1 &FORMAT=image%2Fpng &LAYERS=[OntarioWaterWell](OntarioWaterWell.md) &SERVICE=WMS &REQUEST=[GetFeatureInfo](GetFeatureInfo.md) &STYLES= &EXCEPTIONS=application%2Fvnd.ogc.se_xml &TRANSPARENT=TRUE &SRS=EPSG%3A4326 &BBOX=-90.151733,48.078798,-89.55857,48.519867 &X=416&Y=224 &[INFO_FORMAT](INFO_FORMAT.md)=text%2Fhtml &[QUERY_LAYERS](QUERY_LAYERS.md)=[OntarioWaterWell](OntarioWaterWell.md) &WIDTH=780 &HEIGHT=580
+<http://ngwd-bdnes.cits.rncan.gc.ca/service/gin/wms/mediator/px>? VERSION=1.1.1 &FORMAT=image%2Fpng &LAYERS=[OntarioWaterWell](OntarioWaterWell) &SERVICE=WMS &REQUEST=[GetFeatureInfo](GetFeatureInfo) &STYLES= &EXCEPTIONS=application%2Fvnd.ogc.se_xml &TRANSPARENT=TRUE &SRS=EPSG%3A4326 &BBOX=-90.151733,48.078798,-89.55857,48.519867 &X=416&Y=224 &[INFO_FORMAT](INFO_FORMAT)=text%2Fhtml &[QUERY_LAYERS](QUERY_LAYERS)=[OntarioWaterWell](OntarioWaterWell) &WIDTH=780 &HEIGHT=580
 
 There is basically all the same info than a WMS GetMap request (because the response might want to draw the map along with the data). The important bits are
 

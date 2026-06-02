@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 52 / GW SWG Meeting \#3 -- Wed 13 April 2016**
+# **[GW2IE](GW2IE) Meeting 52 / GW SWG Meeting \#3 -- Wed 13 April 2016**
 
 ## **Agenda**
 

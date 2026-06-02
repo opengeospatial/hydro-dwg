@@ -19,11 +19,14 @@ HTML_DIR="${HTML_DIR:-html}"
 # Pandoc behavior
 PANDOC_TIMEOUT="${PANDOC_TIMEOUT:-90s}"
 
-# Companion repo for attachments
+# Legacy attachments live in the companion repo opengeospatial/hydro-dwg-wiki-docs.
+# New attachments will go on the wiki-docs orphan branch of opengeospatial/hydro-dwg
+# (see Contributing wiki page), but existing %ATTACHURL% references in Source2025/
+# point at content that already lives in the companion repo, so they stay there.
 ATTACH_BASE_URL="https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main"
 
 # System pages to skip (pure TWiki infrastructure with no real content)
-SKIP_PAGES="WebAtom WebRss WebSearch WebSearchAdvanced WebStatistics WebLeftBar WebNotify WebChanges WebIndex WebTopicList WebTopicCreator"
+SKIP_PAGES="WebAtom WebRss WebSearch WebSearchAdvanced WebStatistics WebLeftBar WebNotify WebChanges WebIndex WebTopicList WebTopicCreator WebPreferences"
 
 cd "$PROJECT_ROOT"
 [[ -d "$SRC_DIR" ]] || { echo "Missing $SRC_DIR"; exit 1; }
@@ -157,12 +160,16 @@ strip_color_macros() {
 }
 
 expand_attachurls() {
-  # Replace %ATTACHURL% and %ATTACHURLPATH% with companion repo URL
+  # Replace %ATTACHURL% / %ATTACHURLPATH% (use current topic) and
+  # %PUBURL%/HydrologyDWG/<Topic>/ (uses an explicit topic) with the
+  # wiki-docs attachment URL.
   local topic="$1"
   local base_url="${ATTACH_BASE_URL}/${topic}"
   "$SED" -E \
     -e "s|%ATTACHURLPATH%|${base_url}|g" \
-    -e "s|%ATTACHURL%|${base_url}|g"
+    -e "s|%ATTACHURL%|${base_url}|g" \
+    -e "s|%PUBURLPATH%/HydrologyDWG/|${ATTACH_BASE_URL}/|g" \
+    -e "s|%PUBURL%/HydrologyDWG/|${ATTACH_BASE_URL}/|g"
 }
 
 strip_system_macros() {
@@ -243,12 +250,19 @@ post_process() {
   # All cleanup passes on the GFM markdown output
 
   # 0. Convert wikilinks with title="wikilink" that the Lua filter missed
-  #    [text](target "wikilink") -> [text](target.md)
-  "$SED" -E 's|\]\(([^)"]+) "wikilink"\)|\](\1.md)|g' \
+  #    [text](target "wikilink") -> [text](target)   (no .md, GitHub wiki links)
+  "$SED" -E 's|\]\(([^)"]+) "wikilink"\)|\](\1)|g' \
   | \
   # 1. Convert residual wikilink anchors to markdown links
-  #    <a href="PageName" class="wikilink">Display</a> -> [Display](PageName.md)
-  "$SED" -E 's|<a href="([^"]+)" class="wikilink">([^<]*)</a>|[\2](\1.md)|g' \
+  #    <a href="PageName" class="wikilink">Display</a> -> [Display](PageName)
+  "$SED" -E 's|<a href="([^"]+)" class="wikilink">([^<]*)</a>|[\2](\1)|g' \
+  | \
+  # 1b. Strip .md from any internal link target left over from earlier passes
+  #     ](X.md) and ](X.md#anchor), where X has no slash or colon (i.e. wiki page)
+  "$SED" -E -e 's|\]\(([^):/]+)\.md\)|](\1)|g' -e 's|\]\(([^):/]+)\.md#|](\1#|g' \
+  | \
+  # 1d. Rename outbound WebHome page references to Home (GitHub wiki landing page)
+  "$SED" -E 's|\]\(WebHome\)|](Home)|g; s|\]\(WebHome#|](Home#|g' \
   | \
   # 2. Flatten nested markdown links: [[text](url) more](outer) -> [text more](outer)
   "$SED" -E 's|\[\[([^]]+)\]\([^)]+\)([^]]*)\]\(([^)]+)\)|[\1\2](\3)|g' \
@@ -258,17 +272,19 @@ post_process() {
   #    \</a\> -> (removed)
   "$SED" -E -e 's|\\<a href=[^>]*\\>||g' -e 's|\\</a\\>||g' \
   | \
-  # 3. Clean attribution lines: -- Main.[Author](Author.md) -> -- Author
+  # 3. Clean attribution lines and inline Main.User references
+  #    -- Main.[Author](Author) -> -- Author
+  #    -- Main.Author -> -- Author
+  #    Main.[User](User) -> [User](User)   (anywhere in line)
   "$SED" -E \
     -e 's|^(-- )Main\.\[([^]]+)\]\([^)]+\)|\1\2|' \
     -e 's|^(-- )Main\.([A-Z][a-zA-Z]+)|\1\2|' \
+    -e 's|Main\.\[([^]]+)\]\(([^)]+)\)|[\1](\2)|g' \
   | \
-  # 4. Add .md suffix to internal wiki-style links that lack it
-  #    [text](PageName) where PageName has no extension, no protocol, no /
-  "$SED" -E 's|\]\(([A-Za-z][A-Za-z0-9_ -]*)\)|\](\1.md)|g' \
-  | \
-  # 5. Decode %20 in internal link targets (non-http)
+  # 5. Decode %20 in internal link targets (non-http) -- repeat to catch multi-%20
   "$SED" -E 's|\]\(([^)h][^)]*?)%20([^)]*)\)|\](\1 \2)|g' \
+  | "$SED" -E 's|\]\(([^)h][^)]*?)%20([^)]*)\)|\](\1 \2)|g' \
+  | "$SED" -E 's|\]\(([^)h][^)]*?)%20([^)]*)\)|\](\1 \2)|g' \
   | \
   # 6. Strip escaped numbered list periods: 1\. -> 1.
   "$SED" -E 's/^([0-9]+)\\\.( )/\1.\2/g' \
@@ -313,6 +329,63 @@ post_process() {
   '
 }
 
+# ---------- Post-conversion pass over all output files ----------
+
+fix_space_targets() {
+  # Some imported links use spaces in the target, e.g. [Call 2009-11-03](Call 2009-11-03)
+  # where the actual file is Call2009-11-03.md. For each such link, try collapsing the
+  # spaces (and any %20) in the target; if a matching .md file exists in $OUT_DIR,
+  # rewrite. Leave the rest alone so the broken state is visible for cleanup.
+  local md tmp
+  log "Fixing 'spaces in target' links across $OUT_DIR/"
+  for md in "$OUT_DIR"/*.md; do
+    [[ -f "$md" ]] || continue
+    tmp="$(mktemp)"
+
+    "$AWK" -v out_dir="$OUT_DIR" '
+    BEGIN {
+      cmd = "ls -1 " out_dir
+      while ((cmd | getline f) > 0) {
+        sub(/\.md$/, "", f)
+        pages[f] = 1
+      }
+      close(cmd)
+    }
+    {
+      line = $0
+      out = ""
+      while (match(line, /\]\([^)]+\)/)) {
+        before = substr(line, 1, RSTART - 1)
+        link   = substr(line, RSTART, RLENGTH)
+        rest   = substr(line, RSTART + RLENGTH)
+
+        # Strip the surrounding "](" and ")"
+        target = substr(link, 3, length(link) - 3)
+
+        if (target ~ / / && target !~ /^https?:/ && target !~ /^\// && target !~ /\//) {
+          collapsed = target
+          gsub(/ /,    "", collapsed)
+          gsub(/%20/,  "", collapsed)
+          if (collapsed in pages) {
+            link = "](" collapsed ")"
+          }
+        }
+
+        out = out before link
+        line = rest
+      }
+      print out line
+    }
+    ' "$md" > "$tmp"
+
+    if ! cmp -s "$md" "$tmp"; then
+      mv "$tmp" "$md"
+    else
+      rm -f "$tmp"
+    fi
+  done
+}
+
 # ---------- Main ----------
 main() {
   need_cmd git
@@ -331,7 +404,13 @@ main() {
     topic="$(basename "$base" .txt)"
     utf8="$UTF8_DIR/$base"
     html="$HTML_DIR/${base}.html"
-    outmd="$OUT_DIR/${topic}.md"
+
+    # GitHub Wiki uses Home.md as the landing page; emit WebHome.txt there.
+    if [[ "$topic" == "WebHome" ]]; then
+      outmd="$OUT_DIR/Home.md"
+    else
+      outmd="$OUT_DIR/${topic}.md"
+    fi
 
     # Skip system pages
     if echo "$SKIP_PAGES" | grep -qw "$topic"; then
@@ -358,6 +437,8 @@ main() {
       log "WARN: empty HTML produced for $base: $html"
     fi
   done < <(find "$SRC_DIR" -type f -name '*.txt' ! -name '*,v' -print0)
+
+  fix_space_targets
 
   log "Done. Markdown output is in: $OUT_DIR/"
 }

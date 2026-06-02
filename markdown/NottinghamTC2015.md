@@ -24,13 +24,13 @@ Link to [Nottingham TC agenda](http://www.opengeospatial.org/events/1509tcagenda
 
 \<font face="Times New Roman,serif" size="3"\>\<font color="#1F497D" face="Calibri,sans-serif" size="2"\>b. Motion/vote to approve a groundwater SWG\</font\>\</font\>
 
-\<font face="Times New Roman,serif" size="3"\>\<font color="#1F497D" face="Calibri,sans-serif" size="2"\>c. Motion/vote to publicly release the [GW2IE](GW2IE.md) report -- expected at Orleans HDWG Annual workshop\</font\>\</font\>
+\<font face="Times New Roman,serif" size="3"\>\<font color="#1F497D" face="Calibri,sans-serif" size="2"\>c. Motion/vote to publicly release the [GW2IE](GW2IE) report -- expected at Orleans HDWG Annual workshop\</font\>\</font\>
 
 \<font face="Times New Roman,serif" size="3"\>\<font color="#1F497D" face="Calibri,sans-serif" size="2"\>2. Hydrologic Features SWG\</font\>\</font\>
 
 \<font face="Times New Roman,serif" size="3"\>\<font color="#1F497D" face="Calibri,sans-serif" size="2"\>a. Introduction to the SWG (Irina Dornblut) \[ [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/NottinghamTC2015/slides4Nottingham_HYFSWG.pptx)\]\</font\>\</font\>
 
-\<font face="Times New Roman,serif" size="3"\>\<font color="#1F497D" face="Calibri,sans-serif" size="2"\>b. [HY_Features](HY_Features.md) Part 3 - OWL encoding: rhyme and reason (Rob Atkinson) \[ [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/NottinghamTC2015/2015_Nottingham_Presentation_RA.ppt)\]\</font\>\</font\>
+\<font face="Times New Roman,serif" size="3"\>\<font color="#1F497D" face="Calibri,sans-serif" size="2"\>b. [HY_Features](HY_Features) Part 3 - OWL encoding: rhyme and reason (Rob Atkinson) \[ [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/NottinghamTC2015/2015_Nottingham_Presentation_RA.ppt)\]\</font\>\</font\>
 
 \<font face="Times New Roman,serif" size="3"\>\<font color="#1F497D" face="Calibri,sans-serif" size="2"\>3. Water Standards Interoperability Experiment (Joan Masó) \[ [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/NottinghamTC2015/Water_Standards_Interoperability_Experiment.ppt)\]\</font\>\</font\>
 

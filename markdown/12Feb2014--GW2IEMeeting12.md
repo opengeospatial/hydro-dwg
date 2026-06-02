@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 12** **-- Wed 12 Feb 2014 -- Conceptual Model**
+# **[GW2IE](GW2IE) Meeting 12** **-- Wed 12 Feb 2014 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -15,16 +15,16 @@
 ## **Results**
 
 - In-person meeting date and location confirmed: 05-08 May 2014, Vienna (Geological Survey of Austria)
-- Changes: [see CM 0.26](GWML2-CM-Model.md)
-  - Set value [PorosityType](PorosityType.md) as type for gwUnitMedia, gwPorosityType, gwVoidType
+- Changes: [see CM 0.26](GWML2-CM-Model)
+  - Set value [PorosityType](PorosityType) as type for gwUnitMedia, gwPorosityType, gwVoidType
     - recognizes that the same vocabulary is used for each property
     - context for each property differs:
       - for units refers to the overall unit,
       - for voids refers to the sub-region of voids (e.g. fractures),
       - for porosity refers to a specific measurement
-    - added gwBodyNaturalContext to [GW_FluidBody](GW_FluidBody.md)
+    - added gwBodyNaturalContext to [GW_FluidBody](GW_FluidBody)
       - to account for the environmental context of the groundwater body, often the cause for its constituents, quality, or susceptibility
-    - typed gwWellYield as [GW_Yield](GW_Yield.md)
+    - typed gwWellYield as [GW_Yield](GW_Yield)
 
 ## **Connection Instructions**
 
@@ -35,7 +35,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 554 395 312
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -47,7 +47,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

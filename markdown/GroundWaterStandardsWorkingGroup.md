@@ -1,4 +1,4 @@
-# **[GroundWater](GroundWater.md) Standards Working Group** (GW SWG)
+# **[GroundWater](GroundWater) Standards Working Group** (GW SWG)
 
 The GW SWG aims to:
 

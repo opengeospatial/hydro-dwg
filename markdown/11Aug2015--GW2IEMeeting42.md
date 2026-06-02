@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 42 -- Tues 11 August 2015**
+# **[GW2IE](GW2IE) Meeting 42 -- Tues 11 August 2015**
 
 ## **Agenda**
 
@@ -27,7 +27,7 @@
     - final draft complete: section B, use-cases (Leads 1-5: **Eric**, **Sylvain**, **Peter**, **Jessica**, **Sylvain**)
   - Sept 1:
     - public release
-- [HY_Features](HY_Features.md) groundwater: to continue mapping for Sept
+- [HY_Features](HY_Features) groundwater: to continue mapping for Sept
 
 ## **Results**
 
@@ -36,7 +36,7 @@
 - Server update: done
 - Schema update: done
 - Instances update: done except the following deferred to SWG:
-  - [GW_ConstituentRelation](GW_ConstituentRelation.md), [GW_DIvide](GW_DIvide.md), [GW_FluidBodyProperty](GW_FluidBodyProperty.md), [GW_HydrogeoVoid](GW_HydrogeoVoid.md), [GW\_](GW_.md)(Unit/Void)Vulnerability
+  - [GW_ConstituentRelation](GW_ConstituentRelation), [GW_DIvide](GW_DIvide), [GW_FluidBodyProperty](GW_FluidBodyProperty), [GW_HydrogeoVoid](GW_HydrogeoVoid), [GW\_](GW_)(Unit/Void)Vulnerability
 - Report update:
   - Conceptual / logical model: see list below
   - Requirements / conformance classes: see list below
@@ -53,7 +53,7 @@
 - P 19: ANS: full name---removed
 - P 21: URL for requirement tests---replace with reference to Annex A (requirements)
 - P 65: missing dependency (AquiferTest---WaterML2)---not needed
-- P75: missing def: bholeCoreInterval: [GM_Envelope](GM_Envelope.md)\[0…\*\]---done
+- P75: missing def: bholeCoreInterval: [GM_Envelope](GM_Envelope)\[0…\*\]---done
 - P78, 85: missing def: casingSlit association---to be supplied (**Eric**)--done
 - P78, 85: missing def: casingLeft association---to be supplied (**Eric**)--done
 - P 98: References:---to be supplied (**Francois**)
@@ -69,18 +69,18 @@
 - 9.1.3 Clarify HTTP URI meaning (Any HTTP URI or Open Linked Data HTTP URI)
   - issue. parametrised HTTP URI (<http://resource.gwml.org/voc?term=x&lang=f&f=RDF>) cannot be used as an identifier string (parameter order can change) - so can hardly be used as a token in a query
   - RESOLVED: LOD approach to be sued
-- 9.2.1. HTTP URN to identify geologicUnitType. Extend [GeoSciML](GeoSciML.md) vocab instead of having our own vocab. Also, version number of vocab versus version number of spec (should they change at each revision of the spec ?) \* RESOLVED: use Hydrogeological Unit from [GeoSciML](GeoSciML.md) if available, otherwise use another [GeoSciML](GeoSciML.md) term or unknown
-- 9.3 Issue raised by Sylvain . Linking OM [FeatureOfInterest](FeatureOfInterest.md) to constituent (maybe the issue was just naming the constituent 'Arsenic' ?) - more logical to have foi being the sample itself (so, the [SamplingFeature](SamplingFeature.md)). \* RESOLVED: documentation to be updated for O&M encoding; larger issue deferred to SWG;
+- 9.2.1. HTTP URN to identify geologicUnitType. Extend [GeoSciML](GeoSciML) vocab instead of having our own vocab. Also, version number of vocab versus version number of spec (should they change at each revision of the spec ?) \* RESOLVED: use Hydrogeological Unit from [GeoSciML](GeoSciML) if available, otherwise use another [GeoSciML](GeoSciML) term or unknown
+- 9.3 Issue raised by Sylvain . Linking OM [FeatureOfInterest](FeatureOfInterest) to constituent (maybe the issue was just naming the constituent 'Arsenic' ?) - more logical to have foi being the sample itself (so, the [SamplingFeature](SamplingFeature)). \* RESOLVED: documentation to be updated for O&M encoding; larger issue deferred to SWG;
 - Offline discussion:
-  - 9.8 (/req/gwml2-well-gu/log-category) how to name observedProperty (use the identifier of the clause to document the intend or use the identifier of a formal swe definition of the property - I've used the former for [NamedValue](NamedValue.md) - not sure about the rest)
+  - 9.8 (/req/gwml2-well-gu/log-category) how to name observedProperty (use the identifier of the clause to document the intend or use the identifier of a formal swe definition of the property - I've used the former for [NamedValue](NamedValue) - not sure about the rest)
   - 10.5 (/req/xsd-gwml-well/waterwell-CRS-uom) : it says that the uom of the CRS of the elevation must match the uom of the shape. Isn't the unit part of the CRS definition (and then clause 10.5.1 saying that Z CRS of elevation must match Z of shape saying the same thing ?) (ditto monitoring)
   - 10.8 (/req/xsd-gwml-well-gu/log-category and /req/xsd-gwml-well-gu/log-observed-property) : Requires these both to be "<http://resource.gwml.org/def/gwml/2.0/observedProperty/geologicunit>" How do we specify the geologicUnitType?
     - RESOLVED: see above
   - /conf/gwml2-core/observed-property (A.2.1) : Says that all Observation's observedProperty must be GWML 2.1 properties. (I don't think I wrote this because I always been against the idea in O&M). It's a conformance test but there are no requirement matching it.
   - /req/gwml2-core listed in conformance classes (while not in requirement) - discussions started by email : needs conclusion.
-  - No requirements for [GW_ManagementArea](GW_ManagementArea.md) in either Section 9 or 10. -- done
+  - No requirements for [GW_ManagementArea](GW_ManagementArea) in either Section 9 or 10. -- done
     - DocumentCitation to be removed (**Boyan**)
-    - document role to be added to [GW_ManagementArea](GW_ManagementArea.md) as have datatype = [AnyType](AnyType.md) (**Boyan**)
+    - document role to be added to [GW_ManagementArea](GW_ManagementArea) as have datatype = [AnyType](AnyType) (**Boyan**)
     - report update (**Boyan**)
     - logical UML update (**Francois**)
     - schema update (**Eric**) -- done

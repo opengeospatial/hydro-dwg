@@ -4,25 +4,25 @@ If you are using a vmware instanace, don't try to put things on virtual shared d
 
 Subversion is version dependent. If you check out a model using svn 1.6 and try to use svn 1.7 as the subversion exe path below, it won't work.
 
-It's not obvious from the [HollowWorld](HollowWorld.md) page, but the subversion URL for ISO TC 211 is [https://www.seegrid.csiro.au/mirrors/iso-harmonized-model](https://www.seegrid.csiro.au/mirrors/iso-harmonized-model/isotc211/) check that out and set the isotc211 link to the base of the checkout. The [HollowWorld](HollowWorld.md) model seems to expect a path of \$base/isotc211/ISOTC211.xml for some reason.
+It's not obvious from the [HollowWorld](HollowWorld) page, but the subversion URL for ISO TC 211 is [https://www.seegrid.csiro.au/mirrors/iso-harmonized-model](https://www.seegrid.csiro.au/mirrors/iso-harmonized-model/isotc211/) check that out and set the isotc211 link to the base of the checkout. The [HollowWorld](HollowWorld) model seems to expect a path of \$base/isotc211/ISOTC211.xml for some reason.
 
-([SlikSvn](SlikSvn.md)) If you have a different user id/password to what's normal, the initial svn update may hang. You need to open a command line, go the the directory where you have stored the working copy and execute something like svn info --xml --incremental <https://svn.sdsc.edu/repo/WaterML/WaterML2.0-part2/uml-model/> at that point, you will be prompted for a password. Just enter, you'll then be prompted for a username/password and that should get saved.
+([SlikSvn](SlikSvn)) If you have a different user id/password to what's normal, the initial svn update may hang. You need to open a command line, go the the directory where you have stored the working copy and execute something like svn info --xml --incremental <https://svn.sdsc.edu/repo/WaterML/WaterML2.0-part2/uml-model/> at that point, you will be prompted for a password. Just enter, you'll then be prompted for a username/password and that should get saved.
 
 # Ratings and gaugings model environment
 
-1. Setup the base [HollowWorld](HollowWorld.md) environment according to <https://www.seegrid.csiro.au/wiki/AppSchemas/ConfiguringUMLToolForHollowWorld>. This will setup version control for [HollowWorld](HollowWorld.md) template and ISO models. So there will be two models in the VC setup window:
+1. Setup the base [HollowWorld](HollowWorld) environment according to <https://www.seegrid.csiro.au/wiki/AppSchemas/ConfiguringUMLToolForHollowWorld>. This will setup version control for [HollowWorld](HollowWorld) template and ISO models. So there will be two models in the VC setup window:
 
-\<img alt="" data-base-url="<https://wiki.csiro.au>" data-image-src="/download/attachments/545784490/[VersionControl](VersionControl.md).png?version=1&modificationDate=1342058436390" data-linked-resource-container-id="545784490" data-linked-resource-default-alias="[VersionControl](VersionControl.md).png" data-linked-resource-id="545947754" data-linked-resource-type="attachment" src="<https://wiki.csiro.au/download/attachments/545784490/VersionControl.png?version=1&modificationDate=1342058436390>" title='"WRON:' /\>
+\<img alt="" data-base-url="<https://wiki.csiro.au>" data-image-src="/download/attachments/545784490/[VersionControl](VersionControl).png?version=1&modificationDate=1342058436390" data-linked-resource-container-id="545784490" data-linked-resource-default-alias="[VersionControl](VersionControl).png" data-linked-resource-id="545947754" data-linked-resource-type="attachment" src="<https://wiki.csiro.au/download/attachments/545784490/VersionControl.png?version=1&modificationDate=1342058436390>" title='"WRON:' /\>
 
 2. Check out the RGS model from the SDSC SVN here: <https://svn.sdsc.edu/repo/WaterML/WaterML2.0-part2/uml-model/> using an SVN client. SVN login details available from here: <https://wiki.csiro.au/display/WaterML20/Infrastructure+Tools+-+Subversion+and+JIRA>.
 
 3. In EA, configure a new package under version control (right click project -\> Package control -\> Version control settings...) that points to the local directory holding the checked out XMI file. This should look like this:
 
-\<img alt="" data-base-url="<https://wiki.csiro.au>" data-image-src="/download/attachments/545784490/[VCforRGS](VCforRGS.md).png?version=1&modificationDate=1342058436347" data-linked-resource-container-id="545784490" data-linked-resource-default-alias="[VCforRGS](VCforRGS.md).png" data-linked-resource-id="545947755" data-linked-resource-type="attachment" src="<https://wiki.csiro.au/download/attachments/545784490/VCforRGS.png?version=1&modificationDate=1342058436347>" title='"WRON:' /\>
+\<img alt="" data-base-url="<https://wiki.csiro.au>" data-image-src="/download/attachments/545784490/[VCforRGS](VCforRGS).png?version=1&modificationDate=1342058436347" data-linked-resource-container-id="545784490" data-linked-resource-default-alias="[VCforRGS](VCforRGS).png" data-linked-resource-id="545947755" data-linked-resource-type="attachment" src="<https://wiki.csiro.au/download/attachments/545784490/VCforRGS.png?version=1&modificationDate=1342058436347>" title='"WRON:' /\>
 
-4. From Package control -\> [GetPackage](GetPackage.md), you will prompted with the XMI import:
+4. From Package control -\> [GetPackage](GetPackage), you will prompted with the XMI import:
 
-\<img alt="" data-base-url="<https://wiki.csiro.au>" data-image-src="/download/attachments/545784490/[EA_shot_svn](EA_shot_svn.md).png?version=1&modificationDate=1344989393277" data-linked-resource-container-id="545784490" data-linked-resource-default-alias="[EA_shot_svn](EA_shot_svn.md).png" data-linked-resource-id="550962314" data-linked-resource-type="attachment" src="<https://wiki.csiro.au/download/attachments/545784490/EA_shot_svn.png?version=1&modificationDate=1344989393277>" title='"WRON:' /\> [ModelEnvironmentSetup](ModelEnvironmentSetup.md) \> [EA_shot_svn](EA_shot_svn.md).png" /\>
+\<img alt="" data-base-url="<https://wiki.csiro.au>" data-image-src="/download/attachments/545784490/[EA_shot_svn](EA_shot_svn).png?version=1&modificationDate=1344989393277" data-linked-resource-container-id="545784490" data-linked-resource-default-alias="[EA_shot_svn](EA_shot_svn).png" data-linked-resource-id="550962314" data-linked-resource-type="attachment" src="<https://wiki.csiro.au/download/attachments/545784490/EA_shot_svn.png?version=1&modificationDate=1344989393277>" title='"WRON:' /\> [ModelEnvironmentSetup](ModelEnvironmentSetup) \> [EA_shot_svn](EA_shot_svn).png" /\>
 
 The model you want is RGS-core-model.xml. The RGS-existing-models.xml may also be imported. This contains reverse engineered existing models (UGSS, WDTF, FEWS etc.). This will import the model into the selected package. You should end up with a base structure something like this:
 
@@ -30,7 +30,7 @@ The model you want is RGS-core-model.xml. The RGS-existing-models.xml may also b
 
 The existing models are reversed engineered from the associated schema with some small manual adjustment.
 
-The ensure you have the dependent ISO/[HollowWorld](HollowWorld.md) models, check the [BaseModel](BaseModel.md)::Gaugings::Gaugings model overview and you should be able to see the [OM_Observation](OM_Observation.md) base type from [GaugingObservation](GaugingObservation.md), e.g.
+The ensure you have the dependent ISO/[HollowWorld](HollowWorld) models, check the [BaseModel](BaseModel)::Gaugings::Gaugings model overview and you should be able to see the [OM_Observation](OM_Observation) base type from [GaugingObservation](GaugingObservation), e.g.
 
 \<img alt="" data-base-url="<https://wiki.csiro.au>" data-image-src="/download/attachments/545784490/HWCheck.png?version=1&modificationDate=1342058436223" data-linked-resource-container-id="545784490" data-linked-resource-default-alias="HWCheck.png" data-linked-resource-id="545947763" data-linked-resource-type="attachment" src="<https://wiki.csiro.au/download/attachments/545784490/HWCheck.png?version=1&modificationDate=1342058436223>" title='"WRON:' /\>
 

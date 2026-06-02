@@ -1,6 +1,6 @@
 ### Ispra Meeting Thursday 18 March.
 
-#### Agenda for ISPRA [SurfaceWater](SurfaceWater.md) IE Experiment 15 or 18 of March
+#### Agenda for ISPRA [SurfaceWater](SurfaceWater) IE Experiment 15 or 18 of March
 
 - Introductions
 - Main aims of IE

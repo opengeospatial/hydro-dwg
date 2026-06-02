@@ -20,7 +20,7 @@
 
 \- Capturing the description of parameters. Need to be consistent with part 1. May use the same local dictionary for params?
 
-\- Transition period. Put Paul's [document](RatingPhasedDuration.md) [up on wiki](RatingPhasedDuration.md). Model the approach both ways. Email on preferences.
+\- Transition period. Put Paul's [document](RatingPhasedDuration) [up on wiki](RatingPhasedDuration). Model the approach both ways. Email on preferences.
 
 \- Range values: water quality thresholds, other approaches -- more complex thresholds. May have an algorithm for the values of the range type. Work on list of common types.
 
@@ -36,6 +36,6 @@
 
 ## Next steps
 
-\- Presenation to Redlands TC at the [HydroDWG](HydroDWG.md) session on the 16th Jan: <http://www.opengeospatial.org/event/1301tcagenda>. We will forward around the draft presentation.
+\- Presenation to Redlands TC at the [HydroDWG](HydroDWG) session on the 16th Jan: <http://www.opengeospatial.org/event/1301tcagenda>. We will forward around the draft presentation.
 
 -- PeterTaylor - 13 Dec 2012

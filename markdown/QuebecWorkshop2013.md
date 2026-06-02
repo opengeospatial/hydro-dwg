@@ -1,12 +1,12 @@
 ## **Hydro DWG Workshop Quebec City 2013**
 
 - **Dates:** 17 - 21 June 2013
-- **Venue:** Geological Survey of Canada (GSC) Quebec Office and \_Institut National de la Recherche [Scientifique\_](Scientifique_.md) (INRS), \<a href="<http://maps.google.ca/maps?f=q&hl=fr&geocode=&q=490+de+la+couronne,quebec&sll=46.812754,-71.215223&sspn=0.510335,0.884399&g=quebec&ie=UTF8&ll=46.813094,-71.224355&spn=0.003987,0.010986&z=17>" target="\_top"\>490 de la Couronne, Quebec City, Canada, Rooms 2417-2422 (second floor)
-- **Purpose:**This meeting will be the fourth workshop of the WMO/OGC Hydrology Domain Working Group. After very successful meetings in [Ispra (2010)](JRCWkShop2010.md), [Delft (2011)](IHEWkShop2011.md) and [Reading (2012)](ReadingWorkshop2012.md) , there are high hopes of great things from this meeting.
+- **Venue:** Geological Survey of Canada (GSC) Quebec Office and \_Institut National de la Recherche [Scientifique\_](Scientifique_) (INRS), \<a href="<http://maps.google.ca/maps?f=q&hl=fr&geocode=&q=490+de+la+couronne,quebec&sll=46.812754,-71.215223&sspn=0.510335,0.884399&g=quebec&ie=UTF8&ll=46.813094,-71.224355&spn=0.003987,0.010986&z=17>" target="\_top"\>490 de la Couronne, Quebec City, Canada, Rooms 2417-2422 (second floor)
+- **Purpose:**This meeting will be the fourth workshop of the WMO/OGC Hydrology Domain Working Group. After very successful meetings in [Ispra (2010)](JRCWkShop2010), [Delft (2011)](IHEWkShop2011) and [Reading (2012)](ReadingWorkshop2012) , there are high hopes of great things from this meeting.
 
 ## Attendance
 
-Please confirm attendance on [HydroDwgQuebecAttendees](HydroDwgQuebecAttendees.md)
+Please confirm attendance on [HydroDwgQuebecAttendees](HydroDwgQuebecAttendees)
 
 ## **Related Activities**
 
@@ -14,9 +14,9 @@ Please confirm attendance on [HydroDwgQuebecAttendees](HydroDwgQuebecAttendees.m
 
 Half-day session Tuesday (18 June)08 - 12:30 EDT = 14 - 18:30 hours CEST. Separate room with facilities for tele- & web conferencing if required.
 
-## [WaterML2](WaterML2.md) Part 2 Ratings, Gaugings and Sections (RGS)
+## [WaterML2](WaterML2) Part 2 Ratings, Gaugings and Sections (RGS)
 
-Half-day session on development of [WaterML2](WaterML2.md) part 2, and discussion and planning a future Interoperability Experiment (Thursday afternoon). Separate room with facilities for tele- & web conferencing if required.
+Half-day session on development of [WaterML2](WaterML2) part 2, and discussion and planning a future Interoperability Experiment (Thursday afternoon). Separate room with facilities for tele- & web conferencing if required.
 
 ## **HDWG Tentative Agenda** (more details to follow)
 
@@ -33,10 +33,10 @@ The Virtual OGC/TC Closing Plenary has been scheduled for 17 June from 10 am - 1
 | 14:30 | Feedback WMO, CHy AWG Data Operations and Management: [Presentation](http://external.opengis.org/twiki_public/pub/HydrologyDWG/QuebecWorkshop2013/DataOperationsandManagement.ppt) | Uli Looser, Tony Boston | 30 min |
 | 15:00 | GEOSS AIP-6 Water Services: [Presentation (pptx)](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/GEOSS_Water_Services_HDWG-v2.pptx) | David Arctur | 60 min |
 | **16:00** | **Break** |  |  |
-| 16:30 |  [RiverML](RiverML.md), a language for exchange of river information: [Discussion Paper](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/RiverML_Version_0.3.docx) and [Presentation (pptx)](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/OGC_RiverML_Presentation.pptx) [Remote connection details](http://external.opengis.org/twiki_public/pub/HydrologyDWG/QuebecWorkshop2013/Telecon_RiverML_Session.doc) (telecon + Webex) for the ! [RiverML](RiverML.md) session Warning: first-time Webex users allocate time to download an applet before the meeting   | David Arctur, Stephen Jackson | 60 min |
+| 16:30 |  [RiverML](RiverML), a language for exchange of river information: [Discussion Paper](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/RiverML_Version_0.3.docx) and [Presentation (pptx)](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/OGC_RiverML_Presentation.pptx) [Remote connection details](http://external.opengis.org/twiki_public/pub/HydrologyDWG/QuebecWorkshop2013/Telecon_RiverML_Session.doc) (telecon + Webex) for the ! [RiverML](RiverML) session Warning: first-time Webex users allocate time to download an applet before the meeting   | David Arctur, Stephen Jackson | 60 min |
 | 17:30 | Close |  |  |
 |  |  |  |  |
-| **June 18** | **Tuesday: Groundwater IE 2 Model development and discussion; Presentations, CEH, SOS Profile, [RiverML](RiverML.md) & [HY_Features](HY_Features.md)** |  |  |
+| **June 18** | **Tuesday: Groundwater IE 2 Model development and discussion; Presentations, CEH, SOS Profile, [RiverML](RiverML) & [HY_Features](HY_Features)** |  |  |
 | 08:30 | GWIE2, Model development and discussion | Boyan Brodaric | 1.5 hrs |
 | **10:00** | **Break** |  |  |
 | 10:30 | GWIE2, Model development and discussion | Boyan Brodaric | 2 hrs |
@@ -46,12 +46,12 @@ The Virtual OGC/TC Closing Plenary has been scheduled for 17 June from 10 am - 1
 | 14:15 | SOS Profile Presentation and Discussion | Michael Utech | 50 min |
 | **15:00** | **Break** |  |  |
 | 15:30 | SOS Profile Discussion | Michael Utech | 1 hrs |
-| 16:30 | Discussion on [RiverML](RiverML.md) and implementing [HY_Features](HY_Features.md) | All | 30 min |
+| 16:30 | Discussion on [RiverML](RiverML) and implementing [HY_Features](HY_Features) | All | 30 min |
 | 17:00 | Close |  |  |
 |  |  |  |  |
-| **June 19** | **Wednesday: [HY_Features](HY_Features.md), CHISP-1, Visit to INRS Hydraulic labs** |  |  |
-| 09:00 | [HY_Features](HY_Features.md): applicability of the concept of catchment, basin and outfall (of [HY_Features](HY_Features.md) model) for GW and Meteo themes Implementation of [HY_Features](HY_Features.md) in Geofabric context (Australian example) \<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/QuebecWorkshop2013/AHGF_HY_Features_Final.ppt>" title="Australian Geofabric implementation of [HY_Features](HY_Features.md)"\>Presentation | Irina Dornblut Tony Boston | 1 hr |
-|  | [HY_Features](HY_Features.md) discussion |  | 1 hr |
+| **June 19** | **Wednesday: [HY_Features](HY_Features), CHISP-1, Visit to INRS Hydraulic labs** |  |  |
+| 09:00 | [HY_Features](HY_Features): applicability of the concept of catchment, basin and outfall (of [HY_Features](HY_Features) model) for GW and Meteo themes Implementation of [HY_Features](HY_Features) in Geofabric context (Australian example) \<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/QuebecWorkshop2013/AHGF_HY_Features_Final.ppt>" title="Australian Geofabric implementation of [HY_Features](HY_Features)"\>Presentation | Irina Dornblut Tony Boston | 1 hr |
+|  | [HY_Features](HY_Features) discussion |  | 1 hr |
 | **11:00** | **Break** |  |  |
 | 11:30 | CHISP-1 Pilot Presentation and Presentation and Demo | Peter Vretanos, Lewis Leinenweber | 1 hr |
 | **12:30** | **Lunch** |  |  |
@@ -60,17 +60,17 @@ The Virtual OGC/TC Closing Plenary has been scheduled for 17 June from 10 am - 1
 | 17:00 | Discussion | All | 30 min |
 | 17:30 | Close |  |  |
 |  |  |  |  |
-| **June 20** | **Thursday:Presentations by USGS & INRS, [WaterML2](WaterML2.md) Part 2** **Ratings, Gaugings and Sections (RGS)** |  |  |
+| **June 20** | **Thursday:Presentations by USGS & INRS, [WaterML2](WaterML2) Part 2** **Ratings, Gaugings and Sections (RGS)** |  |  |
 | 09:00 | 1.) US Integrated Water Resources Science and Services (IWRSS) - Overview 2.) Analysis of ratings, gagings use and needs between USGS and NWS | Dave Briar, Ed Clark, Dave Blodgett Nate Booth | 40 min |
-| 09:40 | Presentation [WaterML](WaterML.md) 2.0 Part 2 Ratings, Gaugings and Sections (RGS) | Paul Sheahan, Pete Taylor | 20 min |
-| 10:00 | [WaterML](WaterML.md) 2.0 Part 2 (RGS) Discussion |  |  |
+| 09:40 | Presentation [WaterML](WaterML) 2.0 Part 2 Ratings, Gaugings and Sections (RGS) | Paul Sheahan, Pete Taylor | 20 min |
+| 10:00 | [WaterML](WaterML) 2.0 Part 2 (RGS) Discussion |  |  |
 | **11:00** | **Break** |  |  |
-| 11:30 | [WaterML](WaterML.md) 2.0 Part 2 (RGS) Discussion |  | 1 hr |
+| 11:30 | [WaterML](WaterML) 2.0 Part 2 (RGS) Discussion |  | 1 hr |
 | **12:30** | **Lunch** |  |  |
 | 13:30 | Hydro-informatics of watershed hydrology at INRS – Development framework and examples of data processing, editing, display, and transfer algorithms implemented in our software | Alain N. Rousseau, Alain Royer and Sebastien Tremblay (INRS) | 1 hr |
-| 14:30 | [WaterML](WaterML.md) 2.0 Part 2 (RGS) Discussion | Paul Sheahan, Pete Taylor | 30 min |
+| 14:30 | [WaterML](WaterML) 2.0 Part 2 (RGS) Discussion | Paul Sheahan, Pete Taylor | 30 min |
 | **15:00** | **Break** |  |  |
-| 15:30 | Separation of concerns, [RiverML](RiverML.md), [WaterML2](WaterML2.md) Part 2, GWML and [HY_Features](HY_Features.md) | All | 2hrs |
+| 15:30 | Separation of concerns, [RiverML](RiverML), [WaterML2](WaterML2) Part 2, GWML and [HY_Features](HY_Features) | All | 2hrs |
 | 17:30 | Close |  |  |
 |  |  |  |  |
 | **June 21** | **Friday: GRDC Metadata Concept; Presentation on the NAWW; Report back from working groups** |  |  |
@@ -140,9 +140,9 @@ We've booked at [Les Bossus](http://maps.google.ca/maps?q=620+Rue+Saint-Joseph+E
 
 -- UlrichLooser - 04 Apr 2013
 
-\* [Telecon_RiverML_Session.doc](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/Telecon_RiverML_Session.doc): Connection details (telecon + Webex) for the [RiverML](RiverML.md) session on Monday June 17, 2013, 16:30, Eastern Daylight Time (New York, GMT-04:00) \* [OGC_RiverML_Presentation.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/OGC_RiverML_Presentation.pptx): [OGC_RiverML_Presentation](OGC_RiverML_Presentation.md).pptx \* [GEOSS_Water_Services_HDWG-v2.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/GEOSS_Water_Services_HDWG-v2.pptx): [GEOSS_Water_Services_HDWG](GEOSS_Water_Services_HDWG.md)-v2.pptx \* [DataOperationsandManagement.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/DataOperationsandManagement.ppt): WMO Commission for Hydrology - Data Operations and Management \*
+\* [Telecon_RiverML_Session.doc](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/Telecon_RiverML_Session.doc): Connection details (telecon + Webex) for the [RiverML](RiverML) session on Monday June 17, 2013, 16:30, Eastern Daylight Time (New York, GMT-04:00) \* [OGC_RiverML_Presentation.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/OGC_RiverML_Presentation.pptx): [OGC_RiverML_Presentation](OGC_RiverML_Presentation).pptx \* [GEOSS_Water_Services_HDWG-v2.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/GEOSS_Water_Services_HDWG-v2.pptx): [GEOSS_Water_Services_HDWG](GEOSS_Water_Services_HDWG)-v2.pptx \* [DataOperationsandManagement.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/DataOperationsandManagement.ppt): WMO Commission for Hydrology - Data Operations and Management \*
 
-- [HDWG_at_Québec_pub](HDWG_at_Québec_pub.md).JPG:  \<img alt="[HDWG_at_Québec_pub](HDWG_at_Québec_pub.md).JPG" height="480" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/HDWG_at_Québec_pub.JPG>" width="640" /\>
+- [HDWG_at_Québec_pub](HDWG_at_Québec_pub).JPG:  \<img alt="[HDWG_at_Québec_pub](HDWG_at_Québec_pub).JPG" height="480" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/HDWG_at_Québec_pub.JPG>" width="640" /\>
 
 
 - WSKL.JPG:  \<img src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/QuebecWorkshop2013/WSKL.JPG>" alt="WSKL.JPG" width='1024' height='714' /\>

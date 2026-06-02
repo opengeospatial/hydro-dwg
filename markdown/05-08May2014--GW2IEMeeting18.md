@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 18** **-- Mon-Thurs 05-08 May 2014 -- Logical Model**
+# **[GW2IE](GW2IE) Meeting 18** **-- Mon-Thurs 05-08 May 2014 -- Logical Model**
 
 ## **Participants**
 
@@ -59,25 +59,25 @@
 
 - Conceptual Model
   - completed mid-week
-    - see [GWML2 CM 1.0](GWML2-CM-Model.md)
+    - see [GWML2 CM 1.0](GWML2-CM-Model)
   - major revisions:
     - fluid body: added constituent relation
     - groundwater flow: revised interFlow, intraFlow, and water budget
     - wells: revised wells and springs
 - Logical Model
   - completed significant portion of first draft at end of week
-    - see [GWML2 LM 1.0 pdf](GWML2-UML-Model.md)
+    - see [GWML2 LM 1.0 pdf](GWML2-UML-Model)
   - major items:
     - pattern: identify voidable properties and others
       - voidable properties may not have empty values: explicitly require a null value to indicate empty/unknown
       - non-voidable properties may have empty values
     - Hydrogeological Units, Groundwater Properties
-      - pattern: used [OM_Measurement](OM_Measurement.md) for properties requiring soft-typing, uom, and method metadata (how the value was calculated)
+      - pattern: used [OM_Measurement](OM_Measurement) for properties requiring soft-typing, uom, and method metadata (how the value was calculated)
         - e.g. gwUnitProperty, gwPermeability, gwPorosity (there are many kinds of permeability, porosity, etc., that can be calculated in various ways)
-      - use GeoSciML PhysicalProperties for EarthMaterial properties (not [OM_Measurement](OM_Measurement.md)) to avoid extending GeoSciML
+      - use GeoSciML PhysicalProperties for EarthMaterial properties (not [OM_Measurement](OM_Measurement)) to avoid extending GeoSciML
     - Fluid Body
       - use Observations & Measurements to encode water quality constituents, i.e. Material, Chemical, and Biologic
-      - then [GW_ChemicalConstituent](GW_ChemicalConstituent.md), etc., are features-of-interest for the observation
+      - then [GW_ChemicalConstituent](GW_ChemicalConstituent), etc., are features-of-interest for the observation
     - Wells
       - Lithology Logs: use O&M to encode Logs
       - Boreholes and WellConstruction: use GWML1 package
@@ -94,4 +94,4 @@
 
 ## **Photos**
 
-\<img alt="[GW2IE_Vienna2014_Photo1](GW2IE_Vienna2014_Photo1.md).JPG" height="730" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/05-08May2014--GW2IEMeeting18/GW2IE_Vienna2014_Photo1.JPG>" width="1094" /\> \<img alt="[GW2IE_Vienna2014_Photo2](GW2IE_Vienna2014_Photo2.md).JPG" height="730" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/05-08May2014--GW2IEMeeting18/GW2IE_Vienna2014_Photo2.JPG>" width="1094" /\>
+\<img alt="[GW2IE_Vienna2014_Photo1](GW2IE_Vienna2014_Photo1).JPG" height="730" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/05-08May2014--GW2IEMeeting18/GW2IE_Vienna2014_Photo1.JPG>" width="1094" /\> \<img alt="[GW2IE_Vienna2014_Photo2](GW2IE_Vienna2014_Photo2).JPG" height="730" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/05-08May2014--GW2IEMeeting18/GW2IE_Vienna2014_Photo2.JPG>" width="1094" /\>

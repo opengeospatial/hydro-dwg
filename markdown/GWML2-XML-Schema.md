@@ -41,7 +41,7 @@ sch file turned into XSLT that generate SVRL (rule test results)
 
 The schemas are validating - July 15th 2014 **FL**
 
-Attached modified version of GWML2 Nucleus schema ( [gwml2-nucleus.xsd](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/gwml2-nucleus.xsd)) with [GW_UnitVoidProperty](GW_UnitVoidProperty.md), [GW_UnitFluidProperty](GW_UnitFluidProperty.md) and [GW_Mixture](GW_Mixture.md) association classes correctly encoded. -- Main.[BruceSimons](BruceSimons.md) - 18 Aug 2014
+Attached modified version of GWML2 Nucleus schema ( [gwml2-nucleus.xsd](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/gwml2-nucleus.xsd)) with [GW_UnitVoidProperty](GW_UnitVoidProperty), [GW_UnitFluidProperty](GW_UnitFluidProperty) and [GW_Mixture](GW_Mixture) association classes correctly encoded. -- [BruceSimons](BruceSimons) - 18 Aug 2014
 
 # **Instance documents**
 
@@ -49,50 +49,50 @@ Attached modified version of GWML2 Nucleus schema ( [gwml2-nucleus.xsd](https://
 
 | Package | Class | Developer |
 |:---|:---|:---|
-| **Nucleus** | [GW_AquiferSystem](GW_AquiferSystem.md) | Eric (NRCan), Bruce (NGIS) ... |
-|  | [GW_Aquifer](GW_Aquifer.md) | Bruce ([FedUni](FedUni.md), NGIS), Sylvain (BRGM) |
-|  | [GW_ManagementArea](GW_ManagementArea.md) | Sylvain (BRGM), Alex (GNS) |
-| **Constituent** | [GW_ChemicalConstituent](GW_ChemicalConstituent.md) | Bruce ([FedUni](FedUni.md)) |
-| **Flow** | [GW_WaterBudget](GW_WaterBudget.md) | Alex (GNS) in [GW_ManagementArea](GW_ManagementArea.md) |
-| **Well** | [GW_Well](GW_Well.md) | Eric (NRCan), Alex (GNS), Bruce (NGIS, [FedUni](FedUni.md)), Sylvain (BRGM) ... |
-|  | [GW_MonitoringSite](GW_MonitoringSite.md) | Sylvain (BRGM), Alex (NZ), ... |
-| **Well Construction** | [GW_WellConstruction](GW_WellConstruction.md) | Eric (NRCan), Bruce (NGIS, [FedUni](FedUni.md))... |
+| **Nucleus** | [GW_AquiferSystem](GW_AquiferSystem) | Eric (NRCan), Bruce (NGIS) ... |
+|  | [GW_Aquifer](GW_Aquifer) | Bruce ([FedUni](FedUni), NGIS), Sylvain (BRGM) |
+|  | [GW_ManagementArea](GW_ManagementArea) | Sylvain (BRGM), Alex (GNS) |
+| **Constituent** | [GW_ChemicalConstituent](GW_ChemicalConstituent) | Bruce ([FedUni](FedUni)) |
+| **Flow** | [GW_WaterBudget](GW_WaterBudget) | Alex (GNS) in [GW_ManagementArea](GW_ManagementArea) |
+| **Well** | [GW_Well](GW_Well) | Eric (NRCan), Alex (GNS), Bruce (NGIS, [FedUni](FedUni)), Sylvain (BRGM) ... |
+|  | [GW_MonitoringSite](GW_MonitoringSite) | Sylvain (BRGM), Alex (NZ), ... |
+| **Well Construction** | [GW_WellConstruction](GW_WellConstruction) | Eric (NRCan), Bruce (NGIS, [FedUni](FedUni))... |
 
 ## **Examples**
 
 Instance documents are located in SVN, : <https://xp-dev.com/svn/gwml2/Documents/instance/> examples below might be out of date
 
 1.  Nucleus package
-    - [Aquifer System](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gwml/schemas/instances/app_ext_zone.xml): based on [GIN unit](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/app_ext_zone.pdf). \[Main.[EricBoisvert](EricBoisvert.md) - 10 Jun 2014\]
-    - [GW_Aquifer](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_Aquifer_light.xml) : based [BDLISA](http://reseau.eaufrance.fr/geotraitements/bdlisa/files/entite/107AK01.pdf) \[Main.[SylvainGrellet](SylvainGrellet.md) - 08 Aug 2014\]
-    - [GW_ManagementArea](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_ManagementArea_light.xml) : based on EU Water Framework Directive Ground Water Body \[Main.[SylvainGrellet](SylvainGrellet.md) - 08 Aug 2014\]
-    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_ManagementArea_GNS_uc2.xml>" title="[GW_ManagementArea_GNS_uc2](GW_ManagementArea_GNS_uc2.md).xml"\>[GW_ManagementArea](GW_ManagementArea.md) : incl water budget, resembling (ground) water management zone (often congruent with catchments) used in NZ -- Main.[AlexKmoch](AlexKmoch.md) - 02 Jul 2015
-    - [GWML2-GW_Aquifer-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_Aquifer-FedUni.xml) : [GW_Aquifer](GW_Aquifer.md) example and mapping comments for Federation University database (with other contained features byReference) -- Main.[BruceSimons](BruceSimons.md) - 03 Sep 2014
+    - [Aquifer System](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gwml/schemas/instances/app_ext_zone.xml): based on [GIN unit](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/app_ext_zone.pdf). \[[EricBoisvert](EricBoisvert) - 10 Jun 2014\]
+    - [GW_Aquifer](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_Aquifer_light.xml) : based [BDLISA](http://reseau.eaufrance.fr/geotraitements/bdlisa/files/entite/107AK01.pdf) \[[SylvainGrellet](SylvainGrellet) - 08 Aug 2014\]
+    - [GW_ManagementArea](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_ManagementArea_light.xml) : based on EU Water Framework Directive Ground Water Body \[[SylvainGrellet](SylvainGrellet) - 08 Aug 2014\]
+    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_ManagementArea_GNS_uc2.xml>" title="[GW_ManagementArea_GNS_uc2](GW_ManagementArea_GNS_uc2).xml"\>[GW_ManagementArea](GW_ManagementArea) : incl water budget, resembling (ground) water management zone (often congruent with catchments) used in NZ -- [AlexKmoch](AlexKmoch) - 02 Jul 2015
+    - [GWML2-GW_Aquifer-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_Aquifer-FedUni.xml) : [GW_Aquifer](GW_Aquifer) example and mapping comments for Federation University database (with other contained features byReference) -- [BruceSimons](BruceSimons) - 03 Sep 2014
 2.  Well package
-    - [Water well](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gwml/schemas/instances/ab.ww.402557.xml) based on [ab.ww.402557](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gin/wfs/gin?REQUEST=GetFeature&INFO_FORMAT=text/html&FID=ab.ww.402557) ( [GWML 1](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gin/wfs/gin?REQUEST=GetFeature&INFO_FORMAT=text/xml&FID=ab.ww.402557)) - includes construction. \[Main.[EricBoisvert](EricBoisvert.md) - 10 Jun 2014\]
-    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_Well_GNS_uc1.xml>" title="[GW_Well_GNS_uc1](GW_Well_GNS_uc1.md).xml"\>[GW_Well](GW_Well.md) in the Horowhenua area (with geology log) -- Main.[AlexKmoch](AlexKmoch.md) - 02 Jul 2015
-    - [GW_Well](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_Well_light.xml) based on national [BSS Eau](http://www.ades.eaufrance.fr/FichePtEau.aspx?code=01846X0361/P1&type_pt_eau=2) \[Main.[SylvainGrellet](SylvainGrellet.md) - 08 Aug 2014\]
-    - [GWML2-GW_Well-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_Well-FedUni.xml) - GWML2 [GW_Well](GW_Well.md) example and mapping comments for Federation University database (with other contained features byReference) -- Main.[BruceSimons](BruceSimons.md) - 03 Sep 2014
-    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_MonitoringSite_GNS_uc1.xml>" title="[GW_MonitoringSite_GNS_uc1](GW_MonitoringSite_GNS_uc1.md).xml"\>[GW_MonitoringSite](GW_MonitoringSite.md) monitoring well, NZ -- Main.[AlexKmoch](AlexKmoch.md) -- Main.[AlexKmoch](AlexKmoch.md) - 02 Jul 2015
-    - [GWML2-GW_MonitoringSite-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_MonitoringSite-FedUni.xml) : [GW_MonitoringSite](GW_MonitoringSite.md) example and mapping comments for Federation University database (with other contained features byReference) -- Main.[BruceSimons](BruceSimons.md) - 03 Sep 2014
-    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_Spring_GNS_uc1.xml>" title="[GW_Spring_GNS_uc1](GW_Spring_GNS_uc1.md).xml"\>[GW_Spring](GW_Spring.md) Te Waikoropupu Springs (Pupu Springs, NZ) -- Main.[AlexKmoch](AlexKmoch.md) -- Main.[AlexKmoch](AlexKmoch.md) - 02 Jul 2015
-    - [GWML2-Spring-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-Spring-FedUni.xml) : [GW_Spring](GW_Spring.md) example and mapping comments for Federation University database (with other contained features byReference) -- Main.[BruceSimons](BruceSimons.md) - 03 Sep 2014
-    - [GWML2-GeologyLog-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GeologyLog-FedUni.xml) [GW_GeologyLog](GW_GeologyLog.md) example and mapping comments for Federation University database (with other contained features byReference) -- Main.[BruceSimons](BruceSimons.md) - 03 Sep 2014
-    -  [DataRecord](DataRecord.md) definitions : [EarthMaterial](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gwml/schemas/instances/earthMaterial.xml) and [GeologicUnit](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gwml/schemas/instances/geologicUnit.xm) (According to clause 8.2.1 of OGC 08-094-r1 / SWE Common Data Model)
+    - [Water well](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gwml/schemas/instances/ab.ww.402557.xml) based on [ab.ww.402557](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gin/wfs/gin?REQUEST=GetFeature&INFO_FORMAT=text/html&FID=ab.ww.402557) ( [GWML 1](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gin/wfs/gin?REQUEST=GetFeature&INFO_FORMAT=text/xml&FID=ab.ww.402557)) - includes construction. \[[EricBoisvert](EricBoisvert) - 10 Jun 2014\]
+    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_Well_GNS_uc1.xml>" title="[GW_Well_GNS_uc1](GW_Well_GNS_uc1).xml"\>[GW_Well](GW_Well) in the Horowhenua area (with geology log) -- [AlexKmoch](AlexKmoch) - 02 Jul 2015
+    - [GW_Well](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_Well_light.xml) based on national [BSS Eau](http://www.ades.eaufrance.fr/FichePtEau.aspx?code=01846X0361/P1&type_pt_eau=2) \[[SylvainGrellet](SylvainGrellet) - 08 Aug 2014\]
+    - [GWML2-GW_Well-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_Well-FedUni.xml) - GWML2 [GW_Well](GW_Well) example and mapping comments for Federation University database (with other contained features byReference) -- [BruceSimons](BruceSimons) - 03 Sep 2014
+    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_MonitoringSite_GNS_uc1.xml>" title="[GW_MonitoringSite_GNS_uc1](GW_MonitoringSite_GNS_uc1).xml"\>[GW_MonitoringSite](GW_MonitoringSite) monitoring well, NZ -- [AlexKmoch](AlexKmoch) -- [AlexKmoch](AlexKmoch) - 02 Jul 2015
+    - [GWML2-GW_MonitoringSite-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_MonitoringSite-FedUni.xml) : [GW_MonitoringSite](GW_MonitoringSite) example and mapping comments for Federation University database (with other contained features byReference) -- [BruceSimons](BruceSimons) - 03 Sep 2014
+    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_Spring_GNS_uc1.xml>" title="[GW_Spring_GNS_uc1](GW_Spring_GNS_uc1).xml"\>[GW_Spring](GW_Spring) Te Waikoropupu Springs (Pupu Springs, NZ) -- [AlexKmoch](AlexKmoch) -- [AlexKmoch](AlexKmoch) - 02 Jul 2015
+    - [GWML2-Spring-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-Spring-FedUni.xml) : [GW_Spring](GW_Spring) example and mapping comments for Federation University database (with other contained features byReference) -- [BruceSimons](BruceSimons) - 03 Sep 2014
+    - [GWML2-GeologyLog-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GeologyLog-FedUni.xml) [GW_GeologyLog](GW_GeologyLog) example and mapping comments for Federation University database (with other contained features byReference) -- [BruceSimons](BruceSimons) - 03 Sep 2014
+    -  [DataRecord](DataRecord) definitions : [EarthMaterial](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gwml/schemas/instances/earthMaterial.xml) and [GeologicUnit](http://ngwd-bdnes.cits.nrcan.gc.ca/service/gwml/schemas/instances/geologicUnit.xm) (According to clause 8.2.1 of OGC 08-094-r1 / SWE Common Data Model)
 3.  Well Construction package
-    - [GWML2-Borehole-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-Borehole-FedUni.xml) GWML2 Borehole example and mapping comments for Federation University database (with other contained features byReference) -- Main.[BruceSimons](BruceSimons.md) - 03 Sep 2014
+    - [GWML2-Borehole-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-Borehole-FedUni.xml) GWML2 Borehole example and mapping comments for Federation University database (with other contained features byReference) -- [BruceSimons](BruceSimons) - 03 Sep 2014
 4.  Constituent package
-    - [GWML2-GW_Constituent-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_Constituent-FedUni.xml) : example and mapping comments for Federation University database (with other contained features byReference) -- Main.[BruceSimons](BruceSimons.md) - 03 Sep 2014
+    - [GWML2-GW_Constituent-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_Constituent-FedUni.xml) : example and mapping comments for Federation University database (with other contained features byReference) -- [BruceSimons](BruceSimons) - 03 Sep 2014
 5.  Flow package
-    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_ManagementArea_GNS_uc2.xml>" title="[GW_WaterBudget](GW_WaterBudget.md) in [GW_ManagementArea_GNS_uc2](GW_ManagementArea_GNS_uc2.md).xml"\>[GW_WaterBudget](GW_WaterBudget.md) work in progress (includes [GW_Recharge](GW_Recharge.md) example) -- Main.[AlexKmoch](AlexKmoch.md) -- Main.[AlexKmoch](AlexKmoch.md) - 02 Jul 2015
-    - [GWML2-GW_InterFlow_FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_InterFlow_FedUni.xml): Example [GW_Discharge](GW_Discharge.md), [GW_Recharge](GW_Recharge.md) based on January 1993 Lake Murdeduke data, [FedUni](FedUni.md) -- Main.[BruceSimons](BruceSimons.md) - 08 Aug 2014
+    - \<a href="<https://xp-dev.com/svn/gwml2/Documents/instance/GW_ManagementArea_GNS_uc2.xml>" title="[GW_WaterBudget](GW_WaterBudget) in [GW_ManagementArea_GNS_uc2](GW_ManagementArea_GNS_uc2).xml"\>[GW_WaterBudget](GW_WaterBudget) work in progress (includes [GW_Recharge](GW_Recharge) example) -- [AlexKmoch](AlexKmoch) -- [AlexKmoch](AlexKmoch) - 02 Jul 2015
+    - [GWML2-GW_InterFlow_FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-GW_InterFlow_FedUni.xml): Example [GW_Discharge](GW_Discharge), [GW_Recharge](GW_Recharge) based on January 1993 Lake Murdeduke data, [FedUni](FedUni) -- [BruceSimons](BruceSimons) - 08 Aug 2014
 
 - [BRGM_Aquifer_light.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_Aquifer_light.xml): Aquifer from national BD LISA (Base de Données des Limites des Systèmes Aquifères) database
 
 
-- [BRGM_ManagementArea_light.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_ManagementArea_light.xml): BRGM [GW_ManagementArea](GW_ManagementArea.md) based on EU Water Framework Directive Ground Water Body
+- [BRGM_ManagementArea_light.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_ManagementArea_light.xml): BRGM [GW_ManagementArea](GW_ManagementArea) based on EU Water Framework Directive Ground Water Body
 
 
 - [BRGM_Well_light.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/BRGM_Well_light.xml): BRGM from French national BSS (Banque Nationale du Sous-Sol) includes piezometer, construction, link to the Aquifer described above. 1. Related Examples
-  - [GWML2-OM_Observation-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-OM_Observation-FedUni.xml) : [OM_Observation](OM_Observation.md) water well example observations and mapping comments for Federation University database (with other contained features byReference) -- Main.[BruceSimons](BruceSimons.md) - 03 Sep 2014
-  - [GWML2-SF_Specimen-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-SF_Specimen-FedUni.xml) : [SF_Specimen](SF_Specimen.md) water well example specimen and mapping comments for Federation University database (with other contained features byReference) -- Main.[BruceSimons](BruceSimons.md) - 03 Sep 2014
+  - [GWML2-OM_Observation-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-OM_Observation-FedUni.xml) : [OM_Observation](OM_Observation) water well example observations and mapping comments for Federation University database (with other contained features byReference) -- [BruceSimons](BruceSimons) - 03 Sep 2014
+  - [GWML2-SF_Specimen-FedUni.xml](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GWML2-XML-Schema/GWML2-SF_Specimen-FedUni.xml) : [SF_Specimen](SF_Specimen) water well example specimen and mapping comments for Federation University database (with other contained features byReference) -- [BruceSimons](BruceSimons) - 03 Sep 2014

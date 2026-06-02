@@ -12,7 +12,7 @@ In practice the tweaking is implemented by adjusting the incoming stage record r
 
 The diagram below illustrates how a rating table is connected to a family of shift tables, the rating may have zero or many shift tables.
 
-\<img alt="[Ratings_and_Shifts\_](Ratings_and_Shifts_.md)-\_relationship.jpg" height="750" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingsShiftsQuebec/Ratings_and_Shifts_-_relationship.jpg>" title="[Ratings_and_Shifts\_](Ratings_and_Shifts_.md)-\_relationship.jpg" width="1064" /\>
+\<img alt="[Ratings_and_Shifts\_](Ratings_and_Shifts_)-\_relationship.jpg" height="750" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingsShiftsQuebec/Ratings_and_Shifts_-_relationship.jpg>" title="[Ratings_and_Shifts\_](Ratings_and_Shifts_)-\_relationship.jpg" width="1064" /\>
 
 ### Flow calculation process
 
@@ -30,7 +30,7 @@ The diagram below illustrates how a rating table is connected to a family of shi
 
 The diagram below shows how the effective stage is calulated using the raw gage reading and the stage shift tables.
 
-\<img alt="[Shift_interpolation](Shift_interpolation.md).jpg" height="761" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingsShiftsQuebec/Shift_interpolation.jpg>" title="[Shift_interpolation](Shift_interpolation.md).jpg" width="1163" /\>
+\<img alt="[Shift_interpolation](Shift_interpolation).jpg" height="761" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingsShiftsQuebec/Shift_interpolation.jpg>" title="[Shift_interpolation](Shift_interpolation).jpg" width="1163" /\>
 
 #### WMO shift documentation excerpts
 
@@ -66,7 +66,7 @@ The diagram below shows how the effective stage is calulated using the raw gage 
 
 After reading thoght the WMO doco, I am confident that the method described above is a compund of both the stage and time shift methods. Either method could be implmented in its own right or both methods implmented together thought a single mechanisim.I propose that the method coumented be implmented in the model.
 
-#### [WaterML2](WaterML2.md).P2 implications
+#### [WaterML2](WaterML2).P2 implications
 
 There are there are several option on implementing the shift paradigm. The options change the location of the computation complexity of determining the shift applied. The complexity could be located at the data providers end or the data receivers end. The rules for determining the 'shift' amount are complex, there is a risk that if the calculation of the shift is passed onto the client, then the rules will not be well understood or correctly applied.
 

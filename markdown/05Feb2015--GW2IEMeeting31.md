@@ -1,14 +1,14 @@
-# **[GW2IE](GW2IE.md) Meeting 31 -- Thurs 05 Feb 2015**
+# **[GW2IE](GW2IE) Meeting 31 -- Thurs 05 Feb 2015**
 
 ## **Agenda**
 
 - AGU 2015
   - AGU link to be posted (**Jessica**) - DONE. Posted on main site. (<https://agu.confex.com/data/handout/agu/fm14/Paper_30183_handout_1556_0.pdf>)
 - Technical
-  - \_Data [Record\_](Record_.md): update to be confirmed (**Eric**)
-  - \_Namespaces & [URIs\_](URIs_.md): servers to be prepared by USGS (**Jessica**)
-  - \_Pump & Well Test proposal\_: draft to be reviewed (**Eric, Sylvain**) [AquiferTestingDiscussion](AquiferTestingDiscussion.md) see: <https://xp-dev.com/svn/gwml2/Documents/instance/pumptest.xml>
-  - \_Other issues\_: [Logical Model page](GWML2-UML-Model.md) review of remaining issues (**Bruce**)
+  - \_Data [Record\_](Record_): update to be confirmed (**Eric**)
+  - \_Namespaces & [URIs\_](URIs_): servers to be prepared by USGS (**Jessica**)
+  - \_Pump & Well Test proposal\_: draft to be reviewed (**Eric, Sylvain**) [AquiferTestingDiscussion](AquiferTestingDiscussion) see: <https://xp-dev.com/svn/gwml2/Documents/instance/pumptest.xml>
+  - \_Other issues\_: [Logical Model page](GWML2-UML-Model) review of remaining issues (**Bruce**)
 
 ## **Participants**
 
@@ -29,7 +29,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 556 993 536
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -43,7 +43,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

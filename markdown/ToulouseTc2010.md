@@ -10,7 +10,7 @@ Time at other locations: [http://www.timeanddate.com/worldclock/meetingtime.html
 
 <https://www1.gotomeeting.com/join/572036097>
 
-Use your microphone and speakers ([VoIP](VoIP.md)? ) - a headset is recommended.
+Use your microphone and speakers ([VoIP](VoIP)? ) - a headset is recommended.
 
 Access Code: 572-036-097
 
@@ -29,7 +29,7 @@ For Webex, you will find on the Webex server <https://meteofrance.webex.com/mete
 
 ## Agenda
 
-**1. Introduction, first results from the Toulouse workshop, IEs and [WaterML2](WaterML2.md).0 (08:00-10:10)**
+**1. Introduction, first results from the Toulouse workshop, IEs and [WaterML2](WaterML2).0 (08:00-10:10)**
 
 - 08:00-08:10: Welcome and Introduction (Ulrich Looser)
 
@@ -47,14 +47,14 @@ For Webex, you will find on the Webex server <https://meteofrance.webex.com/mete
 - 09:25-09:40: Presentation on current status Groundwater IE (Nate Booth)
 
 
-- 09:40-09:55: [WaterML2](WaterML2.md).0 presentation and status (Peter Taylor, via remote link)
+- 09:40-09:55: [WaterML2](WaterML2).0 presentation and status (Peter Taylor, via remote link)
 
 
 - 09:55-10:10 Discussion
 
 **2. Presentations (10:10-10:45)**
 
-- 10:10-10:30 Jeremy Tandy (UK Met Office) [MetOceanDWG](MetOceanDWG.md) presentation of cross-domain Use Case
+- 10:10-10:30 Jeremy Tandy (UK Met Office) [MetOceanDWG](MetOceanDWG) presentation of cross-domain Use Case
 
 
 - 10:30-10:45 Irina Dornblut (GRDC) Concept of Hydro Features
@@ -63,7 +63,7 @@ For Webex, you will find on the Webex server <https://meteofrance.webex.com/mete
 
 -- UlrichLooser - 13 Sep 2010
 
-- [2010-09_Toulouse_Hydro_DWG_UseCase1.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/ToulouseTc2010/2010-09_Toulouse_Hydro_DWG_UseCase1.ppt): Presentation Used Case 1 (2010-09 [HydoDWG](HydoDWG.md))
+- [2010-09_Toulouse_Hydro_DWG_UseCase1.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/ToulouseTc2010/2010-09_Toulouse_Hydro_DWG_UseCase1.ppt): Presentation Used Case 1 (2010-09 [HydoDWG](HydoDWG))
 
 
 - [Hydrologic_Forecast_IE_Toulouse2010.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/ToulouseTc2010/Hydrologic_Forecast_IE_Toulouse2010.ppt): SWEI-UC2 Status and Hydrologic Forecast IE outlook

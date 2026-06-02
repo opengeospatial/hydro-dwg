@@ -1,4 +1,4 @@
-## [WaterML2](WaterML2.md) Part 2 - Standards Working Group
+## [WaterML2](WaterML2) Part 2 - Standards Working Group
 
 |                |              |                 |
 |----------------|--------------|-----------------|

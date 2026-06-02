@@ -2,11 +2,11 @@
 
 ## Participants
 
-- B.Brodaric (Lead), E.Boisvert (GSC), L. Chery (BRGM), S. Grellet (BRGM), S.Gabillard (BRGM), Tomasz Nalecz (PGI), Jessica Lucido (USGS), Bruce Simons (CSIRO-[BoM](BoM.md)), Peter Dahlhaus (FedUni), Alex Kmoch (GNS / [Z_GIS](Z_GIS.md))
+- B.Brodaric (Lead), E.Boisvert (GSC), L. Chery (BRGM), S. Grellet (BRGM), S.Gabillard (BRGM), Tomasz Nalecz (PGI), Jessica Lucido (USGS), Bruce Simons (CSIRO-[BoM](BoM)), Peter Dahlhaus (FedUni), Alex Kmoch (GNS / [Z_GIS](Z_GIS))
 
 ## Discussion Page
 
-- For discussion about this use case please add comments to [this page](UseCase1Discussion.md).
+- For discussion about this use case please add comments to [this page](UseCase1Discussion).
 
 ## Abstract
 
@@ -60,8 +60,8 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline"
 | Client | VVG (Ballarat) | GWML2 | FedUni |
 | Client | GIN (Canada) | N/A | GSC |
 | Client | PGI (Poland) | N/A | PGI |
-| WMS | NGMP/SOE (New Zealand) | N/A | GNS / [Z_GIS](Z_GIS.md) |
-| WFS | NGMP/SOE (New Zealand) | GWML2 | GNS / [Z_GIS](Z_GIS.md) |
+| WMS | NGMP/SOE (New Zealand) | N/A | GNS / [Z_GIS](Z_GIS) |
+| WFS | NGMP/SOE (New Zealand) | GWML2 | GNS / [Z_GIS](Z_GIS) |
 
 -- AlexKmoch - 02 Jul 2015
 

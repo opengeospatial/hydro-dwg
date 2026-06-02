@@ -16,7 +16,7 @@ Link to [Charlotte TC meeting details](https://www.opengeospatial.org/event/1812
 
 3. Next annual meeting topic ideas and location
 
-**[GotoMeeting](GotoMeeting.md) Joining Details**
+**[GotoMeeting](GotoMeeting) Joining Details**
 
 <https://www4.gotomeeting.com/join/410207781>
 

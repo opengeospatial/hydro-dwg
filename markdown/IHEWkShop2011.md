@@ -126,8 +126,8 @@ Please fill out your details (name, organisation, email address) on the Notifica
 <tr>
 <td style="text-align: left;">^</td>
 <td style="text-align: left;">10:30 - 16:00</td>
-<td style="text-align: left;"><a href="HydrologicVocabularies.md">HydrologicVocabularies</a></td>
-<td style="text-align: left;">Rob, Irina, Boyan, I-Lin, Eric, <a href="DavidV.md">DavidV</a>, Ilya et al</td>
+<td style="text-align: left;"><a href="HydrologicVocabularies">HydrologicVocabularies</a></td>
+<td style="text-align: left;">Rob, Irina, Boyan, I-Lin, Eric, <a href="DavidV">DavidV</a>, Ilya et al</td>
 </tr>
 </tbody>
 </table>
@@ -153,7 +153,7 @@ Unfortunately there is **no** wireless network coverage in the building we will 
 
 Wireless coverage is available at the UNESCO-IHE building (where we'll be having lunch)
 
-#### \_Teleconference [Details\_](Details_.md)
+#### \_Teleconference [Details\_](Details_)
 
 For those not able to attend we are trying to sort out teleconference options.
 

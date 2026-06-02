@@ -65,4 +65,4 @@ Develop GroundWater Interoperability Experiment 2:
 
 - Interoperability Experiment (self-funded)
 - RFI (costs \$\$)
-- Group picture from delft:  \<img alt="[HDWG_Delft_2011](HDWG_Delft_2011.md).jpg" height="2395" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/12April2011--DelftWorkshop/HDWG_Delft_2011.jpg>" width="2957" /\>
+- Group picture from delft:  \<img alt="[HDWG_Delft_2011](HDWG_Delft_2011).jpg" height="2395" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/12April2011--DelftWorkshop/HDWG_Delft_2011.jpg>" width="2957" /\>

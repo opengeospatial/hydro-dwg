@@ -46,9 +46,9 @@ example of one of the observation
 </om:OM_Observation>
 ```
 
-The other way is to use gml:Coverage and use a single observation that reports all the values into a single result (this is essentially what [WaterML](WaterML.md) does, but values are distributed temporally instead of spatially). This example reports 3 values (you would need to replicate the observation example above 3 times to reproduce this example below). This example uses a subtype of Coverage called **[MultiPointCoverage](MultiPointCoverage.md)**.
+The other way is to use gml:Coverage and use a single observation that reports all the values into a single result (this is essentially what [WaterML](WaterML) does, but values are distributed temporally instead of spatially). This example reports 3 values (you would need to replicate the observation example above 3 times to reproduce this example below). This example uses a subtype of Coverage called **[MultiPointCoverage](MultiPointCoverage)**.
 
-I think the om:parameter value is unnecessary (mistakenly left after a copy and paste perhaps?) as the geometry is provided by om:result. The [WaterML](WaterML.md) example (<http://www.waterml2.org/>) doesn't use om:parameter.Note also that rather than structuring the result as \<domainSet\> and \<rangeSet\>, these can be delivered as location:value pairs.
+I think the om:parameter value is unnecessary (mistakenly left after a copy and paste perhaps?) as the geometry is provided by om:result. The [WaterML](WaterML) example (<http://www.waterml2.org/>) doesn't use om:parameter.Note also that rather than structuring the result as \<domainSet\> and \<rangeSet\>, these can be delivered as location:value pairs.
 
 -- BruceSimons - 08 Dec 2014
 
@@ -152,9 +152,9 @@ Note: There are many variations and encoding for Coverage. For instance, we can 
   - All values
   - mapping (when there is a 1:1 mapping between geometries and values, it is not required)
 
-##### [Interleaved Coverage](IntgerleavedCoverage.md)
+##### [Interleaved Coverage](IntgerleavedCoverage)
 
-- [DiscreetCoverage](DiscreetCoverage.md)
+- [DiscreetCoverage](DiscreetCoverage)
   - member
     - geometry
     - value
@@ -183,11 +183,11 @@ xsi:schemaLocation="http://www.opengis.net/cv/0.0 ../cv.xsd">
 
 -- EricBoisvert - 08 Dec 2014
 
-An alternate option is to use a [SamplingFeature](SamplingFeature.md) to hold the locations, each value is serialized in their own Observation.
+An alternate option is to use a [SamplingFeature](SamplingFeature) to hold the locations, each value is serialized in their own Observation.
 
 \<img alt="many_obs.png" height="130" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GwmlDistributedValues/many_obs.png>" width="371" /\>
 
-The following example is a stripped down version, just showing how Observation, [SF_SpatialSamplingFeature](SF_SpatialSamplingFeature.md) and a [GW_AquiferSystem](GW_AquiferSystem.md) are articulated.
+The following example is a stripped down version, just showing how Observation, [SF_SpatialSamplingFeature](SF_SpatialSamplingFeature) and a [GW_AquiferSystem](GW_AquiferSystem) are articulated.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

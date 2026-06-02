@@ -1,6 +1,6 @@
-# [GW2IE](GW2IE.md) Use Case 4 Discussion page
+# [GW2IE](GW2IE) Use Case 4 Discussion page
 
-This page has been created to collect discussions and ideas and keep the main [UseCase4](UseCase4.md) page relatively clean.
+This page has been created to collect discussions and ideas and keep the main [UseCase4](UseCase4) page relatively clean.
 
 -- JanuszMichalak - 20 Nov 2012
 
@@ -22,7 +22,7 @@ In 20 November meeting, the use case was limited to model inputs specific to the
 
 An additional constraint on this use case is the only "observed" data will be required from the standard data model. "Interpolated" or "modeled" data is not included.
 
--- JessicaLucido and Main.[DavidBlodgett](DavidBlodgett.md) - 20-21 Nov 2012
+-- JessicaLucido and [DavidBlodgett](DavidBlodgett) - 20-21 Nov 2012
 
 What thematic categories of hydrogeological data are needed for groundwater flow models?
 

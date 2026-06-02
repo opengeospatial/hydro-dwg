@@ -14,7 +14,7 @@ This workshop continues the directions outlined in the successful [Delft Worksho
 - **Transportation:**bus \#17 from Reading Center to Three Tuns at University entrance
 
 
-- **For more venue details consult the** [HDWG Workshop 2012 page](ReadingWorkshop2012.md)
+- **For more venue details consult the** [HDWG Workshop 2012 page](ReadingWorkshop2012)
 
 ## **Participants**
 
@@ -51,8 +51,8 @@ This workshop continues the directions outlined in the successful [Delft Worksho
 - **9:10 – 10:30 Where are we now?**
   - Reports on the current state of GML-oriented groundwater schema (~15 min each):
     - GWML1 - *Eric Boisvert*
-    - INSPIRE - Geology (groundwater) - \_Bernhard [Wagner\_](Wagner_.md)
-    - WMO - [HY_Features](HY_Features.md) (groundwater) - \_Irina [Dornblut\_](Dornblut_.md)
+    - INSPIRE - Geology (groundwater) - \_Bernhard [Wagner\_](Wagner_)
+    - WMO - [HY_Features](HY_Features) (groundwater) - \_Irina [Dornblut\_](Dornblut_)
     - BOM - BOM Groundwater Info - *Paul Sheahan*
     - Discussion
 
@@ -99,7 +99,7 @@ This workshop continues the directions outlined in the successful [Delft Worksho
 
 ## **Meeting Notes**
 
-- The notes can be found [here](ReadingGwie2012JuneMeeting.md)
+- The notes can be found [here](ReadingGwie2012JuneMeeting)
 - Presentations are available below:
   - [GWML_status\_(2012).ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/28June2012--ReadingWorkshop/GWML_status_%282012%29.ppt): GWML status
   - [GWIE2\_-\_Australian_Groundwater_data_projects.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/28June2012--ReadingWorkshop/GWIE2_-_Australian_Groundwater_data_projects.ppt): Australian GWML related activities

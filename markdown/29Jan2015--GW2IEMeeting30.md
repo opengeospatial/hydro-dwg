@@ -1,10 +1,10 @@
-# **[GW2IE](GW2IE.md) Meeting 30 -- Thurs 29 Jan 2015**
+# **[GW2IE](GW2IE) Meeting 30 -- Thurs 29 Jan 2015**
 
 ## **Agenda**
 
 - Face-to-face meeting
   - OGC Boulder (June), HDWG Orelans (Sept), none?
-  - Any decision made on this during the meeting? -- Main.[BruceSimons](BruceSimons.md) - 01 Feb 2015
+  - Any decision made on this during the meeting? -- [BruceSimons](BruceSimons) - 01 Feb 2015
 - AGU 2015
   - report
 - Technical
@@ -20,7 +20,7 @@
   - BoreCollar:
     - add elevation type (Eric)
   - Other issues:
-    - tbd from [Logical Model page](GWML2-UML-Model.md)
+    - tbd from [Logical Model page](GWML2-UML-Model)
 
 ## **Participants**
 
@@ -31,10 +31,10 @@
 - AGU 2015
   - AGU link to be posted (**Jessica**)
 - Technical
-  - \_Data [Record\_](Record_.md): update to be confirmed (**Eric**)
-  - \_Namespaces & [URIs\_](URIs_.md): servers to be prepared by USGS (**Jessica**)
-  - \_Pump & Well Test proposal\_: draft to be ready for next meeting (**Eric, Sylvain**) [AquiferTestingDiscussion](AquiferTestingDiscussion.md)
-  - \_Other issues\_: [Logical Model page](GWML2-UML-Model.md) to be reviewed for remaining isues (**Bruce**)
+  - \_Data [Record\_](Record_): update to be confirmed (**Eric**)
+  - \_Namespaces & [URIs\_](URIs_): servers to be prepared by USGS (**Jessica**)
+  - \_Pump & Well Test proposal\_: draft to be ready for next meeting (**Eric, Sylvain**) [AquiferTestingDiscussion](AquiferTestingDiscussion)
+  - \_Other issues\_: [Logical Model page](GWML2-UML-Model) to be reviewed for remaining isues (**Bruce**)
 
 ## **Connection Instructions**
 
@@ -49,7 +49,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 555 537 334
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -63,7 +63,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

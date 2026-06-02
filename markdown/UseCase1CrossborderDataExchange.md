@@ -24,20 +24,20 @@ Mailing list: <https://lists.opengeospatial.org/mailman/listinfo/sw.ie.case1>
 
 ### Meetings
 
-- [Telco: April 12th, 2010](EuroIETelco20100412.md)
-- [Telco: June 30th, 2010](EuroIETelco20100630.md)
-- [Telco: August 5th, 2010](EuroIETelco20100805.md)
-- [Telco: August 19th, 2010](EuroIETelco20100819.md)
-- [Telco: September 2nd, 2010](EuroIETelco20100902.md)
+- [Telco: April 12th, 2010](EuroIETelco20100412)
+- [Telco: June 30th, 2010](EuroIETelco20100630)
+- [Telco: August 5th, 2010](EuroIETelco20100805)
+- [Telco: August 19th, 2010](EuroIETelco20100819)
+- [Telco: September 2nd, 2010](EuroIETelco20100902)
 - Telco: September 16th, 2010
 - Telco: September 30th, 2010
 - Telco: October 14th, 2010
 - Telco: November 10th, 2010
 - Telco: November 17th, 2010
-- [Telco: November 24th, 2010](EuroIETelco20101124.md)
-- [Telco: January 12th, 2011](EuroIETelco20110112.md)
-- [Telco: February 15th, 2011](EuroIETelco20110215.md)
-- Upcoming: [Telco: February 24th, 2011](EuroIETelco20110224.md)
+- [Telco: November 24th, 2010](EuroIETelco20101124)
+- [Telco: January 12th, 2011](EuroIETelco20110112)
+- [Telco: February 15th, 2011](EuroIETelco20110215)
+- Upcoming: [Telco: February 24th, 2011](EuroIETelco20110224)
 
 ### Data Sources
 
@@ -54,7 +54,7 @@ Mailing list: <https://lists.opengeospatial.org/mailman/listinfo/sw.ie.case1>
 | Germany | 52°north | SOS server based on 52°north software |
 | Germany | 52°north | web client for WaterML2.0 datasources |
 | Germany | KISTERS AG | SOS server and client software |
-| Germany | disy Informationssysteme [GmbH](GmbH.md) | CSW implementation |
+| Germany | disy Informationssysteme [GmbH](GmbH) | CSW implementation |
 
 ### SOS Instances
 
@@ -76,6 +76,6 @@ Mailing list: <https://lists.opengeospatial.org/mailman/listinfo/sw.ie.case1>
 
 ### Other Discussions
 
-[Usage of the INSPIRE Feature Model in Use Case 1](UseCase1SOSTermsAndFeatureModel.md)
+[Usage of the INSPIRE Feature Model in Use Case 1](UseCase1SOSTermsAndFeatureModel)
 
 -- CarstenHeidmann - 01 Apr 2010

@@ -73,6 +73,6 @@ text is in the TWiki: <a href="http://external.opengis.org/twiki_public/bin/view
 
 ## Next Telco
 
-Not fixed yet, but since we put a deadline on the 16th, there may be a telco on April, 19th at short notice.
+Not fixed yet, but since we put a deadline on the 16th, there may be a telco on April, 19th at short notice.\
 
 -- CarstenHeidmann - 12 Apr 2010

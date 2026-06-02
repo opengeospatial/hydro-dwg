@@ -12,7 +12,7 @@ Agenda:
 | 0845-0915 | Use Case 1 Discussion | Use Case 1 Lead |
 | 0915-0945 | Use Case 2 Discussion | Use Case 2 Lead |
 | 0945-1015 | Use Case 3 Discussion | Use Case 3 Lead |
-| 1015-1030 | Linkage to [WaterML2](WaterML2.md).0 | Peter Taylor |
+| 1015-1030 | Linkage to [WaterML2](WaterML2).0 | Peter Taylor |
 | 1030-1200 | Action Items, Teleconference Schedule, and Wrap-up | Peter Fitch |
 
 ### Project Administration

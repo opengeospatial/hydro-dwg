@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 3** **-- Tues 18 Dec 2012 -- Feature List**
+# **[GW2IE](GW2IE) Meeting 3** **-- Tues 18 Dec 2012 -- Feature List**
 
 ## **Agenda**
 
@@ -9,7 +9,7 @@
 - Announcement
   - [IAH 2013 Perth, AU---Session 5.9 Integrative Data Sharing](http://iahcongress2013.org/program.php)
 - Use-cases update
-- Discuss the [Feature List](Gwml2EntityList.md)
+- Discuss the [Feature List](Gwml2EntityList)
 - Next meeting
 
 ## **Participants**
@@ -26,7 +26,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Dec 2012 meeting: Feature List
+  - **Meeting Topic:**[GW2IE](GW2IE) Dec 2012 meeting: Feature List
   - **Meeting Number**: 808 411 619
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:

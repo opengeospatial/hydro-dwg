@@ -33,7 +33,7 @@ The workshop represents an excellent opportunity for the Hydro DWG to get some r
 <tr>
 <td style="text-align: left;">Monday 15th</td>
 <td style="text-align: left;">9:00 - 17:00</td>
-<td style="text-align: left;"><a href="WaterML.md">WaterML</a> 2.0 Development Team</td>
+<td style="text-align: left;"><a href="WaterML">WaterML</a> 2.0 Development Team</td>
 <td style="text-align: left;">Peter Taylor and others</td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@ The workshop represents an excellent opportunity for the Hydro DWG to get some r
 <td style="text-align: left;">^</td>
 <td style="text-align: left;">15:30</td>
 <td style="text-align: left;">Model Integration<br />
-- Presentations on <a href="OpenMI.md">OpenMI</a>, FEWS and others on the problems associated with and the need for standards in this space</td>
+- Presentations on <a href="OpenMI">OpenMI</a>, FEWS and others on the problems associated with and the need for standards in this space</td>
 <td style="text-align: left;">Peter Gijsbers, Andrea and Ann</td>
 </tr>
 <tr>
@@ -114,7 +114,7 @@ The workshop represents an excellent opportunity for the Hydro DWG to get some r
 <td style="text-align: left;">^</td>
 <td style="text-align: left;">10:00</td>
 <td style="text-align: left;">Information Modelling<br />
-- <a href="WaterML.md">WaterML</a> 2.0 update, metadata models, ontologies.<br />
+- <a href="WaterML">WaterML</a> 2.0 update, metadata models, ontologies.<br />
 What's happening and what do we need to be doing</td>
 <td style="text-align: left;">All<br />
 Peter Taylor, Irina</td>
@@ -164,7 +164,7 @@ Peter Taylor, Irina</td>
 <tr>
 <td style="text-align: left;">Thursday 18th</td>
 <td style="text-align: left;">9:00</td>
-<td style="text-align: left;"><a href="WaterML.md">WaterML</a> 2.0 Development Team</td>
+<td style="text-align: left;"><a href="WaterML">WaterML</a> 2.0 Development Team</td>
 <td style="text-align: left;">Peter Taylor et al</td>
 </tr>
 <tr>
@@ -198,13 +198,13 @@ Through the registration website you can also book a hotel room, if needed. The 
 
 Unfortunately all attendees will be responsible for their own transport. JRC recommend hiring a car from the airport rather than taxis as these can be quite expensive. There is no public transport in the area.
 
-\_Workshop [Dinner\_](Dinner_.md)
+\_Workshop [Dinner\_](Dinner_)
 
 A social dinner has been organised at Hotel Europa on March 16th. The cost of the dinner is 30¤/person. Confirmation of your attendance can be done through the website.
 
 -- DavidLemon - 14 Jan 2010
 
-This page was previously named [JRCWkShop2009](JRCWkShop2009.md).
+This page was previously named [JRCWkShop2009](JRCWkShop2009).
 
 -- SimonCox - 25 Feb 2010
 

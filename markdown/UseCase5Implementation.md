@@ -2,7 +2,7 @@
 
 ## Mapping between NGIS and GWML2
 
-[GWML2NGISMapping](GWML2NGISMapping.md)
+[GWML2NGISMapping](GWML2NGISMapping)
 
 -- BruceSimons - 21 May 2015
 

@@ -1,4 +1,4 @@
-\<table border="0" cellpadding="2" cellspacing="1" style="width: 881px; height: 95px;"\> \<tbody\> \<tr\> \<td\>\<img alt="logoclrf.gif" height="73" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGOrleansAttendees/logoclrf.gif>" title="logoclrf.gif" width="179" /\>\</td\> \<td align="right"\>\<img alt="[Bloc_marque](Bloc_marque.md)+site_vecto-\_Région_Centre-[Val_de_Loire](Val_de_Loire.md)-\_2015-01.jpg" height="73" src="%PUBURL%/[HydrologyDWG](HydrologyDWG.md)/[OrleansWorkshop2015](OrleansWorkshop2015.md)/[Bloc_marque](Bloc_marque.md)+site_vecto-\_Région_Centre-[Val_de_Loire](Val_de_Loire.md)-\_2015-01.jpg" title="[Bloc_marque](Bloc_marque.md)+site_vecto-\_Région_Centre-[Val_de_Loire](Val_de_Loire.md)-\_2015-01.jpg" width="172" /\>\</td\> \</tr\> \</tbody\> \</table\>
+\<table border="0" cellpadding="2" cellspacing="1" style="width: 881px; height: 95px;"\> \<tbody\> \<tr\> \<td\>\<img alt="logoclrf.gif" height="73" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGOrleansAttendees/logoclrf.gif>" title="logoclrf.gif" width="179" /\>\</td\> \<td align="right"\>\<img alt="[Bloc_marque](Bloc_marque)+site_vecto-\_Région_Centre-[Val_de_Loire](Val_de_Loire)-\_2015-01.jpg" height="73" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/OrleansWorkshop2015/Bloc_marque+site_vecto-_Région_Centre-Val_de_Loire-_2015-01.jpg>" title="[Bloc_marque](Bloc_marque)+site_vecto-\_Région_Centre-[Val_de_Loire](Val_de_Loire)-\_2015-01.jpg" width="172" /\>\</td\> \</tr\> \</tbody\> \</table\>
 
 BRGM is very pleased to welcome the HDWG in Orléans from Sept 20th to 23rd, 2015.
 
@@ -22,16 +22,16 @@ Doodle pool : <http://doodle.com/xx28gse7huhetsuw>
 | Eric Boisvert | GSC | 19/9 | 24/9 | Quality Hotel Orléans | Yes | No |
 | Boyan Brodaric | GSC | 20/9 | 24/9 |  | Yes | No |
 | David Blodgett | USGS | 19/9 | 24/9 | Hotel Saint-Aignan | Yes |  |
-| Paul Sheahan | [BoM](BoM.md) | 18/9 | 23/9 | Hotel Saint-Aignan | Yes | 24,25 |
+| Paul Sheahan | [BoM](BoM) | 18/9 | 23/9 | Hotel Saint-Aignan | Yes | 24,25 |
 | Jessica Lucido | USGS | 19/9 | 24/9 | Quality Hotel Orléans | Yes |  |
-| Irina Dornblut | [BfG](BfG.md), GRDC | 20/9, 15:00 | 24/9 | Quality Hotel Orléans | Yes |  |
-| Peter Dahlhaus | [FedUni](FedUni.md) | 23/9 | 24/9 |  | [GW2IE](GW2IE.md) meet only | No |
+| Irina Dornblut | [BfG](BfG), GRDC | 20/9, 15:00 | 24/9 | Quality Hotel Orléans | Yes |  |
+| Peter Dahlhaus | [FedUni](FedUni) | 23/9 | 24/9 |  | [GW2IE](GW2IE) meet only | No |
 | David Maidment | UT Austin | 22/9 | 23/9 | Hotel d'Orleans | Yes | 24 |
 | David Arctur | UT Austin | 20/9 | 24/9 | Quality Hotel Orléans | Yes |  |
 | Alva Couch | Tufts/CUAHSI | 19/9 | 24/9 | Hotel Marguerite | Yes | 25 |
 | Dimitri Meunier | OIEau / Sandre | 21/9 | 22/9 |  | Yes |  |
-| Tony Boston | [BoM](BoM.md) | 20/9 | 23/9 | [AirBNB](AirBNB.md), Orleans | Yes | 24 |
-| Ilya Zaslavsky | [SDSC](BoM.md) | 19/9 | 23/9 | [AirBNB](AirBNB.md) | Yes |  |
+| Tony Boston | [BoM](BoM) | 20/9 | 23/9 | [AirBNB](AirBNB), Orleans | Yes | 24 |
+| Ilya Zaslavsky | [SDSC](BoM) | 19/9 | 23/9 | [AirBNB](AirBNB) | Yes |  |
 | Matt Fry | CEH | 19/9 | 23/9 | Quality Hotel Orléans | Yes | 24,25 |
 | Filip Kral | CEH | 19/9 | 23/9 | Quality Hotel Orléans | Yes | 24,25 |
 | Alistair Ritchie | Landcare Research | 19/9 | 24/9 | Quality Hotel Orléans | Yes | 24,25 |
@@ -54,7 +54,7 @@ For a complete list of hotels see p 18-22 (only French version ( [ca-2015-2016.p
 
 ## Meeting location
 
-**Sunday Sept 20th - 14:00 to 23:00 - afternoon workshop **Venue : **Hostellerie du Château les Muids** - R.D20 20 45240 La Ferté Saint Aubin - TEL : +33(0)2.38.64.65.14 ( [www.chateau-les-muids.com](http://www.chateau-les-muids.com/))**Meeting point** : **at 14:00pm**Outside Orleans Tram Station - \_\_Boulevard Alexandre [Martin\_\_](Martin__.md), Bus Park (**BP** Sign) by central traffic island (check balloon tips on [map_orleans_center_20-23Sept2015.pdf](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGOrleansAttendees/map_orleans_center_20-23Sept2015.pdf)) A "Cars DUNOIS" bus will pick up participants to take them to the venue (~40'). After the workshop (15:00 to 19:00 pm), ice-breaker and dinner (19:30 to 22.30 pm).Return to Orléans around 23:00pm
+**Sunday Sept 20th - 14:00 to 23:00 - afternoon workshop **Venue : **Hostellerie du Château les Muids** - R.D20 20 45240 La Ferté Saint Aubin - TEL : +33(0)2.38.64.65.14 ( [www.chateau-les-muids.com](http://www.chateau-les-muids.com/))**Meeting point** : **at 14:00pm**Outside Orleans Tram Station - \_\_Boulevard Alexandre [Martin\_\_](Martin__), Bus Park (**BP** Sign) by central traffic island (check balloon tips on [map_orleans_center_20-23Sept2015.pdf](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGOrleansAttendees/map_orleans_center_20-23Sept2015.pdf)) A "Cars DUNOIS" bus will pick up participants to take them to the venue (~40'). After the workshop (15:00 to 19:00 pm), ice-breaker and dinner (19:30 to 22.30 pm).Return to Orléans around 23:00pm
 
 **Monday Sept 21st =\> Wed. Sept 23rd** Core Meetings Venue : **BRGM** 3 avenue Claude Guillemin 45060 Orléans La Source. Room J2 8th floor - [brgm-Orleans-site_map.pdf](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGOrleansAttendees/brgm-Orleans-site_map.pdf) (after passing through pedestrian turnstile, check-in at entrance booth for registration) . BRGM access map : [Plan_BRGM_EN.pdf](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGOrleansAttendees/Plan_BRGM_EN.pdf) Tram : Line A - direction Hôpital La Source : check for**T** signs on red dotted line on Orleans map center to find Tram stops closest to your hotel.Final Stop "Chèques Postaux" then 10' walk or Bus N° 46 or N°7 stop "Paul Langevin" just in front BRGM or Bus N° 13 and 24 Stop "Montesquieu"
 

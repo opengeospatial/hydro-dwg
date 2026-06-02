@@ -1,4 +1,4 @@
-This page caputres details relating to the [WaterML2](WaterML2.md).0 part 2 IE
+This page caputres details relating to the [WaterML2](WaterML2).0 part 2 IE
 
 # Planning
 
@@ -13,7 +13,7 @@ The activity plan document is the crucial part of the submission. This is curren
 
 ## Scenarios
 
-- [Scenario planning page](RGSIEScenarioPlanning.md)
+- [Scenario planning page](RGSIEScenarioPlanning)
 
 # Meetings
 

@@ -6,7 +6,7 @@ The work shop was held over 20-22 June 2012. This page was used in the planning 
 
 [Reading workshop notes](http://external.opengis.org/twiki_public/HydrologyDWG/WorkshopNotes) Google docs register
 
-[Background references for workshop](References.md)
+[Background references for workshop](References)
 
 ##
 
@@ -22,7 +22,7 @@ The work shop was held over 20-22 June 2012. This page was used in the planning 
 
 The venue has wireless internet connectivity available for participants via eduroam. Visitors from outside the university can use Eduroam if their institution is part of the Eduroam Federation (<http://www.eduroam.org/>).If you do not have an eduroam account then there is no wireless network access available. We are organising to have a few LAN connections available during the RGS workshop. Hope fully the LAN connection can be shared either through a wired or wireless hub, we are awaiting detail on this. I suggest RGS participants bring a LAN patch cable (4-6m) just incase wireless sharing is not permitted.
 
-[WIFI connection details](%PUBURL%/HydrologyDWG/WorkShopAgenda/WiFi_Networking__ESSC.PDF) Link to PDF configuration document
+[WIFI connection details](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/WorkShopAgenda/WiFi_Networking__ESSC.PDF) Link to PDF configuration document
 
 ## Travel
 

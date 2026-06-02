@@ -8,9 +8,9 @@
 
 #### Discussion:
 
-[OM_Observation](OM_Observation.md) featureOfInterest can be the samplingFeature ([GW_Well](GW_Well.md)) or the sampledFeature ([GW_Aquifer](GW_Aquifer.md)). For some observed properties (e.g. pH) the former doesn’t make sense, so need to be able to distinguish the two. The featureOfInterest for the observations was mapped to the [GW_Well](GW_Well.md) (i.e. the samplingFeature), but it should be the ultimate featureOfInterest (e.g. the [GW_FluidBody](GW_FluidBody.md).
+[OM_Observation](OM_Observation) featureOfInterest can be the samplingFeature ([GW_Well](GW_Well)) or the sampledFeature ([GW_Aquifer](GW_Aquifer)). For some observed properties (e.g. pH) the former doesn’t make sense, so need to be able to distinguish the two. The featureOfInterest for the observations was mapped to the [GW_Well](GW_Well) (i.e. the samplingFeature), but it should be the ultimate featureOfInterest (e.g. the [GW_FluidBody](GW_FluidBody).
 
-\<p align="left"\>The Observations & Measurements specification proposes two patterns for featureOfInterest: \<p align="left"\>(1) the feature of interest can either refer to the real world object that is being observed, or \<p align="left"\>(2) to a sampling feature ([SF_SamplingFeature](SF_SamplingFeature.md)) that acts as a proxy for the real world feature (which is then accessible through the sampling feature’s sampledFeature property).  \<p align="left"\>Because the property featureOfInterest has cardinaliy 1..1, a data provider must choose one of these approaches. Problems occur when a sampling feature is chosen: while many observations can refer to the same domain feature, it is impossible to navigate back to the sampling feature. Solutions have been proposed using [OM_Process](OM_Process.md) to document the relationship between the observation and the sampling feature, but they are cumbersome and require much encoding. Consequently, the JSON (OGC 15-100) and RDF encodings for O&M include an extra samplingRegime property that is absent from the GML encoding. In GWML2, there is no restriction on featureOfInterest—it can refer to a real world feature or a sampling feature.
+\<p align="left"\>The Observations & Measurements specification proposes two patterns for featureOfInterest: \<p align="left"\>(1) the feature of interest can either refer to the real world object that is being observed, or \<p align="left"\>(2) to a sampling feature ([SF_SamplingFeature](SF_SamplingFeature)) that acts as a proxy for the real world feature (which is then accessible through the sampling feature’s sampledFeature property).  \<p align="left"\>Because the property featureOfInterest has cardinaliy 1..1, a data provider must choose one of these approaches. Problems occur when a sampling feature is chosen: while many observations can refer to the same domain feature, it is impossible to navigate back to the sampling feature. Solutions have been proposed using [OM_Process](OM_Process) to document the relationship between the observation and the sampling feature, but they are cumbersome and require much encoding. Consequently, the JSON (OGC 15-100) and RDF encodings for O&M include an extra samplingRegime property that is absent from the GML encoding. In GWML2, there is no restriction on featureOfInterest—it can refer to a real world feature or a sampling feature.
 
 #### Solution:
 
@@ -20,13 +20,13 @@ Put in change request to OGC to modify O&M conceptual model and OMXML to have ul
 
 #### Discussion:
 
-For [GW_Flow](GW_Flow.md), gwFlowVolumeRate is [OM_Measurement](OM_Measurement.md): that constrains the result to be a gml:Measurement , so a single value with a uom but these may be ranges.
+For [GW_Flow](GW_Flow), gwFlowVolumeRate is [OM_Measurement](OM_Measurement): that constrains the result to be a gml:Measurement , so a single value with a uom but these may be ranges.
 
-Additionally, the use of [OM_Measurement](OM_Measurement.md) precludes using [TimeSeries](TimeSeries.md) as a result (uses a specialisation of [OM_Observation](OM_Observation.md)). The [GWML2IE](GWML2IE.md) did not investigate whether there were any properties that have data type [OM_Measurement](OM_Measurement.md) that could be a time series.
+Additionally, the use of [OM_Measurement](OM_Measurement) precludes using [TimeSeries](TimeSeries) as a result (uses a specialisation of [OM_Observation](OM_Observation)). The [GWML2IE](GWML2IE) did not investigate whether there were any properties that have data type [OM_Measurement](OM_Measurement) that could be a time series.
 
 #### Solution:
 
-Investigate whether there are any properties that require data type to be [OM_Observation](OM_Observation.md).
+Investigate whether there are any properties that require data type to be [OM_Observation](OM_Observation).
 
 -- BruceSimons - 08 Oct 2015
 
@@ -34,11 +34,11 @@ Investigate whether there are any properties that require data type to be [OM_Ob
 
 ## 3. GML 3.3 encoding
 
-The encoding rule we used (we might want to check if it's all true) is actually GML 3.3 - specially the [CodeType](CodeType.md) -\> gml:[ReferenceType](ReferenceType.md). I always thought it was a INSPIRE thing, it's not. We must change the documentation and state that we used GML 3.3 (GML 3.3 is not a new schema, it's actually an extension of 3.2 + encoding patterns)
+The encoding rule we used (we might want to check if it's all true) is actually GML 3.3 - specially the [CodeType](CodeType) -\> gml:[ReferenceType](ReferenceType). I always thought it was a INSPIRE thing, it's not. We must change the documentation and state that we used GML 3.3 (GML 3.3 is not a new schema, it's actually an extension of 3.2 + encoding patterns)
 
 -- EricBoisvert - 02 Nov 2015
 
-## 4. [GeoSciML](GeoSciML.md) 4
+## 4. [GeoSciML](GeoSciML) 4
 
 - Pro
   - All optional properties - consistent with GWML2.0

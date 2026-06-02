@@ -2,7 +2,7 @@
 
 A listing of high level objectives that are the motivation behind trasfering Ratings, Gaugings and River Cross Section data (RGS).
 
-This information is an input to the workshop and will be used in helping to determine the scope of a [WaterML](WaterML.md) 2 RGS implmentation
+This information is an input to the workshop and will be used in helping to determine the scope of a [WaterML](WaterML) 2 RGS implmentation
 
 **Bureau of Meteorology, Australia**Ratings, Gaugings and Sections - high level objectives.
 
@@ -16,4 +16,4 @@ The use of rating shifts is not common practice in Australia, WDTF does not curr
 
 -- PaulSheahan - 06 Jun 2012
 
-**Centre for Ecology and Hydrology, UK**All points of interest relate to the transfer of rating information principally as QC info in relation to river flow data (rather than for calculating flows)1. Description of historical quality of rating (time-vaying rating metadata)2. Description of ratings based on structures (majority of stations in UK are structures with theoretical ratings backed up by gaugings)3. Description of complex hybrid ratings which are increasingly common (e.g. velocity-area stage-discharge up to certain stage, then velocity-index using side-looking ADCP for high flows)-- Main.[MattFry](MattFry.md) - 15 Jun 2012
+**Centre for Ecology and Hydrology, UK**All points of interest relate to the transfer of rating information principally as QC info in relation to river flow data (rather than for calculating flows)1. Description of historical quality of rating (time-vaying rating metadata)2. Description of ratings based on structures (majority of stations in UK are structures with theoretical ratings backed up by gaugings)3. Description of complex hybrid ratings which are increasingly common (e.g. velocity-area stage-discharge up to certain stage, then velocity-index using side-looking ADCP for high flows)-- [MattFry](MattFry) - 15 Jun 2012

@@ -1,4 +1,4 @@
-## The agenda is being maintained at : [HDWGWorkshopAtHIC2014](HDWGWorkshopAtHIC2014.md)
+## The agenda is being maintained at : [HDWGWorkshopAtHIC2014](HDWGWorkshopAtHIC2014)
 
 ## Attendance
 
@@ -7,13 +7,13 @@ Please indicate if you plan to attend the 5-day workshop, the HIC, and also if y
 | Attending HDWG workshop | Dates attending | Attending HIC | Presenting at the Aug 16th training | Attending 13 August City Hall visit? |
 |:---|:---|:---|:---|:---|
 | Paul Sheahan | 13 - 15 (possibly 12th) | Yes | Can do the user / requirements view of WML2 development. Part 1 harmonsiation activity, Part 2 requirements summary and Part 2 IE. - Maybe 30-60 minutes. | Yes |
-| David Arctur | 13 - 16 | Yes | could do segments on 1) GEOSS AIP progress, 2) [EarthCube](EarthCube.md) dev on [WaterML](WaterML.md) to/from netCDF | Yes |
+| David Arctur | 13 - 16 | Yes | could do segments on 1) GEOSS AIP progress, 2) [EarthCube](EarthCube) dev on [WaterML](WaterML) to/from netCDF | Yes |
 | Ilya Zaslavsky | 11 - 15 | No | ? may need to go to the airport before noon | Yes |
 | Matt Fry | 12 - 15 | Yes | No | Yes |
 | David Blodgett | 11 - 15 | Yes |  | No |
 | Stephen Jackson | 11 - 15 | Yes | No | No |
 | Brian Gouge | 11-15 | No |  | Yes |
-| Irina Dornblut | 11-16 | No | 30 min on [HY_Features](HY_Features.md) | Yes |
+| Irina Dornblut | 11-16 | No | 30 min on [HY_Features](HY_Features) | Yes |
 | Tony Boston | 11-16 | Part |  | Yes |
 | Michael Natschke | 12-15 | No |  | Yes |
 | Sylvain Grellet | 11-12-13 | No | No | Yes. Have my plane at JFK at 7:05 PM .. |
@@ -85,6 +85,6 @@ Calendar of events in NY: <http://www.events12.com/newyork/august/>. Also <http:
 
 ## End of HDWG workshop photo - 15 August 2014
 
-\<img src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGNewYorkAttendees/HydroDWGNewYorkAttendees-2014-08-15.png>" alt="[HydroDWGNewYorkAttendees](HydroDWGNewYorkAttendees.md)-2014-08-15.png" width='640' height='480' /\>
+\<img src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGNewYorkAttendees/HydroDWGNewYorkAttendees-2014-08-15.png>" alt="[HydroDWGNewYorkAttendees](HydroDWGNewYorkAttendees)-2014-08-15.png" width='640' height='480' /\>
 
-Main.[IlyaZaslavsky](IlyaZaslavsky.md) - 25 Oct 2013
+[IlyaZaslavsky](IlyaZaslavsky) - 25 Oct 2013

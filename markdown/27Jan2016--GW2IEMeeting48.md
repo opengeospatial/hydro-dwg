@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 48 -- Wed 27 Jan 2016**
+# **[GW2IE](GW2IE) Meeting 48 -- Wed 27 Jan 2016**
 
 ## **Agenda**
 
@@ -52,7 +52,7 @@
   - GeoSciML4 borehole: deferred for next version--requires more evaluation
 - GWML2 specification: deadlines--
   - mid-Feb (10 Feb 2016 -- next telecon) (**Eric, Bruce, Francois**)
-    - logical UML: [OM_Observation](OM_Observation.md), Screen Hole Size **(done)**
+    - logical UML: [OM_Observation](OM_Observation), Screen Hole Size **(done)**
     - schema: same as logical UML **(done) - schemas updated on svn and on our public server**
     - report: narrative re: WaterMl2 Timeseries (to be made general), GeoSciML4 (if needed) **(done) new file for specifications is 16-xxx_Groundwater_Markup_Language_GWML2_specifications_00.docx on svn**
   - end-Feb: report (**Boyan**)

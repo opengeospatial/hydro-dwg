@@ -1,4 +1,4 @@
-\<h2 align="center"\>Hydrology Domain Working Group\</h2\> \<h3 align="center"\>of the Open Geospatial Consortium and the World Meteorological Organization\</h3\> \<p align="center"\>August 16, 2014; 9am – 5pm, Shepard Bldg, Room 205 \<p align="center"\>\*Standardization of Water Data Exchange: [WaterML2](WaterML2.md).0 and Beyond\* \<p align="center"\>Workhop at HIC2014 - 11th International Conference on Hydroinformatics
+\<h2 align="center"\>Hydrology Domain Working Group\</h2\> \<h3 align="center"\>of the Open Geospatial Consortium and the World Meteorological Organization\</h3\> \<p align="center"\>August 16, 2014; 9am – 5pm, Shepard Bldg, Room 205 \<p align="center"\>\*Standardization of Water Data Exchange: [WaterML2](WaterML2).0 and Beyond\* \<p align="center"\>Workhop at HIC2014 - 11th International Conference on Hydroinformatics
 
 This workshop introduces the work of the OGC/WMO Hydrology Domain Working Group (HDWG) to develop standards for water data exchange. Workshop presentations address several key aspects of standardization including: information modeling and encoding of hydrologic and hydrogeologic features; encoding of hydrologic and hydrogeologic observations; development and representation of community vocabularies of water-related terms; and respective web service interfaces. **Intended audience**: hydrology researchers; practitioners; water resource data managers; and information system developers interested in standards-based water data exchange and interoperability.
 
@@ -27,7 +27,7 @@ This workshop introduces the work of the OGC/WMO Hydrology Domain Working Group 
 
 ## The workshop is presented by HDWG members who have been leading various group activities, including specification development, interoperability experiments and creation of standard hydrologic data services. The presenters come from several water data management organizations, research universities, and private companies in North America, Europe and Australia.
 
-This one-day workshop follows a 5-day HDWG working meeting. To learn more about HDWG, subscribe to HDWG mailing list, and participate in HDWG work, please visit [http://external.opengeospatial.org/twiki_public/HydrologyDWG/WebHome](WebHome.md)
+This one-day workshop follows a 5-day HDWG working meeting. To learn more about HDWG, subscribe to HDWG mailing list, and participate in HDWG work, please visit [http://external.opengeospatial.org/twiki_public/HydrologyDWG/WebHome](Home)
 
 --------------------------
 

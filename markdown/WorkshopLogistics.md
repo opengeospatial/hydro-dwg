@@ -6,13 +6,13 @@ Or try your favourite accommodation booking portal such as [booking.com](http://
 
 ## Meeting Location
 
-The workshop will be held at the "Bundesanstalt für Gewässerkunde" ([BfG](BfG.md)), Federal Institute of Hydrology.
+The workshop will be held at the "Bundesanstalt für Gewässerkunde" ([BfG](BfG)), Federal Institute of Hydrology.
 
 Street address is: [Am Mainzer Tor 1, 56068 Koblenz](https://www.google.de/maps/place/Bundesanstalt+f%C3%BCr+Gew%C3%A4sserkunde/@50.3534874,7.5973599,17z/data=!4m2!3m1!1s0x0000000000000000:0x3e4b7cf1d45cbb5c?hl=en), Conference rooms on second floor.
 
 The main entrance is in the building on the left hand side (east, towards the Rhine River)
 
-\<img alt="" src="%PUBURL%/[HydrologyDWG](HydrologyDWG.md)/[WorkshopKoblenz2016](WorkshopKoblenz2016.md)/ANR-Bild-03MH.jpg" width="600" /\>
+\<img alt="" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/WorkshopKoblenz2016/ANR-Bild-03MH.jpg>" width="600" /\>
 
 ## Communication
 
@@ -32,4 +32,4 @@ Koblenz offers [numerous attractions](https://www.tripadvisor.com/Attractions-g1
 
 ## Group Dinner
 
-A Group Dinner sponsored by the Federal Institute of Hydrology ([BfG](BfG.md)) is scheduled for Thursday 16 June 2016 at 18:45. The location will be the [Restaurant "SauBar"](http://www.saubar-koblenz.de) at [Münzstraße 16A](https://www.google.com/maps/place/M%C3%BCnzstra%C3%9Fe+16A,+56068+Koblenz,+Deutschland/@50.362279,7.595494,16z/data=!4m5!3m4!1s0x47be7cba7d8368af:0x947a9ea420accfd3!8m2!3d50.36156!4d7.59534?hl=de) . -- Main.[UlrichLooser](UlrichLooser.md) - 04 Mar 2016
+A Group Dinner sponsored by the Federal Institute of Hydrology ([BfG](BfG)) is scheduled for Thursday 16 June 2016 at 18:45. The location will be the [Restaurant "SauBar"](http://www.saubar-koblenz.de) at [Münzstraße 16A](https://www.google.com/maps/place/M%C3%BCnzstra%C3%9Fe+16A,+56068+Koblenz,+Deutschland/@50.362279,7.595494,16z/data=!4m5!3m4!1s0x47be7cba7d8368af:0x947a9ea420accfd3!8m2!3d50.36156!4d7.59534?hl=de) . -- [UlrichLooser](UlrichLooser) - 04 Mar 2016

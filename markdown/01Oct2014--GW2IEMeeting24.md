@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 24 -- Wed 01 Oct 2014 -- Report**
+# **[GW2IE](GW2IE) Meeting 24 -- Wed 01 Oct 2014 -- Report**
 
 ## **Agenda**
 
@@ -8,11 +8,11 @@
 
 ### Issues discussed at informal Sep 18 Meeting
 
-- Dominic Lowe pointed out some issues regarding schema imports (superfluous import statements). **Action**: Main.[FrancoisLetourneau](FrancoisLetourneau.md) will check XSD and fix issues (**Done**)
+- Dominic Lowe pointed out some issues regarding schema imports (superfluous import statements). **Action**: [FrancoisLetourneau](FrancoisLetourneau) will check XSD and fix issues (**Done**)
 - Dominic Lowe also raised concern about nucleus package importing other packages and confusion around naming. **Action**: To be discussed
 - 'nil' values can be represented different ways, using xsi:nil or using xlink:href (as proposed by OGC 12-110 - spec not adopted): **Decision** : use the xlink:href approach
 - Schematron file contains all the expressable rules in a single file for each package. It has been discussed if it was necessary to list rules one by one in the conformance class section instead of just saying "must validate with schematron file" only once (pretty much what we do with XSD). **Decision**: Have a single statement about schematron validation for all tests and add an explanation in the core conformance class.
-- Data Record encoding as proposed in the GWML2 spec might be too restrictive for log, some logs can be made of free text instead of Category. We also don't address numerical logs (geophysic). **Action**: Main.[EricBoisvert](EricBoisvert.md) will propose more flexible Data Record encoding as example for the group to discuss. (see [GwmlSweDataRecord](GwmlSweDataRecord.md)) (**Done**)
+- Data Record encoding as proposed in the GWML2 spec might be too restrictive for log, some logs can be made of free text instead of Category. We also don't address numerical logs (geophysic). **Action**: [EricBoisvert](EricBoisvert) will propose more flexible Data Record encoding as example for the group to discuss. (see [GwmlSweDataRecord](GwmlSweDataRecord)) (**Done**)
 - Pump (installed pump) is missing from construction: **Action**: Discuss with group.
 
 -- EricBoisvert - 18 Sep 2014
@@ -37,7 +37,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 551 852 914
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -49,7 +49,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

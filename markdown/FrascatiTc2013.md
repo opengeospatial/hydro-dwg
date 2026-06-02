@@ -24,7 +24,7 @@ WebEx: instructions will be emailed later
 5.  [Open source solutions](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/FrascatiTc2013/Open_source_federated_systems.ppt) for federated hydrologic information systems (Silvano Pecora, 15 min)
 6.  Representing physical and semantic environment for flow simulation.in [CityGML](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/FrascatiTc2013/CityGML_Hydrology.ppt) - towards a joint use case (Steve Smyth, 20 mins)
 7.  Ratings, gaugings and cross sections [(WaterML2.0 part 2) Interoperability Experiment](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/FrascatiTc2013/WaterML2_Part2_Interoperability_Experiment.ppt) - status update (David Lemon, 15 mins)
-8.  [WaterML](WaterML.md) -WQ - a [WaterML2 profile for water quality](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/FrascatiTc2013/Water_Quality_data_transfer.pptx), with a water quality vocabulary (Simon Cox, 20 Mins)
+8.  [WaterML](WaterML) -WQ - a [WaterML2 profile for water quality](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/FrascatiTc2013/Water_Quality_data_transfer.pptx), with a water quality vocabulary (Simon Cox, 20 Mins)
 9.  Progress on [HY_Features](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/FrascatiTc2013/2013_Frascati_HY_Features_Progress_.ppt) (Irina Dornblut, 15 min)
 10. Progress on [WMO (GRDC) Hydrologic Metadata](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/FrascatiTc2013/GRDC_Hydrologic_Metadata_Progress.ppt) (Irina Dornblut, 15 min)
 

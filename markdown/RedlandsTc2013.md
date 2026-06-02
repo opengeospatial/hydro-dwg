@@ -22,8 +22,8 @@ WebEx: instructions will be emailed later
 4.  Water web services at ESRI (Caitlin Scopel and Erika Boghici, 20 min)
 5.  Status of CHISP-1 Pilot (Nate Booth, Lew Leineweber, 20 mins)
 6.  AIP-5 Water SBA results (David Maidment, Matt Austin, 20 mins)
-7.  [HY_Features](HY_Features.md): Requirements addressed by WMO CHy Members (Irina Dornblut, 20min)
-8.  [HY_Features](HY_Features.md): Additions made to better reflect "groundwater features" (Irina Dornblut, 20 min)
+7.  [HY_Features](HY_Features): Requirements addressed by WMO CHy Members (Irina Dornblut, 20min)
+8.  [HY_Features](HY_Features): Additions made to better reflect "groundwater features" (Irina Dornblut, 20 min)
 9.  WaterML2.0 part 2 - ratings, gaugings and sections (Pete Taylor and Paul Sheahan, 20 min)
 10. EarthCube update (Ilya Zaslavsky, 15 min)
 11. IE discussion: Forecasting, GWIE2 (IE leaders, 40 min)
@@ -37,4 +37,4 @@ WebEx: instructions will be emailed later
 
 -- IlyaZaslavsky - 24 Nov 2012
 
-No WML2 SWG session, work is complete until change requests. Ratings progress report in main session. -- Main.[DavidValentine](DavidValentine.md) - 16 Jan 2013
+No WML2 SWG session, work is complete until change requests. Ratings progress report in main session. -- [DavidValentine](DavidValentine) - 16 Jan 2013

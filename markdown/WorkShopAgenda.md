@@ -39,4 +39,4 @@ The objective for each topic is the have a level of defintion on the Scope and a
 - identify core components v componets for local extension
 - Straw man modelling with EA and white board
 
-\- Main.[PaulSheahan](PaulSheahan.md) - 06 Jun 2012
+\- [PaulSheahan](PaulSheahan) - 06 Jun 2012

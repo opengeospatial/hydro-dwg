@@ -11,7 +11,7 @@ A Separate email list has been up for RGS working group :
 
 This email group is the primary communication medium outside of meetings.
 
-To ensure the [HydroDWG](HydroDWG.md) is aware and informed on RGSWG activities we will try to complete a HYDWG update email monthly, communicated through the HDWG email list.
+To ensure the [HydroDWG](HydroDWG) is aware and informed on RGSWG activities we will try to complete a HYDWG update email monthly, communicated through the HDWG email list.
 
 ### Meetings
 
@@ -41,10 +41,10 @@ Roadmap of objectives, goals, times.
 
 Votes on scope decisions?
 
-Potential to move it into the [HydroDWG](HydroDWG.md) as as community standard.
+Potential to move it into the [HydroDWG](HydroDWG) as as community standard.
 
 - How to operate as a community standards
-- [GitHub](GitHub.md) or other alternatives for hosting code, schemas, wikis.
+- [GitHub](GitHub) or other alternatives for hosting code, schemas, wikis.
 
 Use the teleconference for raising issues that need to be voted on. Record minority opinion. Revisiting issues that were raised. 2 weeks available to raise objection to decision. Do we have the right group of people?
 

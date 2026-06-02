@@ -15,9 +15,9 @@ This page sets out the scenarios for the RGS IE.
 
 There is an Australian based scenrio currently being planned. This involves exchange between four water agencies: the Bureau of Meteorology, NSW Office of Water, Tas DPIPWE and MDBA. The basic structure of data flow will be something like this:
 
-\<img alt="[ScenarioDiagram](ScenarioDiagram.md).jpg" height="563" src="%PUBURL%/[HydrologyDWG](HydrologyDWG.md)/[RGSInteropExperiment](RGSInteropExperiment.md)/[ScenarioDiagram](ScenarioDiagram.md).jpg" title="[ScenarioDiagram](ScenarioDiagram.md).jpg" width="1000" /\>
+\<img alt="[ScenarioDiagram](ScenarioDiagram).jpg" height="563" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RGSInteropExperiment/ScenarioDiagram.jpg>" title="[ScenarioDiagram](ScenarioDiagram).jpg" width="1000" /\>
 
-The setup will require water agencies to expose services that encode the [WaterML2](WaterML2.md).0 part 2 model. Given the software being used is common across a number of agencies, we should be able to leverage test implementations in different scenarios.
+The setup will require water agencies to expose services that encode the [WaterML2](WaterML2).0 part 2 model. Given the software being used is common across a number of agencies, we should be able to leverage test implementations in different scenarios.
 
 ## US Scenario
 

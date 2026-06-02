@@ -6,15 +6,15 @@ In order to design the API/service interface for the RGS IE, there is a need to 
 - Navigation around a domain conceptual model
 - Value added calls the execute commonly required functions
 
-The [Activity Plan](%PUBURL%/HydrologyDWG/RGSInteropExperiment/RGS_IE_Activity_Plan.docx) defines 3 use cases:
+The [Activity Plan](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RGSInteropExperiment/RGS_IE_Activity_Plan.docx) defines 3 use cases:
 
 - Delivery of latest rating table
 - Exposing rating tables for analysis and educational purposes
 - Retrieval of full rating history
 
-The service calls implemented will need to support the Activity plan use cases though the interoperability scenarios that we have defined for the experiment : [RGSIEScenarioPlanning](RGSIEScenarioPlanning.md).
+The service calls implemented will need to support the Activity plan use cases though the interoperability scenarios that we have defined for the experiment : [RGSIEScenarioPlanning](RGSIEScenarioPlanning).
 
-The IE standardisation objective is around the RGS model rather than the interface. That said, **we have identified that there is a logical follow on body of work to look at standardising interfaces** for [WaterML2](WaterML2.md) , optimised for domain usage.
+The IE standardisation objective is around the RGS model rather than the interface. That said, **we have identified that there is a logical follow on body of work to look at standardising interfaces** for [WaterML2](WaterML2) , optimised for domain usage.
 
 As we are not looking at standardising the interface, the primary purpose of the interfaces defined is to support the IE. Since the IE objectives are related to real work usage of this data, the resulting interfaces should have ongoing relevance to the exchange of RGS data, tho they may be minimally functional.
 
@@ -78,7 +78,7 @@ Prefer filter after the fact.
 |:---|:---|:---|:---|
 | Ask: What is the latest rating. Has the latest rating changed (since this date)? | X |  |  |
 | Ask: What is the latest rating and its latest shift | X |  |  |
-| [Ask](AsK.md): Have there been any changes to the rating periods since I last checked? (since this date) | X |  |  |
+| [Ask](AsK): Have there been any changes to the rating periods since I last checked? (since this date) | X |  |  |
 | Ask: Have there been any changes to my list of the rating tables since I last checked? Multiple of the first call.  | X |  |  |
 |  |  |  |  |
 

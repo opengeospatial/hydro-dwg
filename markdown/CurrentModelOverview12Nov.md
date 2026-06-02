@@ -14,13 +14,13 @@ The UML for the Conversions model:
 
 #### Description of conversion model
 
-A [ConversionGroup](ConversionGroup.md) contains 1 or more [ConversionPeriods](ConversionPeriods.md) that define applicable Conversions within a start/end time. A conversion may be represented using a table or an equation, however a [ConversionTable](ConversionTable.md) is the mandatory exchange target (this constraint is not shown in the model). Conversions are defined by the parameter (phenomenon - [GF_PropertyType](GF_PropertyType.md)) they convert from and to, as well as the monitoring point that have been developed for (monitoringPoint relationship).
+A [ConversionGroup](ConversionGroup) contains 1 or more [ConversionPeriods](ConversionPeriods) that define applicable Conversions within a start/end time. A conversion may be represented using a table or an equation, however a [ConversionTable](ConversionTable) is the mandatory exchange target (this constraint is not shown in the model). Conversions are defined by the parameter (phenomenon - [GF_PropertyType](GF_PropertyType)) they convert from and to, as well as the monitoring point that have been developed for (monitoringPoint relationship).
 
-[ConversionGroups](ConversionGroups.md) are defined for specific paramTo/paramFrom/[MonitoringPoint](MonitoringPoint.md) groups.
+[ConversionGroups](ConversionGroups) are defined for specific paramTo/paramFrom/[MonitoringPoint](MonitoringPoint) groups.
 
 A Conversion contains metadata relating to its current status, review lifecylce etc. A conversion may be related to its source definition (e.g. an expanded table may be related back to its original equation form), however the equations themselves are not defined in a machine readable form (a formal equation model won't be developed).
 
-A [ConversionTable](ConversionTable.md) is composed of 1 or more tuples that define the independent and dependent variable values as quantities. The table is an expanded, linearly interpolated table. The granularity of the points is defined by the exporting system, but should be sufficient to re-use the table.
+A [ConversionTable](ConversionTable) is composed of 1 or more tuples that define the independent and dependent variable values as quantities. The table is an expanded, linearly interpolated table. The granularity of the points is defined by the exporting system, but should be sufficient to re-use the table.
 
 The ability to link from the conversion to the gaugings that were used (or excluded) in development of the table has been discussed, and modeled, it's just not shown.
 
@@ -122,9 +122,9 @@ Range values (as describe here: <http://external.opengis.org/twiki_public/Hydrol
 
 A draft model is shown here in UML:
 
-\<img alt="[RangeValues](RangeValues.md).png" height="515" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/CurrentModelOverview12Nov/RangeValues.png>" title="[RangeValues](RangeValues.md).png" width="813" /\>
+\<img alt="[RangeValues](RangeValues).png" height="515" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/CurrentModelOverview12Nov/RangeValues.png>" title="[RangeValues](RangeValues).png" width="813" /\>
 
-There is no top level collection class shown here. The period of application defines time bounds for which ranges may be used (may be multiple [RangeDefintions](RangeDefintions.md) for an application period -- this differs from conversions). A [RangeDefinition](RangeDefinition.md) is defined according to the independent variable (paramFrom) and associated to a monitoringPoint. The Range is composed of mutliple range entries that have a startValue from which they apply. [RangeEntries](RangeEntries.md) are valid up to the next [RangeEntry](RangeEntry.md) startValue. A range entry's value may be a scalar type (e.g. a quantity (mannings N), a category (flood level), free text (descriptive) etc.).
+There is no top level collection class shown here. The period of application defines time bounds for which ranges may be used (may be multiple [RangeDefintions](RangeDefintions) for an application period -- this differs from conversions). A [RangeDefinition](RangeDefinition) is defined according to the independent variable (paramFrom) and associated to a monitoringPoint. The Range is composed of mutliple range entries that have a startValue from which they apply. [RangeEntries](RangeEntries) are valid up to the next [RangeEntry](RangeEntry) startValue. A range entry's value may be a scalar type (e.g. a quantity (mannings N), a category (flood level), free text (descriptive) etc.).
 
 ### An XML example
 
@@ -254,8 +254,8 @@ This is based on some of the examples within the range value description page.
 
 ## Open questions for discussion
 
-1.  rgs-38 : Does a coversion always apply to the same [ParamFrom](ParamFrom.md) /[ParamTo](ParamTo.md) and Site/[MonitoringPoint](MonitoringPoint.md)? RGS 36. There was discussion of engineered structures and conversions that are re-used across sites, e.g. flume relationships. How do these get identified? For actual use they would be 'bound' to a site.
-2.  rgs-39 : Need a glossary. What are: Conversions, Ratings, Gaugings and where do they differ? This should refelect in the class naming (that needs some refinement for consistency). Glossary is at : [RGSGlossaryOfTerms](RGSGlossaryOfTerms.md) -\> [http://external.opengis.org/twiki_public/HydrologyDWG/RGSGlossaryOfTerms](RGSGlossaryOfTerms.md)
+1.  rgs-38 : Does a coversion always apply to the same [ParamFrom](ParamFrom) /[ParamTo](ParamTo) and Site/[MonitoringPoint](MonitoringPoint)? RGS 36. There was discussion of engineered structures and conversions that are re-used across sites, e.g. flume relationships. How do these get identified? For actual use they would be 'bound' to a site.
+2.  rgs-39 : Need a glossary. What are: Conversions, Ratings, Gaugings and where do they differ? This should refelect in the class naming (that needs some refinement for consistency). Glossary is at : [RGSGlossaryOfTerms](RGSGlossaryOfTerms) -\> [http://external.opengis.org/twiki_public/HydrologyDWG/RGSGlossaryOfTerms](RGSGlossaryOfTerms)
 3.  rgs-40 : Metadata for including/excluding gauging observations as references. Do we need the reason they were excluded/included? Examples of this in practice? We modelled this but not currently shown in the above model.
 4.  rgs-41 :Should we define a vocabulary supporting conversion release status?
 5.  regs-42 : re rgs-7. Is there a need to implement shifts to enable the actual source system representation? Is rgs-7 a free form extension point that would implement a specific data systems information model?

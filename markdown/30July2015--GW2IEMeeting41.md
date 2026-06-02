@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 41 -- Thurs 30 July 2015**
+# **[GW2IE](GW2IE) Meeting 41 -- Thurs 30 July 2015**
 
 ## **Agenda**
 
@@ -12,8 +12,8 @@
 - Schema update
   - Logical schema: missing defs
   - Model issue
-    - Chemical results are modelled as Observations with [GW_Constituent](GW_Constituent.md) as featureOfInterest. But constituent don't have navigable link back to [GW_FluidBody](GW_FluidBody.md), therfore a chemical result cannot point back to [FluidBody](FluidBody.md) (unless it goes directly to [FluidBody](FluidBody.md), missing the constituent). Looks like it's [SamplingFeature](SamplingFeature.md) all over again.
-    - [GW_UnitFluidProperty](GW_UnitFluidProperty.md) and [GW_UnitVoidProperty](GW_UnitVoidProperty.md) : force 1..1 because association with a missing end does not make sense or 0..1 to follow the blanket rule of all optional ?
+    - Chemical results are modelled as Observations with [GW_Constituent](GW_Constituent) as featureOfInterest. But constituent don't have navigable link back to [GW_FluidBody](GW_FluidBody), therfore a chemical result cannot point back to [FluidBody](FluidBody) (unless it goes directly to [FluidBody](FluidBody), missing the constituent). Looks like it's [SamplingFeature](SamplingFeature) all over again.
+    - [GW_UnitFluidProperty](GW_UnitFluidProperty) and [GW_UnitVoidProperty](GW_UnitVoidProperty) : force 1..1 because association with a missing end does not make sense or 0..1 to follow the blanket rule of all optional ?
 - Instances update (\*All)
   - namespaces: end char? (/ \#)
 - Report update:
@@ -22,7 +22,7 @@
   - Use-case template
 - Use-case roundtable
 - Timeline check
-- [HY_Features](HY_Features.md) groundwater
+- [HY_Features](HY_Features) groundwater
 
 ## **Participants**
 
@@ -40,7 +40,7 @@
 - Schema update
   - Logical schema: missing defs -- deferred until Sept.
   - Model issue
-    - Chemical result cannot point back to [FluidBody](FluidBody.md): no schema change needed, will use O&M and document in report (**Eric**).
+    - Chemical result cannot point back to [FluidBody](FluidBody): no schema change needed, will use O&M and document in report (**Eric**).
     - Association classes: 1:1 cardinality at ends, but can refer to unknown entity
 - Instances update (\*All)
   - namespaces: end char? (/ \#): deferred to GW SWG.
@@ -61,7 +61,7 @@
     - final draft complete: section B, use-cases (Leads 1-5: **Eric**, **Sylvain**, **Peter**, **Jessica**, **Sylvain**)
   - Sept 1:
     - public release
-- [HY_Features](HY_Features.md) groundwater: to continue mapping for Sept
+- [HY_Features](HY_Features) groundwater: to continue mapping for Sept
 
 ## **Connection Instructions**
 

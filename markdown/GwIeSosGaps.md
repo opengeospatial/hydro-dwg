@@ -4,15 +4,15 @@ This page is to collection known gaps in issues met in implementing SOS service 
 
 ## Large collection of feature of interest
 
-Related discussion : [FeatureOfInterestNestedCollection](FeatureOfInterestNestedCollection.md)
+Related discussion : [FeatureOfInterestNestedCollection](FeatureOfInterestNestedCollection)
 
 ### Issue
 
-The SOS 1 specification demands that the list of feature of interest be explicitly serialized in the [GetCapabilities](GetCapabilities.md) document. In the current [WaterML](WaterML.md) model, it has been decided that the feature of interest should be the monitoring station (or any other relevant sampling feature). It is possible that the values in a SOS system is provided by a very large collection of sampling feature and therefore, serializing the complete collection is not practical and impairs the performance of the system.
+The SOS 1 specification demands that the list of feature of interest be explicitly serialized in the [GetCapabilities](GetCapabilities) document. In the current [WaterML](WaterML) model, it has been decided that the feature of interest should be the monitoring station (or any other relevant sampling feature). It is possible that the values in a SOS system is provided by a very large collection of sampling feature and therefore, serializing the complete collection is not practical and impairs the performance of the system.
 
 ### Solution
 
-The capabilities document should be allowed to provide a composite feature as feature of interest. The composite feature shall be a gml:[FeatureCollection](FeatureCollection.md) nesting other gml:[FeatureCollection](FeatureCollection.md). The collection would be composed of a list of a list of sub-collections. If the sub-collection contains a reasonable amount of feature of interest, the list would be serialized explicitly. If the list to too large, reference to another list of feature collection would be provided where the client would find the list further partitioned.
+The capabilities document should be allowed to provide a composite feature as feature of interest. The composite feature shall be a gml:[FeatureCollection](FeatureCollection) nesting other gml:[FeatureCollection](FeatureCollection). The collection would be composed of a list of a list of sub-collections. If the sub-collection contains a reasonable amount of feature of interest, the list would be serialized explicitly. If the list to too large, reference to another list of feature collection would be provided where the client would find the list further partitioned.
 
 The partition logic is up to the server. It can follow a purely geometric partionning (quad-tree) or follow an administrative structure (state/county/city/zip).
 
@@ -45,7 +45,7 @@ The required `gml:EnvelopeWithTimePeriod` element provides temporal bounds and a
 
 ## Complex queries on result
 
-Related discussion : [GwIeSOSResultFilter](GwIeSOSResultFilter.md)
+Related discussion : [GwIeSOSResultFilter](GwIeSOSResultFilter)
 
 ### Issue
 
@@ -55,7 +55,7 @@ Filtering on the result requires the client to have some mechanism to discover t
 - The SOS service can serialize the result using many encoding (XML or Block or gml Coverate or any other GML domain model) for the same observed property. The current specification does not provide a way to tell the client which "schema" it should use to express the filter.
 - Even if the result is expressed in explicit GML XSD (as opposed to SWE), and even if the schema is actually known, the wide usage of polymorphism and substitutions in result model can lead to multiple options (ie, when the result type is advertised with a class that is at the head of substitution tree).
 - observable properties are actually advertised as SWE common which does not have a direct mapping to eventual GML result type (ie, when looking at the swe description of the observed prioperty, we don't explicitly know how this would materialise in the filter expression)
-- SOS 2.0 proposes a mechanism that might adress this problem by providing a [GetResult](GetResult.md) operation. The problem with [GetResults](GetResults.md) is that is seems to suggest that the result shall come from a single Observation. In the current version of the SOS 2.0 specification (10-037 2010-09-02) the definition of the [GetResult](GetResult.md) Response does not provide a way to identify from which observation the result is from, suggesting that this operation is restricted to a single Observation, which does not cover our use case).
+- SOS 2.0 proposes a mechanism that might adress this problem by providing a [GetResult](GetResult) operation. The problem with [GetResults](GetResults) is that is seems to suggest that the result shall come from a single Observation. In the current version of the SOS 2.0 specification (10-037 2010-09-02) the definition of the [GetResult](GetResult) Response does not provide a way to identify from which observation the result is from, suggesting that this operation is restricted to a single Observation, which does not cover our use case).
 
 Therefore, it is not possible from the current spec to write a filter on the result without having a initiatic knowledge of what the service will support.
 
@@ -65,7 +65,7 @@ The client should use the identifier of the property as a proxy for the property
 
 for example,
 
-\<verbatim­\> \<?xml version="1.0" encoding="UTF-8"?\> \<sos:[GetObservation](GetObservation.md) version="1.0" service="SOS" xmlns:ogc="<http://www.opengis.net/ogc>" xmlns:sos="<http://www.opengis.net/sos/1.0>" xmlns:xsi="<http://www.w3.org/2001/XMLSchema-instance>" xsi:schemaLocation="<http://www.opengis.net/sos/1.0> <http://schemas.opengis.net/sos/1.0.0/sosGetObservation.xsd>"\> \<sos:offering\>gwie:offering\</sos:offering\> \<sos:observedProperty\><urn:ogc:def:property:OGC:GroundWaterLevel>\</sos:observedProperty\> \<sos:result\> \<ogc:[PropertyIsGreaterThan](PropertyIsGreaterThan.md)\> \<ogc:[PropertyName](PropertyName.md)\><urn:x-ogc:def:phenomenon:OGC:Depth>\</ogc:[PropertyName](PropertyName.md)\> \<ogc:Literal\>10\</ogc:Literal\> \</ogc:[PropertyIsGreaterThan](PropertyIsGreaterThan.md)\> \</sos:result\> \</sos:[GetObservation](GetObservation.md)\> \</verbatim\>
+\<verbatim­\> \<?xml version="1.0" encoding="UTF-8"?\> \<sos:[GetObservation](GetObservation) version="1.0" service="SOS" xmlns:ogc="<http://www.opengis.net/ogc>" xmlns:sos="<http://www.opengis.net/sos/1.0>" xmlns:xsi="<http://www.w3.org/2001/XMLSchema-instance>" xsi:schemaLocation="<http://www.opengis.net/sos/1.0> <http://schemas.opengis.net/sos/1.0.0/sosGetObservation.xsd>"\> \<sos:offering\>gwie:offering\</sos:offering\> \<sos:observedProperty\><urn:ogc:def:property:OGC:GroundWaterLevel>\</sos:observedProperty\> \<sos:result\> \<ogc:[PropertyIsGreaterThan](PropertyIsGreaterThan)\> \<ogc:[PropertyName](PropertyName)\><urn:x-ogc:def:phenomenon:OGC:Depth>\</ogc:[PropertyName](PropertyName)\> \<ogc:Literal\>10\</ogc:Literal\> \</ogc:[PropertyIsGreaterThan](PropertyIsGreaterThan)\> \</sos:result\> \</sos:[GetObservation](GetObservation)\> \</verbatim\>
 
 The service should have internal mechanism to do what "makes sense" in this particular case. It should also handle the cases when the structure of the value can be complex (range instead of single value) and remove the complexity of writing a filter from the user.
 
@@ -75,7 +75,7 @@ This pattern has several benefits.
 2.  Properties are advertised using a conformant OGC approach (no hack)
 3.  Properties are well described (SWE provide a certain level of metadata that XSD does not have)
 4.  Query structure is decouples from the result encoding, which is consistant with pattern of CSW and proposed "stored query" mechanism of WFS (ISO-19142). The client can rely on a consistent way to get the parameters, whatever the encoding.
-5.  This mechanism can be used by both SOS 1.0 and SOS 2.0 clients, just the access to the SWE encoding is different (catalog for 1.0, [GetResultTemplate](GetResultTemplate.md) for 2.0).
+5.  This mechanism can be used by both SOS 1.0 and SOS 2.0 clients, just the access to the SWE encoding is different (catalog for 1.0, [GetResultTemplate](GetResultTemplate) for 2.0).
 
 One of the major downside is that a property can possibly appear several time in a single composite phenomenon (eg, temperatures taken at two different depths in a single record – they both are temperatures).
 
@@ -127,23 +127,23 @@ All SOS operation should have a resultType="hits" attribute that returns the num
 
 Add a optional parameters resultType to
 
-\* [GetObservation](GetObservation.md) \* [GetFeatureOfInterest](GetFeatureOfInterest.md)
+\* [GetObservation](GetObservation) \* [GetFeatureOfInterest](GetFeatureOfInterest)
 
 The suggestion to have this in SOS 2.0 has already been made for GetFeatureOfInterest, but the suggestion should be expanded to any operation that can return a large list.
 
 ## Offering Name non-mandatory
 
-In SOS Spec, the name of the offering is 0..\* while this name is used as a unique identifier required by [GetObservations](GetObservations.md). It should be 1..1.
+In SOS Spec, the name of the offering is 0..\* while this name is used as a unique identifier required by [GetObservations](GetObservations). It should be 1..1.
 
 Note: This is fixed in SOS 2.0 (Req 21)
 
 ## SOS 1 filter has a typo in the XSD
 
-sos4ogc.xsd (<http://schemas.opengis.net/sos/1.0.0/ogc4sos.xsd>) which provide filter specification has a mispelled "[TM_Overalps](TM_Overalps.md)" (should be [TM_Overlaps](TM_Overlaps.md)). This prevents validating queries from the published schemas (unless the mispelled element is used).
+sos4ogc.xsd (<http://schemas.opengis.net/sos/1.0.0/ogc4sos.xsd>) which provide filter specification has a mispelled "[TM_Overalps](TM_Overalps)" (should be [TM_Overlaps](TM_Overlaps)). This prevents validating queries from the published schemas (unless the mispelled element is used).
 
 This is fixed on SOS 2.0 since it uses officiel FES 2.0
 
-## Cardinality of [GetObservationById](GetObservationById.md) should be fixed in SOS 2.0
+## Cardinality of [GetObservationById](GetObservationById) should be fixed in SOS 2.0
 
 OGC 10-037 Sec. 9.2.1.1, Table 23 states that observation pointer is 1..\*
 

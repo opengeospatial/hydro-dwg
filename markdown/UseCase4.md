@@ -2,11 +2,11 @@
 
 ## Participants
 
-- J.Lucido (lead), Dave Blodgett (USGS), [Janusz Michalak](Main.JanuszMichalak) (PTIP & Warsaw University), Alex Kmoch (GNS / [Z_GIS](Z_GIS.md))
+- J.Lucido (lead), Dave Blodgett (USGS), [Janusz Michalak](Main.JanuszMichalak) (PTIP & Warsaw University), Alex Kmoch (GNS / [Z_GIS](Z_GIS))
 
 ## Discussion Page
 
-- For discussion about this use case please add comments to [this page](GWIE2UC4DiscussionPage.md).
+- For discussion about this use case please add comments to [this page](GWIE2UC4DiscussionPage).
 
 ## Abstract
 
@@ -14,7 +14,7 @@ This use case involves the delivery of information required to help determine th
 
 ## Objective
 
-Included in [GW2IE](GroundwaterInteroperabilityExperiment2.md) Use Case
+Included in [GW2IE](GroundwaterInteroperabilityExperiment2) Use Case
 
 Full Groundwater Flow Modeling Use Case
 
@@ -69,20 +69,20 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline"
 |:---|:---|:---|:---|
 | WMS | wells, aquifers? | N/A | USGS & others? |
 | WFS | hydrogeology & geology | GWML2--wells, aquifers | USGS & others? |
-| SOS | well & aquifer observations | [WaterML2](WaterML2.md) --water levels, storage | USGS & others? |
-| WPS | WFS (GWML2), SOS ([WaterML2](WaterML2.md).) ... WCS (DEM ..) | a basic MODFLOW grid or computed values, e.g. zone budget, DRASTIC vulnerability values? | GNS |
+| SOS | well & aquifer observations | [WaterML2](WaterML2) --water levels, storage | USGS & others? |
+| WPS | WFS (GWML2), SOS ([WaterML2](WaterML2).) ... WCS (DEM ..) | a basic MODFLOW grid or computed values, e.g. zone budget, DRASTIC vulnerability values? | GNS |
 
 -- AlexKmoch - 02 Jul 2015
 
 -- BoyanBrodaric - 24 Oct 2012
 
-For discussion about this use case please add comments to [this page](GWIE2UC4DiscussionPage.md). Documents for discussion are listed below.
+For discussion about this use case please add comments to [this page](GWIE2UC4DiscussionPage). Documents for discussion are listed below.
 
 -- JanuszMichalak - 20 Nov 2012
 
-- [UseCaseForFlowModel_Intro.docx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/UseCase4/UseCaseForFlowModel_Intro.docx): Introduction to [GW2IE](GroundwaterInteroperabilityExperiment2.md) UC4: Scientific -- data for groundwater flow models (initial draft version)
+- [UseCaseForFlowModel_Intro.docx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/UseCase4/UseCaseForFlowModel_Intro.docx): Introduction to [GW2IE](GroundwaterInteroperabilityExperiment2) UC4: Scientific -- data for groundwater flow models (initial draft version)
 - [UseCaseforFlowModel_P_Wojda.doc](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/UseCase4/UseCaseforFlowModel_P_Wojda.doc): Hydrogeological data model use case for INSPIRE prepared by Piotr Wojda (start point for development)
 
 -- JessicaLucido - 20 Nov 2012
 
--- DavidBlodgett and Main.[JessicaLucido](JessicaLucido.md) - 21 Nov 2012
+-- DavidBlodgett and [JessicaLucido](JessicaLucido) - 21 Nov 2012

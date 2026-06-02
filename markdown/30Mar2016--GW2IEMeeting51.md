@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 51 / GW SWG Meeting \#2 -- Wed 30 March 2016**
+# **[GW2IE](GW2IE) Meeting 51 / GW SWG Meeting \#2 -- Wed 30 March 2016**
 
 ## **Agenda**
 
@@ -12,7 +12,7 @@
 ## **Notes**
 
 - OGC GW SWG
-  - wiki page initiated... [here](GroundWaterSWG.md)
+  - wiki page initiated... [here](GroundWaterSWG)
   - OGC page initiated... [here](http://www.opengeospatial.org/projects/groups/groundwaterswg)
 - GWML2 Submission
   - re-formatting to new template required -- initiated by S.Simmons

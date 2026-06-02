@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 14** **-- Mon 17 Mar 2014 -- Conceptual Model**
+# **[GW2IE](GW2IE) Meeting 14** **-- Mon 17 Mar 2014 -- Conceptual Model**
 
 ## **Agenda**
 
@@ -14,12 +14,12 @@
 ## **Results**
 
 - deferred discussion of changes proposed by Bruce S. until next meeting
-- for changes [see CM 0.27](GWML2-CM-Model.md)
+- for changes [see CM 0.27](GWML2-CM-Model)
 - natural 'background' context
   - clarified: refers to naturally ocurring concentration levels of constituents,i.e. natural background levels
-  - added [GW_BackgroundConstituent](GW_BackgroundConstituent.md) to represent the background state for a fluid body
+  - added [GW_BackgroundConstituent](GW_BackgroundConstituent) to represent the background state for a fluid body
     - replaces gwBodyNaturalContext and gwChangeBaseline
-- removed Age from [GW_FluidBody](GW_FluidBody.md)
+- removed Age from [GW_FluidBody](GW_FluidBody)
   - added Age to the list of general fluid body physical properties
 - confirmed all remaining parts of fluid body diagram, except constituents (next meeting)
 
@@ -42,7 +42,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 552 535 360
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -54,7 +54,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

@@ -30,7 +30,7 @@ Phone: 1 760 569 7100 passcode: 616269;
 
 WebEx: see instructions at <https://portal.opengeospatial.org/?m=calendar&a=view&event_category=&event_id=23759>
 
-1.  [HY_Features](HY_Features.md) Model, Irina Dornblut, Rob Atkinson (40 mins)
+1.  [HY_Features](HY_Features) Model, Irina Dornblut, Rob Atkinson (40 mins)
 2.  GroundwaterML 2.0 / GWIE 2 discussion, Boyan Brodaric (40 mins)
 3.  Applied open standards in integrated water information management, Phil Stefanoff, KISTERS North America, Inc. (25 mins)
 4.  OWS 9 opportunities, Nadine Alameh (30 min)

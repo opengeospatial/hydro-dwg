@@ -10,9 +10,9 @@ Link to [Leuven TC meeting details](http://ogcmeet.org/#about)
 
 ### **Meeting Agenda and Outcomes**
 
-1. Quick report on status of each each [WaterML2](WaterML2.md) standard: 5-10 min + short discussion.
+1. Quick report on status of each each [WaterML2](WaterML2) standard: 5-10 min + short discussion.
 
-–Will submit some change requests to [HY_Features](HY_Features.md) based on experience using the spec.
+–Will submit some change requests to [HY_Features](HY_Features) based on experience using the spec.
 
 –GWML2 is on track to WMO adoption this winter.
 
@@ -30,6 +30,6 @@ Link to [Leuven TC meeting details](http://ogcmeet.org/#about)
 
 –Interest in pushing forward on shared environmental domain query building blocks for OGC API
 
-**[GotoMeeting](GotoMeeting.md) Recording: <https://transcripts.gotomeeting.com/#/s/d48169db72745432c72a9192b499cf678b4f0293fd93e4f13e8e5a90eb3a4864>**
+**[GotoMeeting](GotoMeeting) Recording: <https://transcripts.gotomeeting.com/#/s/d48169db72745432c72a9192b499cf678b4f0293fd93e4f13e8e5a90eb3a4864>**
 
 -- [Main](Main.TonyBoston) - 10 Apr 2019

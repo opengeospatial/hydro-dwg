@@ -1,6 +1,6 @@
 # GWIE 2 UC 5 Discussion page
 
-This page has been created to collect discussions and ideas and keep the main [UseCase5](UseCase5.md) page relatively clean.
+This page has been created to collect discussions and ideas and keep the main [UseCase5](UseCase5) page relatively clean.
 
 ## Realistic use case ideas
 
@@ -12,9 +12,9 @@ We have two suggestions of sample data sets i.e. ADES from France \<a href="<htt
 
 Bernhard - 15 Nov 2012
 
-Reading your suggestion, I realise the UC5 is not clear. The way the use case is described on [UseCase5](UseCase5.md), it does not implies how the transformation will be done. My understanding was that the use case would demonstrate dynamic translation from heterogenous data sources (pretty much what OWS-9 CCI Semantic Mediation Engineering Report describes : <http://www.ogcnetwork.net/node/1798> ). The GWIE2 document is not clear about this. It does states that it a technological UC (so I concluded it was some technology development). We should nail this down before we go any further.
+Reading your suggestion, I realise the UC5 is not clear. The way the use case is described on [UseCase5](UseCase5), it does not implies how the transformation will be done. My understanding was that the use case would demonstrate dynamic translation from heterogenous data sources (pretty much what OWS-9 CCI Semantic Mediation Engineering Report describes : <http://www.ogcnetwork.net/node/1798> ). The GWIE2 document is not clear about this. It does states that it a technological UC (so I concluded it was some technology development). We should nail this down before we go any further.
 
-Here's how I understand it: The goal of the UC is to demonstrate how we can connect to heterogenous datasets and dynamically transform it into a common model. I was contemplating showing on a map a piezometric map with sampling features (water well essentially) and having delived with this 1..\* aquifer features (with relevant information). In OGC concepts, we have: [SamplingFeatures](SamplingFeatures.md) (in GWML, [WaterWells](WaterWells.md) are subtypes of [SamplingFeatures](SamplingFeatures.md) - let's see if this still holds), Those samplingFeatures have Observations (water levels). Each [SamplingFeature](SamplingFeature.md) "samples" a domain feature, which is the Aquifer (or the Water Body ?). A collection of those [SamplingFeatures](SamplingFeatures.md) (the piezometric map) forms a coverage. So maybe we are looking into a WMC/WFS/WMS instead of a SOS/WFS/SOS package ?
+Here's how I understand it: The goal of the UC is to demonstrate how we can connect to heterogenous datasets and dynamically transform it into a common model. I was contemplating showing on a map a piezometric map with sampling features (water well essentially) and having delived with this 1..\* aquifer features (with relevant information). In OGC concepts, we have: [SamplingFeatures](SamplingFeatures) (in GWML, [WaterWells](WaterWells) are subtypes of [SamplingFeatures](SamplingFeatures) - let's see if this still holds), Those samplingFeatures have Observations (water levels). Each [SamplingFeature](SamplingFeature) "samples" a domain feature, which is the Aquifer (or the Water Body ?). A collection of those [SamplingFeatures](SamplingFeatures) (the piezometric map) forms a coverage. So maybe we are looking into a WMC/WFS/WMS instead of a SOS/WFS/SOS package ?
 
 Can we have an agreement on how this transformation is to be done ?
 
@@ -26,7 +26,7 @@ My experience is that the technology UC tests components of the information mode
 
 Assuming we have a 'strawman' model to test we need to decide on the technology. Without being specific about the use case I'd be looking at something like:
 
-- Display location of sampling features ([WaterWells](WaterWells.md), Guages, pump tests) as WMS
+- Display location of sampling features ([WaterWells](WaterWells), Guages, pump tests) as WMS
 - Query sampling feature resulting in WFS response or SOS response depending on the nature of the sampling feature;
 - Display results as WFS file or WCS (time and variable coverage for SOS feature).
 
@@ -34,7 +34,7 @@ Is this way off mark?
 
 -- BruceSimons - 18 Nov 2012
 
-Does this UC presuppose that all those service uses the same schema (OGCG GW schema) - \_à la\_ [OneGeology](OneGeology.md) - or do we need to consider integration of heterogenous schemas ? In the latter case, we need an extra component (an a big one). What you are listing is a case of stitching different data types into a single application. In a sense, it's not different from UC1 to UC4 (just one more application). What I understood of UC5 was different data source (but the same type - ie, water level) each having different schemas / vocabularies ( two or more WFS providing water wells exposing different schemas). Therefore, this UC could be a component of any/all of the other UC. I think we should have a agenda item about this on the next telecon.
+Does this UC presuppose that all those service uses the same schema (OGCG GW schema) - \_à la\_ [OneGeology](OneGeology) - or do we need to consider integration of heterogenous schemas ? In the latter case, we need an extra component (an a big one). What you are listing is a case of stitching different data types into a single application. In a sense, it's not different from UC1 to UC4 (just one more application). What I understood of UC5 was different data source (but the same type - ie, water level) each having different schemas / vocabularies ( two or more WFS providing water wells exposing different schemas). Therefore, this UC could be a component of any/all of the other UC. I think we should have a agenda item about this on the next telecon.
 
 -- EricBoisvert - 19 Nov 2012
 

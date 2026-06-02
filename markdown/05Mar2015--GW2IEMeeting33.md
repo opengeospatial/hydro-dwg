@@ -1,16 +1,16 @@
-# **[GW2IE](GW2IE.md) Meeting 33 -- Thurs 05 Mar 2015**
+# **[GW2IE](GW2IE) Meeting 33 -- Thurs 05 Mar 2015**
 
 ## **Agenda**
 
 - Technical
-  - \_Namespaces & [URIs\_](URIs_.md):
+  - \_Namespaces & [URIs\_](URIs_):
     - update (**Jessica, Bruce, Eric**)
   - \_Pump & Well Test proposal\_:
     - finalize entity name: [poll for name of Test](http://doodle.com/yv6m9s2xfa3cnybt)
     - finalize insertion into model: who, when?
       - packaging?
     - update re: specification document: requirements and conformance classes (**Eric, Sylvain**)
-  - \_Management [Area\_](Area_.md):
+  - \_Management [Area\_](Area_):
     - Modification proposal to be presented March 17 (**Sylvain, Bernhard**)
 - Use-Case Implementation
   - Use cases update: roundtable
@@ -24,11 +24,11 @@
 Present: Bruce, Jessica, Alex and Eric
 
 - USGS to check how it can accomodate different domain names to access their server. (Jessica)
-- Pump and Test: [GW_AquiferTest](GW_AquiferTest.md) is most favoured name and changed has been made to UML
-- Since Modular spec demands that requirement class matches a package, the [GW_AquiferTest](GW_AquiferTest.md) will be moved to its own package (Eric, François)
+- Pump and Test: [GW_AquiferTest](GW_AquiferTest) is most favoured name and changed has been made to UML
+- Since Modular spec demands that requirement class matches a package, the [GW_AquiferTest](GW_AquiferTest) will be moved to its own package (Eric, François)
 - Eric to start writing requirement and conformant class for Pump and Test
 - Management area posponed to next meeting since Sylvain and Berhard were absent)
-- Use case: Bruce working on UC1. Accepted to share his [GeoNetwork](GeoNetwork.md) configuration files so we can benefit from his experience on how to use [GeoServer](GeoServer.md).
+- Use case: Bruce working on UC1. Accepted to share his [GeoNetwork](GeoNetwork) configuration files so we can benefit from his experience on how to use [GeoServer](GeoServer).
 
 ## **Connection Instructions**
 
@@ -43,7 +43,7 @@ Present: Bruce, Jessica, Alex and Eric
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 553 280 272
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -57,7 +57,7 @@ Present: Bruce, Jessica, Alex and Eric
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

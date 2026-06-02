@@ -6,34 +6,34 @@ This page is for information relating to the development of WaterML 2.0 part 2 t
 
 ## Standards Working Group
 
-[SWG Page](WML2P2SWG.md)
+[SWG Page](WML2P2SWG)
 
 ## Technical topics
 
-- [Relationship to relevant models (e.g. HY_Features, INSPIRE)](ModelRelationships.md)
-- [Range values](RGSRangeValues.md)
-- [Phased Rating transition](RatingPhasedDuration.md)
-- [Ratings Shifts](RatingShifts.md)
-- [API Development](ApplicationProgrammingInterfaceDevelopment.md)
+- [Relationship to relevant models (e.g. HY_Features, INSPIRE)](ModelRelationships)
+- [Range values](RGSRangeValues)
+- [Phased Rating transition](RatingPhasedDuration)
+- [Ratings Shifts](RatingShifts)
+- [API Development](ApplicationProgrammingInterfaceDevelopment)
 
 #### Interoperability Experiment
 
-- [Base page for the IE](RGSInteropExperiment.md)
+- [Base page for the IE](RGSInteropExperiment)
 
 ## Activity
 
-- [Member organisation motivation](MotivationsAndInvovlement.md)
-- [Member organisation objectives](OrganisationObjectives.md)
+- [Member organisation motivation](MotivationsAndInvovlement)
+- [Member organisation objectives](OrganisationObjectives)
 - RGS activity governance
-- [Working group membership](RGSWorkingGroupMembership.md)
-- [Reference information and sample data](References.md)
-- [Glossary of terms](RGSGlossaryOfTerms.md)
-  - [ClassDefinitionsAndGlossary](ClassDefinitionsAndGlossary.md)
+- [Working group membership](RGSWorkingGroupMembership)
+- [Reference information and sample data](References)
+- [Glossary of terms](RGSGlossaryOfTerms)
+  - [ClassDefinitionsAndGlossary](ClassDefinitionsAndGlossary)
 - Ratings
-  - [Use cases](RatingsUseCases.md)
-  - [Scope](RatingsScope.md)
+  - [Use cases](RatingsUseCases)
+  - [Scope](RatingsScope)
 - Gaugings
-  - [Scope](GaugingsScope.md)
+  - [Scope](GaugingsScope)
 - RGS activity register <https://docs.google.com/spreadsheet/ccc?key=0ArdtTd_VTBTZdGVCZnM3czk1c1NzbVBONWd6Z3dyZHc>
 - [Activity schedule](http://external.opengis.org/twiki_public/pub/HydrologyDWG/WaterML2Part2/RGS_schedule_0.2.pdf)
 - Formation of Standards Working Group
@@ -48,23 +48,23 @@ This page is for information relating to the development of WaterML 2.0 part 2 t
 
 #### Modeling activity
 
-- [Overview of current model](CurrentModelOverview12Nov.md) (13th November)
-- [Setting up the UML environment](SettingUpUML.md)
+- [Overview of current model](CurrentModelOverview12Nov) (13th November)
+- [Setting up the UML environment](SettingUpUML)
 
 ## Meeting notes
 
-- [Meeting on 17th May 2012](Meeting170512.md)
+- [Meeting on 17th May 2012](Meeting170512)
 - Meeting 20th June 2013 Quebec
-  - [Ratings Shifts Concepts Investigation](RatingsShiftsQuebec.md)
+  - [Ratings Shifts Concepts Investigation](RatingsShiftsQuebec)
 
 ### Teleconferences
 
-- [Meeting on 18th September 2012](Meeting180912.md)
-- [Meeting on 14th December 2012](Meeting141212.md)
-- [Meeting on 27th September 2013](Meeting27Sept2013.md)
-- [Upcoming meeting for March 2014](RGSIEMeetingMarch2014.md)
-- [Meeting on 2nd May 2014](RgsMeeting020414.md)
-- [Meeting on 19th (18th US) June 2014](RGSMeeting19June14.md)
+- [Meeting on 18th September 2012](Meeting180912)
+- [Meeting on 14th December 2012](Meeting141212)
+- [Meeting on 27th September 2013](Meeting27Sept2013)
+- [Upcoming meeting for March 2014](RGSIEMeetingMarch2014)
+- [Meeting on 2nd May 2014](RgsMeeting020414)
+- [Meeting on 19th (18th US) June 2014](RGSMeeting19June14)
 
 ## Mailing lists
 
@@ -72,9 +72,9 @@ This page is for information relating to the development of WaterML 2.0 part 2 t
 
 ## Workshops
 
-20-22nd June 2012 - [Reading workshop planning and records](RatingsAndGaugingsWorkshopReading.md)
+20-22nd June 2012 - [Reading workshop planning and records](RatingsAndGaugingsWorkshopReading)
 
-- [Workshop notes - google docs register](WorkshopNotes.md)
-- [Ratings notes](RGSWorkshopRatingsNotes.md)
+- [Workshop notes - google docs register](WorkshopNotes)
+- [Ratings notes](RGSWorkshopRatingsNotes)
 
 -- PeterTaylor - 17 May 2012

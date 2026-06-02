@@ -1,8 +1,8 @@
-# **[GW2IE](GW2IE.md) Meeting 44 -- Wed 23 Sept 2015 -- Orleans in-person**
+# **[GW2IE](GW2IE) Meeting 44 -- Wed 23 Sept 2015 -- Orleans in-person**
 
 - Time: 10:00
 - Location: BRGM (J2 114 -- 1st floor)
-  - Logistics: see [HDWG directions](HydroDWGOrleansAttendees.md)
+  - Logistics: see [HDWG directions](HydroDWGOrleansAttendees)
   - Note: HDWG meeting starts 9:00 in the 8th floor boardroom
 
 ## **Agenda**
@@ -12,7 +12,7 @@
   - Discuss issues / changes
   - Develop Charter
   - Plan next Steps
-  - [HY_features](HY_features.md) mapping
+  - [HY_features](HY_features) mapping
 
 ## **Participants**
 

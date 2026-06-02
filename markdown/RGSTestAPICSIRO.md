@@ -56,7 +56,7 @@ The xlinks in the XML are resolvable back into API resources for the main resour
 - • HTML: <http://waterml2.csiro.au/rgs-api/v1/gauging/?monitoring-point=419075>
 - • XML: <http://waterml2.csiro.au/rgs-api/v1/gauging/?monitoring-point=419075&format=xml>
 
-The process has raised some questions about how best to encode collections and how to support discovery, but these are more related to fitting the information model to the API rather than the actual content. There is the start of collections of conversion groups available in XML: <http://waterml2.csiro.au/rgs-api/v1/conversion-group/?format=xml>, but I'm still working through it. The collections will support filters that relate directly to the specific queries we agree on in the RGS group ( [http://external.opengis.org/twiki_public/HydrologyDWG/RgsApiDesign](RgsApiDesign.md)).
+The process has raised some questions about how best to encode collections and how to support discovery, but these are more related to fitting the information model to the API rather than the actual content. There is the start of collections of conversion groups available in XML: <http://waterml2.csiro.au/rgs-api/v1/conversion-group/?format=xml>, but I'm still working through it. The collections will support filters that relate directly to the specific queries we agree on in the RGS group ( [http://external.opengis.org/twiki_public/HydrologyDWG/RgsApiDesign](RgsApiDesign)).
 
 **Query-based requests**
 

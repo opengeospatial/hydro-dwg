@@ -8,7 +8,7 @@ Meeting slides - [Wiki page attachment](https://raw.githubusercontent.com/openge
 
 ### Links from slides
 
-**[WaterML2](WaterML2.md) - RGS Discussion paper** <https://portal.opengeospatial.org/files/?artifact_id=54423>**IE Time line** - [https://docs.google.com/file/d/0B7dtTd_VTBTZRU05SEdSTUxPaEE/edit](https://docs.google.com/file/d/0B7dtTd_VTBTZRU05SEdSTUxPaEE/edit)**RGS mailing list join**: <https://lists.opengeospatial.org/mailman/listinfo/hydro-rgs>
+**[WaterML2](WaterML2) - RGS Discussion paper** <https://portal.opengeospatial.org/files/?artifact_id=54423>**IE Time line** - [https://docs.google.com/file/d/0B7dtTd_VTBTZRU05SEdSTUxPaEE/edit](https://docs.google.com/file/d/0B7dtTd_VTBTZRU05SEdSTUxPaEE/edit)**RGS mailing list join**: <https://lists.opengeospatial.org/mailman/listinfo/hydro-rgs>
 
 #
 
@@ -16,7 +16,7 @@ Meeting slides - [Wiki page attachment](https://raw.githubusercontent.com/openge
 
 Hi,
 
-As you are aware the Bureau of Meteorology and the CSIRO are participating in the development of [WaterML2](WaterML2.md) Part 2, Ratings Gaugings and Sections. We are working on this activity jointly though the Water Information Research and Development Alliance (WIRADA [\<sup\>1\</sup\>](http://www.csiro.au/en/Organisation-Structure/Flagships/Water-for-a-Healthy-Country-Flagship/WIRADA_WFHC_ResearchProfile.aspx)). The development of the standard is occurring through the Open Geospatial Consortium [\<sup\>2\</sup\>](http://www.opengeospatial.org/) Hydrology Domain Working Group [\<sup\>3\</sup\>](WebHome.md).
+As you are aware the Bureau of Meteorology and the CSIRO are participating in the development of [WaterML2](WaterML2) Part 2, Ratings Gaugings and Sections. We are working on this activity jointly though the Water Information Research and Development Alliance (WIRADA [\<sup\>1\</sup\>](http://www.csiro.au/en/Organisation-Structure/Flagships/Water-for-a-Healthy-Country-Flagship/WIRADA_WFHC_ResearchProfile.aspx)). The development of the standard is occurring through the Open Geospatial Consortium [\<sup\>2\</sup\>](http://www.opengeospatial.org/) Hydrology Domain Working Group [\<sup\>3\</sup\>](Home).
 
 Following on from our preliminary telephone discussion in June, we would like to start the conversations to progress planning for the Interoperability experiment. We would like to invite you to participate in a group telecom where we will update you on activity to date and discuss the experiment, participation and the next steps.
 
@@ -41,8 +41,8 @@ Paul and Pete.
 
 1.  [WIRADA](http://www.csiro.au/en/Organisation-Structure/Flagships/Water-for-a-Healthy-Country-Flagship/WIRADA_WFHC_ResearchProfile.aspx) – The alliance is now in its second agreement period.
 2.  [Open Geospatial Consortium](http://www.opengeospatial.org/) (OGC)
-3.  [Hydrology Domain Working Group](WebHome.md) – (HDWG)
+3.  [Hydrology Domain Working Group](Home) – (HDWG)
 
 -- PaulSheahan - 30 Aug 2013
 
-- [WaterML2.Part2\_-\_OzStartupMtg.pdf](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/20130830-OzStartupMtg/WaterML2.Part2_-_OzStartupMtg.pdf): Meeting slides for the [OzStartup](OzStartup.md) meeting
+- [WaterML2.Part2\_-\_OzStartupMtg.pdf](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/20130830-OzStartupMtg/WaterML2.Part2_-_OzStartupMtg.pdf): Meeting slides for the [OzStartup](OzStartup) meeting

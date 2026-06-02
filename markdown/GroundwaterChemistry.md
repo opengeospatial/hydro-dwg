@@ -13,4 +13,4 @@
 - uncertainty operator (+-, =, \<, \>)
 - timestamp
 
-\- Main.[FrancoisLetourneau](FrancoisLetourneau.md) - 27 Jun 2013
+\- [FrancoisLetourneau](FrancoisLetourneau) - 27 Jun 2013

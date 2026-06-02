@@ -6,7 +6,7 @@ Time at other locations: [http://www.timeanddate.com/worldclock/meetingtime.html
 
 **Venue:** OGC Technical Committee Meeting hosted by CSIRO, Sydney, Australia [http://www.opengeospatial.org/event/1011tc TC Meeting Info](http://www.opengeospatial.org/event/1011tc%20TC%20Meeting%20Info), [http://www.opengeospatial.org/event/1011tcagenda TC Meeting Agenda](http://www.opengeospatial.org/event/1011tcagenda%20TC%20Meeting%20Agenda)
 
-**Remote Participants:** [Details here](SydneyRemoteDetails.md)
+**Remote Participants:** [Details here](SydneyRemoteDetails)
 
 ## Agenda
 

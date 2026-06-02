@@ -1,11 +1,11 @@
-# **[GW2IE](GW2IE.md) Meeting 7** **-- Tues 18 June 2013 -- Entity List and Modeling**
+# **[GW2IE](GW2IE) Meeting 7** **-- Tues 18 June 2013 -- Entity List and Modeling**
 
 ## **Agenda**
 
 - Welcome
 - OGC status update
 - Discussion
-  - Conclude the [Entity List](Gwml2ConsolFeatureList.md), focussing on unresolved items:
+  - Conclude the [Entity List](Gwml2ConsolFeatureList), focussing on unresolved items:
     - Geologic Unit
     - Groundwater Basin
     - Groundwater Dependent Ecosystem
@@ -44,7 +44,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) June meeting
+  - **Meeting Topic:**[GW2IE](GW2IE) June meeting
   - **Meeting Number**: 803 616 360
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -56,7 +56,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

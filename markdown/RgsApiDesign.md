@@ -1,6 +1,6 @@
 # API queries
 
-This page is a consolidated list of user queries for the API to be used in the IE. The list of initial queries is on this page: [UserRequirements](UserRequirements.md). I have combined some calls and slightly altered long the lines of the comments.
+This page is a consolidated list of user queries for the API to be used in the IE. The list of initial queries is on this page: [UserRequirements](UserRequirements). I have combined some calls and slightly altered long the lines of the comments.
 
 ## Core requirements
 

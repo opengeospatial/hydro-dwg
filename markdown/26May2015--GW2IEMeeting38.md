@@ -1,4 +1,4 @@
-# **CANCELLED** --[GW2IE](GW2IE.md) Meeting 38 -- Tues 26 May 2015-- **CANCELLED**
+# **CANCELLED** --[GW2IE](GW2IE) Meeting 38 -- Tues 26 May 2015-- **CANCELLED**
 
 ## **Agenda**
 

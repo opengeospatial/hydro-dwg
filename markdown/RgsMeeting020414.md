@@ -30,7 +30,7 @@ Could provide a parameter in API for stage spacing, with a default across the wh
 
 Keyed on site-paramFrom-paramTo.
 
-6\) Should calls such as .../rgs-api/v1/conversion/ and .../rgs-api/v1/conversion/[C_ID](C_ID.md) (where [C_ID](C_ID.md) is the conversion ID) return all types of conversions, both ratings and \_\_shifts\_\_
+6\) Should calls such as .../rgs-api/v1/conversion/ and .../rgs-api/v1/conversion/[C_ID](C_ID) (where [C_ID](C_ID) is the conversion ID) return all types of conversions, both ratings and \_\_shifts\_\_
 
 Yes should contain ratings and shifts. Stage-stage conversion used for purposes other than shifts. Do we need to identify them as shifts? Aus create new tables that incorporate all the changes.
 

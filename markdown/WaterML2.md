@@ -14,4 +14,4 @@ Pete Taylor's presentation to HIS group (1st Feb, 2012) -- [WaterML2.0: Overview
 
 ## Possible Changes
 
-- [WaterML2ChangeRequests](WaterML2ChangeRequests.md) \*
+- [WaterML2ChangeRequests](WaterML2ChangeRequests) \*

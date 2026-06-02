@@ -4,9 +4,9 @@ Dom's recent pass on the model also noted:
 
 > Modelling generic v specific types:
 >
-> While I understand the desire to create generic conversion/conversion observation types, should consideration be given to making the general types (Conversion/[ConversionObservation](ConversionObservation.md)) abstract classes and having concrete implementations of Ratings/Gaugings? It might make the end model and encodings more intuitive and domain-friendly if concrete classes called 'Rating', 'Gauging' exist.
+> While I understand the desire to create generic conversion/conversion observation types, should consideration be given to making the general types (Conversion/[ConversionObservation](ConversionObservation)) abstract classes and having concrete implementations of Ratings/Gaugings? It might make the end model and encodings more intuitive and domain-friendly if concrete classes called 'Rating', 'Gauging' exist.
 >
-> There are also a few inconsistencies with the general terminology Conversion/[ConversionObservation](ConversionObservation.md) versus Ratings/Gaugings. E.g. the Gaugings package should probably be called '[ConversionObservations](ConversionObservations.md)' and the documentation refers to 'gauging observation'. It makes the model a bit hard to read when there are these undefined terms that appear (although that could just be the gaps in my domain knowledge).
+> There are also a few inconsistencies with the general terminology Conversion/[ConversionObservation](ConversionObservation) versus Ratings/Gaugings. E.g. the Gaugings package should probably be called '[ConversionObservations](ConversionObservations)' and the documentation refers to 'gauging observation'. It makes the model a bit hard to read when there are these undefined terms that appear (although that could just be the gaps in my domain knowledge).
 
 I agree with this. It would be good to revisit the naming, especially before we agree on a model version for the IE. \<h1 id="Clarifyingclassdefinitions-Standarddefinitions"\>Standard definitions\</h1\>
 
@@ -47,7 +47,7 @@ From <http://waterinfo.nsw.gov.au/about/glossary.shtm>. Some definitions are sou
 
 - **Rating table**:
   1.  In most contexts, a table showing the relation between the gauge height and the discharge of a stream at a given gauging station. Also referred to as discharge table.
-  2.  Any table showing the relation between two mutually dependent quantities or variables over a given range of magnitude, e.g., a table showing the relationship between the stage in a reservoir and its volume. \_Nevada Division of Water [Resources\_](Resources_.md)
+  2.  Any table showing the relation between two mutually dependent quantities or variables over a given range of magnitude, e.g., a table showing the relationship between the stage in a reservoir and its volume. \_Nevada Division of Water [Resources\_](Resources_)
 - **Gauging station:**A *site on a stream, lake, reservoir or other body of water where observations and hydrologic data are obtained. Measurements of stream discharge at gauging stations.*
 - **Gauge height:** \_The height of the water surface above the gauge datum (zero point). Gauge height is often used interchangeably with the more general term, stage, although gauge height is more appropriate when used with a gauge reading. Gauge heights are measured in metres (m).\_
 
@@ -55,8 +55,8 @@ From <http://waterinfo.nsw.gov.au/about/glossary.shtm>. Some definitions are sou
 
 Fairly recently released their National Industry Guidelines for hydrometric monitoring, which includes a glossary document available here: <http://www.bom.gov.au/water/standards/documents/WISBF_GL_100_00-2013.pdf>. \<h2 id="Clarifyingclassdefinitions-Comments"\> **Comments** \</h2\>
 
-- I think we should follow these where possible, and if we deviate we should be explicit on the differences. Having an abstract conversion class, as Dom suggests, seems like a good option. Then we could have a [RatingTable](RatingTable.md) class in place of either [ConversionTable](ConversionTable.md), or as a specialisation of [ConversionTable](ConversionTable.md) if we want to maintain an abstract separation of tables and equations. The question becomes: is a rating table specific to stage-discharge? Certainly they cover the majority of uses, but there are others like suspended-sediment rating tables.
-- There are already aspects of the gaugings model that are specific to measuring discharge: [FlowMeasure](FlowMeasure.md) vocabulary, river state/conditions and parts of the [ObservationArea](ObservationArea.md) type (gauged section line etc.).
+- I think we should follow these where possible, and if we deviate we should be explicit on the differences. Having an abstract conversion class, as Dom suggests, seems like a good option. Then we could have a [RatingTable](RatingTable) class in place of either [ConversionTable](ConversionTable), or as a specialisation of [ConversionTable](ConversionTable) if we want to maintain an abstract separation of tables and equations. The question becomes: is a rating table specific to stage-discharge? Certainly they cover the majority of uses, but there are others like suspended-sediment rating tables.
+- There are already aspects of the gaugings model that are specific to measuring discharge: [FlowMeasure](FlowMeasure) vocabulary, river state/conditions and parts of the [ObservationArea](ObservationArea) type (gauged section line etc.).
 - **parameterFrom/parameterTo:**Current suggestions are to change the name to: **observedPropertyFrom/observedPropertyTo** or **phenomenonFrom/phenomenonTo**to harmonise with naming within O&M. Any suggestions/comments welcome..
 
 -- PeterTaylor - 10 Sep 2013

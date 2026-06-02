@@ -18,8 +18,8 @@
 
 - updates from the participants
   - Sylvain: working together with the national hydrological agency on the inclusion of further data
-  - Simon J.: work on 52north server and client is ongoing but not very much visible on the surface, timeline for SOS Type C with [WaterML2](WaterML2.md).0 is Bonn TC meeting in February
-  - Stefan F.: updates on development on GRDC instance but not propagated further; waiting for further development of [WaterML2](WaterML2.md).0 (probably after Sydney meeting)
+  - Simon J.: work on 52north server and client is ongoing but not very much visible on the surface, timeline for SOS Type C with [WaterML2](WaterML2).0 is Bonn TC meeting in February
+  - Stefan F.: updates on development on GRDC instance but not propagated further; waiting for further development of [WaterML2](WaterML2).0 (probably after Sydney meeting)
 - presentation for Sydney
   - proposal from Chris is ok, additions will come from Simon J. (status of 52north implementations) and Stefan F. (KISTERS implementations)
   - Chris and Carsten will discuss how the slides will be presented in Sydney during SF IE telco on November 25th with Peter F.

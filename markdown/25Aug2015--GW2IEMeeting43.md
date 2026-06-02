@@ -1,9 +1,9 @@
-# **[GW2IE](GW2IE.md) Meeting 43 -- Tues 25 August 2015**
+# **[GW2IE](GW2IE) Meeting 43 -- Tues 25 August 2015**
 
 ## **Agenda**
 
 - Meetings update:
-  - OGC TC Sept Nottingham: draft agenda... [here](NottinghamTC2015.md)
+  - OGC TC Sept Nottingham: draft agenda... [here](NottinghamTC2015)
   - HDWG Orleans: RDA registration fee waiver for guests?
 - Server update
 - LM / Schema update: ManagementArea, definitions, ...
@@ -39,15 +39,15 @@
     - Alex has populated with " Groundwater Management Zone ". I think this should be "water" from <http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/>, based on the UML notes: "owl:sameAs environmentalDomain in INSPIRE AM v3.0."
       - RESOLUTION: all vocabs are equally valid, because none are canonical
   - \<gwml2:gwAreaYield\>
-    - Documentation has "Type of yields (of the aquifer or management area): e.g. specific yield, safe yield, license yield etc. but excludes well yield. TBD". I can't see how this relates to the cardinality (0..1) or the data type ([OM_Measurement](OM_Measurement.md)). What is gwml2:gwAreaYield used for and how do we distinguish the various yield types?
+    - Documentation has "Type of yields (of the aquifer or management area): e.g. specific yield, safe yield, license yield etc. but excludes well yield. TBD". I can't see how this relates to the cardinality (0..1) or the data type ([OM_Measurement](OM_Measurement)). What is gwml2:gwAreaYield used for and how do we distinguish the various yield types?
       - RESOLUTION: OM property = type of yield; cardinality of gwAreaYield changed to 0...\*
   - Relationship between \<gwml2:gwAreaWaterBudget\> and \<gwml2:gwAreaYield\> The gwml2:gwAreaWaterBudget property has no documentation so I'm unclear its relationship to gwml2:gwAreaYield
-    - I want to be able to populate values for values of 'unallocated groundwater' (% and/or ML), 'current entitlement' (% and/or ML), 'entitlement limit' (ML). Do I put these all into gwml2:gwAreaWaterBudget (it has cardinality of 0..\*), and then use 'gwml2f:gwBudgetAmount/om:[OM_Observation](OM_Observation.md)/om:observedProperty' to distinguish the different entitlements (seems like a hack)?
+    - I want to be able to populate values for values of 'unallocated groundwater' (% and/or ML), 'current entitlement' (% and/or ML), 'entitlement limit' (ML). Do I put these all into gwml2:gwAreaWaterBudget (it has cardinality of 0..\*), and then use 'gwml2f:gwBudgetAmount/om:[OM_Observation](OM_Observation)/om:observedProperty' to distinguish the different entitlements (seems like a hack)?
       - RESOLUTION: Not handled by the model; deferred to SWG
 
 ### Requirements / Conformance Issues
 
-- 9.8 (/req/gwml2-well-gu/log-category) how to name observedProperty (use the identifier of the clause to document the intend or use the identifier of a formal swe definition of the property - I've used the former for [NamedValue](NamedValue.md) - not sure about the rest):
+- 9.8 (/req/gwml2-well-gu/log-category) how to name observedProperty (use the identifier of the clause to document the intend or use the identifier of a formal swe definition of the property - I've used the former for [NamedValue](NamedValue) - not sure about the rest):
   - RESOLUTION: remove any constrains on use of HTTP URI and propose that this should be handled in community profiles. Add statement in issues.
 - 10.5 (/req/xsd-gwml-well/waterwell-CRS-uom) : it says that the uom of the CRS of the elevation must match the uom of the shape. Isn't the unit part of the CRS definition (and then clause 10.5.1 saying that Z CRS of elevation must match Z of shape saying the same thing ?) (ditto monitoring) :
   - RESOLUTION: Rephrase to specify that UOM and datum shall be the same.
@@ -56,9 +56,9 @@
 - /req/gwml2-core listed in conformance classes (while not in requirement) - discussions started by email : needs conclusion.
   - RESOLUTION: core conformance moved to core.
 - Started a discussion about FOI (sampling feature or domain feature) - which has ramifications
-  - RESOLUTION: add a Observation parameter and [SamplingFeature](SamplingFeature.md) parameter to identify the geometry for relative location.
+  - RESOLUTION: add a Observation parameter and [SamplingFeature](SamplingFeature) parameter to identify the geometry for relative location.
     - Navigation issues (specially when we have many to many)
-    - when we need to identify the reference geometry for OM located along a well (located relative to well path). Spec said FOI would identify the well. Probably a bad idea anyway, so we started discussion the idea of adding another NameValue. Did not conclude. -- Main.[EricBoisvert](EricBoisvert.md) - 25 Aug 2015
+    - when we need to identify the reference geometry for OM located along a well (located relative to well path). Spec said FOI would identify the well. Probably a bad idea anyway, so we started discussion the idea of adding another NameValue. Did not conclude. -- [EricBoisvert](EricBoisvert) - 25 Aug 2015
 
 ## **Participants**
 

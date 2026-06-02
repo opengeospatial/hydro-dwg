@@ -12,7 +12,7 @@ Client can send either a GET request or a POST request
 http://www.someserver.com?
 ```
 
-Since there is no GET ([HttpRest](HttpRest.md)), there are no 'request' parameters to pass.
+Since there is no GET ([HttpRest](HttpRest)), there are no 'request' parameters to pass.
 
 Mock up system from GIN
 

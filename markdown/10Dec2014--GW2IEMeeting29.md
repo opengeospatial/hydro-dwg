@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 29 -- Wed 10 Dec 2014**
+# **[GW2IE](GW2IE) Meeting 29 -- Wed 10 Dec 2014**
 
 ## **Agenda**
 
@@ -26,7 +26,7 @@
     - Pump: (**Eric**)
     - Well test: (**Sylvain**, **Eric**)
     - Unit properties: (**Eric**)
-      - review proposals [here](GwmlDistributedValues.md)
+      - review proposals [here](GwmlDistributedValues)
       - vote on proposals [here](http://doodle.com/6hmsiyptdvxx2wea)
   - other:
     - identify remaining issues (from logical model issues page) (**Bruce**)
@@ -96,7 +96,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 551 597 090
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -110,7 +110,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|

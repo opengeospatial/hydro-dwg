@@ -8,9 +8,9 @@
 
 Phone:
 
-[GotoMeeting](GotoMeeting.md) Joining Details
+[GotoMeeting](GotoMeeting) Joining Details
 
-1. Please join my meeting, Wed Jun 11th 7:00 AM EDT.<https://www4.gotomeeting.com/join/746531159>2. Use your microphone and speakers ([VoIP](VoIP.md)) - a headset is recommended. Or, call in using your telephone.AT: +43 (0) 7 2088 2169BE: +32 (0) 42 68 0154DK: +45 (0) 89 88 04 29FI: +358 (0) 931 58 4586DE: +49 (0) 811 8899 6930IE: +353 (0) 19 036 185IT: +39 0 294 75 15 35NL: +31 (0) 108 080 114NZ: +64 (0) 9 801 0292NO: +47 21 01 89 06ES: +34 911 23 4170SE: +46 (0) 852 500 288CH: +41 (0) 435 0824 39CA: +1 (647) 497-9373US: +1 (213) 493-0014AU: +61 2 8355 1035FR: +33 (0) 170 950 587GB: +44 (0) 330 221 0096Access Code: 746-531-159 Audio PIN will be displayed upon joining the web session.
+1. Please join my meeting, Wed Jun 11th 7:00 AM EDT.<https://www4.gotomeeting.com/join/746531159>2. Use your microphone and speakers ([VoIP](VoIP)) - a headset is recommended. Or, call in using your telephone.AT: +43 (0) 7 2088 2169BE: +32 (0) 42 68 0154DK: +45 (0) 89 88 04 29FI: +358 (0) 931 58 4586DE: +49 (0) 811 8899 6930IE: +353 (0) 19 036 185IT: +39 0 294 75 15 35NL: +31 (0) 108 080 114NZ: +64 (0) 9 801 0292NO: +47 21 01 89 06ES: +34 911 23 4170SE: +46 (0) 852 500 288CH: +41 (0) 435 0824 39CA: +1 (647) 497-9373US: +1 (213) 493-0014AU: +61 2 8355 1035FR: +33 (0) 170 950 587GB: +44 (0) 330 221 0096Access Code: 746-531-159 Audio PIN will be displayed upon joining the web session.
 
 **Presentation template:** <https://portal.opengeospatial.org/files/?artifact_id=58553>
 
@@ -25,6 +25,6 @@ Phone:
 5.  OWS-10 CCI Hydro Model Interoperability Engineering Report - update and **motion for release as OGC** **Engineering Report** - Liping Di
 6.  GEOSS Water Services update: activities related to flood monitoring & prediction - David Arctur
 7.  Water data exchange using standards - towards a suite of standards - Irina Dornblut
-8.  Discussion of [HydroDWG](HydroDWG.md) workshop and HIC 2014 Tutorial in August 2014 in New York City - All
+8.  Discussion of [HydroDWG](HydroDWG) workshop and HIC 2014 Tutorial in August 2014 in New York City - All
 
-\- Main.[UlrichLooser](UlrichLooser.md) - 07 May 2014
+\- [UlrichLooser](UlrichLooser) - 07 May 2014

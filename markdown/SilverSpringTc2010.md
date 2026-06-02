@@ -14,12 +14,12 @@ Web: Acrobat Connect Pro - <http://ogc.acrobat.com/hydro/>
 
 ## Agenda
 
-1. Introduction, results of Ispra workshop (co-chairs), IEs and [WaterML](WaterML.md) (approximately 8-9:50am)
+1. Introduction, results of Ispra workshop (co-chairs), IEs and [WaterML](WaterML) (approximately 8-9:50am)
 
-- 8-8:20: David Lemon, [HydroDWG](HydroDWG.md) planning and next steps
+- 8-8:20: David Lemon, [HydroDWG](HydroDWG) planning and next steps
 
 
-- 8:20-9:40: [WaterML](WaterML.md) 2 and Harmonization report updates (Pete Taylor and the [WaterML](WaterML.md) design group)
+- 8:20-9:40: [WaterML](WaterML) 2 and Harmonization report updates (Pete Taylor and the [WaterML](WaterML) design group)
 
 
 - 9:40-9:50 Groundwater IE update; Surface Water IE announcement and kick-off invitation (Peter Fitch)

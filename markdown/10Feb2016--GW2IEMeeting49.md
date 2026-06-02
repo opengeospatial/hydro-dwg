@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 49 -- Wed 10 Feb 2016**
+# **[GW2IE](GW2IE) Meeting 49 -- Wed 10 Feb 2016**
 
 ## **Agenda**
 

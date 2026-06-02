@@ -1,10 +1,10 @@
 # Gaugings scope
 
 1.  **Gaugings by themselves or in relation to ratings?**
-    1.  A block of all [RatingObservations](RatingObservations.md) with reference to rating
-    2.  A rating contains relevant [RatingObservations](RatingObservations.md)
+    1.  A block of all [RatingObservations](RatingObservations) with reference to rating
+    2.  A rating contains relevant [RatingObservations](RatingObservations)
     3.  Inline or external block
-2.  **[RatingObservations](RatingObservations.md) status**
+2.  **[RatingObservations](RatingObservations) status**
     1.  Included in rating deveopment
     2.  Excluded from rating development
     3.  rgs-27
@@ -15,8 +15,8 @@
         1.  rgs-31
 4.  **Use of instance for identifying specific sensors/devices from a measuring point/location**
 5.  **Definition of rating observations that are relevant to a rating**
-    1.  [RatingObservations](RatingObservations.md) that occur in the rating period of application?
-    2.  Out of period [RatingObservations](RatingObservations.md) that are used?
+    1.  [RatingObservations](RatingObservations) that occur in the rating period of application?
+    2.  Out of period [RatingObservations](RatingObservations) that are used?
     3.  rgs-27
 6.  **Generically an x-y result?**
     1.  rgs-33
@@ -32,12 +32,12 @@
     2.  Gauging application time
     3.  rgs-29
 11. **Name**
-    1.  [RatingPairs](RatingPairs.md)
+    1.  [RatingPairs](RatingPairs)
     2.  \_\_RatingObservations\_\_
-    3.  [GaugeObservations](GaugeObservations.md)
-    4.  [ControlObservation](ControlObservation.md)
+    3.  [GaugeObservations](GaugeObservations)
+    4.  [ControlObservation](ControlObservation)
     5.  Gauging
-12. **Observers assessment of [RatingObservation](RatingObservation.md) quality or usability - text description.**
+12. **Observers assessment of [RatingObservation](RatingObservation) quality or usability - text description.**
 13. **Quality**
     1.  Very subjective -- egos get in the way! (Staff completing gaugings assessing their work as good)
     2.  Adherence to organisational standards

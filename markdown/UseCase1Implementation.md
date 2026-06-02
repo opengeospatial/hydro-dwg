@@ -4,12 +4,12 @@
 
 | Participant | Web Services | Features | Technologies | Example XML Instances (file name) |
 |:---|:---|:---|:---|:---|
-| NRcan | WMS, WFS | [GW_HydrogeoUnit](GW_HydrogeoUnit.md), [GW_Well](GW_Well.md) | [MapServer](MapServer.md) WMS, Custom WFS |  |
+| NRcan | WMS, WFS | [GW_HydrogeoUnit](GW_HydrogeoUnit), [GW_Well](GW_Well) | [MapServer](MapServer) WMS, Custom WFS |  |
 | BRGM |  |  |  |  |
 | CSIRO / BOM |  |  |  |  |
 | FedUni |  |  |  |  |
-| GNS / UZ | WMS, WFS | [GW_Well](GW_Well.md), [GW_Spring](GW_Spring.md),[GW_MonitoringSite](GW_MonitoringSite.md) | Geoserver 2.7+app-schema,Tomcat 7, [PostgreSQL](PostgreSQL.md)9.x / shape-files and property files | [GW_Well_GNS_uc1](GW_Well_GNS_uc1.md).xml, [GW_Spring_GNS_uc1](GW_Spring_GNS_uc1.md).xml, [GW_MonitoringSite_GNS_uc1](GW_MonitoringSite_GNS_uc1.md).xml |
-| USGS | WMS, WFS | [GW_HydrogeoUnit](GW_HydrogeoUnit.md), [GW_Well](GW_Well.md) | [GeoServer](GeoServer.md) WMS, Custom WFS | [GW_Well_USGS_uc4](GW_Well_USGS_uc4.md)-mapping.xml, [GW_AquiferSystem_USGS_uc4](GW_AquiferSystem_USGS_uc4.md)-mapping.xml |
+| GNS / UZ | WMS, WFS | [GW_Well](GW_Well), [GW_Spring](GW_Spring),[GW_MonitoringSite](GW_MonitoringSite) | Geoserver 2.7+app-schema,Tomcat 7, [PostgreSQL](PostgreSQL)9.x / shape-files and property files | [GW_Well_GNS_uc1](GW_Well_GNS_uc1).xml, [GW_Spring_GNS_uc1](GW_Spring_GNS_uc1).xml, [GW_MonitoringSite_GNS_uc1](GW_MonitoringSite_GNS_uc1).xml |
+| USGS | WMS, WFS | [GW_HydrogeoUnit](GW_HydrogeoUnit), [GW_Well](GW_Well) | [GeoServer](GeoServer) WMS, Custom WFS | [GW_Well_USGS_uc4](GW_Well_USGS_uc4)-mapping.xml, [GW_AquiferSystem_USGS_uc4](GW_AquiferSystem_USGS_uc4)-mapping.xml |
 
 **Use-Case 1 Issues:**
 

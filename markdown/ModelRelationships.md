@@ -1,8 +1,8 @@
 # Relationship to relevant (feature) models
 
-## [HY_Features](HY_Features.md)
+## [HY_Features](HY_Features)
 
-[HY_Features](HY_Features.md) model has some logical connection points through the related features in the [HY_SurfaceWaterBody](HY_SurfaceWaterBody.md) package: E.g. [HY_River](HY_River.md), Reach etc. There is also a [HY_CrossSection](HY_CrossSection.md) which provides some geometric properties (area) and the reach geometry:
+[HY_Features](HY_Features) model has some logical connection points through the related features in the [HY_SurfaceWaterBody](HY_SurfaceWaterBody) package: E.g. [HY_River](HY_River), Reach etc. There is also a [HY_CrossSection](HY_CrossSection) which provides some geometric properties (area) and the reach geometry:
 
 \<img alt="HY Features excerpt" height="494" src="<http://ars.els-cdn.com/content/image/1-s2.0-S0022169411008742-gr11.jpg>" title="HY Features " width="780" /\>
 

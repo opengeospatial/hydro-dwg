@@ -1,10 +1,10 @@
-# SOS Services that serve [WaterML2](WaterML2.md).0
+# SOS Services that serve [WaterML2](WaterML2).0
 
 ## Current status
 
-CSIRO and 52North are working on adapting current SOS implementations to serve [WaterML2](WaterML2.md).0.
+CSIRO and 52North are working on adapting current SOS implementations to serve [WaterML2](WaterML2).0.
 
-KISTERS implemented SOS with O&M1 and WML2 in their [http://kiwis.kisters.de Web Interoperability Solution (KIWIS)](http://kiwis.kisters.de%20Web%20Interoperability%20Solution%20(KIWIS)) , as well as [WaterOneFlow](WaterOneFlow.md) with [WaterML1](WaterML1.md) , and other http based query services
+KISTERS implemented SOS with O&M1 and WML2 in their [http://kiwis.kisters.de Web Interoperability Solution (KIWIS)](http://kiwis.kisters.de%20Web%20Interoperability%20Solution%20(KIWIS)) , as well as [WaterOneFlow](WaterOneFlow) with [WaterML1](WaterML1) , and other http based query services
 
 ## Support for different RDBMS/storage layers
 
@@ -34,6 +34,6 @@ It's our current choice at the SANDRE since we wanted to fit our OM-ised DB with
 
 This solution requires mapping between own database and WML2 schema It requires more development from the 52N/CSIRO, but may be more relevant if every part agree on using this schema. We can consider this as the long-term solution.
 
-- **Peter Taylor wrote something about adapting [WaterML2](WaterML2.md) to Object DB?**
+- **Peter Taylor wrote something about adapting [WaterML2](WaterML2) to Object DB?**
 
 -- MathieuKazmierski (IOW -SANDRE) - 08 Jul 2010

@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 38 -- Wed 20 May 2015**
+# **[GW2IE](GW2IE) Meeting 38 -- Wed 20 May 2015**
 
 ## **Agenda**
 
@@ -52,7 +52,7 @@
   - Use-case 4: on-track
   - Use-case 5: on-track
     - template for reporting to be determined (see above)
-    - mappings: INSPIRE, GWML1, [HY_Features](HY_Features.md)
+    - mappings: INSPIRE, GWML1, [HY_Features](HY_Features)
 
 ## **Connection Instructions**
 

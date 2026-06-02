@@ -20,7 +20,7 @@ If you wish to **test** your connection (highly recommended) then try on **Mon 2
   - **Meeting Number**: 802 012 520
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click **Join Now**:
-    - \<a href="<https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=NMTdmYWMyZDI4&RT=NCMxMQ%3D%3D>" title="blocked::https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=[NMTdmYWMyZDI4](NMTdmYWMyZDI4.md)&RT=[NCMxMQ](NCMxMQ.md)=="\><https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=NMTdmYWMyZDI4&RT=NCMxMQ%3D%3D>
+    - \<a href="<https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=NMTdmYWMyZDI4&RT=NCMxMQ%3D%3D>" title="blocked::https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=[NMTdmYWMyZDI4](NMTdmYWMyZDI4)&RT=[NCMxMQ](NCMxMQ)=="\><https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716402&UID=1317068987&PW=NMTdmYWMyZDI4&RT=NCMxMQ%3D%3D>
 - **Teleconference:**
   - **First plan:** dial your local number (see table below) and the use the passcode **616269**
   - **Backup plan:** Webex VOIP audio
@@ -39,7 +39,7 @@ If you wish to **test** your connection (highly recommended) then try on **Mon 2
   - **Meeting Number**: 805 563 782
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click **Join Now**:
-    - \<a href="<https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=NMTYyZWRhMzUy&RT=NCMxMQ%3D%3D>" title="blocked::https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=[NMTYyZWRhMzUy](NMTYyZWRhMzUy.md)&RT=[NCMxMQ](NCMxMQ.md)=="\><https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=NMTYyZWRhMzUy&RT=NCMxMQ%3D%3D>
+    - \<a href="<https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=NMTYyZWRhMzUy&RT=NCMxMQ%3D%3D>" title="blocked::https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=[NMTYyZWRhMzUy](NMTYyZWRhMzUy)&RT=[NCMxMQ](NCMxMQ)=="\><https://pwgsc-nh.webex.com/pwgsc-nh/j.php?ED=187716442&UID=1317069262&PW=NMTYyZWRhMzUy&RT=NCMxMQ%3D%3D>
 - **Teleconference:**
   - **First plan:** dial your local number (see table below) and the use the passcode **167731**
   - **Backup plan:** Webex VOIP audio
@@ -84,7 +84,7 @@ If you wish to **test** your connection (highly recommended) then try on **Mon 2
 ## **Agenda**
 
 - OGC status update
-- Use-cases: see [proposal](%PUBURL%/HydrologyDWG/GroundwaterInteroperabilityExperiment2/GWIE2_Activity_Plan_v1.0_.pdf)
+- Use-cases: see [proposal](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/GroundwaterInteroperabilityExperiment2/GWIE2_Activity_Plan_v1.0_.pdf)
   - define format, e.g.
     - Description: objectives, actions, actors, abstract
     - Key entities: features/observations/properties
@@ -110,10 +110,10 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline"
 
 | Use Cases | Description | Entities | Data | Web Services | Clients | Implementers |
 |:---|:---|:---|:---|:---|:---|:---|
-|  \_Use Case 1\_   \_\_Commercial\_\_   \_(gw supply)\_   \_Lead: B.[Brodaric\_](Brodaric_.md)  |  \_Objective\_: use well data to inform drilling  \_Actions\_: zoom to wells, browse well info, download 1-n well data | Water wells: construction, logs, lithologies | -GIN (GSC) | -WMS (locations) -WFS (entities) | -GSC | -GSC (data, WMS-WFS, client) -BRGM |
-|  \_Use Case 2\_   \_\_Policy\_\_   \_(gw management)\_   \_Lead: R.[Tomas\_](Tomas_.md)  |  \_Objective\_: deliver groundwater quantity data for reporting  \_Actions\_: tbd | tbd | -GIN (GSC) |  |  | PGI BGS GSC JRC |
-|  \_Use Case 3\_   \_\_Environmental\_\_   \_(gw quality and biology)\_   \_Lead: P.[Dalhaus\_](Dalhaus_.md)  |  \_Objective\_:  \_Actions\_: | tbd |  | -WMS -WFS |  | U Ballarat |
-|  \_Use Case 4\_   \_\_Scientific\_\_   \_(flow models)\_   \_Lead: [USGS\_](USGS_.md)  |  \_Objective\_: deliver gw data to flow model (e.g. MODFLOW)  \_Actions\_: select an aquifer, browse data, and download | Aquifers (lithologies, conductivity,...) | -GIN (GSC) | -WMS -WFS |  | GSC PASI BGS |
-|  \_Use Case 5\_   \_\_Technologic\_\_   \_(data interchange)\_   \_Lead: E.[Boisvert\_](Boisvert_.md)  |  \_Objective\_: integrate heterogenous data  \_Actions\_: |  | -GIN (GSC) |  |  | GSC JRC BRGM |
+|  \_Use Case 1\_   \_\_Commercial\_\_   \_(gw supply)\_   \_Lead: B.[Brodaric\_](Brodaric_)  |  \_Objective\_: use well data to inform drilling  \_Actions\_: zoom to wells, browse well info, download 1-n well data | Water wells: construction, logs, lithologies | -GIN (GSC) | -WMS (locations) -WFS (entities) | -GSC | -GSC (data, WMS-WFS, client) -BRGM |
+|  \_Use Case 2\_   \_\_Policy\_\_   \_(gw management)\_   \_Lead: R.[Tomas\_](Tomas_)  |  \_Objective\_: deliver groundwater quantity data for reporting  \_Actions\_: tbd | tbd | -GIN (GSC) |  |  | PGI BGS GSC JRC |
+|  \_Use Case 3\_   \_\_Environmental\_\_   \_(gw quality and biology)\_   \_Lead: P.[Dalhaus\_](Dalhaus_)  |  \_Objective\_:  \_Actions\_: | tbd |  | -WMS -WFS |  | U Ballarat |
+|  \_Use Case 4\_   \_\_Scientific\_\_   \_(flow models)\_   \_Lead: [USGS\_](USGS_)  |  \_Objective\_: deliver gw data to flow model (e.g. MODFLOW)  \_Actions\_: select an aquifer, browse data, and download | Aquifers (lithologies, conductivity,...) | -GIN (GSC) | -WMS -WFS |  | GSC PASI BGS |
+|  \_Use Case 5\_   \_\_Technologic\_\_   \_(data interchange)\_   \_Lead: E.[Boisvert\_](Boisvert_)  |  \_Objective\_: integrate heterogenous data  \_Actions\_: |  | -GIN (GSC) |  |  | GSC JRC BRGM |
 
 -- BoyanBrodaric - 17 Oct 2012

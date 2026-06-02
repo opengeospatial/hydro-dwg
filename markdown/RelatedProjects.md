@@ -8,7 +8,7 @@ A team of researchers funded by NSF, the US National Weather Service and CUAHSI 
 
 ## GEOSS Architecture Implementation Pilot (AIP) - Water Societal Benefit Area, 2012-2015
 
-From 2012 - 2015, outreach for use of [WaterML](WaterML.md) 2 and OGC web services has been conducted as the Water Societal Benefit Area (SBA) thread of the GEOSS Architecture Implementation Pilot (AIP). Announcements and results are posted on [OGCNetwork.net](http://www.ogcnetwork.net/AIP). The top-level links for all SBA and technical topics are shown here, because other activities besides the Water SBA will also be of interest to the Hydro DWG.
+From 2012 - 2015, outreach for use of [WaterML](WaterML) 2 and OGC web services has been conducted as the Water Societal Benefit Area (SBA) thread of the GEOSS Architecture Implementation Pilot (AIP). Announcements and results are posted on [OGCNetwork.net](http://www.ogcnetwork.net/AIP). The top-level links for all SBA and technical topics are shown here, because other activities besides the Water SBA will also be of interest to the Hydro DWG.
 
 AIP-5 - \<a href="<http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP5/index.html>"\>ResultsAIP-6 - [Proposals](http://www.ogcnetwork.net/node/1887) - \<a href="<http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP6/index.html>"\>ResultsAIP-7 - [Proposals](http://www.ogcnetwork.net/node/1936) - \<a href="<http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP7/index.html>"\>ResultsAIP-8 - [Proposals](http://www.ogcnetwork.net/node/1963) - [Results](http://www.ogcnetwork.net/node/1974)
 
@@ -20,7 +20,7 @@ OWSLib is a Python package for client programming with Open Geospatial Consortiu
 
 ## WMLViewer
 
-WMLViewer is a simple set of [JavaScript](JavaScript.md) tools for viewing OGC [WaterML](WaterML.md) 2.0 datasets as maps and graphs.
+WMLViewer is a simple set of [JavaScript](JavaScript) tools for viewing OGC [WaterML](WaterML) 2.0 datasets as maps and graphs.
 
 <https://github.com/crwr/wmlviewer>
 

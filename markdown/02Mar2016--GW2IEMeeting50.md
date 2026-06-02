@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting \#50 / GW SWG Meeting \#1 -- Wed 02 March 2016**
+# **[GW2IE](GW2IE) Meeting \#50 / GW SWG Meeting \#1 -- Wed 02 March 2016**
 
 ## **Agenda**
 

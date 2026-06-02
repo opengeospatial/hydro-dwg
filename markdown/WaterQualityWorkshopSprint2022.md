@@ -8,10 +8,10 @@ The Opening Workshop was the first of a series of workshops on Water Quality Mon
 2.  Defining a WMO-UNEP-WHO-UNESCO coordination mechanism on in-situ water quality data observations, management and sharing.
 3.  Identifying the steps for the development of a joint WMO-UNEP-WHO-UNESCO work plan for regulatory and guidance material related to in-situ monitoring systems, from data collection to data sharing and use.
 4.  Identifying the way of interconnecting WHOS with GEMStat and other existing in-situ water quality data platforms and systems and how to connect these to the World Water Quality Assessment under development.
-5.  Identifying how to support the [WaterML](WaterML.md) development in the domain of Water Quality: updating OGC [WaterML](WaterML.md) -WQ Best Practice document with regards to evolutions in OGC APIs, and taxonomies/ontologies since 2014 and endorse an international standard on Water Quality data exchange.
+5.  Identifying how to support the [WaterML](WaterML) development in the domain of Water Quality: updating OGC [WaterML](WaterML) -WQ Best Practice document with regards to evolutions in OGC APIs, and taxonomies/ontologies since 2014 and endorse an international standard on Water Quality data exchange.
 6.  Defining the Roadmap for an international OGC Interoperability Experiment on Water Quality data with pilot use cases (e.g., Lake Victoria, Lake Chad).
 
-\<h3 id='[A_42Meeting_Agenda_and_Outcomes_42](A_42Meeting_Agenda_and_Outcomes_42.md)'\>Meeting Agenda & WMO workshop page\</h3\>
+\<h3 id='[A_42Meeting_Agenda_and_Outcomes_42](A_42Meeting_Agenda_and_Outcomes_42)'\>Meeting Agenda & WMO workshop page\</h3\>
 
 See material here: <https://hydrohub.wmo.int/en/news-events/opening-workshop-water-quality-monitoring>
 
@@ -57,7 +57,7 @@ The recording is available [here](https://vimeo.com/697356249)
 - [Discovery and Access Broker (DAB) technology](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/WaterQualityWorkshopSprint2022/enrico_boldrini_-_water_qality_workshop_-_dab.pdf) - Enrico Boldrini
 - Moderated discussion - [Interoperability and interconnection of the existing Water Quality Data Systems](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/WaterQualityWorkshopSprint2022/sylvain_grellet_2_-_interoperability_interconnecting_systems.pptx) - Sylvain Grellet
 
-#### Day 3 - part 2: Identifying how to support the [WaterML](WaterML.md) development in the domain of Water Quality
+#### Day 3 - part 2: Identifying how to support the [WaterML](WaterML) development in the domain of Water Quality
 
 The recording is available [here](https://vimeo.com/697369495)
 

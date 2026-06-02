@@ -4,25 +4,25 @@ Is this still a private page?
 
 ## Some questions of the schema:
 
-\- We have seen an example instance document - thank you Peter! - Will this specialized schema also support Capabilities and [DescribeSensor](DescribeSensor.md), or just for Observations? - Some initial comments of the schema per our last call: -- Might we move phenomena up to a level above the time series (to avoid duplication); same for units?
+\- We have seen an example instance document - thank you Peter! - Will this specialized schema also support Capabilities and [DescribeSensor](DescribeSensor), or just for Observations? - Some initial comments of the schema per our last call: -- Might we move phenomena up to a level above the time series (to avoid duplication); same for units?
 
 -- NateBooth - 13 Nov 2009
 
 regarding the schemas, as far as I can tell, Peter's schema is just for the GetObservations (and the like) operations. The other operations are describes in their respective specs.
 
 - The GetCapabilities schemas is provided by the SOS specificiation and is available here: <http://schemas.opengis.net/sos/1.0.0/sosGetCapabilities.xsd>
-- The DescribreSensor schemas is [SensorML](SensorML.md) or TML, provided here : <http://schemas.opengis.net/sensorML/> (I don't know if we shall use 1.0.0 or 1.0.1. I suspect 1.0.1 is a very minor fix of 1.0.0 and we should use the latter)
+- The DescribreSensor schemas is [SensorML](SensorML) or TML, provided here : <http://schemas.opengis.net/sensorML/> (I don't know if we shall use 1.0.0 or 1.0.1. I suspect 1.0.1 is a very minor fix of 1.0.0 and we should use the latter)
 
 I do have some questions for Peter as well
 
-- The model you provided constrains featureOfInterest to a series a Water sampling feature (and this constrain does not seems to be honoured by [FullMoon](FullMoon.md)). What is the rational to constrain featureOfInterest. ?
+- The model you provided constrains featureOfInterest to a series a Water sampling feature (and this constrain does not seems to be honoured by [FullMoon](FullMoon)). What is the rational to constrain featureOfInterest. ?
 - Is there a plan to define a whole suite of Water sampling subtypes ?
 
 -- EricBoisvert - 14 Nov 2009
 
 Yes that is right Eric, there is a seperation between the schema and what is specific to the SOS. The schema is aimed at specializing the O&M model which is purely for the observation structure. That said, the definitions of procedures can be passed back via a describeSensor call. Within SOS this is done with SensorML, but we have not done any modeling on water-specific sensor types at this stage.
 
-- \_The model you provided constrains featureOfInterest to a series a Water sampling feature (and this constrain does not seems to be honoured by [FullMoon](FullMoon.md)). What is the rational to constrain featureOfInterest. ?\_
+- \_The model you provided constrains featureOfInterest to a series a Water sampling feature (and this constrain does not seems to be honoured by [FullMoon](FullMoon)). What is the rational to constrain featureOfInterest. ?\_
 
 The initial reason for this was that there was going to be a suite of water sampling sub-types defined (as this was going to be another group). At the moment we don't have such a definition so it should probably be removed to allow substitution of anyFeature. That raises the question of how you would like to link to the actual features. If you guys have WFS instances that serve the groundwater structures are we going to provide xlinks to the WFS feature? This would mean it shouldn't matter what types are allowed as you can always reference with xlink (I think...).
 
@@ -36,7 +36,7 @@ The observedProperty (phenomena) is currently defined per observation so shouldn
 
 Peter said : "If you guys have WFS instances that serve the groundwater structures are we going to provide xlinks to the WFS feature? This would mean it shouldn't matter what types are allowed as you can always reference with xlink (I think...). "
 
-Actually, we do, and this is what triggered the question about featureOfInterest restriction. We have a WFS that serves gwml:[WaterWell](WaterWell.md) and gwml:Aquifer. We expect the featureOfInterest to be either one.
+Actually, we do, and this is what triggered the question about featureOfInterest restriction. We have a WFS that serves gwml:[WaterWell](WaterWell) and gwml:Aquifer. We expect the featureOfInterest to be either one.
 
 " it is currently being restricted using schematron "
 
@@ -48,8 +48,8 @@ After a bit of discussion with Boyan.
 
 - Would it be possible to relax the constrains in featureOfInterest and allow any types to be refered, I understand that if we use xlink, the validator can't tell until the content is resolved and it's therefore not an immediate issue.
 - Is the result structure cast in stone ?
-- GWML uses vanilla [OandM](OandM.md) schemas, therefore using a subtyped [WaterML](WaterML.md) [OandM](OandM.md) is not an issue (schema wise).
-- There was a discussion last week regarding registries (it drifted to a CSW catalog discussion). GeoSciML communities plans to use SKOS to document vocabulary items. I'm not quite sure how this fits into [WaterWL](WaterWL.md) requirements; formal metadata are much richer that SKOS entries but SKOS is an organised graph of terms. Since SOS makes uses of some of those terms (observedProperty for instance), do we want to store this reference in CSW or into a SKOS repository. Or do we have to care ?
+- GWML uses vanilla [OandM](OandM) schemas, therefore using a subtyped [WaterML](WaterML) [OandM](OandM) is not an issue (schema wise).
+- There was a discussion last week regarding registries (it drifted to a CSW catalog discussion). GeoSciML communities plans to use SKOS to document vocabulary items. I'm not quite sure how this fits into [WaterWL](WaterWL) requirements; formal metadata are much richer that SKOS entries but SKOS is an organised graph of terms. Since SOS makes uses of some of those terms (observedProperty for instance), do we want to store this reference in CSW or into a SKOS repository. Or do we have to care ?
 
 -- EricBoisvert - 18 Nov 2009
 

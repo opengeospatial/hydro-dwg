@@ -1,8 +1,8 @@
-This is an open page for [WaterML2](WaterML2.md) change requests.
+This is an open page for [WaterML2](WaterML2) change requests.
 
 ### Domain Time Series
 
-Improvements to [WaterML2](WaterML2.md) Timeseries domain. [WaterML2](WaterML2.md) Timeseries had basic domain time series domain examples.
+Improvements to [WaterML2](WaterML2) Timeseries domain. [WaterML2](WaterML2) Timeseries had basic domain time series domain examples.
 
 ### Empty TIme Series
 

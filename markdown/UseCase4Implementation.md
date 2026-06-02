@@ -26,17 +26,17 @@ USGS \</td\> \<td valign="top" width="65"\>
 
 WMS, WFS, SOS \</td\> \<td valign="top" width="98"\>
 
-[GW_HydrogeoUnit](GW_HydrogeoUnit.md), [GW_Well](GW_Well.md), [GroundWaterLevel](GroundWaterLevel.md)\</td\> \<td valign="top" width="105"\>
+[GW_HydrogeoUnit](GW_HydrogeoUnit), [GW_Well](GW_Well), [GroundWaterLevel](GroundWaterLevel)\</td\> \<td valign="top" width="105"\>
 
-[GeoServer](GeoServer.md) WMS, Custom WFS, Custom SOS \</td\> \<td valign="top" width="128"\>
+[GeoServer](GeoServer) WMS, Custom WFS, Custom SOS \</td\> \<td valign="top" width="128"\>
 
-[GW_Well_USGS_uc4](GW_Well_USGS_uc4.md)-mapping.xml, [GW_AquiferSystem_USGS_uc4](GW_AquiferSystem_USGS_uc4.md)-mapping.xml \</td\> \</tr\> \<tr\> \<td valign="top" width="70"\>
+[GW_Well_USGS_uc4](GW_Well_USGS_uc4)-mapping.xml, [GW_AquiferSystem_USGS_uc4](GW_AquiferSystem_USGS_uc4)-mapping.xml \</td\> \</tr\> \<tr\> \<td valign="top" width="70"\>
 
 GNS / UZ \</td\> \<td valign="top" width="65"\>
 
-WFS, SOS,WPS \</td\> \<td valign="top" width="98"\>[GW_Well](GW_Well.md), [GW_MonitoringSite](GW_MonitoringSite.md)\</td\> \<td valign="top" width="105"\>
+WFS, SOS,WPS \</td\> \<td valign="top" width="98"\>[GW_Well](GW_Well), [GW_MonitoringSite](GW_MonitoringSite)\</td\> \<td valign="top" width="105"\>
 
-Geoserver 2.7+app-schema, 52North SOS 4.0.0, 52North WPS 3.2.0, Tomcat 7 \</td\> \<td valign="top" width="128"\>[GW_ManagementArea_GNS_uc2](GW_ManagementArea_GNS_uc2.md).xml includes a water budget\</td\> \</tr\> \</tbody\> \</table\>
+Geoserver 2.7+app-schema, 52North SOS 4.0.0, 52North WPS 3.2.0, Tomcat 7 \</td\> \<td valign="top" width="128"\>[GW_ManagementArea_GNS_uc2](GW_ManagementArea_GNS_uc2).xml includes a water budget\</td\> \</tr\> \</tbody\> \</table\>
 
 Table UC4.2: Use-Case 4 issues
 

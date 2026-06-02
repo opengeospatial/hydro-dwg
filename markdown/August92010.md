@@ -13,9 +13,9 @@ Peter Gijsbers, John Halquist, Peter Fitch, Paul Sheahan
 
 ## Notes
 
-## Update from [BofM](BofM.md).au - Paul S.
+## Update from [BofM](BofM).au - Paul S.
 
-[BoM](BoM.md) has WISKI from Kisters installed and intends to serve historical data from this server. [BoM](BoM.md)'s interest is to evaluate data volumes transmitted. No real-time data flow is planned at this time, but it should be capable of doing so. This effort is not engaged with the FEWS trial group. For its evaluation, [BoM](BoM.md) is not tied to FEWS as a client. They may also use other clients to evaluate performance and traffic volumes.
+[BoM](BoM) has WISKI from Kisters installed and intends to serve historical data from this server. [BoM](BoM)'s interest is to evaluate data volumes transmitted. No real-time data flow is planned at this time, but it should be capable of doing so. This effort is not engaged with the FEWS trial group. For its evaluation, [BoM](BoM) is not tied to FEWS as a client. They may also use other clients to evaluate performance and traffic volumes.
 
 ## Update from CSIRO - Peter F.
 
@@ -25,15 +25,15 @@ Peter F asked for a contact point for the FEWS group - Justin Robinson is the co
 
 Paul Sheahan will contact Justin Robinson to get engagement of the forecasting group in a FEWS experiment.
 
-CSIRO and [BoM](BoM.md) together will need to develop a plan that fits their needs. This will depend to some extent on the involvement (or not) of the forecasting division.
+CSIRO and [BoM](BoM) together will need to develop a plan that fits their needs. This will depend to some extent on the involvement (or not) of the forecasting division.
 
 ## Update from NWS - John H.
 
-The NWS, Deltares and USGS held a conference call last week to discuss the plans for the US. USGS will be setting up both a Web Feature Service (based on Inspire) as well as a [WaterML](WaterML.md) Sensor Observation Service. It was agreed that these services would be provided for tributaries to the Mississippi River - \[possible locations: Chippewa, Wisconsin, Rock\] and for a tributary to the Great Lakes. The plan is to provide raw data (push and/or pull) but also an event service to notify of data updates.
+The NWS, Deltares and USGS held a conference call last week to discuss the plans for the US. USGS will be setting up both a Web Feature Service (based on Inspire) as well as a [WaterML](WaterML) Sensor Observation Service. It was agreed that these services would be provided for tributaries to the Mississippi River - \[possible locations: Chippewa, Wisconsin, Rock\] and for a tributary to the Great Lakes. The plan is to provide raw data (push and/or pull) but also an event service to notify of data updates.
 
-There is strong interest in pursuing stage/discharge relationships (rating curves) within the [WaterML](WaterML.md) 2, so existing xml formats will be provided for evaluation and possible harmonization with other examples (i.e. WTDF, etc). There was consensus among the telecon participants that we wanted to see Rating curves move forward.
+There is strong interest in pursuing stage/discharge relationships (rating curves) within the [WaterML](WaterML) 2, so existing xml formats will be provided for evaluation and possible harmonization with other examples (i.e. WTDF, etc). There was consensus among the telecon participants that we wanted to see Rating curves move forward.
 
-In addition, although not directly relevant to [WaterML](WaterML.md) 2, we discussed the creation of a gridded data service for NEXRAD data.
+In addition, although not directly relevant to [WaterML](WaterML) 2, we discussed the creation of a gridded data service for NEXRAD data.
 
 ## Discussion of workplan
 

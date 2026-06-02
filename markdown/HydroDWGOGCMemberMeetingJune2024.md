@@ -1,6 +1,6 @@
 -- SylvainGrellet - 18 Jun 2024
 
-\<h2 id='[Meeting_details_at_Charlotte_TC_44_10_45_14_December_44_2018](Meeting_details_at_Charlotte_TC_44_10_45_14_December_44_2018.md)'\>Hydrology Domain Working Group\</h2\>
+\<h2 id='[Meeting_details_at_Charlotte_TC_44_10_45_14_December_44_2018](Meeting_details_at_Charlotte_TC_44_10_45_14_December_44_2018)'\>Hydrology Domain Working Group\</h2\>
 
 ## Montreal OGC Member Meeting, 17-21June, 2024
 
@@ -10,7 +10,7 @@ Please join the meeting on Tuesday June 18 at 3:30 PM EDT, 7:30 PM UTC, 9:30 PM 
 
 ### **Meeting agenda**
 
-1. Water Quality Interoperability Experiment demonstration (30 min) - Sylvain Grellet (BRGM), Kyle Onda (Center for Geospatial Solutions), Candice Hopkins (USGS), Kathi Schleidt ([DataCove](DataCove.md))
+1. Water Quality Interoperability Experiment demonstration (30 min) - Sylvain Grellet (BRGM), Kyle Onda (Center for Geospatial Solutions), Candice Hopkins (USGS), Kathi Schleidt ([DataCove](DataCove))
 
 -\> [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGOGCMemberMeetingJune2024/20240618_Water_Quality_Interoperablity_Experiment_Demo.pdf)
 
@@ -28,6 +28,6 @@ Please join the meeting on Tuesday June 18 at 3:30 PM EDT, 7:30 PM UTC, 9:30 PM 
 
 -\> [Presentation](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/HydroDWGOGCMemberMeetingJune2024/OGC_APIs.pptx)
 
-6. [OneWater](OneWater.md) (FR) / [Water4All](Water4All.md) (EU) research projects update (10 min) - Sylvain Grellet
+6. [OneWater](OneWater) (FR) / [Water4All](Water4All) (EU) research projects update (10 min) - Sylvain Grellet
 
 -\> not done to allow for discussion, already developped in the other presentations (1 and 3)

@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 5** **-- Tues 30 April 2013 -- Entity List**
+# **[GW2IE](GW2IE) Meeting 5** **-- Tues 30 April 2013 -- Entity List**
 
 ## **Agenda**
 
@@ -6,7 +6,7 @@
 - OGC status update
   - New members: Maciej Rossa, PASI
 - Discussion
-  - Update on the definitions for the [Entity List](Gwml2ConsolFeatureList.md)
+  - Update on the definitions for the [Entity List](Gwml2ConsolFeatureList)
 - Next meeting
   - Thurs 23 May 2013
 
@@ -23,7 +23,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) April meeting
+  - **Meeting Topic:**[GW2IE](GW2IE) April meeting
   - **Meeting Number**: 800 918 063
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:

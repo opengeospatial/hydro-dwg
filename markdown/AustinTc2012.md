@@ -21,7 +21,7 @@ WebEx: instructions will be emailed later
 1.  Plans for the week (HDWG co-chairs) (5 min)
 2.  Feedback from the WMO CHy Advisory Working Group, and discussion (Ulrich Looser, 20 min)
 3.  GEOSS AIP-5 for World Water Online registry (Matthew Austin, NOAA, 15 mins)
-4.  US [WaterSmart](WaterSmart.md) Water Census Platform for Modeled and Observed Water Data (David Blodgett, USGS, 30 mins)
+4.  US [WaterSmart](WaterSmart) Water Census Platform for Modeled and Observed Water Data (David Blodgett, USGS, 30 mins)
 5.  HY Feature Model (see Discussion paper and HTML docs in pending documents)
     - "Sampled Feature of Hydrologic Observation" (Irina Dornblut, 40 min)
     - "Observable Properties of Hydrologic Features" (Irina Dornblut, 20 min)
@@ -34,14 +34,14 @@ Phone: +1 760 569 7100 passcode: 616269
 WebEx: instructions will be emailed later
 
 1.  HISP RFQ release (David Arctur, 10 min)
-2.  Journal of [HydroInformatics](HydroInformatics.md) - Special Issue (Boyan Brodaric, 5 min)
+2.  Journal of [HydroInformatics](HydroInformatics) - Special Issue (Boyan Brodaric, 5 min)
 3.  SWIE final report (see in pending documents) and a motion to release (Peter Fitch, 15 mins)
-4.  [WaterML](WaterML.md) 2 update (David Valentine, 10 min)
+4.  [WaterML](WaterML) 2 update (David Valentine, 10 min)
 5.  Forecasting IE update (John Halquist, 20 mins)
 6.  Presentations..
     1.  CUAHSI Implementation Specification (David Valentine, 20 min)
     2.  NZ initiatives on making data available through OGC webservices (Jochen Schmidt, NIWA, 20 mins via VTC)
-    3.  [WaterML2](WaterML2.md).0 part 1 Time series and [NetCDF](NetCDF.md) (Doug Palmer, CSIRO, 20 min via VTC)
+    3.  [WaterML2](WaterML2).0 part 1 Time series and [NetCDF](NetCDF) (Doug Palmer, CSIRO, 20 min via VTC)
 7.  Discussion
 
 ### **Additional water-related sessions and meetings this week:**

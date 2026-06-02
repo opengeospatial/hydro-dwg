@@ -5,7 +5,7 @@
 - Carsten Heidmann (disy)
 - Simon Jirka (52°north)
 - Sylvain Grellet (IOW-Sandre)
-- Jens Wilhelmy ([BfG](BfG.md) - German Federal Institute of Hydrology)
+- Jens Wilhelmy ([BfG](BfG) - German Federal Institute of Hydrology)
 - Uli Looser (GRDC)
 
 ## Agenda
@@ -27,6 +27,6 @@
 - Next meetings
   - Bonn TC: February 28th - March 3rd;
     - Hydrology DWG meeting on March 2nd 9:00 - 12:00 (CET)
-    - [WaterML](WaterML.md) SWG on March 1st 13:00 - 14:00 (CET)
+    - [WaterML](WaterML) SWG on March 1st 13:00 - 14:00 (CET)
   - Hydrology DWG workshop: April 11th - April 14th in Delft: Registration open on <http://www.clw.csiro.au/conferences/Hydrology-Domain/>
 - next phone conference is on Wednesday, February 24th at 14:00 (CET)

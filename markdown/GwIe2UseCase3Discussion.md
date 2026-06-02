@@ -1,12 +1,12 @@
 # GWIE 2 UC 3 Discussion page
 
-This page has been created to collect discussions and ideas and keep the main [UseCase3](UseCase5.md) ([UseCase3](UseCase3.md) link?) relatively clean.
+This page has been created to collect discussions and ideas and keep the main [UseCase3](UseCase5) ([UseCase3](UseCase3) link?) relatively clean.
 
 ## Realistic use case ideas
 
 I would like to see the Bioregional Assessment Use Case considered here. Not being a groundwater expert please excuse (and fix) any errors, but something along the lines:
 
-As a result of pumping water into or out of an aquifer (ie geology and hydrogeology properties), for example as part of Coal Seam Gas extraction), what are the changes to groundwater quantity (aquifer height, flow, volume, other?) in a borehole/well, changes to available water accounts (is this the same as quantity?), and changes to water quality (this is likely to be by ensuring there is a hook to O&M or [WaterML2](WaterML2.md)). Also what are the connectivities(?) between aquifers/groundwatersystems and how are they impacted?
+As a result of pumping water into or out of an aquifer (ie geology and hydrogeology properties), for example as part of Coal Seam Gas extraction), what are the changes to groundwater quantity (aquifer height, flow, volume, other?) in a borehole/well, changes to available water accounts (is this the same as quantity?), and changes to water quality (this is likely to be by ensuring there is a hook to O&M or [WaterML2](WaterML2)). Also what are the connectivities(?) between aquifers/groundwatersystems and how are they impacted?
 
 Comments ? Suggestions ?
 
@@ -14,7 +14,7 @@ Comments ? Suggestions ?
 
 Thanks Bruce for starting this discussion.
 
-The Environmental Groundwater use case I was thinking of was to accommodate Groundwater Dependent Ecosystems (GDEs) which includes phreatophytes, stygofauna, surface water bodies (lakes, rivers, wetlands, estuaries) and the discharge to marine systems. This means thinking about groundwater discharge as a feature, with the various types such as diffuse discharge, point discharge and biological discharge. Not sure how this will tie in with [WaterML2](WaterML2.md), since groundwater discharge may be classified as surface water in some cases (e.g. baseflow), but not in others (e.g. transpiration). It should include springs, seeps, salinas, and other discharge features. Obviously watertable levels, aquifer parameters (physical), and hydrogeochemistry are a big part of it. Sustaining groundwater flows (both quantity and quality) to the environment while managing consumptive uses by mining, industry, urban supplies, agriculture, etc. is the aim.
+The Environmental Groundwater use case I was thinking of was to accommodate Groundwater Dependent Ecosystems (GDEs) which includes phreatophytes, stygofauna, surface water bodies (lakes, rivers, wetlands, estuaries) and the discharge to marine systems. This means thinking about groundwater discharge as a feature, with the various types such as diffuse discharge, point discharge and biological discharge. Not sure how this will tie in with [WaterML2](WaterML2), since groundwater discharge may be classified as surface water in some cases (e.g. baseflow), but not in others (e.g. transpiration). It should include springs, seeps, salinas, and other discharge features. Obviously watertable levels, aquifer parameters (physical), and hydrogeochemistry are a big part of it. Sustaining groundwater flows (both quantity and quality) to the environment while managing consumptive uses by mining, industry, urban supplies, agriculture, etc. is the aim.
 
 -- PeterDahlhaus - 31 oct 2012
 
@@ -32,7 +32,7 @@ In New Zealand there are several attempts to store data about bacteria/microbes 
 
 -- AlexKmoch - 03 Dec 2012
 
-Regarding the water quality discussion of [UseCase1Discussion](UseCase1Discussion.md) , could or better should use case 3 provide input (refined report) for a public (eg citizens) easily understandable water quality indicator for use case 1?
+Regarding the water quality discussion of [UseCase1Discussion](UseCase1Discussion) , could or better should use case 3 provide input (refined report) for a public (eg citizens) easily understandable water quality indicator for use case 1?
 
 -- AlexKmoch - 03 Dec 2012
 

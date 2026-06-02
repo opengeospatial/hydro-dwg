@@ -2,7 +2,7 @@
 
 # Rating Shifts Implementation Options
 
- Implementation of Stage and Time shifts in the RGS conversion model. Refer concepts investigation: [http://external.opengis.org/twiki_public/HydrologyDWG/RatingsShiftsQuebec](RatingsShiftsQuebec.md)
+ Implementation of Stage and Time shifts in the RGS conversion model. Refer concepts investigation: [http://external.opengis.org/twiki_public/HydrologyDWG/RatingsShiftsQuebec](RatingsShiftsQuebec)
 
 For the purpose of this document, a Rating Shift is a compounding of the concepts the WMO terms stage shift and time shift.
 
@@ -14,7 +14,7 @@ In implementation, a rating shift conversion is a conversion that is applied as 
 
 ## Calculation of flow using shifts in a chained conversion
 
-\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RatingShifts.chainedConversion.png>"\>\<img alt="[RatingShifts](RatingShifts.md).chainedConversion.png" height="520" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/RatingShifts.chainedConversion.png>" title="[RatingShifts](RatingShifts.md).chainedConversion.png" width="535" /\>
+\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RatingShifts.chainedConversion.png>"\>\<img alt="[RatingShifts](RatingShifts).chainedConversion.png" height="520" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/RatingShifts.chainedConversion.png>" title="[RatingShifts](RatingShifts).chainedConversion.png" width="535" /\>
 
 ## Discharge Rating : A RGS Conversion
 
@@ -28,7 +28,7 @@ The conversion of flow to stage is the primary use case of RGS conversions. The 
 
 In the period between rating changes there is often a need to 'tweak' the rating relationship by small amounts. There may be one or many tweaks of the relationship applied in the course of the ratings application period. There is a need to interpolate the tweaking between tweak definition points. Tweaking is equivalent to the release of a new rating table with very minor change and a phased change between the rating tables. A tweak definition may result from a single gauging observation that deviates from the existing rating more than the allowed amount.
 
-A rating shift is a conversion table that is used to determine the amount of stage correction that is applied to the 'computed gage height' to determine the 'effective gage height'. See also the investigation for details of interpolating between shifts [RatingsShiftsQuebec](RatingsShiftsQuebec.md).
+A rating shift is a conversion table that is used to determine the amount of stage correction that is applied to the 'computed gage height' to determine the 'effective gage height'. See also the investigation for details of interpolating between shifts [RatingsShiftsQuebec](RatingsShiftsQuebec).
 
 There may be zero or many shifts defined for a rating period.
 
@@ -42,7 +42,7 @@ In terms of the full definition and interpolation of shifts there is an implicit
 
 A family of shift tables relates to single period of application of a rating table. The diagram below shows how a number of shift tables may apply to two rating tables.
 
-\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingsShiftsQuebec/Ratings_and_Shifts_-_relationship.jpg>"\>\<img alt="" height="375" src="%PUBURL%/[HydrologyDWG](HydrologyDWG.md)/[RatingsShiftsQuebec](RatingsShiftsQuebec.md)/[Ratings_and_Shifts\_](Ratings_and_Shifts_.md)-\_relationship.jpg" width="532" /\>
+\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingsShiftsQuebec/Ratings_and_Shifts_-_relationship.jpg>"\>\<img alt="" height="375" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingsShiftsQuebec/Ratings_and_Shifts_-_relationship.jpg>" width="532" /\>
 
 The definition of the shift tables includes the date and time they apply from and actual shift amounts. There are two assumptions made in applying the shifts across the full period of the rating:
 
@@ -58,7 +58,7 @@ The diagram below, effective shift definition, illustrates this. In this diagram
 
 .\<a href="<http://external.opengis.org/twiki_public/pub/HydrologyDWG/RatingShiftsImplementationOptions/RGS.EffectiveShiftDefinition.png>"\>\<img alt="" height="500" src="<https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/RatingShiftsImplementationOptions/RGS.EffectiveShiftDefinition.png>" width="756" /\>
 
-# Modelling shifts in [WaterML](WaterML.md).P2
+# Modelling shifts in [WaterML](WaterML).P2
 
 There are two paradigms for modelling shifts under consideration, each will enable the correct application of shifts in an information system and each has their complexities and upsides.
 
@@ -66,11 +66,11 @@ Modelling paradigms:
 
 1.  Model System implementation
 2.  Model as two separate conversions
-3.  Hybrid - Enable [ConversionApplicationtime](ConversionApplicationtime.md) to refer to conversion of different From and To parameters
+3.  Hybrid - Enable [ConversionApplicationtime](ConversionApplicationtime) to refer to conversion of different From and To parameters
 
 ## Model : system implementation
 
-This approach requires a link between a table and the shifts conversion defintion. There is a shift conversion definition for each rating table. THis may lead to bery bulking an complex [WaterML](WaterML.md).P2 documents.
+This approach requires a link between a table and the shifts conversion defintion. There is a shift conversion definition for each rating table. THis may lead to bery bulking an complex [WaterML](WaterML).P2 documents.
 
 The approach enables some of the process / relationship the is implemented when shifts are used in a system to be represented in the model and data.
 

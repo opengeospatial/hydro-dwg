@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 47 -- Thurs 10 Dec 2015**
+# **[GW2IE](GW2IE) Meeting 47 -- Thurs 10 Dec 2015**
 
 ## **Agenda**
 
@@ -21,17 +21,17 @@
   - OGC PC: to approve results of electronic vote (2 weeks: to mid-Feb)
   - GW2IE can continue ad-hoc until SWG is final (i.e. upon OGC PC approval)
     - canvas for broader EU participation in SWG (during OGC public comment period) (**Boyan**)
-- [HY_Features](HY_Features.md) compatibility
+- [HY_Features](HY_Features) compatibility
   - resolved in Orleans: groundwater features removed
 - GWML2 specification: complete by mid-Feb
   - summary: add flow diagram (**Boyan**)
   - logical UML:
-    - change [OM_Measurement](OM_Measurement.md) to [OM_Observation](OM_Observation.md) globally (**Francois**)
+    - change [OM_Measurement](OM_Measurement) to [OM_Observation](OM_Observation) globally (**Francois**)
     - change screen size to width and length (**Francois**)
     - specific capacity for wells: result of aquifer test? (**Eric/Sylvain**)
       - confirmed: result of aquifer test, encoded in O&M, no change needed
     - replace logical diagrams (**Boyan**)
-  - schema: change [OM_Measurement](OM_Measurement.md) to [OM_Observation](OM_Observation.md) globally (**Francois**)
+  - schema: change [OM_Measurement](OM_Measurement) to [OM_Observation](OM_Observation) globally (**Francois**)
   - instance docs: change screen size (**all**)
   - Others: (implications: **Eric**)
     - TimeSeriesML?

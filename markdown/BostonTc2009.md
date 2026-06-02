@@ -18,7 +18,7 @@ c\. Boyan Brodaric (Geoconnections - Geological Survey of Canada) "Geospatial In
 
 d\. David Lemon, Peter Fitch (CSIRO): "The Hydrologists Workbench - an application of scientific workflows to hydrology problems"
 
-e\. David Valentine, Ilya Zaslavsky (SDSC and CUAHSI HIS) "Time series management in [WaterML](WaterML.md) 1.1 and CUAHSI Water Data Services"
+e\. David Valentine, Ilya Zaslavsky (SDSC and CUAHSI HIS) "Time series management in [WaterML](WaterML) 1.1 and CUAHSI Water Data Services"
 
 3. Discussion of the DWG mission and first steps
 
@@ -39,7 +39,7 @@ e\. David Valentine, Ilya Zaslavsky (SDSC and CUAHSI HIS) "Time series managemen
 - [5-HydroDWG_200906_Hydrologists_Workbench_CSIRO-Lemon_Fitch.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/BostonTc2009/5-HydroDWG_200906_Hydrologists_Workbench_CSIRO-Lemon_Fitch.pptx): Hydrologists workbench (David Lemon, Peter Fitch)
 
 
-- [6-HydroDWG_200906_timeseries_in_WaterML_Valentine.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/BostonTc2009/6-HydroDWG_200906_timeseries_in_WaterML_Valentine.pptx): Time series management in [WaterML](WaterML.md) and Water Data Services (David Valentine). This talk was not presented because of lack of time.
+- [6-HydroDWG_200906_timeseries_in_WaterML_Valentine.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/BostonTc2009/6-HydroDWG_200906_timeseries_in_WaterML_Valentine.pptx): Time series management in [WaterML](WaterML) and Water Data Services (David Valentine). This talk was not presented because of lack of time.
 
 
 - [7-HydroDWG_200906_Report.pptx](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/BostonTc2009/7-HydroDWG_200906_Report.pptx): Hydrology DWG Report at Plenary, June 25

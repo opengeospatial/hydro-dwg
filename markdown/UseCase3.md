@@ -2,7 +2,7 @@
 
 ## Participants
 
--  [P.Dahlhaus](Main.PeterDahlhaus) (Lead), A.Macleod, Main.[BruceSimons](BruceSimons.md) (CSIRO), Alex Kmoch (GNS / [Z_GIS](Z_GIS.md))
+-  [P.Dahlhaus](Main.PeterDahlhaus) (Lead), A.Macleod, [BruceSimons](BruceSimons) (CSIRO), Alex Kmoch (GNS / [Z_GIS](Z_GIS))
 
 ## Abstract
 
@@ -50,12 +50,12 @@ cellspacing = "2" cellborder="0" tablewidth="100%" valign="baseline"
 
 | Web Service | Input Database | Output Schema | Implementer |
 |:---|:---|:---|:---|
-| WMS | [BoM](BoM.md) /DSE | N/A | FedUni |
-| WFS | [BoM](BoM.md) /DSE/DPI | GWML2 - with discharge feature | FedUni |
-| SOS | DSE/DPI/UB | [WaterML2](WaterML2.md) | FedUni |
+| WMS | [BoM](BoM) /DSE | N/A | FedUni |
+| WFS | [BoM](BoM) /DSE/DPI | GWML2 - with discharge feature | FedUni |
+| SOS | DSE/DPI/UB | [WaterML2](WaterML2) | FedUni |
 | WFS (SOS?) | DSE/UB/DPI | hydrochemistry - O&M? GWML2? | FedUni |
 | WFS (SOS?) | DSE? | groundwater biology - O&M? GWML2? | FedUni |
-| SOS | from \<a href="<http://ggw.gns.cri.nz/ggwdata/>" title="NGMP"\>NGMP database (New Zealand) | hydrochemistry | [WaterML2](WaterML2.md).0 / OM2.0 |
+| SOS | from \<a href="<http://ggw.gns.cri.nz/ggwdata/>" title="NGMP"\>NGMP database (New Zealand) | hydrochemistry | [WaterML2](WaterML2).0 / OM2.0 |
 
 -- AlexKmoch - 25 Aug 2015
 

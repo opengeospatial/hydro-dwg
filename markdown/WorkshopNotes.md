@@ -4,7 +4,7 @@
 
 ## Ratings page
 
-https://docs.google.com/document/d/1woYVOHNAEAZGgZ525h6y5hXVz1ivtJ9W-[RdIMqNyD5A](RdIMqNyD5A.md)/edit#
+https://docs.google.com/document/d/1woYVOHNAEAZGgZ525h6y5hXVz1ivtJ9W-[RdIMqNyD5A](RdIMqNyD5A)/edit#
 
 ## Gaugings page
 

@@ -15,9 +15,9 @@ Some examples of data consumption by desktop and web client are also provided
   - comment: currently building a more robust and comprehensive service, thus content is limited (wells, aquifers) and the server might not always be at full speed
   - example query/URI
     - <http://gin.gw-info.net/GinService/wfs/gwie?REQUEST=GetFeature&VERSION=2.0.0&SERVICE=WFS&BBOX=-79.61270,47.57953,-79.41821,47.64803&TYPENAMES=gww:GW_Well&namespaces=xmlns(gww,http://www.opengis.net/gwml-well/2.2>)
-    - <http://gin.gw-info.net/GinService/wfs/gwie?REQUEST=GetFeature&VERSION=2.0.0&SERVICE=WFS&STOREDQUERY_ID=urn:ogc:def:query:OGC-WFS>::[GetFeatureById](GetFeatureById.md)&ID=prj_33.1
-    - <http://gin.gw-info.net/GinService/wfs/gwie?REQUEST=GetFeature&VERSION=2.0.0&SERVICE=WFS&STOREDQUERY_ID=urn:ogc:def:query:OGC-WFS>::[GetFeatureById](GetFeatureById.md)&ID=yk.ww.201020101
-    - <http://gin.gw-info.net/GinService/sos/gw?REQUEST=DescribeSensor&VERSION=2.0.0&SERVICE=SOS&procedure=urn:ogc:object:Sensor>::[GIN_GroundwaterLevelProcess](GIN_GroundwaterLevelProcess.md)&procedurDescriptionFormat=<http://www.opengis.net/sensorML/1.0.1>
+    - <http://gin.gw-info.net/GinService/wfs/gwie?REQUEST=GetFeature&VERSION=2.0.0&SERVICE=WFS&STOREDQUERY_ID=urn:ogc:def:query:OGC-WFS>::[GetFeatureById](GetFeatureById)&ID=prj_33.1
+    - <http://gin.gw-info.net/GinService/wfs/gwie?REQUEST=GetFeature&VERSION=2.0.0&SERVICE=WFS&STOREDQUERY_ID=urn:ogc:def:query:OGC-WFS>::[GetFeatureById](GetFeatureById)&ID=yk.ww.201020101
+    - <http://gin.gw-info.net/GinService/sos/gw?REQUEST=DescribeSensor&VERSION=2.0.0&SERVICE=SOS&procedure=urn:ogc:object:Sensor>::[GIN_GroundwaterLevelProcess](GIN_GroundwaterLevelProcess)&procedurDescriptionFormat=<http://www.opengis.net/sensorML/1.0.1>
     - <http://gin.gw-info.net/GinService/sos/gw?REQUEST=GetFeatureOfInterest&VERSION=2.0.0&SERVICE=SOS&featureOfInterest=ab.mon.875>
     - <http://gin.gw-info.net/GinService/sos/gw?REQUEST=GetFeatureOfInterest&VERSION=2.0.0&SERVICE=SOS&spatialFilter=om:featureOfInterest/*/sams:shape,-116,50.5,-75,51.6,http://www.opengis.net/def/crs/EPSG/0/4326&namespaces=xmlns(sams,http://www.opengis.net/samplingSpatial/2.0>),xmlns(om,<http://www.opengis.net/om/2.0>)
     - <http://gin.gw-info.net/GinService/sos/gw?REQUEST=GetObservation&VERSION=2.0.0&SERVICE=SOS&offering=GW_LEVEL&featureOfInterest=ab.mon.667&observedProperty=urn:ogc:def:phenomenon:OGC:1.0.30:groundwaterlevel>
@@ -30,11 +30,11 @@ Overall comment : BRGM is updating its URI strategy. Thus URIs in <http://ressou
 
 - GWML2 service
   - WFS access point: <http://geoserverref.brgm-rec.fr/geoserver/ows>?
-  - featureTypes : [GW_Aquifer](GW_Aquifer.md), [GW_AquiferSystem](GW_AquiferSystem.md), [GW_ConfiningBed](GW_ConfiningBed.md)
+  - featureTypes : [GW_Aquifer](GW_Aquifer), [GW_AquiferSystem](GW_AquiferSystem), [GW_ConfiningBed](GW_ConfiningBed)
   - example query/URI: <http://ressource.brgm-rec.fr/data/EntiteHydroGeol/507AC00>
 - Borehole service
   - WFS access point: <http://geoserverref.brgm-rec.fr/geoserver/ows>?
-  - comment: featureTypes [BoreholeView](BoreholeView.md) is a summary Borehole information features set-up for the EU research infrastructure EPOS ([GeoSciML](GeoSciML.md) based). enable to link to the proper Piezometer, Borehole Log , ...
+  - comment: featureTypes [BoreholeView](BoreholeView) is a summary Borehole information features set-up for the EU research infrastructure EPOS ([GeoSciML](GeoSciML) based). enable to link to the proper Piezometer, Borehole Log , ...
   - example query/URI: <http://ressource.brgm-rec.fr/data/BoreholeView/BSS001REWW> (or a static example file on the same feature instance containing the 'target' information content: <https://forge.brgm.fr/svnrepository/epos/trunk/instances/BoreholeView.xml>)
 - Piezometer service
   - WFS access point: <https://wfspoc.brgm-rec.fr/geoserver/ows>?
@@ -42,10 +42,10 @@ Overall comment : BRGM is updating its URI strategy. Thus URIs in <http://ressou
   - example query/URI: <http://ressource.brgm-rec.fr/data/Piezometre/06512X0037/STREMY.2> or the corresponding query sent on the back-end WFS <https://wfspoc.brgm-rec.fr/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&StoredQuery_ID=GetEnvironmentalMonitoringFacilityById&ID=Piezometre.06512X0037.STREMY.2>
 - Raw groundwater level service
   - SOS access point: <http://ressource.brgm-rec.fr/service/sosRawPiezo/service=SOS&version=2.0.0&request=GetCapabilities>
-  - comment : [WaterML2](WaterML2.md) timeseries
+  - comment : [WaterML2](WaterML2) timeseries
   - example query/URI : <http://ressource.brgm-rec.fr/obs/RawOfferingPiezo/06512X0037/STREMY.2&responseFormat=http://www.opengis.net/waterml/2.0> or the corresponding query sent to the back-end SOS (<http://ressource.brgm-rec.fr/service/sosRawPiezo/service=SOS&version=2.0.0&request=GetObservation&offering=http://ressource.brgm-rec.fr/obs/RawOfferingPiezo/06512X0037/STREMY.2>)
 - Groundwater level forecast service
-  - comment : will be added hopefully soon, [WaterML2](WaterML2.md) timeseries
+  - comment : will be added hopefully soon, [WaterML2](WaterML2) timeseries
   - SOS access point
   - example query/URI
   - client : web interface (checking if I can share it) consuming sensorweb flows from groundwater level, rainfall, river gage and ground water level forecast (generated from the three other flows)
@@ -75,23 +75,23 @@ From Peter Dalhouse: the recently revamped [Visualising Victoria's Groundwater](
   - access point:
     - WFS: \<u style="background-color: transparent;"\> <http://data.vvg.org.au:8080/geoserver/wfs?version=1.1.0&request=GetCapabilities>\</u\>
 - example query/URIs
-- [GW_Spring](GW_Spring.md) query:
+- [GW_Spring](GW_Spring) query:
 
 \<u\> <http://data.vvg.org.au:8080/geoserver/wfs?version=1.1.0&request=getFeature&typeName=gwml2w:GW_Spring&outputFormat=gml32&maxFeatures=2>\</u\>
 
-- [GW_Aquifer](GW_Aquifer.md) query:
+- [GW_Aquifer](GW_Aquifer) query:
 
 \<u style="background-color: transparent;"\> <http://data.vvg.org.au:8080/geoserver/wfs?version=1.1.0&service=WFS&request=getFeature&typeName=gwml2:GW_Aquifer&outputFormat=gml32&maxFeatures=3>\</u\>
 
-- [OM_Observation](OM_Observation.md) query:
+- [OM_Observation](OM_Observation) query:
 
 \<u\> <http://data.vvg.org.au:8080/geoserver/wfs?version=1.1.0&request=getFeature&typeName=om:OM_Observation&outputFormat=gml32&featureID=feduni.borehole.observation.46081.27001.1>\</u\>
 
-- [GW_FluidBody](GW_FluidBody.md) query:
+- [GW_FluidBody](GW_FluidBody) query:
 
 \<u\> <http://data.vvg.org.au:8080/geoserver/wfs?version=1.1.0&request=getFeature&typeName=gwml2:GW_FluidBody&maxFeatures=2&outputFormat=gml32>\</u\>
 
-- [GW_Discharge](GW_Discharge.md) query:
+- [GW_Discharge](GW_Discharge) query:
 
 \<u\> <http://data.vvg.org.au:8080/geoserver/wfs?version=1.1.0&service=WFS&request=getFeature&typeName=gwml2f:GW_Discharge&maxFeatures=1>\</u\>
 
@@ -99,7 +99,7 @@ From Peter Dalhouse: the recently revamped [Visualising Victoria's Groundwater](
 
 \<u\> <http://data.vvg.org.au:8080/geoserver/wfs?version=1.1.0&service=WFS&request=getFeature&typeName=gwml2wc:Borehole&maxFeatures=1>\</u\>
 
-- [GW_Rechargey](GW_Rechargey.md) query:
+- [GW_Rechargey](GW_Rechargey) query:
 
 \<u\> <http://data.vvg.org.au:8080/geoserver/wfs?version=1.1.0&request=getFeature&typeName=gwml2f:GW_Recharge&outputFormat=gml32&maxFeatures=2>\</u\>
 

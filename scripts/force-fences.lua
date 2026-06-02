@@ -19,17 +19,17 @@ function CodeBlock(el)
   return pandoc.RawBlock("markdown", header .. "\n" .. body .. "\n" .. fence)
 end
 
--- Convert wikilink links to proper markdown [text](target.md) links
--- TWiki reader uses title="wikilink"; HTML class="wikilink" also supported
+-- Convert wikilink links to plain markdown [text](target) links.
+-- GitHub Wiki page links are extension-less: the .md suffix would redirect
+-- to the raw markdown source instead of the rendered page.
+-- TWiki reader uses title="wikilink"; HTML class="wikilink" also supported.
 function Link(el)
   local is_wikilink = false
 
-  -- Check title attribute (from pandoc TWiki reader: title="wikilink")
   if el.title == "wikilink" then
     is_wikilink = true
   end
 
-  -- Check class attribute (from HTML: class="wikilink")
   if not is_wikilink and el.attr and el.attr.classes then
     for _, c in ipairs(el.attr.classes) do
       if c == "wikilink" then is_wikilink = true; break end
@@ -37,9 +37,9 @@ function Link(el)
   end
 
   if is_wikilink then
-    local target = el.target
-    if not target:match("^https?://") and not target:match("%.md$") then
-      el.target = target .. ".md"
+    -- Strip a stray .md if pandoc happened to add one; leave URLs alone.
+    if not el.target:match("^https?://") then
+      el.target = el.target:gsub("%.md$", "")
     end
     el.title = ""
     el.attr = pandoc.Attr()

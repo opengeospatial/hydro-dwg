@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 36 -- Tues 28 Apr 2015**
+# **[GW2IE](GW2IE) Meeting 36 -- Tues 28 Apr 2015**
 
 ## **Agenda**
 

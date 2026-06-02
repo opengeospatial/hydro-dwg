@@ -6,7 +6,7 @@ Agenda:
 
 •Water Quality Workshop: you can read and contribute to the activity Plan introduced here : <https://external.ogc.org/twiki_public/HydrologyDWG/WaterQualityIE>
 
-•[HY_Features](HY_Features.md) minimal ontology
+•[HY_Features](HY_Features) minimal ontology
 
 •US Progress on River Features and GWML2 Geopackage
 

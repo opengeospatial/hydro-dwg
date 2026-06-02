@@ -8,6 +8,6 @@ I think this use case should be expanded to allow for the investigation of gw qu
 
 -- JessicaLucido - 20 Nov 2012
 
-Regarding water quality discussion, the water quality for public use shoud be easily understandable and not really consist of detailed chemical and microbial et al details, right? So rather a quality field/attribute for the entities, than a full-fledged water quality "report"? I also added a related comment on [GwIe2UseCase3Discussion](GwIe2UseCase3Discussion.md)
+Regarding water quality discussion, the water quality for public use shoud be easily understandable and not really consist of detailed chemical and microbial et al details, right? So rather a quality field/attribute for the entities, than a full-fledged water quality "report"? I also added a related comment on [GwIe2UseCase3Discussion](GwIe2UseCase3Discussion)
 
 -- AlexKmoch - 03 Dec 2012

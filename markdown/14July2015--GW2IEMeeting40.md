@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 40 -- Tues 14 July 2015**
+# **[GW2IE](GW2IE) Meeting 40 -- Tues 14 July 2015**
 
 ## **Agenda**
 
@@ -6,7 +6,7 @@
 
 - OGC TC Sept Nottingham
 - HDWG Sept Orleans \* Server update (**Jessica**, **Bruce**) \* AquiferTest update (**Eric**) \* Schema update (**Francois**, **Boyan**) \* Instances update
-- Several instances have [LineString](LineString.md) (or other) as Well or Borehole shape. XSD ok, Schematron not OK. [SF_SamplingCurve](SF_SamplingCurve.md) asks for a gml:Curve \* Report update:
+- Several instances have [LineString](LineString) (or other) as Well or Borehole shape. XSD ok, Schematron not OK. [SF_SamplingCurve](SF_SamplingCurve) asks for a gml:Curve \* Report update:
 - Conceptual model (**Boyan**)
 - Instance fragments update (**Eric**, **Bruce**) \* Use-case implementation update \* Timeline check:
 - end-June: complete instance updates in SVN
@@ -17,8 +17,8 @@
 - Sept 1: submit report to HDWG for acceptance at OGC Sept TC
 - Sept 1: begin process to initiate SWG at OGC Sept TC \* Varia \*
 - Minor annoyance : some diagrams are on US Letter while others are on A4.
-- Observations as values [GwmlObservationAsValue](GwmlObservationAsValue.md)
-- [HY_FEatures](HY_FEatures.md) groundwater features (Aquifer, Hydrogeology, Well) vs GWML2
+- Observations as values [GwmlObservationAsValue](GwmlObservationAsValue)
+- [HY_FEatures](HY_FEatures) groundwater features (Aquifer, Hydrogeology, Well) vs GWML2
 
 ## **Participants**
 
@@ -37,7 +37,7 @@
   - Logical schema: complete, except for missing defs (**Francois**)
   - Conceptual schema: updated, done, (**Boyan** to send to **Francois**)
 - Instances update
-  - gml:Curve and gml:[LineString](LineString.md) are both subTypes of AbstractCurve so no issue
+  - gml:Curve and gml:[LineString](LineString) are both subTypes of AbstractCurve so no issue
 - Report update:
   - Conceptual/Logical model: in progress, to be done by next meeting (**Boyan**)
   - Instance fragments: in progress, to be done by next meeting (**Eric**, **Bruce**)
@@ -49,8 +49,8 @@
   - on-track
 - Varia
   - EA diagrams: letter vs A4... deferred.
-  - Observations as values [GwmlObservationAsValue](GwmlObservationAsValue.md): ??
-  - [HY_FEatures](HY_FEatures.md) groundwater vs GWML2: to follow-up (**Bruce**, **Eric**, **Boyan**)
+  - Observations as values [GwmlObservationAsValue](GwmlObservationAsValue): ??
+  - [HY_FEatures](HY_FEatures) groundwater vs GWML2: to follow-up (**Bruce**, **Eric**, **Boyan**)
 
 ## **Connection Instructions**
 

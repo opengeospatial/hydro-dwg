@@ -14,8 +14,8 @@
 
 # Agenda
 
-1.  [HY_Features](HY_Features.md) to Standard / Hydrologic Feature SWG (Irina Dornblut/Rob Atkinson) \[ [powerpoint slides](https://portal.opengeospatial.org/files/?artifact_id=63858)\]
-    - Rob presented current plans to start a [HY_Features](HY_Features.md) Standards Working Group (SWG), for a structured way of organizing efforts to finalize [HY_Features](HY_Features.md) conceptual model.
+1.  [HY_Features](HY_Features) to Standard / Hydrologic Feature SWG (Irina Dornblut/Rob Atkinson) \[ [powerpoint slides](https://portal.opengeospatial.org/files/?artifact_id=63858)\]
+    - Rob presented current plans to start a [HY_Features](HY_Features) Standards Working Group (SWG), for a structured way of organizing efforts to finalize [HY_Features](HY_Features) conceptual model.
     - This got much discussion in the DWG session, see [closing plenary agenda slides](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/BoulderTc2015/2015_Boulder_HDWG_Agenda.ppt) for summary.
 2.  Present and future of the U.S. Open Water Data Initiative (David Blodgett) \[ [powerpoint slides](http://external.opengis.org/twiki_public/pub/HydrologyDWG/BoulderTc2015/HDWG_Boulder_2015_blodgett.ppt)\]
 3.  Groundwater IE Progress Report (B. Simons/B.Brodaric) \[ [2015_Boulder_Presentation_GWML2IE_v2.ppt](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/BoulderTc2015/2015_Boulder_Presentation_GWML2IE_v2.ppt)\]
@@ -26,13 +26,13 @@
     - Pete gave a short presentation on this in the closing plenary, separate from the Hydro DWG report.
     - There was some discussion due to recent Testbed 11 work on REST and JSON positions by the OGC. Pete’s doc was approved by the TC to be released as a public OGC Discussion Paper.
 6.  Overview of TimeseriesML SWG plans and progress (James Tomkins) \[ [powerpoint slides](https://portal.opengeospatial.org/files/?artifact_id=63824)\]
-7.  Call for attendance at [6th Hydrology Workshop, Orleans France](OrleansWorkshop2015.md), 21-25 Sept 2015 -- contact Sylvain Grellet!
+7.  Call for attendance at [6th Hydrology Workshop, Orleans France](OrleansWorkshop2015), 21-25 Sept 2015 -- contact Sylvain Grellet!
 
-In reference to the [HY_Features](HY_Features.md) SWG, there was some discussion whether this would be better advanced by an Interoperability Experiment rather than a SWG, which is more constrained in sharing information. Some at the meeting have been unsuccessful in adapting the NHDPlus information model to the [HY_Features](HY_Features.md) model, and felt an IE would help develop tested implementations. Irina, Rob & others at the meeting felt the SWG could decide whether to hold an IE, and how to organize it, but wanted the structure of the SWG to help ensure progress. By majority vote of those attending (including remote attendees) the motion to conduct a SWG was passed. The TC plenary then voted to approve it without further discussion. The SWG Charter document will be revised based on this discussion, and re-posted to OGC Pending Docs soon for DWG & TC approval. Those interested in joining the SWG please contact Irina Dornblut and Rob Atkinson.
+In reference to the [HY_Features](HY_Features) SWG, there was some discussion whether this would be better advanced by an Interoperability Experiment rather than a SWG, which is more constrained in sharing information. Some at the meeting have been unsuccessful in adapting the NHDPlus information model to the [HY_Features](HY_Features) model, and felt an IE would help develop tested implementations. Irina, Rob & others at the meeting felt the SWG could decide whether to hold an IE, and how to organize it, but wanted the structure of the SWG to help ensure progress. By majority vote of those attending (including remote attendees) the motion to conduct a SWG was passed. The TC plenary then voted to approve it without further discussion. The SWG Charter document will be revised based on this discussion, and re-posted to OGC Pending Docs soon for DWG & TC approval. Those interested in joining the SWG please contact Irina Dornblut and Rob Atkinson.
 
 ## National and Global Flood Forecasting -- Water Data Summit
 
-Previous to the Hydro DWG session on 3-June, there was a half-day **Water Data Summit**, with presentations on national and global flood forecasting developments by David Maidment, Jeff Weber (NCAR), myself, and Ethan Davis (Unidata). See wiki page for more info & presentations: [http://external.opengeospatial.org/twiki_public/HydrologyDWG/BoulderTc2015Summit](BoulderTc2015Summit.md)
+Previous to the Hydro DWG session on 3-June, there was a half-day **Water Data Summit**, with presentations on national and global flood forecasting developments by David Maidment, Jeff Weber (NCAR), myself, and Ethan Davis (Unidata). See wiki page for more info & presentations: [http://external.opengeospatial.org/twiki_public/HydrologyDWG/BoulderTc2015Summit](BoulderTc2015Summit)
 
 ##
 

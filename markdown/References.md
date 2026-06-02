@@ -22,7 +22,7 @@
 
 ## References
 
-USGS : Here is the most recent information on the USGS [HydroML](HydroML.md) schemas related to those data sets:  [\<font face="Verdana" size="2"\>http://water.usgs.gov/XML/NWIS/5.0/index.html\</font\>](http://water.usgs.gov/XML/NWIS/5.0/index.html)
+USGS : Here is the most recent information on the USGS [HydroML](HydroML) schemas related to those data sets:  [\<font face="Verdana" size="2"\>http://water.usgs.gov/XML/NWIS/5.0/index.html\</font\>](http://water.usgs.gov/XML/NWIS/5.0/index.html)
 
 BOM WDTF [download package](ftp://ftp.bom.gov.au/anon/home/water/WDTF/release-wdtf-package-v1.0.2.zip)<http://www.bom.gov.au/water/regulations/wdtf/index.shtml>
 
@@ -30,7 +30,7 @@ BOM WDTF [download package](ftp://ftp.bom.gov.au/anon/home/water/WDTF/release-wd
 - WMO Guide to Hydrological Practices, Volume I.
 - USGS - DISCHARGE RATINGS AT GAGING STATIONS \<a href="<http://pubs.usgs.gov/twri/twri3-a10/pdf/twri_3-A10_a.pdf>" title="<http://pubs.usgs.gov/twri/twri3-a10/pdf/twri_3-A10_a.pdf>"\><http://pubs.usgs.gov/twri/twri3-a10/pdf/twri_3-A10_a.pdf>
 - NOAA- SHEF format: <http://www.weather.gov/directives/sym/pd01009044curr.pdf> USGS
-- [HydroML](HydroML.md): <http://water.usgs.gov/XML/NWIS/4.11/index.html> [HydroXC](HydroXC.md): <http://www.weather.gov/oh/hydroxc/schema3.html>
+- [HydroML](HydroML): <http://water.usgs.gov/XML/NWIS/4.11/index.html> [HydroXC](HydroXC): <http://www.weather.gov/oh/hydroxc/schema3.html>
 - WDTF: <http://www.bom.gov.au/water/regulations/wdtf/wdtfDownload.shtml>
 - River Gauging Station Data Quality Classification (GSDQ). A UK based method for assessing the quality of ratings curves and associated data. In depth and good material for style of metadata required for making detailed assesments of quality (this could be formed as a use case). I've uploaded here (it got taken down from previous link): [River_Gauging_Station_Data_Quality_Classification.pdf](https://raw.githubusercontent.com/opengeospatial/hydro-dwg-wiki-docs/main/References/River_Gauging_Station_Data_Quality_Classification.pdf)
 - Deltares page on stage-discharge relationship: <https://publicwiki.deltares.nl/display/HYMOS/03+-+Stage+Discharge>. Contains some good content on methods, metadata requirements, controls etc. e.g. <https://publicwiki.deltares.nl/display/HYMOS/02+Edit+flow+measurements>.
@@ -49,7 +49,7 @@ Example CEH (UK) pages providing access to daily flow data and associated qualit
 
 Here are citations to a couple of recent papers on hydrometric uncertainty. Ultimately, the primary use-case for sharing of ratings gaugings and cross sections is to mitigate for the lack in objective quantification of uncertainty in discharge timeseries. Sophisticated operational and scientific users of discharge data need to inspect how robust the derivation of discharge from stage is in order to establish the confidence with which critical decisions or hypothesis tests can be based. This understanding how the information is of use is germane to design and development of the standard.
 
-- [McMillan](McMillan.md) , H., Krueger, T. and Freer, J. 2012, Benchmarking observational uncertainties for hydrology: rainfall, river discharge and water quality. Hydrol. Process.. doi: 10.1002/hyp.9384
+- [McMillan](McMillan) , H., Krueger, T. and Freer, J. 2012, Benchmarking observational uncertainties for hydrology: rainfall, river discharge and water quality. Hydrol. Process.. doi: 10.1002/hyp.9384
 - Hamilton, AS, Moore, RD. 2012. Quantifying uncertainty in streamflow records. Canadian Water Resources Journal. 37(1):3-21.
 - Beven, K., Buytaert, W., & Smith, L. A. (2012). On virtual observatories and modelled realities (or why discharge must be treated as a virtual variable). Hydrological Processes, 26(12), 1905-1908.
 - Beven, K., & Westerberg, I. (2011). On red herrings and real herrings: disinformation and information in hydrological inference. Hydrological Processes, 25(10), 1676-1680.

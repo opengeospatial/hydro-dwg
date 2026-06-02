@@ -26,7 +26,7 @@ WebEx: see instructions at <https://portal.opengeospatial.org/?m=calendar&a=view
 8.  Proposal GEOWOW Hydrology/Sensor Web Testbed (Simon Jirka, 52North), 20 min
 9.  Status updates (Michael Natschke, Kisters; Uli Looser, GRDC; Sylvain Grellet, OIEAU), 40 min
     - Surface Water IE - demos
-    - [WaterML2](WaterML2.md)
+    - [WaterML2](WaterML2)
     - Hydro Feature Model
     - Forecasting IE
 10. Discussion and next steps

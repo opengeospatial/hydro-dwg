@@ -1,4 +1,4 @@
-# **[GW2IE](GW2IE.md) Meeting 22** **-- Wed 23 July 2014 -- Report**
+# **[GW2IE](GW2IE) Meeting 22** **-- Wed 23 July 2014 -- Report**
 
 ## **Agenda**
 
@@ -11,9 +11,9 @@
   - update: sections 1-6, 7 (conceptual model), 8 (logical model) \[Boyan\]
   - update: sections 9 (requirements classes), 10 (encoding principles), Annex A (conformance classes) \[Eric, Bruce, Sylvain\]
   - update: Annex B (instance examples) \[ALL\]
-    - review progress re: sign-up and development [here](GWML2-XML-Schema.md)
+    - review progress re: sign-up and development [here](GWML2-XML-Schema)
 - Logical Model
-  - remaining issues: see **"TO DO"** items [here](GWML2-UML-Model.md)
+  - remaining issues: see **"TO DO"** items [here](GWML2-UML-Model)
 
 ## **Participants**
 
@@ -35,7 +35,7 @@
     - go to <https://pwgsc-nh.webex.com/mw0306ld/mywebex/default.do?siteurl=pwgsc-nh>
     - on the left menu click on **Support**and **Downloads**
     - install **Meeting Center Application**
-  - **Meeting Topic:**[GW2IE](GW2IE.md) Telecon
+  - **Meeting Topic:**[GW2IE](GW2IE) Telecon
   - **Meeting Number**: 558 603 206
   - **Meeting Password**: ogc
   - **Meeting** **URL**: click below, then enter name, email, password, and click "**Join Now"**:
@@ -47,7 +47,7 @@
 |:---------------------------|:----------------|:-----------------|
 | FreeConferenceCall.com \#2 | +1 209-255-1000 | passcode: 167731 |
 
-\| **[FreeConferenceCall](FreeConferenceCall.md).com \#2** \|\|
+\| **[FreeConferenceCall](FreeConferenceCall).com \#2** \|\|
 
 | Country | Dial-in \# |
 |:---|:---|
