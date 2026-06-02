@@ -1,5 +1,0 @@
-\<font face="Times New Roman" size="3"\>[GotoMeeting](GotoMeeting) Joining Details\</font\>
-
-\<font face="Times New Roman" size="3"\>1. Please join my meeting, Tue Jun 14th 2:30 AM EDT.\</font\>\<font face="Times New Roman" size="3"\>  \</font\>\<a href="<https://www4.gotomeeting.com/join/254756757>"\>\<u\>\<font color="#0000ff" face="Times New Roman" size="3"\><https://www4.gotomeeting.com/join/254756757>\</font\>\</u\>\<font face="Times New Roman" size="3"\>  2. Use your microphone and speakers ([VoIP](VoIP)) - a headset is recommended. Or, call in using your telephone.  DK: +45 69 91 88 64 ES: +34 955 32 0845 NZ: +64 9 909 7888 AT: +43 7 2088 0034 CA: +1 (647) 497-9350 AU: +61 2 8355 1040 FI: +358 (0) 942 41 5778 FR: +33 (0) 182 880 456 CH: +41 (0) 435 0167 13 IT: +39 0 247 92 13 01 NL: +31 (0) 208 080 219 NO: +47 75 80 32 07 US: +1 (571) 317-3129 GB: +44 (0) 330 221 0086 DE: +49 (0) 692 5736 7210 SE: +46 (0) 853 527 836 BE: +32 (0) 28 93 7018 IE: +353 (0) 15 360 728 Access Code: 254-756-757 Audio PIN will be displayed upon joining the web session.\</font\>
-
--- UlrichLooser - 11 Jun 2016

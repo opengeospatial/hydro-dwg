@@ -1,5 +1,6 @@
 html/
 utf8/
+markdown/
 *,v
 .changes
 .mailnotify

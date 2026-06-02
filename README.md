@@ -1,57 +1,15 @@
-# HydrologyDWG Wiki
+# hydro-dwg
 
-Archive of the OGC Hydrology Domain Working Group wiki, imported 2025-12-17 from
-https://external.ogc.org/twiki_public/HydrologyDWG/
+Working repository for the OGC Hydrology Domain Working Group.
 
-Wiki contents: https://github.com/opengeospatial/hydro-dwg-wiki
-Attachments: https://github.com/opengeospatial/hydro-dwg-wiki-docs
+**The content lives on the wiki: <https://github.com/opengeospatial/hydro-dwg/wiki>**
 
-## Project Structure
+Edit pages there, not here. See the wiki's [Contributing](https://github.com/opengeospatial/hydro-dwg/wiki/Contributing) page for how to add pages, attach files, and report problems.
 
-```
-Source2025/    - Original TWiki TML source files (.txt), 344 files
-markdown/     - Converted GFM Markdown files (.md), 344 files
-scripts/      - Conversion tooling
-  convert-twiki2md.sh  - Main conversion script (TWiki TML -> UTF-8 -> HTML -> GFM)
-  force-fences.lua     - Pandoc Lua filter to force fenced code blocks
-  pandoc               - Pandoc binary (vendored)
-```
+## What this repository holds
 
-## Conversion Pipeline
+- The wiki itself, at the GitHub Wiki URL above. Backed by the separate `hydro-dwg.wiki.git` repo that GitHub provisions automatically.
+- The `wiki-docs` orphan branch on this repo: destination for new non-image attachments (PDFs, presentations, schemas, etc.). See its [README](https://github.com/opengeospatial/hydro-dwg/tree/wiki-docs).
+- The `twiki-archive/` directory: the one-time TWiki → markdown import that seeded the wiki in May 2026. Source files and conversion scripts, kept for reproducibility. See `twiki-archive/README.md`.
 
-Source files are converted from TWiki TML to GitHub-Flavored Markdown using a
-multi-stage pipeline in `scripts/convert-twiki2md.sh`:
-
-1. **UTF-8 normalization** - Detect and convert source encoding (WINDOWS-1252,
-   ISO-8859-1, etc.) to UTF-8 via `iconv`
-2. **TML pre-processing** - Fix numbered lists, neutralize underscores
-   (workaround for [pandoc#6964](https://github.com/jgm/pandoc/issues/6964)),
-   move `%META:` blocks to end of file
-3. **TWiki -> HTML** - `pandoc -f twiki -t html`
-4. **HTML -> GFM** - `pandoc -f html -t gfm+pipe_tables+raw_html` with
-   `force-fences.lua` filter
-
-Requirements: `pandoc` (3.8+), `iconv`, `file`, `sed`/`gsed`, `awk`/`gawk`,
-`timeout`, `git`
-
-## Content Overview
-
-The markdown files contain OGC Hydrology DWG meeting notes, technical
-discussions, workshop records, and standards development documentation spanning
-2008-2021. Key topic areas include:
-
-- **WaterML** standards (timeseries, ratings, gaugings)
-- **HY_Features** (surface hydrology conceptual model)
-- **GroundwaterML (GWML2)** development and IE meetings
-- **WaterML2 Interoperability Experiments**
-- OGC Technical Committee meeting notes
-- Workshop proceedings (Delft, Koblenz, Tuscaloosa, etc.)
-
-The main landing page content is in `markdown/WebHome.md`.
-
-## Conventions
-
-- Source files in `Source2025/` should not be modified; they are the archival record
-- The `markdown/` directory contains the converted output and may be edited for cleanup
-- Intermediate `html/` and `utf8/` directories are generated during conversion and gitignored
-- RCS version files (`*,v`), `.changes`, `.mailnotify`, and `.lease` files are gitignored
+Legacy binary attachments imported from the original TWiki live in the companion repo [opengeospatial/hydro-dwg-wiki-docs](https://github.com/opengeospatial/hydro-dwg-wiki-docs); they are not maintained here.
